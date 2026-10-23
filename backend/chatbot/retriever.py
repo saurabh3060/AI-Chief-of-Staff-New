@@ -524,6 +524,7 @@ class _Block:
     score: float = 0.0
     must: bool = False          # best match for the question or a sub-question
     tier: int = 3               # fill order: 1 best match/table, 2 neighbour, 3 rest
+    labels: str = ""            # table sections: heading + row labels, scored against the question
 
     @property
     def text(self) -> str:
@@ -730,48 +731,100 @@ def _is_table_value(line: str) -> bool:
     return _TABLE_VALUE_RE.match(line.strip()) is not None
 
 
-# A period header cell: Mar'25, Jun'26, Sep-26, Q1, FY26, Q1 FY'27.
+# A period header cell: Mar'25, Jun'26, Sep-26, Q1, FY26, Q1 FY'27, Qtr_2_FY'27, H1_FY'27.
 _PERIOD_CELL_RE = re.compile(
-    r"^(?:[A-Za-z]{3,9}[\s'’\-]*\d{2,4}|Q[1-4](?:\s*FY['’]?\d{2,4})?|FY['’\s]*\d{2,4})$",
+    r"^(?:[A-Za-z]{3,9}[\s'’\-_]*\d{2,4}|(?:Qtr|Q|H)[\s_]*[1-4](?:[\s_]*FY[\s_'’]*\d{2,4})?|FY[\s_'’]*\d{2,4})$",
     re.IGNORECASE,
 )
+# First words that begin a new value-column name when they open a header cell.
+_COLUMN_START_WORDS = {"gap", "yoy", "qoq", "mom", "achievement"}
+# A header cell that can end a column name (a qualifier such as Actuals, Plan, Growth %).
+_COLUMN_END_RE = re.compile(r"actual|plan|projection|achieve|growth|leverag|target|%", re.IGNORECASE)
+# What a column (or a question) is about, besides its period.
+_COLUMN_KIND_PATTERNS = {
+    "actual": re.compile(r"actual", re.IGNORECASE),
+    "plan": re.compile(r"\bplan\b|\btarget\b", re.IGNORECASE),
+    "projection": re.compile(r"project", re.IGNORECASE),
+    "gap": re.compile(r"\bgap\b", re.IGNORECASE),
+    "growth": re.compile(r"\byoy\b|growth|year[\s-]*on[\s-]*year", re.IGNORECASE),
+    "achievement": re.compile(r"achievement", re.IGNORECASE),
+    "leveraged": re.compile(r"leverag", re.IGNORECASE),
+}
+_HEADER_GROUP_VIOLATION = 10   # cost of a group not starting at, or holding a second, start cell
 
 
-def _continues_name(prev: str, cell: str) -> bool:
-    """True when header ``cell`` finishes the column name begun by ``prev``:
-    a qualifier after a period cell (Mar'26 + Actuals), a bracketed or
-    lower-case tail ("(with X)", "achieve"), or the end of a dangling lead
-    ("Gap to", "YOY" + "Growth %"). A period cell always starts a new name."""
-    if _PERIOD_CELL_RE.match(cell):
-        return False
-    return bool(
-        _PERIOD_CELL_RE.match(prev)
-        or cell.startswith("(")
-        or cell[:1].islower()
-        or prev.lower().endswith((" to", " of", " vs", " over", " with"))
-        or (prev.isupper() and prev.isalpha() and len(prev) <= 4)
-    )
+def _is_column_start(cell: str) -> bool:
+    words = cell.split()
+    return bool(_PERIOD_CELL_RE.match(cell) or (words and words[0].lower() in _COLUMN_START_WORDS))
 
 
-def _group_header_cells(cells: list[str], n: int) -> list[str] | None:
-    """Join header cells into exactly ``n`` column names, or None if they do not
-    group cleanly into n names."""
-    if len(cells) < n:
+def _group_header_cells(cells: list[str], n: int) -> list[list[str]] | None:
+    """Split header cells into exactly ``n`` contiguous groups (one per value
+    column), by dynamic programming. A group should start at a period cell or
+    at a start word (Gap, YOY, Achievement ...), hold no second start cell, and
+    preferably end with a qualifier (Actuals, Plan, Growth % ...). Returns None
+    only when there are fewer cells than columns."""
+    m = len(cells)
+    if n < 1 or m < n:
         return None
-    if len(cells) == n:
-        return list(cells)
-    names: list[str] = []
-    for idx, cell in enumerate(cells):
-        if names and _continues_name(cells[idx - 1], cell):
-            names[-1] += " " + cell
-        else:
-            names.append(cell)
-    return names if len(names) == n else None
+    if m == n:
+        return [[c] for c in cells]
+
+    def cost(i: int, j: int) -> int:
+        group = cells[i:j]
+        total = 0 if _is_column_start(group[0]) else _HEADER_GROUP_VIOLATION
+        total += _HEADER_GROUP_VIOLATION * sum(_is_column_start(c) for c in group[1:])
+        return total + (0 if _COLUMN_END_RE.search(group[-1]) else 1)
+
+    inf = float("inf")
+    best = [[inf] * (m + 1) for _ in range(n + 1)]
+    back = [[0] * (m + 1) for _ in range(n + 1)]
+    best[0][0] = 0
+    for k in range(1, n + 1):
+        for j in range(k, m - (n - k) + 1):
+            for i in range(k - 1, j):
+                if best[k - 1][i] == inf:
+                    continue
+                c = best[k - 1][i] + cost(i, j)
+                if c < best[k][j]:
+                    best[k][j], back[k][j] = c, i
+    if best[n][m] == inf:
+        return None
+    groups: list[list[str]] = []
+    j = m
+    for k in range(n, 0, -1):
+        i = back[k][j]
+        groups.append(cells[i:j])
+        j = i
+    return groups[::-1]
 
 
-def _matched_rows(rows: list[tuple[str, list[str]]], q_words: set[str]) -> list[str]:
-    """"Matched row: label | v1 | ..." lines for the row(s) whose label words are
-    all in the question (the most specific match wins). Copies the row as is."""
+def _column_names(groups: list[list[str]]) -> list[str]:
+    """Join each group into a column name. A name that repeats (two "YOY Growth %")
+    is prefixed with the nearest period-led column name to its left, so each is
+    unique ("Sep'26 Actuals YOY Growth %")."""
+    own = [" ".join(g) for g in groups]
+    names = list(own)
+    for idx, group in enumerate(groups):
+        if own.count(own[idx]) > 1 and not _PERIOD_CELL_RE.match(group[0]):
+            for j in range(idx - 1, -1, -1):
+                if _PERIOD_CELL_RE.match(groups[j][0]):
+                    names[idx] = f"{own[j]} {own[idx]}"
+                    break
+    return names
+
+
+def _norm_key(text: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", text.lower())
+
+
+def _kinds(text: str) -> frozenset:
+    return frozenset(k for k, pat in _COLUMN_KIND_PATTERNS.items() if pat.search(text))
+
+
+def _best_rows(rows: list[tuple[str, list[str]]], q_words: set[str]) -> list[tuple[str, list[str]]]:
+    """The row(s) whose label words are all in the question; only the most
+    specific (most label words) are returned."""
     scored = []
     for label, values in rows:
         words = _question_words(label)
@@ -779,11 +832,50 @@ def _matched_rows(rows: list[tuple[str, list[str]]], q_words: set[str]) -> list[
             scored.append((len(words), label, values))
     if not scored:
         return []
-    best = max(w for w, _l, _v in scored)
-    return ["Matched row: " + " | ".join([label] + values) for w, label, values in scored if w == best][:3]
+    top = max(w for w, _l, _v in scored)
+    return [(label, values) for w, label, values in scored if w == top]
 
 
-def _structure_segment(seg: list[str], q_words: set[str] = frozenset()) -> list[str] | None:
+def _matched_rows(rows: list[tuple[str, list[str]]], q_words: set[str]) -> list[str]:
+    """"Matched row: label | v1 | ..." lines for the best matching row(s), copied as is."""
+    return ["Matched row: " + " | ".join([label] + values) for label, values in _best_rows(rows, q_words)[:3]]
+
+
+def _lookup_cell(
+    heading: str, groups: list[list[str]], names: list[str],
+    rows: list[tuple[str, list[str]]], q_words: set[str], question: str,
+) -> str | None:
+    """Find the cell the question names - one row, and one column given by a
+    period plus its kind (actuals / plan / projection / gap / YOY growth /
+    achievement / leveraged) - and return "Lookup result: ...". None unless
+    the row and the column are both unique."""
+    best = _best_rows(rows, q_words)
+    wanted = _kinds(question)
+    if len(best) != 1 or not wanted:
+        return None
+    # Each column's period: its own period cell, else the nearest period to its left.
+    periods: list[str | None] = []
+    current = None
+    for group in groups:
+        if _PERIOD_CELL_RE.match(group[0]):
+            current = _norm_key(group[0])
+        periods.append(current)
+    qkey = _norm_key(question)
+    hits = [(idx, p) for idx, p in enumerate(periods) if p and p in qkey]
+    if not hits:
+        return None
+    longest = max(len(p) for _i, p in hits)
+    columns = [idx for idx, p in hits if len(p) == longest]
+    own = [_kinds(" ".join(g)) for g in groups]
+    exact = [idx for idx in columns if own[idx] == wanted]
+    found = exact or [idx for idx in columns if wanted <= own[idx]]
+    if len(found) != 1:
+        return None
+    label, values = best[0]
+    return f"Lookup result: {heading}, row {label}, column {names[found[0]]} = {values[found[0]]}"
+
+
+def _structure_segment(seg: list[str], q_words: set[str] = frozenset(), question: str = "") -> list[str] | None:
     """Rebuild one flattened table (one cell per line) as "Columns: ..." plus
     "label | v1 | v2" rows, or return None when the layout cannot be inferred
     reliably. Cell text is copied exactly.
@@ -791,8 +883,8 @@ def _structure_segment(seg: list[str], q_words: set[str] = frozenset()) -> list[
     Leading heading lines (ending ":") and "Values in ..." lines stay in front.
     A data row is a label line followed by figure lines; the text lines before
     the first row's label are header cells. Values per row = the most common
-    count; header cells are grouped (consecutive cells joined) into that many
-    column names, with an optional leading header for the label column.
+    count. The first header cell names the label column; the rest are grouped
+    into that many column names (see _group_header_cells).
     """
     if any("|" in line for line in seg):
         return None
@@ -833,38 +925,57 @@ def _structure_segment(seg: list[str], q_words: set[str] = frozenset()) -> list[
     if n < 2 or any(c != n for c in counts):
         return None
 
-    # The first header cell names the label column; the rest are grouped into n names.
     label_head, cells = header[0], header[1:]
-    names = _group_header_cells(cells, n)
-    if names is not None:
-        out = preamble + ["Columns: " + " | ".join([label_head] + names)]
-    else:  # cannot group reliably: number the columns and list the raw cells once
-        out = preamble + [
+    groups = _group_header_cells(cells, n)
+    lookup: list[str] = []
+    if groups is not None:
+        names = _column_names(groups)
+        columns_line = ["Columns: " + " | ".join([label_head] + names)]
+        heading = next((p.rstrip(":") for p in preamble if p.endswith(":")), "table")
+        found = _lookup_cell(heading, groups, names, rows, q_words, question)
+        lookup = [found] if found else []
+    else:  # fewer header cells than columns: number the columns, list the raw cells once
+        columns_line = [
             "Columns: " + " | ".join([label_head] + [f"col{j + 1}" for j in range(n)]),
             "Header cells in order: " + " | ".join(cells),
         ]
-    out += _matched_rows(rows, q_words)
-    out += [" | ".join([label] + values) for label, values in rows]
-    return out + pending
+    return (
+        preamble + lookup + columns_line + _matched_rows(rows, q_words)
+        + [" | ".join([label] + values) for label, values in rows] + pending
+    )
 
 
-def _structure_table(lines: list[str], q_words: set[str] = frozenset()) -> list[str]:
-    """Apply _structure_segment to each section of a table block (a new section
-    starts at a heading line ending ":" that follows a figure), so sections are
-    never mixed. A section that cannot be inferred is left exactly as it was."""
+def _structure_table(lines: list[str], q_words: set[str] = frozenset(), question: str = "") -> list[list[str]]:
+    """Split a table block into its sections (a new section starts at a heading
+    line ending ":" that follows a figure) and rebuild each with
+    _structure_segment. A section that cannot be inferred is kept exactly as it
+    was. Every section keeps its own heading, "Values in" line and Columns line."""
     segments: list[list[str]] = []
     for idx, line in enumerate(lines):
         starts = idx > 0 and line.endswith(":") and not _is_table_value(line) and _is_table_value(lines[idx - 1])
         if not segments or starts:
             segments.append([])
         segments[-1].append(line)
-    out: list[str] = []
-    for seg in segments:
-        out.extend(_structure_segment(seg, q_words) or seg)
-    return out
+    return [_structure_segment(seg, q_words, question) or seg for seg in segments]
 
 
-def _form_blocks(paragraphs: list[list[str]], cfg: ContextConfig, q_words: set[str] = frozenset()) -> list[_Block]:
+_TABLE_NOTE_PREFIXES = ("Columns:", "Matched row:", "Lookup result:", "Header cells in order:")
+
+
+def _table_labels(lines: list[str]) -> str:
+    """Heading and row-label text of a table section, used to score it against
+    the question (figures and the note lines above the rows are skipped)."""
+    labels = []
+    for line in lines:
+        if line.startswith(_TABLE_NOTE_PREFIXES) or _is_table_value(line):
+            continue
+        labels.append(line.split(" | ", 1)[0])
+    return " ".join(labels)
+
+
+def _form_blocks(
+    paragraphs: list[list[str]], cfg: ContextConfig, q_words: set[str] = frozenset(), question: str = "",
+) -> list[_Block]:
     """Group cleaned paragraphs into atomic blocks.
 
     * adjacent table-like lines form one table block; across a blank line they
@@ -925,9 +1036,16 @@ def _form_blocks(paragraphs: list[list[str]], cfg: ContextConfig, q_words: set[s
             nxt.lines.insert(0, prev.lines.pop())
     blocks = [b for b in blocks if b.lines]
 
+    # One block per table section, so the section a question is about is kept
+    # or dropped whole, with its heading and Columns line.
+    sectioned: list[_Block] = []
     for block in blocks:
         if block.kind == "table":
-            block.lines = _structure_table(block.lines, q_words)
+            for section in _structure_table(block.lines, q_words, question):
+                sectioned.append(_Block(kind="table", lines=section, labels=_table_labels(section)))
+        else:
+            sectioned.append(block)
+    blocks = sectioned
 
     out: list[_Block] = []
     for block in blocks:
@@ -953,19 +1071,19 @@ def _question_words(question: str, ignore_words=frozenset()) -> set[str]:
     }
 
 
-def _prepare_thread(chunk: dict, q_words: set[str], cfg: ContextConfig) -> dict:
+def _prepare_thread(chunk: dict, q_words: set[str], cfg: ContextConfig, question: str = "") -> dict:
     """Clean one thread and split it into blocks.
 
     A thin body (< thin_body_chars after cleaning) also draws question-matching
     blocks from attachment_data, up to attachment_max_chars in total.
     """
     raw_body = _thread_body(chunk)
-    blocks = _form_blocks(_clean_paragraphs(raw_body, cfg), cfg, q_words)
+    blocks = _form_blocks(_clean_paragraphs(raw_body, cfg), cfg, q_words, question)
 
     if sum(b.chars for b in blocks) < cfg.thin_body_chars and q_words:
         attachment = str(chunk.get("attachment_data") or "").strip()
         used = 0
-        for block in _form_blocks(_clean_paragraphs(attachment, cfg), cfg, q_words):
+        for block in _form_blocks(_clean_paragraphs(attachment, cfg), cfg, q_words, question):
             if not (q_words & set(re.findall(r"\w+", block.text.lower()))):
                 continue
             if used + block.chars > cfg.attachment_max_chars:
@@ -1069,8 +1187,13 @@ def _score_blocks(blocks: list[_Block], queries: list[str], cfg: ContextConfig, 
     else:
         stats["embeddings"] = "off"
 
+    # A table section also scores on its heading and row labels (e.g. "deposits",
+    # "CASA" -> the Liabilities section), whatever its numbers say.
+    label_words = [_question_words(b.labels) if b.kind == "table" else set() for b in blocks]
+
     best_per_query = [(-1.0, -1)] * len(queries)
     for q_idx, query in enumerate(queries):
+        q_set = _question_words(query, cfg.ignore_words)
         if bm25 is not None and (tokens := _tokenise(query)):
             raw = np.clip(np.asarray(bm25.get_scores(tokens), dtype=float), 0.0, None)
             bm_norm = raw / raw.max() if raw.max() > 0 else raw
@@ -1080,6 +1203,8 @@ def _score_blocks(blocks: list[_Block], queries: list[str], cfg: ContextConfig, 
             hybrid = float(bm_norm[b_idx])
             if sims is not None:
                 hybrid = (1.0 - cfg.embedding_weight) * hybrid + cfg.embedding_weight * float(sims[b_idx, q_idx])
+            if q_set and label_words[b_idx]:
+                hybrid += 0.5 * len(q_set & label_words[b_idx]) / len(q_set)
             block.score = max(block.score, hybrid)
             if hybrid > best_per_query[q_idx][0]:
                 best_per_query[q_idx] = (hybrid, b_idx)
@@ -1204,10 +1329,15 @@ def _select_blocks(selected: list[dict], queries: list[str], cfg: ContextConfig,
     tier1 = by_score([x for x in flat if x[1].must]) + by_score(
         [x for x in flat if x[1].kind == "table" and not x[1].must]
     )
-    # A block that missed its thread's share still goes in whole when the overall
-    # budget has room, so a table is cut only when it cannot fit at all.
-    over_cap = [(t, b) for t, b in tier1 if not try_add(t, b, True)]
-    too_big = [(t, b) for t, b in over_cap if not try_add(t, b, False) and b.must]
+    # Best-match blocks first (whole within the thread share, else whole within the
+    # overall budget), then the other tables the same way. A table section is cut
+    # only when it cannot fit the overall budget at all; then only whole rows go.
+    musts = [x for x in tier1 if x[1].must]
+    tables = [x for x in tier1 if not x[1].must]
+    too_big: list[tuple[int, _Block]] = []
+    for group in (musts, tables):
+        over_cap = [(t, b) for t, b in group if not try_add(t, b, True)]
+        too_big += [(t, b) for t, b in over_cap if not try_add(t, b, False) and b.must]
     for t, b in too_big:  # Step 3f, right away so lower tiers cannot use up the room
         keep_partial(t, b, min(usable - used, caps[t] - used_by[t]), "best match for the question")
 
@@ -1274,7 +1404,7 @@ def build_context(
         return empty
 
     q_words = _question_words(question, cfg.ignore_words)
-    prepared = [_prepare_thread(chunk, q_words, cfg) for chunk in threads]
+    prepared = [_prepare_thread(chunk, q_words, cfg, question) for chunk in threads]
     for rank, p in enumerate(prepared, 1):
         p["rank"] = rank
 

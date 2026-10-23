@@ -274,6 +274,12 @@ def _apply_code_calculation(context: str, query: str, user_message: str, stats: 
     if stats.get("threads_used", 0) == 0:
         calc["error"] = "no context to calculate from"
         return user_message
+    if "Lookup result:" in context:
+        # build_context already found the cell in code: a plain lookup, nothing to
+        # calculate. Skipping avoids a second full-context call to the accurate
+        # model, which on CPU can exceed CHATBOT_CALC_TIMEOUT_S (ReadTimeout).
+        calc["error"] = "simple lookup - calc call skipped"
+        return user_message
 
     calc.update(_compute_in_code(context, query))
     if calc["used"]:
