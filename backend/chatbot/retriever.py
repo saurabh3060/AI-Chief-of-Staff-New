@@ -737,13 +737,13 @@ _PERIOD_CELL_RE = re.compile(
     re.IGNORECASE,
 )
 # First words that begin a new value-column name when they open a header cell.
-_COLUMN_START_WORDS = {"gap", "yoy", "qoq", "mom", "achievement"}
+_COLUMN_START_WORDS = {"gap", "yoy", "y0y", "qoq", "mom", "ytd", "mtd", "achievement"}
 # A header cell that can end a column name (a qualifier such as Actuals, Plan, Growth %).
-_COLUMN_END_RE = re.compile(r"actual|plan|projection|achieve|growth|leverag|target|%", re.IGNORECASE)
+_COLUMN_END_RE = re.compile(r"actual|plan|projection|achieve|growth|leverag|target|budget|%", re.IGNORECASE)
 # What a column (or a question) is about, besides its period.
 _COLUMN_KIND_PATTERNS = {
     "actual": re.compile(r"actual", re.IGNORECASE),
-    "plan": re.compile(r"\bplan\b|\btarget\b", re.IGNORECASE),
+    "plan": re.compile(r"\bplan\b|\btarget\b|\bbudget\b", re.IGNORECASE),
     "projection": re.compile(r"project", re.IGNORECASE),
     "gap": re.compile(r"\bgap\b", re.IGNORECASE),
     "growth": re.compile(r"\byoy\b|growth|year[\s-]*on[\s-]*year", re.IGNORECASE),
@@ -814,15 +814,25 @@ def _column_names(groups: list[list[str]]) -> list[str]:
     return names
 
 
+_MONTH_PERIOD_RE = re.compile(
+    r"\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?"
+    r"|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)[\s'’\-_.]*((?:20)?\d{2})\b",
+    re.IGNORECASE,
+)
 _QUESTION_PERIOD_RE = re.compile(
-    r"(?:Qtr|Q|H)[\s_]*[1-4](?:[\s_]*FY[\s_'’]*\d{2,4})?|FY[\s_'’]*\d{2,4}"
-    r"|[A-Za-z]{3,9}[\s'’\-_]*\d{2,4}",
+    _MONTH_PERIOD_RE.pattern
+    + r"|(?:Qtr|Q|H)[\s_]*[1-4](?:[\s_]*FY[\s_'’]*\d{2,4})?|FY[\s_'’]*\d{2,4}",
     re.IGNORECASE,
 )
 
 
 def _norm_key(text: str) -> str:
-    """Comparable form of a period: Sep'26 / Sep-26 / Sep 2026 -> sep26, Qtr_2_FY'27 -> q2fy27."""
+    """Comparable form of a period. Any spelling of a month and year gives one key:
+    Dec'25 / Dec-25 / Dec 25 / Dec 2025 / December 2025 / Dec 25 qtr -> dec25 (Sept = Sep).
+    Qtr_2_FY'27 -> q2fy27."""
+    month = _MONTH_PERIOD_RE.search(text)
+    if month:
+        return month.group(1)[:3].lower() + month.group(2)[-2:]
     key = re.sub(r"[^a-z0-9]", "", text.lower())
     key = re.sub(r"^qtr", "q", key)
     return re.sub(r"(?<=[a-z])20(\d{2})$", r"\g<1>", key)
@@ -859,53 +869,107 @@ def _matched_rows(rows: list[tuple[str, list[str]]], q_words: set[str]) -> list[
     return ["Matched row: " + " | ".join([label] + values) for label, values in _best_rows(rows, q_words)[:3]]
 
 
+_LOOKUP_PREFIXES = ("Lookup result:", "Highest:", "Lowest:")
+# With no heading line, a table section is named from its label column header.
+_LABEL_HEADER_SECTIONS = {"product": "Liabilities", "fee category": "Fee Income", "category": "Asset"}
+_SUPERLATIVE_RE = re.compile(r"\b(highest|lowest|largest|smallest|biggest|maximum|minimum|max|min)\b", re.IGNORECASE)
+_HIGH_WORDS = {"highest", "largest", "biggest", "maximum", "max"}
+
+
+def _to_number(cell: str) -> float | None:
+    """Numeric value of a table cell for comparison only (never shown): 1,16,094 /
+    -3,385 / (3,385) / 12.5%. None for a dash or text."""
+    text = cell.strip()
+    digits = re.sub(r"[^\d.]", "", text)
+    if not digits or digits == ".":
+        return None
+    try:
+        value = float(digits)
+    except ValueError:
+        return None
+    negative = text.startswith(("-", "−", "–")) or (text.startswith("(") and text.endswith(")"))
+    return -value if negative else value
+
+
+def _column_periods(groups: list[list[str]]) -> list[set[str]]:
+    """Periods of each value column: those written in its own header cells (for
+    example "Achievement on Dec'25 Plan %"), else the nearest period to its left."""
+    out: list[set[str]] = []
+    inherited: set[str] = set()
+    for group in groups:
+        if _PERIOD_CELL_RE.match(group[0]):
+            inherited = {_norm_key(group[0])}
+        out.append(_period_keys(" ".join(group)) or inherited)
+    return out
+
+
 def _lookup_cell(
     heading: str, groups: list[list[str]], names: list[str],
     rows: list[tuple[str, list[str]]], q_words: set[str], question: str,
 ) -> str | None:
-    """Find the cell the question names - one row, and one column given by a
-    period plus its kind (actuals / plan / projection / gap / YOY growth /
-    achievement / leveraged) - and return "Lookup result: ...". None unless
-    the row and the column are both unique."""
-    best = _best_rows(rows, q_words)
+    """Find the column the question names - a period plus its kind (actuals / plan /
+    projection / gap / YOY growth / achievement / leveraged) - and return either
+    "Lookup result: <heading>, row <label>, column <name> = <value>" (one named row)
+    or, for a highest/lowest question, "Highest: <row> = <value> (column <name>)".
+    None unless the column (and, for a lookup, the row) is unique. Cell text is
+    copied exactly."""
     wanted = _kinds(question)
-    # A gap / YOY growth / achievement / leveraged column is named by its own
-    # keyword; a base kind beside it ("gap to Plan") only says what it is relative to.
-    wanted = (wanted & _DERIVED_KINDS) or wanted
-    if len(best) != 1 or not wanted:
-        return None
-    # Each column's period: its own period cell, else the nearest period to its left.
-    periods: list[str | None] = []
-    current = None
-    for group in groups:
-        if _PERIOD_CELL_RE.match(group[0]):
-            current = _norm_key(group[0])
-        periods.append(current)
     qperiods = _period_keys(question)
-    hits = [(idx, p) for idx, p in enumerate(periods) if p and p in qperiods]
-    if not hits:
+    if not wanted or not qperiods:
         return None
-    longest = max(len(p) for _i, p in hits)
-    columns = [idx for idx, p in hits if len(p) == longest]
+    columns = [i for i, ps in enumerate(_column_periods(groups)) if qperiods & ps]
     own = [_kinds(" ".join(g)) for g in groups]
-    exact = [idx for idx in columns if own[idx] == wanted]
-    found = exact or [idx for idx in columns if wanted <= own[idx]]
+    # Match on keywords, most specific first: the question's full set of kinds, then
+    # only its derived kind (a gap / growth / achievement column is named by its own
+    # keyword; "gap to Plan" only says what it is relative to).
+    derived = wanted & _DERIVED_KINDS
+    levels = [[i for i in columns if own[i] == wanted], [i for i in columns if wanted <= own[i]]]
+    if derived and derived != wanted:
+        levels += [[i for i in columns if own[i] == derived], [i for i in columns if derived <= own[i]]]
+    found = next((level for level in levels if level), [])
     if len(found) != 1:
         return None
+    idx, n = found[0], len(groups)
+
+    superlative = _SUPERLATIVE_RE.search(question)
+    if superlative:
+        candidates = [(label, values[idx]) for label, values in rows if len(values) == n]
+        figures = [(label, cell, _to_number(cell)) for label, cell in candidates]
+        figures = [f for f in figures if f[2] is not None]
+        without_totals = [f for f in figures if not re.search(r"\btotal\b", f[0], re.IGNORECASE)]
+        figures = without_totals or figures
+        if not figures:
+            return None
+        high = superlative.group(1).lower() in _HIGH_WORDS
+        target = (max if high else min)(f[2] for f in figures)
+        top = [f for f in figures if f[2] == target]
+        return f"{'Highest' if high else 'Lowest'}: {' / '.join(f[0] for f in top)} = {top[0][1]} (column {names[idx]})"
+
+    best = _best_rows(rows, q_words)
+    if len(best) != 1 or len(best[0][1]) != n:
+        return None
     label, values = best[0]
-    return f"Lookup result: {heading}, row {label}, column {names[found[0]]} = {values[found[0]]}"
+    return f"Lookup result: {heading}, row {label}, column {names[idx]} = {values[idx]}"
+
+
+def _fix_yoy(cell: str) -> str:
+    """Header text "Y0Y" (zero) is YOY."""
+    return re.sub(r"\bY0Y\b", "YOY", cell, flags=re.IGNORECASE)
 
 
 def _structure_segment(seg: list[str], q_words: set[str] = frozenset(), question: str = "") -> list[str] | None:
     """Rebuild one flattened table (one cell per line) as "Columns: ..." plus
-    "label | v1 | v2" rows, or return None when the layout cannot be inferred
-    reliably. Cell text is copied exactly.
+    "label | v1 | v2" rows, or return None when no label-and-values rows are found.
+    Cell text is copied exactly.
 
     Leading heading lines (ending ":") and "Values in ..." lines stay in front.
     A data row is a label line followed by figure lines; the text lines before
     the first row's label are header cells. Values per row = the most common
     count. The first header cell names the label column; the rest are grouped
-    into that many column names (see _group_header_cells).
+    into that many column names (see _group_header_cells). When they cannot be
+    (fewer header cells than columns) the header cells are listed on one
+    "Header cells in order:" line; the rows are always "label | v1 | v2 ...".
+    A section with no heading is named from its label column (_LABEL_HEADER_SECTIONS).
     """
     if any("|" in line for line in seg):
         return None
@@ -938,56 +1002,71 @@ def _structure_segment(seg: list[str], q_words: set[str] = frozenset(), question
         else:
             cur = None
             pending.append(line)
-    if not rows or not header:
+    if not rows:
         return None
+
+    row_lines = [" | ".join([label] + values) for label, values in rows]
+    if not header:
+        return preamble + row_lines + pending
 
     counts = [len(values) for _label, values in rows]
     n = max(set(counts), key=counts.count)
-    if n < 2 or any(c != n for c in counts):
-        return None
-
     label_head, cells = header[0], header[1:]
+
+    heading = next((p.rstrip(":") for p in preamble if p.endswith(":")), None)
+    title: list[str] = []
+    if heading is None:
+        heading = _LABEL_HEADER_SECTIONS.get(label_head.strip().lower())
+        if heading:
+            title = [heading + ":"]
+
     groups = _group_header_cells(cells, n)
     lookup: list[str] = []
     if groups is not None:
+        groups = [[_fix_yoy(c) for c in g] for g in groups]
         names = _column_names(groups)
         columns_line = ["Columns: " + " | ".join([label_head] + names)]
-        heading = next((p.rstrip(":") for p in preamble if p.endswith(":")), "table")
-        found = _lookup_cell(heading, groups, names, rows, q_words, question)
+        found = _lookup_cell(heading or "table", groups, names, rows, q_words, question)
         lookup = [found] if found else []
-    else:  # fewer header cells than columns: number the columns, list the raw cells once
-        columns_line = [
-            "Columns: " + " | ".join([label_head] + [f"col{j + 1}" for j in range(n)]),
-            "Header cells in order: " + " | ".join(cells),
-        ]
+    else:
+        columns_line = ["Header cells in order: " + " | ".join(header)]
     return (
-        preamble + lookup + columns_line + ([] if lookup else _matched_rows(rows, q_words))
-        + [" | ".join([label] + values) for label, values in rows] + pending
+        title + preamble + lookup + columns_line + ([] if lookup else _matched_rows(rows, q_words))
+        + row_lines + pending
     )
 
 
 def _structure_table(lines: list[str], q_words: set[str] = frozenset(), question: str = "") -> list[list[str]]:
-    """Split a table block into its sections (a new section starts at a heading
-    line ending ":" that follows a figure) and rebuild each with
-    _structure_segment. A section that cannot be inferred is kept exactly as it
-    was. Every section keeps its own heading, "Values in" line and Columns line."""
+    """Split a table block into its sections and rebuild each with
+    _structure_segment. A new section starts, after figures, at a heading line
+    ending ":", at a "Values in ..." line, or at a label-column header such as
+    "Product" / "Fee Category" / "Category". A section that cannot be rebuilt is
+    kept exactly as it was. Every section keeps its own heading, "Values in" line
+    and Columns line."""
     segments: list[list[str]] = []
     for idx, line in enumerate(lines):
-        starts = idx > 0 and line.endswith(":") and not _is_table_value(line) and _is_table_value(lines[idx - 1])
+        starts = (
+            idx > 0 and not _is_table_value(line) and _is_table_value(lines[idx - 1])
+            and (
+                line.endswith(":")
+                or line.lower().startswith(_TABLE_UNIT_PREFIXES)
+                or line.strip().lower() in _LABEL_HEADER_SECTIONS
+            )
+        )
         if not segments or starts:
             segments.append([])
         segments[-1].append(line)
     return [_structure_segment(seg, q_words, question) or seg for seg in segments]
 
 
-_TABLE_NOTE_PREFIXES = ("Columns:", "Matched row:", "Lookup result:", "Header cells in order:")
+_TABLE_NOTE_PREFIXES = ("Columns:", "Matched row:", "Header cells in order:") + _LOOKUP_PREFIXES
 
 
 def _has_table_rows(lines: list[str]) -> bool:
     """True when ``lines`` hold at least one data row (a line with a figure that is
     not the Columns / Lookup / header-list note)."""
     return any(
-        _FIGURE_RE.search(line) and not line.startswith(("Columns:", "Lookup result:", "Header cells in order:"))
+        _FIGURE_RE.search(line) and not line.startswith(("Columns:", "Header cells in order:") + _LOOKUP_PREFIXES)
         for line in lines
     )
 
@@ -1424,7 +1503,7 @@ def _lookup_focus(selected: list[dict], prefer: frozenset = frozenset()) -> tupl
     (subject names the question's period) are looked at first."""
     for t in sorted(range(len(selected)), key=lambda i: (i not in prefer, i)):
         for block in selected[t]["blocks"]:
-            if block.kind == "table" and any(line.startswith("Lookup result:") for line in block.lines):
+            if block.kind == "table" and any(line.startswith(_LOOKUP_PREFIXES) for line in block.lines):
                 return t, block
     return None
 
@@ -1435,8 +1514,8 @@ def _render_lookup_context(selected: list[dict], focus: tuple[int, _Block], cfg:
     whatever the budget). Every other email is reduced to its subject line and
     the email's other tables are left out."""
     t, table = focus
-    lookup_line = next(line for line in table.lines if line.startswith("Lookup result:"))
-    section = [line for line in table.lines if not line.startswith(("Lookup result:", "Matched row:"))]
+    lookup_line = "\n".join(line for line in table.lines if line.startswith(_LOOKUP_PREFIXES))
+    section = [line for line in table.lines if not line.startswith(("Matched row:",) + _LOOKUP_PREFIXES)]
 
     intro_block = next((b for b in selected[t]["blocks"] if b.kind != "table" and b.pos < table.pos), None)
     intro: list[str] = []
@@ -1523,7 +1602,12 @@ def build_context(
 
     # Emails whose subject names a period the question names.
     q_periods = _period_keys(question)
-    period_hits = [t for t, p in enumerate(selected) if q_periods & _period_keys(p["subject"])]
+    period_hits = []
+    if q_periods:
+        for t, p in enumerate(selected):
+            head = "\n".join(b.text for b in p["blocks"])[:600]   # first 600 characters of the cleaned body
+            if q_periods & (_period_keys(p["subject"]) | _period_keys(head)):
+                period_hits.append(t)
 
     focus = _lookup_focus(selected, frozenset(period_hits))
     if focus is not None:
@@ -1532,7 +1616,9 @@ def build_context(
     # No lookup, but the question names a period and some email's subject carries
     # it: only those emails are sent in full, the others as their subject line.
     brief: list[dict] = []
-    if period_hits:
+    # Only when a matched email actually holds a table; a prose-only match, or no
+    # match, leaves every email as it is.
+    if period_hits and any(b.kind == "table" for t in period_hits for b in selected[t]["blocks"]):
         brief = [p for t, p in enumerate(selected) if t not in period_hits]
         selected = [selected[t] for t in period_hits]
 
