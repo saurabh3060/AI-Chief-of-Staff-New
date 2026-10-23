@@ -918,7 +918,7 @@ class Settings(BaseSettings):
         validation_alias="CHATBOT_CALC_MAX_TOKENS",
     )
     chatbot_calc_timeout_s: float = Field(
-        default=20.0,
+        default=5.0,
         alias="CHATBOT_CALC_TIMEOUT_S",
         validation_alias="CHATBOT_CALC_TIMEOUT_S",
     )

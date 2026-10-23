@@ -153,6 +153,22 @@ def _wants_calc(query: str) -> bool:
     return _matches_pattern(get_settings().chatbot_calc_question_pattern, "CHATBOT_CALC_QUESTION_PATTERN", query)
 
 
+# Wording that really asks for arithmetic. CHATBOT_CALC_QUESTION_PATTERN also
+# matches plain lookups ("total deposits", "how much"), which must not pay for
+# the extra calc call.
+_CALC_CUE_RE = re.compile(
+    r"\b(calculate|calculation|compute|total\s+of|sum|average|mean|difference|differ"
+    r"|how\s+much\s+(?:more|less|higher|lower|greater)|(?:percent(?:age)?|%)\s+(?:change|increase|decrease|growth|of)"
+    r"|increase\s+by|decrease\s+by|higher\s+than|lower\s+than|per\s+(?:month|quarter|year)|baseline|ratio)\b",
+    re.IGNORECASE,
+)
+
+
+def _asks_calculation(query: str) -> bool:
+    """True when the question uses wording that asks for a calculation."""
+    return _CALC_CUE_RE.search(query) is not None
+
+
 def _select_model(query: str) -> str:
     """Pick the chat model for this question.
 
@@ -270,6 +286,9 @@ def _apply_code_calculation(context: str, query: str, user_message: str, stats: 
     }
     stats["calc"] = calc
     if not settings.chatbot_calc_in_code or not _wants_calc(query):
+        return user_message
+    if not _asks_calculation(query):
+        calc["error"] = "question does not ask for a calculation - calc call skipped"
         return user_message
     if stats.get("threads_used", 0) == 0:
         calc["error"] = "no context to calculate from"

@@ -828,6 +828,14 @@ def _norm_key(text: str) -> str:
     return re.sub(r"(?<=[a-z])20(\d{2})$", r"\g<1>", key)
 
 
+_DERIVED_KINDS = frozenset({"gap", "growth", "achievement", "leveraged"})
+
+
+def _period_keys(text: str) -> set[str]:
+    """Normalised keys of every period named in ``text`` (see _norm_key)."""
+    return {_norm_key(m.group(0)) for m in _QUESTION_PERIOD_RE.finditer(text or "")}
+
+
 def _kinds(text: str) -> frozenset:
     return frozenset(k for k, pat in _COLUMN_KIND_PATTERNS.items() if pat.search(text))
 
@@ -861,6 +869,9 @@ def _lookup_cell(
     the row and the column are both unique."""
     best = _best_rows(rows, q_words)
     wanted = _kinds(question)
+    # A gap / YOY growth / achievement / leveraged column is named by its own
+    # keyword; a base kind beside it ("gap to Plan") only says what it is relative to.
+    wanted = (wanted & _DERIVED_KINDS) or wanted
     if len(best) != 1 or not wanted:
         return None
     # Each column's period: its own period cell, else the nearest period to its left.
@@ -870,7 +881,7 @@ def _lookup_cell(
         if _PERIOD_CELL_RE.match(group[0]):
             current = _norm_key(group[0])
         periods.append(current)
-    qperiods = {_norm_key(m.group(0)) for m in _QUESTION_PERIOD_RE.finditer(question)}
+    qperiods = _period_keys(question)
     hits = [(idx, p) for idx, p in enumerate(periods) if p and p in qperiods]
     if not hits:
         return None
@@ -1407,11 +1418,12 @@ def _select_blocks(selected: list[dict], queries: list[str], cfg: ContextConfig,
 
 # ── Step 4: render ────────────────────────────────────────────
 
-def _lookup_focus(selected: list[dict]) -> tuple[int, _Block] | None:
+def _lookup_focus(selected: list[dict], prefer: frozenset = frozenset()) -> tuple[int, _Block] | None:
     """(thread index, table section) of the best-ranked section that carries a
-    "Lookup result:" line, or None when no section does."""
-    for t, p in enumerate(selected):
-        for block in p["blocks"]:
+    "Lookup result:" line, or None when no section does. Threads in ``prefer``
+    (subject names the question's period) are looked at first."""
+    for t in sorted(range(len(selected)), key=lambda i: (i not in prefer, i)):
+        for block in selected[t]["blocks"]:
             if block.kind == "table" and any(line.startswith("Lookup result:") for line in block.lines):
                 return t, block
     return None
@@ -1509,9 +1521,20 @@ def build_context(
     stats["blocks_total"] = sum(len(p["blocks"]) for p in selected)
     stats["chars_cleaned"] = sum(b.chars for p in selected for b in p["blocks"])
 
-    focus = _lookup_focus(selected)
+    # Emails whose subject names a period the question names.
+    q_periods = _period_keys(question)
+    period_hits = [t for t, p in enumerate(selected) if q_periods & _period_keys(p["subject"])]
+
+    focus = _lookup_focus(selected, frozenset(period_hits))
     if focus is not None:
         return _render_lookup_context(selected, focus, cfg, stats)
+
+    # No lookup, but the question names a period and some email's subject carries
+    # it: only those emails are sent in full, the others as their subject line.
+    brief: list[dict] = []
+    if period_hits:
+        brief = [p for t, p in enumerate(selected) if t not in period_hits]
+        selected = [selected[t] for t in period_hits]
 
     headers = [f"[Email {t + 1}: {p['subject']}]" for t, p in enumerate(selected)]
     everything = len(_BLOCK_SEPARATOR) * (len(selected) - 1) + sum(
@@ -1543,6 +1566,8 @@ def build_context(
         stats["blocks_kept"] += len(texts)
         if texts:
             parts.append(header + "\n" + _BLOCK_SEPARATOR.join(texts))
+    for k, p in enumerate(brief, start=len(selected) + 1):
+        parts.append(f"[Email {k}: {p['subject']}]")
 
     stats["threads_used"] = len(parts)
     context = _BLOCK_SEPARATOR.join(parts) if parts else empty
