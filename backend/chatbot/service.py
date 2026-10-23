@@ -112,7 +112,7 @@ def _chat_request(
             {"role": "user", "content": user_message},
         ],
         "options": {
-            "num_predict": settings.chatbot_max_tokens if num_predict is None else num_predict,
+            "num_predict": settings.chatbot_llm_num_predict if num_predict is None else num_predict,
             "temperature": settings.chatbot_temperature if temperature is None else temperature,
             "repeat_penalty": settings.chatbot_repeat_penalty,
             "num_ctx": settings.chatbot_llm_num_ctx,
@@ -935,7 +935,7 @@ def generate_response_stream(
 
     logger.info(
         "LLM streaming start: model=%s, ~%d prompt tokens, max_output=%d",
-        model, prompt_tokens, settings.chatbot_max_tokens,
+        model, prompt_tokens, settings.chatbot_llm_num_predict,
     )
 
     t_llm = time.perf_counter()
@@ -979,7 +979,7 @@ def generate_response_stream(
                 ],
                 "stream": True,
                 "options": {
-                    "num_predict": settings.chatbot_max_tokens,
+                    "num_predict": settings.chatbot_llm_num_predict,
                     "temperature": 0.1,
                     "num_ctx": settings.chatbot_llm_num_ctx,
                     "num_thread": 0,

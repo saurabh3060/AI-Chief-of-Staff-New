@@ -814,8 +814,18 @@ def _column_names(groups: list[list[str]]) -> list[str]:
     return names
 
 
+_QUESTION_PERIOD_RE = re.compile(
+    r"(?:Qtr|Q|H)[\s_]*[1-4](?:[\s_]*FY[\s_'’]*\d{2,4})?|FY[\s_'’]*\d{2,4}"
+    r"|[A-Za-z]{3,9}[\s'’\-_]*\d{2,4}",
+    re.IGNORECASE,
+)
+
+
 def _norm_key(text: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", text.lower())
+    """Comparable form of a period: Sep'26 / Sep-26 / Sep 2026 -> sep26, Qtr_2_FY'27 -> q2fy27."""
+    key = re.sub(r"[^a-z0-9]", "", text.lower())
+    key = re.sub(r"^qtr", "q", key)
+    return re.sub(r"(?<=[a-z])20(\d{2})$", r"\g<1>", key)
 
 
 def _kinds(text: str) -> frozenset:
@@ -860,8 +870,8 @@ def _lookup_cell(
         if _PERIOD_CELL_RE.match(group[0]):
             current = _norm_key(group[0])
         periods.append(current)
-    qkey = _norm_key(question)
-    hits = [(idx, p) for idx, p in enumerate(periods) if p and p in qkey]
+    qperiods = {_norm_key(m.group(0)) for m in _QUESTION_PERIOD_RE.finditer(question)}
+    hits = [(idx, p) for idx, p in enumerate(periods) if p and p in qperiods]
     if not hits:
         return None
     longest = max(len(p) for _i, p in hits)
@@ -940,7 +950,7 @@ def _structure_segment(seg: list[str], q_words: set[str] = frozenset(), question
             "Header cells in order: " + " | ".join(cells),
         ]
     return (
-        preamble + lookup + columns_line + _matched_rows(rows, q_words)
+        preamble + lookup + columns_line + ([] if lookup else _matched_rows(rows, q_words))
         + [" | ".join([label] + values) for label, values in rows] + pending
     )
 
@@ -960,6 +970,15 @@ def _structure_table(lines: list[str], q_words: set[str] = frozenset(), question
 
 
 _TABLE_NOTE_PREFIXES = ("Columns:", "Matched row:", "Lookup result:", "Header cells in order:")
+
+
+def _has_table_rows(lines: list[str]) -> bool:
+    """True when ``lines`` hold at least one data row (a line with a figure that is
+    not the Columns / Lookup / header-list note)."""
+    return any(
+        _FIGURE_RE.search(line) and not line.startswith(("Columns:", "Lookup result:", "Header cells in order:"))
+        for line in lines
+    )
 
 
 def _table_labels(lines: list[str]) -> str:
@@ -1159,6 +1178,15 @@ def _sub_questions(question: str, ignore_words) -> list[str]:
     return queries
 
 
+_TABLE_EMBED_MAX_CHARS = 3200   # a table section (about 3,000 chars) is embedded whole
+
+
+def _block_embed_chars(block: _Block, cfg: ContextConfig) -> int:
+    """Characters of a block passed to the embedding model. The prose cap
+    (block_max_chars) does not apply to a table section."""
+    return max(cfg.block_max_chars, _TABLE_EMBED_MAX_CHARS) if block.kind == "table" else cfg.block_max_chars
+
+
 def _score_blocks(blocks: list[_Block], queries: list[str], cfg: ContextConfig, stats: dict) -> None:
     """Set each block's score and mark the best block for every query.
 
@@ -1178,7 +1206,7 @@ def _score_blocks(blocks: list[_Block], queries: list[str], cfg: ContextConfig, 
     sims = None
     if cfg.use_embeddings:
         try:
-            vectors = embed_texts(queries + [b.text[: cfg.block_max_chars] for b in blocks])
+            vectors = embed_texts(queries + [b.text[: _block_embed_chars(b, cfg)] for b in blocks])
             sims = np.clip(vectors[len(queries):] @ vectors[: len(queries)].T, 0.0, None)  # (blocks, queries)
             stats["embeddings"] = "on"
         except Exception as e:  # embedding is an enhancement, never a requirement
@@ -1307,6 +1335,16 @@ def _select_blocks(selected: list[dict], queries: list[str], cfg: ContextConfig,
             )
             return
         lines = _partial_lines(block.lines, space, cfg)
+        if block.kind == "table" and (
+            not _has_table_rows(lines) or (len(lines) == 1 and len(lines[0]) < len(block.lines[0]))
+        ):
+            # A table is shortened by whole rows only: never a heading without rows
+            # and never a line cut in the middle.
+            logger.warning(
+                "build_context: table block %d of thread %r does not fit even with rows dropped - "
+                "dropped whole (%s)", block.pos + 1, selected[t]["subject"], why,
+            )
+            return
         cost = sum(len(line) + 1 for line in lines) + gap
         chosen[t][block.pos] = lines
         used += cost
@@ -1333,7 +1371,8 @@ def _select_blocks(selected: list[dict], queries: list[str], cfg: ContextConfig,
     # overall budget), then the other tables the same way. A table section is cut
     # only when it cannot fit the overall budget at all; then only whole rows go.
     musts = [x for x in tier1 if x[1].must]
-    tables = [x for x in tier1 if not x[1].must]
+    # Tables of the two best-ranked emails come first, so their sections stay whole.
+    tables = sorted((x for x in tier1 if not x[1].must), key=lambda x: (x[0] >= 2, -x[1].score))
     too_big: list[tuple[int, _Block]] = []
     for group in (musts, tables):
         over_cap = [(t, b) for t, b in group if not try_add(t, b, True)]
@@ -1367,6 +1406,55 @@ def _select_blocks(selected: list[dict], queries: list[str], cfg: ContextConfig,
 
 
 # ── Step 4: render ────────────────────────────────────────────
+
+def _lookup_focus(selected: list[dict]) -> tuple[int, _Block] | None:
+    """(thread index, table section) of the best-ranked section that carries a
+    "Lookup result:" line, or None when no section does."""
+    for t, p in enumerate(selected):
+        for block in p["blocks"]:
+            if block.kind == "table" and any(line.startswith("Lookup result:") for line in block.lines):
+                return t, block
+    return None
+
+
+def _render_lookup_context(selected: list[dict], focus: tuple[int, _Block], cfg: ContextConfig, stats: dict) -> str:
+    """Context when the cell the question asks for was found in code: the lookup
+    line, the email's short intro and the one table section it came from (whole,
+    whatever the budget). Every other email is reduced to its subject line and
+    the email's other tables are left out."""
+    t, table = focus
+    lookup_line = next(line for line in table.lines if line.startswith("Lookup result:"))
+    section = [line for line in table.lines if not line.startswith(("Lookup result:", "Matched row:"))]
+
+    intro_block = next((b for b in selected[t]["blocks"] if b.kind != "table" and b.pos < table.pos), None)
+    intro: list[str] = []
+    if intro_block is not None:
+        size = 0
+        for line in intro_block.lines:  # whole lines, up to one prose block's length
+            if intro and size + len(line) + 1 > cfg.block_max_chars:
+                break
+            intro.append(line)
+            size += len(line) + 1
+
+    parts: list[str] = []
+    for i, p in enumerate(selected):
+        header = f"[Email {i + 1}: {p['subject']}]"
+        if i != t:
+            parts.append(header)
+            continue
+        texts = [lookup_line] + (["\n".join(intro)] if intro else []) + ["\n".join(section)]
+        parts.append(header + "\n" + _BLOCK_SEPARATOR.join(texts))
+
+    context = _BLOCK_SEPARATOR.join(parts)
+    kept = [{"pos": b.pos + 1, "kind": b.kind, "chars": b.chars, "tier": 1, "score": round(b.score, 3), "partial": False}
+            for b in ([intro_block] if intro_block is not None else []) + [table]]
+    stats.update(
+        mode="lookup", threads_used=len(selected), blocks_kept=len(kept), chars_sent=len(context),
+        kept_per_thread=[(p["rank"], p["subject"], len(kept) if i == t else 0, len(p["blocks"])) for i, p in enumerate(selected)],
+        chosen=[{"rank": p["rank"], "subject": p["subject"], "blocks": kept if i == t else []} for i, p in enumerate(selected)],
+    )
+    return context
+
 
 def build_context(
     threads: list[dict],
@@ -1420,6 +1508,10 @@ def build_context(
 
     stats["blocks_total"] = sum(len(p["blocks"]) for p in selected)
     stats["chars_cleaned"] = sum(b.chars for p in selected for b in p["blocks"])
+
+    focus = _lookup_focus(selected)
+    if focus is not None:
+        return _render_lookup_context(selected, focus, cfg, stats)
 
     headers = [f"[Email {t + 1}: {p['subject']}]" for t, p in enumerate(selected)]
     everything = len(_BLOCK_SEPARATOR) * (len(selected) - 1) + sum(

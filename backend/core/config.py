@@ -816,6 +816,13 @@ class Settings(BaseSettings):
         alias="CHATBOT_MAX_TOKENS",
         validation_alias="CHATBOT_MAX_TOKENS",
     )
+    # Max tokens the chatbot model may generate per answer (Ollama num_predict),
+    # on both the streaming and non-streaming paths.
+    chatbot_llm_num_predict: int = Field(
+        default=200,
+        alias="CHATBOT_LLM_NUM_PREDICT",
+        validation_alias="CHATBOT_LLM_NUM_PREDICT",
+    )
     chatbot_llm_num_ctx: int = Field(
         default=4096,
         alias="CHATBOT_LLM_NUM_CTX",
