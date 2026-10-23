@@ -541,11 +541,16 @@ class _Block:
 def _thread_body(chunk: dict) -> str:
     """Return ONLY the thread's own subject-free body text.
 
-    build_context uses each thread's ``subject`` and ``body`` only - never
-    thread_raw_content, messages_json, metadata_summary or any id field.
-    attachment_data is consulted separately and only for a thin body.
+    build_context uses each thread's ``subject`` and the longer of ``body`` and
+    ``raw_content`` (the full rendered email) - never messages_json,
+    metadata_summary or any id field. A matched message's ``body`` can hold only
+    the opening of an email whose table sits further down, so the fuller text
+    wins whenever it is longer. attachment_data is consulted separately and only
+    for a thin body.
     """
-    return str(chunk.get("body") or "").strip()
+    body = str(chunk.get("body") or "").strip()
+    raw = str(chunk.get("raw_content") or "").strip()
+    return raw if len(raw) > len(body) else body
 
 
 def _fix_encoding(text: str) -> str:
@@ -707,6 +712,98 @@ def _split_oversize(lines: list[str], cfg: ContextConfig) -> list[list[str]]:
     return chunks
 
 
+# A table cell that is a figure: 1,16,094 / -3,385 / (3,385) / 12.5% / a dash / NA.
+_TABLE_VALUE_RE = re.compile(
+    r"^\(?[-+–−]?\s?[₹$€£]?\s?\d[\d,]*(?:\.\d+)?\s?%?\)?$"
+    r"|^[-–—]+$|^(?:n/?a|nil)$",
+    re.IGNORECASE,
+)
+_TABLE_UNIT_PREFIXES = ("values in", "(values in", "figures in", "amounts in", "all figures", "all values")
+
+
+def _is_table_value(line: str) -> bool:
+    return _TABLE_VALUE_RE.match(line.strip()) is not None
+
+
+def _structure_segment(seg: list[str]) -> list[str] | None:
+    """Rebuild one flattened table (one cell per line) as "Columns: ..." plus
+    "label | v1 | v2" rows, or return None when the layout cannot be inferred
+    reliably. Cell text is copied exactly.
+
+    Leading heading lines (ending ":") and "Values in ..." lines stay in front.
+    A data row is a label line followed by figure lines; the text lines before
+    the first row's label are header cells. Values per row = the most common
+    count; header cells are grouped (consecutive cells joined) into that many
+    column names, with an optional leading header for the label column.
+    """
+    if any("|" in line for line in seg):
+        return None
+    i = 0
+    preamble: list[str] = []
+    while i < len(seg) and not _is_table_value(seg[i]) and (
+        seg[i].endswith(":") or seg[i].lower().startswith(_TABLE_UNIT_PREFIXES)
+    ):
+        preamble.append(seg[i])
+        i += 1
+
+    rows: list[tuple[str, list[str]]] = []
+    header: list[str] = []
+    pending: list[str] = []
+    cur: tuple[str, list[str]] | None = None
+    for line in seg[i:]:
+        if _is_table_value(line):
+            if cur is None:
+                if not pending:
+                    return None
+                if not rows:
+                    header, label = pending[:-1], pending[-1]
+                else:
+                    label = " ".join(pending)
+                cur = (label, [line])
+                rows.append(cur)
+                pending = []
+            else:
+                cur[1].append(line)
+        else:
+            cur = None
+            pending.append(line)
+    if not rows or not header:
+        return None
+
+    counts = [len(values) for _label, values in rows]
+    n = max(set(counts), key=counts.count)
+    if n < 2 or any(c != n for c in counts):
+        return None
+    if len(header) % n == 0:
+        label_head, cells = "Label", header
+    elif (len(header) - 1) % n == 0:
+        label_head, cells = header[0], header[1:]
+    else:
+        return None
+    k = len(cells) // n
+    names = [" ".join(cells[j * k:(j + 1) * k]) for j in range(n)]
+
+    out = preamble + ["Columns: " + " | ".join([label_head] + names)]
+    out += [" | ".join([label] + values) for label, values in rows]
+    return out + pending
+
+
+def _structure_table(lines: list[str]) -> list[str]:
+    """Apply _structure_segment to each section of a table block (a new section
+    starts at a heading line ending ":" that follows a figure), so sections are
+    never mixed. A section that cannot be inferred is left exactly as it was."""
+    segments: list[list[str]] = []
+    for idx, line in enumerate(lines):
+        starts = idx > 0 and line.endswith(":") and not _is_table_value(line) and _is_table_value(lines[idx - 1])
+        if not segments or starts:
+            segments.append([])
+        segments[-1].append(line)
+    out: list[str] = []
+    for seg in segments:
+        out.extend(_structure_segment(seg) or seg)
+    return out
+
+
 def _form_blocks(paragraphs: list[list[str]], cfg: ContextConfig) -> list[_Block]:
     """Group cleaned paragraphs into atomic blocks.
 
@@ -767,6 +864,10 @@ def _form_blocks(paragraphs: list[list[str]], cfg: ContextConfig) -> list[_Block
         if prev.lines and prev.lines[-1].endswith(":"):
             nxt.lines.insert(0, prev.lines.pop())
     blocks = [b for b in blocks if b.lines]
+
+    for block in blocks:
+        if block.kind == "table":
+            block.lines = _structure_table(block.lines)
 
     out: list[_Block] = []
     for block in blocks:
@@ -940,7 +1041,8 @@ def _line_units(lines: list[str]) -> list[list[int]]:
         unit = [i]
         i += 1
         if _FIGURE_RE.search(lines[unit[0]]) is None:
-            while i < len(lines) and _FIGURE_RE.search(lines[i]):
+            # " | " lines are complete rows (see _structure_table): each is its own unit
+            while i < len(lines) and _FIGURE_RE.search(lines[i]) and " | " not in lines[i]:
                 unit.append(i)
                 i += 1
         units.append(unit)
@@ -958,7 +1060,7 @@ def _partial_lines(lines: list[str], space: int, cfg: ContextConfig) -> list[str
     used = 0
     head_room = int(space * cfg.partial_head_share)
     for unit in units:
-        if keep and used + size(unit) > head_room:
+        if keep and used + size(unit) > head_room and not lines[unit[0]].startswith("Columns:"):
             break
         if not keep and size(unit) > space:
             return [lines[unit[0]][: max(1, space)]]
@@ -1042,7 +1144,10 @@ def _select_blocks(selected: list[dict], queries: list[str], cfg: ContextConfig,
     tier1 = by_score([x for x in flat if x[1].must]) + by_score(
         [x for x in flat if x[1].kind == "table" and not x[1].must]
     )
-    too_big = [(t, b) for t, b in tier1 if not try_add(t, b, True) and b.must]
+    # A block that missed its thread's share still goes in whole when the overall
+    # budget has room, so a table is cut only when it cannot fit at all.
+    over_cap = [(t, b) for t, b in tier1 if not try_add(t, b, True)]
+    too_big = [(t, b) for t, b in over_cap if not try_add(t, b, False) and b.must]
     for t, b in too_big:  # Step 3f, right away so lower tiers cannot use up the room
         keep_partial(t, b, min(usable - used, caps[t] - used_by[t]), "best match for the question")
 

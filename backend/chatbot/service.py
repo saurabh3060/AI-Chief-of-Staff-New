@@ -892,10 +892,9 @@ def generate_response_stream(
     # ── Step 2: Format context ───────────────────────────────
 
     t_context = time.perf_counter()
-    context = format_context(retrieved)
+    context, user_message, ctx_stats = _build_prompt_with_guard(retrieved, query)
     context_ms = (time.perf_counter() - t_context) * 1000
     timings["context_format"] = round(context_ms, 1)
-    ctx_stats: dict = {"threads_used": len(retrieved), "threads_in": len(retrieved), "context_chars": len(context)}
 
     # ── Send sources + retrieval timings immediately ─────────
     sources = _get_sources(retrieved)
@@ -926,11 +925,6 @@ def generate_response_stream(
 
     # ── Build the LLM prompt (mirrors answer_question) ───────
     model = settings.chatbot_llm_model
-    user_message = (
-        f"Context from meeting summaries and emails:\n{context}\n\n"
-        f"User question: {query}\n\n"
-        f"Answer the question based on the context above."
-    )
     prompt_tokens = len(user_message) // 4  # rough estimate for logging
 
     logger.info(
