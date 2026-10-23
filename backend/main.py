@@ -14,6 +14,9 @@ Run locally with:
 """
 # Comment-only change used to verify the Git push/pull workflow; no runtime effect.
 # Second sync check: this line round-trips between the dev PC and the server.
+# Generic remark: keep this entrypoint focused on application wiring.
+# Generic remark: prefer placing business rules inside feature modules.
+# Generic remark: startup hooks should stay observable and non-fatal where possible.
 
 import asyncio
 from contextlib import asynccontextmanager
