@@ -1,0 +1,504 @@
+"""
+chatbot/routes.py
+====================
+FastAPI routes for the RAG-based Chatbot agent.
+
+- `POST /chatbot/query` - answer a natural-language question using
+  RAG over indexed email content (preserves existing frontend API contract).
+- `POST /chatbot/query/stream` - same, but streamed as Server-Sent Events.
+- `POST /chatbot/index` - rebuild the vector index from Postgres.
+
+Retrieval backend: Weaviate hybrid vector + BM25 search via the shared
+Weaviate deployment (core.weaviate.client), using the chatbot's own
+dedicated collection (chatbot.weaviate_store). A local BM25 index is
+built from the same message set for re-ranking.
+
+Raw email rows are sourced from the shared PostgreSQL pool
+(chatbot.postgres_store) - there is no CSV/.eml fallback for the
+chatbot's data source.
+"""
+
+import asyncio
+import json
+import threading
+import time
+
+from fastapi import APIRouter, Depends, HTTPException, Query, Request
+from fastapi.responses import StreamingResponse
+
+from auth.dependencies import get_bearer_token
+from chatbot.bm25_index import build_bm25
+from chatbot.postgres_store import fetch_chat_history
+from chatbot.schema import (
+    ChatHistoryEntry,
+    ChatHistoryResponse,
+    ChatRequest,
+    ChatResponse,
+    HealthResponse,
+    SourceInfo,
+    TimingInfo,
+)
+from chatbot.redis_history import (
+    clear_history as clear_redis_history,
+    get_history as get_redis_history,
+    save_message,
+)
+from chatbot.redis_qa_cache import clear_qa_cache, get_cached_answer, set_cached_answer
+from chatbot.service import (
+    GREETING_RESPONSE,
+    STREAM_ERROR_MESSAGE,
+    answer_question,
+    generate_response_stream,
+    is_greeting,
+)
+from core.logging_config import get_agent_logger, sanitize_log_value
+from core.utils import sanitize_log_input
+
+logger = get_agent_logger("chatbot")
+
+router = APIRouter(prefix="/chatbot", tags=["chatbot"])
+
+# The only error text a document stream ever sends to the client (CWE-209):
+# whatever the pipeline reports, the details stay in the server log.
+_DOC_STREAM_ERROR_MESSAGE = "Document search failed. Please try again later."
+
+# Sentinel object used to detect when a sync generator is exhausted
+# inside asyncio.to_thread(next, gen, _DONE).
+_DONE = object()
+
+
+def _error_event(message: str) -> str:
+    """One SSE ``error`` event that carries only the given constant message."""
+    return f"data: {json.dumps({'type': 'error', 'content': message})}\n\n"
+
+
+def _scrub_error_event(chunk: str, message: str) -> str:
+    """Pass an SSE chunk through unchanged, except that an ``error`` event is
+    re-emitted with the fixed ``message`` so no upstream error text can reach the client."""
+    if chunk.startswith("data: "):
+        try:
+            payload = json.loads(chunk[6:].strip())
+        except (json.JSONDecodeError, ValueError):
+            return chunk
+        if isinstance(payload, dict) and payload.get("type") == "error":
+            return _error_event(message)
+    return chunk
+
+# ── Global chatbot state ──────────────────────────────────────
+# Weaviate mode uses "wv_client"; "bm25" is the local keyword index
+# built from the same message set for re-ranking.
+_chatbot_state = {
+    "bm25": None,
+    "wv_client": None,
+    "ready": False,
+    "request_count": 0,
+    "documents_available": False,
+    "active_cancel": None,          # threading.Event for the in-flight stream
+}
+
+
+def get_chatbot_state() -> dict:
+    """Return the module-level chatbot state dict."""
+    return _chatbot_state
+
+
+async def initialize_index():
+    """Initialise the chatbot's retrieval backend at startup.
+
+    Never raises - a failure here leaves the chatbot not-ready
+    (POST /chatbot/index can build it manually later) rather than
+    blocking the whole app's startup.
+    """
+    from core.config import get_settings
+    if get_settings().use_faiss:
+        await _initialize_faiss()
+    else:
+        await _initialize_weaviate()
+    _initialize_documents()
+
+
+async def _initialize_faiss():
+    """Build the FAISS index + local BM25 from PostgreSQL emails."""
+    from chatbot._vec_backend import vec_store
+    from chatbot.indexer import build_weaviate_index, weaviate_collection_count
+    from chatbot.retriever import fetch_all_chunks_weaviate
+
+    logger.info("Initializing chatbot retrieval backend: FAISS")
+    try:
+        vs = vec_store()
+        vs.ensure_collection()
+
+        count = vs.collection_count()
+        if count == 0:
+            logger.info("Chatbot FAISS index is empty - ingesting emails...")
+            t0 = time.perf_counter()
+            inserted = await build_weaviate_index(None)  # client=None for FAISS
+            elapsed = (time.perf_counter() - t0) * 1000
+            logger.info("Ingestion complete: %d objects in %.0fms", inserted, elapsed)
+        else:
+            logger.info("Chatbot FAISS index ready - %d objects found.", count)
+
+        count = vs.collection_count()
+        logger.info("Building local BM25 index from FAISS chunks...")
+        chunks = fetch_all_chunks_weaviate(None)
+        _chatbot_state["bm25"] = build_bm25(chunks)
+        logger.info("BM25 index ready - %d messages indexed.", len(chunks))
+
+        _chatbot_state["ready"] = True
+    except Exception as e:
+        logger.error("Chatbot FAISS startup failed: %s", e)
+        logger.info("Chatbot is NOT ready. Use POST /chatbot/index to retry manually.")
+
+
+async def _initialize_weaviate():
+    """Connect to Weaviate, ingest if the collection is empty, build BM25."""
+    from chatbot.indexer import build_weaviate_index, weaviate_collection_count
+    from chatbot.retriever import fetch_all_chunks_weaviate
+    from core.weaviate.client import get_client
+
+    logger.info("Initializing chatbot retrieval backend: Weaviate")
+    try:
+        client = get_client()
+        count = weaviate_collection_count(client)
+        wv_chunks = fetch_all_chunks_weaviate(client)
+
+        if len(wv_chunks) != count:
+            logger.warning(
+                "Weaviate aggregate count (%d) differs from fetched chunks (%d) "
+                "— likely eventual consistency lag after ingestion; proceeding with fetched data.",
+                count, len(wv_chunks),
+            )
+        _chatbot_state["bm25"] = build_bm25(wv_chunks)
+        logger.info("BM25 index ready - %d messages indexed.", len(wv_chunks))
+
+        _chatbot_state["ready"] = True
+    except Exception as e:
+        logger.error("Chatbot Weaviate startup failed: %s", e)
+        logger.info("Chatbot is NOT ready. Use POST /chatbot/index to retry manually.")
+
+
+def _initialize_documents():
+    """Check if the MIS document Q&A module is functional (library.db exists and readable).
+
+    Never raises - a failure here leaves document mode unavailable but
+    email mode still works normally.
+    """
+    # The real availability check (PostgreSQL pool reachable) runs on first query, since
+    # documents.service.is_available() is now async and this function is called from the
+    # sync startup path. Flip to True optimistically; a failing query returns 503 cleanly.
+    _chatbot_state["documents_available"] = True
+    logger.info("Document Q&A module marked available (verified lazily on first query).")
+
+
+@router.post("/query", response_model=None)
+async def query(
+    request: ChatRequest,
+    bearer_token: str | None = Depends(get_bearer_token),
+):
+    """
+    Answer a user's question using RAG.
+
+    When `mode` is "email" (default), uses the Weaviate email pipeline.
+    When `mode` is "document", uses the MIS document Q&A pipeline and
+    returns a plain JSON ChatResponse (use POST /chatbot/query/stream
+    instead for an SSE response).
+
+    Simple greetings ("hi", "hello", etc.) are answered instantly with
+    a canned response, regardless of mode - no LLM call needed.
+    """
+    if is_greeting(message):
+        _chatbot_state["request_count"] += 1
+        return ChatResponse(
+            answer=GREETING_RESPONSE,
+            sources=[],
+            is_greeting=True,
+            latency_ms=0.0,
+            timings=TimingInfo(total=0.0),
+            follow_up_questions=[],
+            tool_used=None,
+        )
+
+    if request.mode == "document":
+        if not _chatbot_state["documents_available"]:
+            raise HTTPException(
+                status_code=503,
+                detail="Document Q&A module is not available.",
+            )
+        _chatbot_state["request_count"] += 1
+        from documents.service import answer_once
+        message = request.message.strip()
+        if not message:
+            raise HTTPException(status_code=400, detail="Message cannot be empty.")
+
+        result = await answer_once(message)
+
+        return ChatResponse(
+            answer=result["answer"],
+            sources=[SourceInfo(**s) for s in result["sources"]],
+            is_greeting=False,
+            latency_ms=result["timings"]["total"],
+            timings=TimingInfo(total=result["timings"]["total"]),
+            follow_up_questions=[],
+            tool_used="documents",
+        )
+
+
+@router.post("/query/stream")
+async def query_stream(
+    request: Request,
+    body: ChatRequest,
+    bearer_token: str | None = Depends(get_bearer_token),
+):
+    """
+    Stream a chatbot response as Server-Sent Events (SSE).
+
+    Same input as /query but returns an event stream with types:
+      - step:     loading/progress indicators
+      - sources:  email source citations (or document source citations)
+      - token:    individual response tokens
+      - greeting: instant greeting response
+      - done:     final timing summary
+      - error:    error message
+
+    When `mode` is "document", streams answers from the MIS document
+    Q&A pipeline instead of the email pipeline.
+
+    Cancellation: when the client disconnects (e.g. user clicks Stop),
+    the Ollama HTTP connection is closed immediately so the server stops
+    processing the cancelled request and frees resources for the next one.
+    """
+    message = body.message.strip()
+    if not message:
+        raise HTTPException(status_code=400, detail="Message cannot be empty.")
+
+    _chatbot_state["request_count"] += 1
+
+    # Simple greetings ("hi", "hello", etc.) get an instant canned
+    # response regardless of mode - no LLM call needed.
+    if is_greeting(message):
+        import json as _json
+
+        def _greeting_stream():
+            yield f"data: {_json.dumps({'type': 'greeting', 'content': GREETING_RESPONSE})}\n\n"
+            yield f"data: {_json.dumps({'type': 'done', 'timings': {'total': 0.0}, 'follow_up_questions': []})}\n\n"
+
+        return StreamingResponse(
+            _greeting_stream(),
+            media_type="text/event-stream",
+            headers={
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "X-Accel-Buffering": "no",
+            },
+        )
+
+    if body.mode == "document":
+        if not _chatbot_state["documents_available"]:
+            raise HTTPException(
+                status_code=503,
+                detail="Document Q&A module is not available.",
+            )
+
+        item_message = sanitize_log_value(message)
+        sanitized_item_id = sanitize_log_input(item_message)
+        logger.info("New document streaming query: '%s'", sanitized_item_id)
+
+        from documents.service import stream_answer
+
+        # ── Cancel any in-flight document run for this session ──
+        old_cancel = _chatbot_state.get("active_cancel")
+        if old_cancel is not None:
+            old_cancel.set()
+            logger.info("Cancelled previous document run (new question arrived)")
+
+        doc_cancel_event = threading.Event()
+        _chatbot_state["active_cancel"] = doc_cancel_event
+
+        async def _cancellable_doc_stream():
+            try:
+                async for chunk in stream_answer(message, cancel_event=doc_cancel_event):
+                    yield chunk
+            except (asyncio.CancelledError, GeneratorExit):
+                logger.info("Client disconnected during document streaming, cancelling")
+            finally:
+                doc_cancel_event.set()
+                _chatbot_state["active_cancel"] = None
+
+        return StreamingResponse(
+            _cancellable_doc_stream(),
+            media_type="text/event-stream",
+            headers={
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "X-Accel-Buffering": "no",
+            },
+        )
+
+    # Default: email mode
+    if not _chatbot_state["ready"]:
+        raise HTTPException(
+            status_code=503,
+            detail="Index not ready. Please call POST /chatbot/index first.",
+        )
+
+    item_message = sanitize_log_value(message)
+    sanitized_item_id = sanitize_log_input(item_message)
+    logger.info("New streaming query: '%s'", sanitized_item_id)
+
+    # ── Cancellable email streaming wrapper ───────────────────
+    # Wraps the sync generator in an async generator so we can detect
+    # client disconnect and abort the Ollama HTTP connection immediately.
+    cancel_event = threading.Event()
+    _chatbot_state["active_cancel"] = cancel_event
+    gen = generate_response_stream(
+        message,
+        bm25_index=_chatbot_state["bm25"],
+        wv_client=_chatbot_state.get("wv_client"),
+        cancel_event=cancel_event,
+    )
+    async def _cancellable_email_stream():
+        try:
+            while True:
+                # Run sync next() in a thread so we don't block the event loop
+                chunk = await asyncio.to_thread(next, gen, _DONE)
+                if chunk is _DONE:
+                    break
+                yield chunk
+        except (asyncio.CancelledError, GeneratorExit):
+            logger.info("Client disconnected during email streaming, cancelling Ollama")
+        finally:
+            # Setting cancel_event triggers the watcher thread inside
+            # generate_response_stream, which closes the httpx Response
+            # and breaks the worker out of its blocked Ollama read.
+            cancel_event.set()
+            _chatbot_state["active_cancel"] = None
+            # gen.close() is unreliable here (generator is being iterated
+            # by asyncio.to_thread in another thread). The cancel_event is
+            # the reliable mechanism — the generator checks it and exits on
+            # its own after the worker puts the sentinel in the queue.
+            try:
+                gen.close()
+            except Exception:
+                pass
+
+    return StreamingResponse(
+        _cancellable_email_stream(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "X-Accel-Buffering": "no",
+        },
+    )
+
+
+@router.post("/cancel")
+async def cancel_stream():
+    """Cancel the currently running streaming query.
+
+    Called by the frontend Stop button. Sets the active cancel event
+    which triggers the cancel watcher thread (email mode) to close
+    the Ollama HTTP connection and send a preempt request.
+
+    For document mode (where there's no cancel watcher thread),
+    we also send the preempt request directly from here.
+    """
+    ev = _chatbot_state.get("active_cancel")
+    if ev is not None and not ev.is_set():
+        ev.set()
+        logger.info("Cancel endpoint: cancelled active streaming request")
+
+        # Also send a preempt from here for document mode (which has
+        # no cancel watcher thread).  For email mode this is redundant
+        # (the watcher does it too) but harmless.
+        import threading as _threading
+
+        _threading.Thread(target=_send_preempt, daemon=True).start()
+        return {"cancelled": True}
+    return {"cancelled": False}
+
+
+
+@router.delete("/history")
+async def clear_chat_history():
+    """
+    Delete the persisted chat history (Redis `chatbot:history`) **and**
+    the QA answer cache (`chatbot:qa_cache:*`).
+
+    Used by the chat panel's refresh button. Clears both stores so the
+    next question is answered fresh (no cached response reuse). Returns
+    503 if Redis is configured but the history delete failed, so the UI
+    can keep the chat.
+    """
+    if not clear_redis_history():
+        raise HTTPException(status_code=503, detail="Could not clear chat history")
+    return {"cleared": True}
+
+
+@router.post("/index")
+async def rebuild_index():
+    """Rebuild the chatbot's Weaviate retrieval index from Postgres."""
+    logger.info("Index rebuild requested...")
+    t0 = time.perf_counter()
+
+    try:
+        from chatbot.indexer import build_weaviate_index, weaviate_collection_count
+        from chatbot.retriever import fetch_all_chunks_weaviate
+        from core.weaviate.client import get_client
+
+        client = _chatbot_state["wv_client"] or get_client()
+        _chatbot_state["wv_client"] = client
+        _chatbot_state["ready"] = False
+
+        inserted = await build_weaviate_index(client, recreate=True)
+        clear_qa_cache()  # index changed → previously cached answers may be stale
+
+        wv_chunks = fetch_all_chunks_weaviate(client)
+        if len(wv_chunks) != inserted:
+            raise RuntimeError(
+                f"Message rebuild validation failed: {inserted} inserted, {len(wv_chunks)} usable"
+            )
+        _chatbot_state["bm25"] = build_bm25(wv_chunks)
+        _chatbot_state["ready"] = True
+
+        total = weaviate_collection_count(client)
+        build_ms = (time.perf_counter() - t0) * 1000
+        logger.info("Weaviate message index rebuilt in %.0fms: %d objects", build_ms, total)
+        return {
+            "message": "Weaviate chatbot index rebuilt successfully from Postgres.",
+            "total_chunks": total,
+            "total_vectors": total,
+            "build_time_ms": round(build_ms, 1),
+        }
+    except Exception as e:
+        _chatbot_state["ready"] = False
+        # Log the full error server-side; return a generic message to the
+        # client so internal details / stack traces are not exposed (CWE-209).
+        logger.error("Index rebuild failed: %s", e)
+        raise HTTPException(status_code=500, detail="Failed to build index.")
+
+    qa_deleted = clear_qa_cache()
+    logger.info("Refresh: cleared history + %d QA cache entries.", qa_deleted)
+    return {"cleared": True, "qa_cache_deleted": qa_deleted}
+
+@router.get("/health", response_model=HealthResponse)
+async def health_check() -> HealthResponse:
+    """Check if the chatbot backend and index are ready.
+
+    Reports Weaviate collection object count and total requests served,
+    matching the standalone chatbot backend's /health contract.
+    """
+    from chatbot.indexer import weaviate_collection_count
+
+    client = _chatbot_state["wv_client"]
+    count = weaviate_collection_count(client) if client else 0
+
+    return HealthResponse(
+        status="ok" if _chatbot_state["ready"] else "not_ready",
+        index_ready=_chatbot_state["ready"],
+        total_chunks=count,
+        total_vectors=count,
+        requests_served=_chatbot_state["request_count"],
+    )
+
+

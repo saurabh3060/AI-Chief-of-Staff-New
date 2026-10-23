@@ -1,0 +1,3166 @@
+
+================================================================================
+  DOCUMENT: 105b1f6f600e53e7
+================================================================================
+
+--- Page 1 ---
+  Heading: Summary
+  Image:   data\docs\Credit Portfolio Overview__105b1f6f600e53e7\pages\page_001.png
+  Text:
+    Summary
+    Branch wise Retail Assets
+    Overall Advances Net Advances Net Advances Insights Credit Portfolio Overview Retail Disbursement MIS
+    Advances
+    Month
+    Jul-26
+    Total Outstanding SMA Portfolio NPA Portfolio
+    SEGMENT No of Accounts Amt( in Cr ) No of Accounts Amt( in Cr ) No of Accounts Amt( in Cr )
+    Wholesale 14,280 ₹ 52,230.94 Cr 123 ₹ 307.50 Cr 30 ₹ 286.61 Cr
+    Retail 7,461,791 ₹ 67,042.37 Cr 239,858 ₹ 2,013.90 Cr 501,074 ₹ 1,437.24 Cr
+    Grand Total 7,476,071 ₹ 119,273.32 Cr 239,981 ₹ 2,321.39 Cr 501,104 ₹ 1,723.84 Cr
+    Wholesale
+    Total Outstanding SMA Portfolio NPA Portfolio
+    SEGMENT SUB_CATEGORY No of Accounts Amt( in Cr ) No of Accounts Amt( in Cr ) No of Accounts Amt( in Cr )
+    Wholesale C&IB Agri 1
+    CB (incl Agri & NE) 8,693 ₹ 14,955.87 Cr 64 ₹ 86.09 Cr 12 ₹ 20.54 Cr
+    CB- BBG 164 ₹ 137.84 Cr 5 ₹ 60.48 Cr
+    Corporate Banking (incl G&J) 4,157 ₹ 22,103.54 Cr 10 ₹ 3.73 Cr 9 ₹ 256.41 Cr
+    FI 481 ₹ 8,755.24 Cr
+    FIGU- BBB 2 ₹ 3.00 Cr
+    Govt. Banking 15 ₹ 369.00 Cr
+    IFI 178 ₹ 4,010.12 Cr
+    MNC 24 ₹ 189.60 Cr
+    Supply Chain 560 ₹ 1,706.73 Cr 44 ₹ 157.20 Cr 9 ₹ 9.66 Cr
+    Retail - Others 5 ₹ 0.00 Cr
+    Grand Total 14,280 ₹ 52,230.94 Cr 123 ₹ 307.50 Cr 30 ₹ 286.61 Cr
+    Retail
+    Total Outstanding SMA Portfolio NPA Portfolio
+    SEGMENT SUB_CATEGORY No of Accounts Amt( in Cr ) No of Accounts Amt( in Cr ) No of Accounts Amt( in Cr )
+    Retail Affordable Housing 17,882 ₹ 2,585.66 Cr 596 ₹ 100.53 Cr 167 ₹ 28.83 Cr
+    Prime Housing 8,292 ₹ 4,300.78 Cr 132 ₹ 60.57 Cr 33 ₹ 24.46 Cr
+    Housing Loan CL 4,353 ₹ 1,232.04 Cr 207 ₹ 61.88 Cr 67 ₹ 15.94 Cr
+    Housing Loan DA 7,217 ₹ 954.73 Cr 197 ₹ 25.96 Cr 331 ₹ 39.92 Cr
+    Small LAP 4,708 ₹ 1,023.28 Cr 137 ₹ 25.95 Cr 21 ₹ 4.51 Cr
+    Prime LAP 7,757 ₹ 10,517.40 Cr 318 ₹ 251.67 Cr 136 ₹ 92.21 Cr
+    LAP - CL 1,338 ₹ 470.17 Cr 72 ₹ 24.27 Cr 12 ₹ 4.58 Cr
+    LAP - DA 5,040 ₹ 1,981.52 Cr 209 ₹ 63.29 Cr 171 ₹ 51.07 Cr
+    BIL/SBL 437 ₹ 38.47 Cr 20 ₹ 0.93 Cr 85 ₹ 1.10 Cr
+    Gold Loan - BBB 30,995 ₹ 1,429.34 Cr 3,926 ₹ 155.71 Cr 348 ₹ 10.02 Cr
+    Gold Loan DA/CL 129,665 ₹ 2,819.96 Cr 5,937 ₹ 111.73 Cr 763 ₹ 12.01 Cr
+    Education Loan 83 ₹ 34.99 Cr
+    Two Wheeler 76,304 ₹ 388.49 Cr 6,426 ₹ 29.00 Cr 5,441 ₹ 28.60 Cr
+    Used Car Loans 1,939 ₹ 103.17 Cr 100 ₹ 4.47 Cr 93 ₹ 5.34 Cr
+    LAS 8 ₹ 0.26 Cr
+    Retail - Others 5,444 ₹ 1,488.86 Cr 104 ₹ 4.28 Cr 19 ₹ 0.65 Cr
+    Credit Card 4,304,393 ₹ 19,324.58 Cr 171,499 ₹ 833.42 Cr 175,978 ₹ 526.32 Cr
+    Micro Banking 2,693,180 ₹ 8,516.74 Cr 46,962 ₹ 113.25 Cr 307,339 ₹ 271.88 Cr
+    MSME 3,050 ₹ 48.62 Cr 156 ₹ 6.34 Cr 2,420 ₹ 25.19 Cr
+    Retail Agri 35,707 ₹ 1,763.42 Cr 369 ₹ 11.24 Cr 5,515 ₹ 165.10 Cr
+    RVF 115,277 ₹ 3,464.44 Cr 2,358 ₹ 52.31 Cr 2,071 ₹ 59.33 Cr
+    WCF/BBG 2,761 ₹ 3,055.28 Cr 65 ₹ 75.95 Cr 23 ₹ 69.75 Cr
+    Null 14 ₹ 985.72 Cr
+    Agri-BBB 9 ₹ 4.69 Cr
+    ODFD 5,938 ₹ 509.74 Cr 68 ₹ 1.13 Cr 41 ₹ 0.44 Cr
+    Grand Total 7,461,791 ₹ 67,042.37 Cr 239,858 ₹ 2,013.90 Cr 501,074 ₹ 1,437.24 Cr
+
+================================================================================
+  DOCUMENT: 13a69bb329bf5056
+================================================================================
+
+--- Page 1 ---
+  Heading: BBRL Balancesheet (MAB)
+  Image:   data\docs\Overall & Segment wise MAB__13a69bb329bf5056\pages\page_001.png
+  Text:
+    Data available till:
+    BBRL Balancesheet (MAB)
+    Home
+    8/29/2026
+    BBRL MEB Balance Sheet - Segment BBRL MEB Balance Sheet - Region, BBRL MEB Balance Sheet - TL & RM BBRL MEB Balance Sheet - Group BBRL MEB Balance Sheet - Customer BBRL MEB Balance Sheet - Account
+    Level Zone, Cluster, Branch Level Level Level Level
+    BBRL MAB Balance Sheet - Segment BBRL MAB Balance Sheet - Region, BBRL MAB Balance Sheet - TL & RM
+    Portfolio First Winback Summary
+    Level Zone, Cluster, Branch Level
+    BBRL AUM - Region, Zone, Cluster,
+    BBRL AUM - Segment Level BBRL AUM - TL & RM Level Trend Book Growth Analysis MD's Liability View
+    Branch
+    Balance Date Selection Customer Segment Rm Segment Zone Cluster Branch RM Name TL Name Product Insignia 1 Cr Plus Flag
+    8/29/2026 All All All All All All All All All
+    Balancesheet Flag BBB Flag Gift City Flag CO OP Bank Flag Diplomat Flag FIGU Flag Salary Flag TASC Flag Upgrade Flag NR Flag
+    All BBRL All All All All All All All All
+    NTB/ERV Flag (Poi.. Connected/Startup .. Senior Citizen Flag Abacus Flag(New Sc..Abacus Flag(Old Sch..NTB New Logic Individual Cust Flag ENBD Journey Flag Leveraged Accounts
+    All All All All All All All All All
+    MAB
+    CM Vs M-1
+    _CASA / CM MAB Indi CM Vs LM MABCM Vs LM MABCM Vs LM MAB CM Vs M-1 CM Vs M-1 CM Vs LY MABCM Vs LY MABCM Vs LY MAB
+    _Product CM MAB CM MAB <3 Cr MAB Indi <3 Cr
+    Deposits <3 Cr Diff <3 Cr Diff Indi <3 Cr Diff MAB Diff MAB <3 Cr Diff Diff <3 Cr Diff Indi <3 Cr Diff
+    Diff
+    CASA CA 6,038.91 3,833.62 249.42 (72.18) (1.83) (2.42) (39.68) 100.15 (0.63) (221.48) (0.79) 6.81
+    SA 19,480.57 15,391.35 14,300.75 456.88 77.59 75.10 224.55 393.84 356.15 675.43 272.81 269.65
+    Total 25,519.48 19,224.97 14,550.17 384.70 75.76 72.68 184.87 494.00 355.52 453.95 272.02 276.46
+    TD Deposits 89,901.29 44,854.51 29,867.57 20,186.72 901.88 344.19 27,858.44 1,665.79 747.89 31,897.74 4,771.55 2,645.73
+    ODFD 27.87 24.16 8.74 (3.58) 4.72 0.34 6.55 2.85 (0.81) (1.96) (5.67) (0.35)
+    Total 89,929.16 44,878.68 29,876.30 20,183.15 906.60 344.53 27,865.00 1,668.64 747.08 31,895.78 4,765.89 2,645.38
+    Grand Total 115,448.64 64,103.64 44,426.48 20,567.85 982.36 417.21 28,049.87 2,162.64 1,102.60 32,349.73 5,037.91 2,921.84
+    Customer Segment (Bank Level)
+    Customer _CASA / CM MAB Indi CM Vs LM MABCM Vs LM MABCM Vs LM MAB CM Vs M-1 CM Vs M-1 CM Vs M-1 MAB CM Vs LY MABCM Vs LY MABCM Vs LY MAB
+    CM MAB CM MAB <3 Cr
+    Segment Deposits <3 Cr Diff <3 Cr Diff Indi <3 Cr Diff MAB Diff MAB <3 Cr DiffIndi <3 Cr Diff Diff <3 Cr Diff Indi <3 Cr Diff
+    INSIGNIA CASA 14,924.43 10,230.92 7,800.87 260.01 (31.57) (25.97) 242.92 118.92 82.70 397.43 (103.72) (104.98)
+    TD 53,845.06 25,144.63 17,077.59 19,011.30 550.09 151.85 26,910.99 807.69 284.87 28,979.06 2,487.81 1,303.30
+    Total 68,769.49 35,375.55 24,878.46 19,271.31 518.52 125.88 27,153.91 926.61 367.57 29,376.49 2,384.09 1,198.32
+    SIGNATURE CASA 3,627.04 3,225.72 2,656.42 47.05 (22.40) (15.50) 178.49 45.02 39.92 200.77 60.34 80.32
+    TD 7,694.87 6,491.73 5,165.84 719.80 72.57 47.25 1,204.28 197.65 123.58 1,702.66 671.48 492.65
+    Total 11,321.92 9,717.45 7,822.27 766.84 50.17 31.75 1,382.77 242.67 163.50 1,903.43 731.82 572.97
+    ASPIRE CASA 2,113.20 1,945.75 1,382.61 22.20 14.70 16.35 (14.19) 37.20 32.12 104.41 37.91 52.10
+    TD 6,651.08 5,239.76 4,199.26 599.98 15.39 2.75 793.85 102.82 59.29 1,183.57 404.10 221.83
+    Total 8,764.28 7,185.51 5,581.86 622.18 30.09 19.10 779.66 140.02 91.41 1,287.98 442.01 273.92
+    MASS CASA 4,854.81 3,822.58 2,710.27 55.45 115.03 97.80 (222.35) 292.85 200.78 (248.66) 277.49 249.03
+    TD 21,738.15 8,002.56 3,433.62 (147.93) 268.55 142.68 (1,044.12) 560.49 279.35 30.49 1,202.50 627.60
+    Total 26,592.96 11,825.14 6,143.89 (92.48) 383.58 240.48 (1,266.47) 853.34 480.13 (218.17) 1,479.99 876.63
+    Grand Total 115,448.64 64,103.64 44,426.48 20,567.85 982.36 417.21 28,049.87 2,162.64 1,102.60 32,349.73 5,037.91 2,921.84
+    Segment Managed Book (As Per Balance Sheet Logic)
+    CM Vs LM CM Vs LM CM Vs M-1 CM Vs M-1
+    Rm SegmentCASA / CM MAB Indi CM Vs LM CM Vs M-1 CM Vs LY MABCM Vs LY MABCM Vs LY MAB
+    CM MAB CM MAB <3 Cr MAB <3 Cr MAB Indi <3 MAB <3 Cr MAB Indi <3
+    . Deposits <3 Cr MAB Diff MAB Diff Diff <3 Cr Diff Indi <3 Cr Diff
+    Diff Cr Diff Diff Cr Diff
+    INSIGNIA CASA 12,398.02 8,840.67 6,877.22 290.92 (32.94) (7.75) 554.59 89.68 92.14 427.87 (165.33) (99.40)
+    TD 48,539.41 22,858.81 15,370.74 18,065.25 427.53 98.43 24,161.85 656.43 211.38 25,875.44 2,062.10 1,030.75
+    Total 60,937.43 31,699.48 22,247.97 18,356.17 394.58 90.68 24,716.44 746.11 303.52 26,303.30 1,896.78 931.35
+    SIGNATURE CASA 2,835.95 2,581.52 2,106.99 (9.14) (8.06) (7.55) 80.19 48.76 38.12 102.21 60.54 72.77
+    TD 7,189.69 5,695.50 4,467.60 869.70 89.92 73.53 1,507.27 224.51 154.94 2,038.23 722.48 539.69
+    Total 10,025.65 8,277.01 6,574.58 860.55 81.86 65.98 1,587.46 273.27 193.06 2,140.44 783.02 612.46
+    ASPIRE CASA 2,165.16 2,039.05 1,549.33 58.38 27.42 26.65 109.27 64.70 53.70 148.76 74.85 70.17
+    TD 5,728.17 4,960.20 4,499.35 656.55 26.15 16.13 864.45 129.06 85.15 1,140.79 380.89 289.65
+    Total 7,893.34 6,999.25 6,048.68 714.93 53.57 42.78 973.72 193.76 138.85 1,289.55 455.74 359.82
+    MASS CASA 8,120.34 5,763.73 4,016.63 44.54 89.35 61.33 (559.18) 290.86 171.56 (224.89) 301.96 232.92
+    TD 28,471.88 11,364.17 5,538.61 591.66 363.00 156.44 1,331.42 658.64 295.62 2,841.32 1,600.42 785.29
+    Total 36,592.22 17,127.90 9,555.25 636.20 452.35 217.77 772.24 949.50 467.18 2,616.43 1,902.38 1,018.21
+    Grand Total 115,448.64 64,103.64 44,426.48 20,567.85 982.36 417.21 28,049.87 2,162.64 1,102.60 32,349.73 5,037.91 2,921.84
+    Derived Segment (Bank Level)
+    Derived CM Vs LM CM Vs LM CM Vs M-1 CM Vs M-1
+    CASA / CM MAB Indi CM Vs LM CM Vs M-1 CM Vs LY MABCM Vs LY MABCM Vs LY MAB
+    Customer CM MAB CM MAB <3 Cr MAB <3 Cr MAB Indi <3 MAB <3 Cr MAB Indi <3
+    Deposits <3 Cr MAB Diff MAB Diff Diff <3 Cr Diff Indi <3 Cr Diff
+    Segments Diff Cr Diff Diff Cr Diff
+    INSIGNIA CASA 13,689.70 9,714.38 7,587.18 239.76 (39.07) (15.41) 170.87 89.06 86.82 313.24 (162.13) (112.92)
+    TD 53,013.16 24,821.02 16,939.59 18,957.52 491.71 153.74 26,850.81 748.70 284.23 28,741.88 2,418.83 1,298.89
+    Total 66,702.86 34,535.40 24,526.77 19,197.28 452.64 138.34 27,021.68 837.75 371.04 29,055.12 2,256.70 1,185.98
+    SIGNATURE CASA 3,540.56 3,156.26 2,593.42 39.83 (24.29) (15.53) 168.74 41.43 37.86 192.30 47.05 68.57
+    TD 7,369.59 6,334.66 5,096.81 722.58 69.55 46.40 1,203.33 191.65 121.90 1,684.08 672.34 481.05
+    Total 10,910.15 9,490.91 7,690.23 762.42 45.26 30.88 1,372.07 233.08 159.77 1,876.39 719.39 549.61
+    ASPIRE CASA 2,001.59 1,847.84 1,294.46 25.03 17.72 18.96 (15.76) 39.88 33.21 84.49 24.69 35.64
+    TD 5,736.90 4,888.04 4,019.38 608.63 15.91 1.49 809.28 111.52 53.19 1,168.17 384.33 203.79
+    Total 7,738.49 6,735.89 5,313.84 633.66 33.63 20.45 793.52 151.40 86.40 1,252.66 409.01 239.43
+    Affluence CASA 1,039.76 1,016.01 1,014.01 (6.07) (8.80) (8.73) 3.22 0.24 1.22 200.30 185.73 184.44
+    TD 1,390.97 1,344.45 1,343.14 63.63 20.16 20.31 94.17 50.67 50.88 249.05 202.54 203.19
+    Total 2,430.73 2,360.47 2,357.15 57.56 11.36 11.58 97.39 50.91 52.10 449.36 388.27 387.63
+    CO-OP Bank CASA 84.19 57.25 0.00 (37.26) 3.14 0.00 (56.31) 1.16 0.00 (193.30) (3.50) 0.00
+    TD 13,353.40 2,134.88 0.00 (754.84) (12.32) 0.00 (1,490.12) (44.38) 0.00 (1,233.76) (147.81) 0.00
+    Total 13,437.58 2,192.14 0.00 (792.10) (9.18) 0.00 (1,546.43) (43.22) 0.00 (1,427.07) (151.30) 0.00
+    Diplomat CASA 1,196.13 462.87 159.65 10.06 12.68 (5.17) 62.33 31.72 (5.93) 95.52 57.31 2.69
+    TD 525.77 120.50 23.78 56.77 61.08 (2.79) 87.00 64.76 (1.41) 194.16 62.93 (2.51)
+    Total 1,721.90 583.37 183.43 66.83 73.76 (7.96) 149.33 96.48 (7.34) 289.68 120.24 0.19
+    FIGU CASA 615.53 118.91 0.51 19.76 (6.82) (0.03) (354.86) 30.13 0.03 (420.24) 7.43 (0.04)
+    TD 2,017.97 327.21 0.17 (314.52) (39.82) 0.00 (765.92) (44.16) 0.00 (867.41) (27.94) 0.00
+    Total 2,633.49 446.12 0.68 (294.76) (46.65) (0.03) (1,120.78) (14.03) 0.03 (1,287.65) (20.51) (0.04)
+    MASS CASA 3,352.02 2,851.45 1,900.94 93.58 121.20 98.59 206.66 260.37 202.32 181.63 115.44 98.08
+    TD 6,521.41 4,907.90 2,453.44 843.38 300.34 125.37 1,076.45 589.88 238.29 1,959.61 1,200.66 460.97
+    Total 9,873.42 7,759.35 4,354.38 936.96 421.55 223.96 1,283.11 850.25 440.61 2,141.25 1,316.10 559.04
+    Grand Total 115,448.64 64,103.64 44,426.48 20,567.85 982.36 417.21 28,049.87 2,162.64 1,102.60 32,349.73 5,037.91 2,921.84
+    BAU MAB
+    CM Vs LM CM Vs LM CM Vs M-1 CM Vs M-1
+    BAU CASA / CM MAB Indi CM Vs LM CM Vs M-1 CM Vs LY MABCM Vs LY MABCM Vs LY MAB
+    CM MAB CM MAB <3 Cr MAB <3 Cr MAB Indi <3 MAB <3 Cr MAB Indi <3
+    Indentifier Deposits <3 Cr MAB Diff MAB Diff Diff <3 Cr Diff Indi <3 Cr Diff
+    Diff Cr Diff Diff Cr Diff
+    SALARY CASA 920.97 878.69 878.66 32.28 11.89 11.89 43.47 23.66 23.66 80.55 55.62 55.62
+    TD 564.36 546.05 546.01 1.85 1.69 1.69 4.04 3.75 3.75 55.93 37.62 37.62
+    Total 1,485.33 1,424.74 1,424.67 34.13 13.58 13.57 47.51 27.41 27.41 136.48 93.24 93.24
+    NR CASA 3,437.35 2,266.15 2,266.12 483.81 110.16 110.16 774.50 207.00 207.00 935.54 206.91 207.11
+    TD 34,753.22 5,654.41 5,654.21 20,713.20 93.85 93.85 28,901.59 146.96 146.95 29,155.23 352.72 352.52
+    Total 38,190.58 7,920.56 7,920.33 21,197.02 204.00 204.00 29,676.09 353.95 353.95 30,090.77 559.63 559.62
+    TASC CASA 2,191.30 860.38 0.00 (65.00) (9.35) 0.00 (578.53) 28.26 0.00 (471.10) (85.19) 0.00
+    TD 5,720.49 3,596.56 0.00 39.01 60.58 0.00 (135.52) 180.61 0.00 602.19 471.08 0.00
+    Total 7,911.79 4,456.95 0.00 (25.99) 51.23 0.00 (714.05) 208.87 0.00 131.08 385.89 0.00
+    CO_OP_BANKCASA 84.19 57.25 0.00 (37.26) 3.14 0.00 (56.31) 1.16 0.00 (193.30) (3.50) 0.00
+    TD 13,353.40 2,134.88 0.00 (754.84) (12.32) 0.00 (1,490.12) (44.38) 0.00 (1,233.76) (147.81) 0.00
+    Total 13,437.58 2,192.14 0.00 (792.10) (9.18) 0.00 (1,546.43) (43.22) 0.00 (1,427.07) (151.30) 0.00
+    GOV BANK CASA 1.17 1.17 0.51 (0.33) (0.33) (0.03) (2.03) (2.03) 0.03 (33.66) (2.18) (0.05)
+    TD 549.03 52.31 0.17 (228.45) (3.32) 0.00 (402.67) (7.94) 0.00 (592.16) (1.04) 0.00
+    Total 550.20 53.48 0.68 (228.77) (3.65) (0.03) (404.70) (9.98) 0.03 (625.82) (3.22) (0.04)
+    DIPLOMAT CASA 1,193.41 460.14 159.65 10.00 12.61 (5.17) 62.31 31.71 (5.93) 95.47 57.26 2.69
+    TD 494.01 98.10 1.37 59.84 64.08 0.21 88.20 66.20 0.03 186.68 64.80 (0.63)
+    Total 1,687.42 558.24 161.02 69.84 76.69 (4.96) 150.52 97.90 (5.91) 282.14 122.06 2.06
+    OTHER CASA 17,691.09 14,701.18 11,245.23 (38.81) (52.37) (44.17) (58.53) 204.23 130.77 40.46 43.11 11.09
+    TD 34,494.66 32,796.36 23,674.55 352.53 702.05 248.79 899.47 1,323.46 596.35 3,721.68 3,988.50 2,255.87
+    Total 52,185.75 47,497.54 34,919.78 313.72 649.68 204.62 840.94 1,527.69 727.12 3,762.13 4,031.62 2,266.96
+    Grand Total 115,448.64 64,103.64 44,426.48 20,567.85 982.36 417.21 28,049.87 2,162.64 1,102.60 32,349.73 5,037.91 2,921.84
+
+================================================================================
+  DOCUMENT: 1bac5edd352d243e
+================================================================================
+
+--- Page 1 ---
+  Heading: Balance Sheet
+  Image:   data\docs\WB - Balance Sheet__1bac5edd352d243e\pages\page_001.png
+  Text:
+    Balance Sheet
+    Balance Sheet Profit & Loss Statement Other Income
+    Non Funded Adv & Income Yield EWS/AL/WL/SMA Risk
+    The data in this presentation is a combination of system-generated information and best estimates. It has been prepared solely for management reporting purposes and should not be used for regulatory rep..
+    Wholesale Banking
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 47,432 38,256 51,323 52,289 53,098 59,961
+    ADV AVG 38,331 34,795 45,724 49,538 47,771 49,765
+    Deposits EOP
+    CA EOP 17,886 11,680 9,341 5,649 9,607 14,432
+    SA EOP 1,783 882 1,773 1,594 1,491 2,896
+    TD EOP 33,402 29,600 32,624 30,725 35,730 40,000
+    Deposits EOP 53,070 42,162 43,738 37,968 46,828 57,328
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 7,267 5,688 6,544 6,069 8,165 8,633
+    SA AVG 967 908 1,580 1,123 1,225 1,336
+    TD AVG 30,114 26,619 36,465 32,077 35,886 37,072
+    Deposits Avg 38,348 33,215 44,589 39,268 45,276 47,041
+    Corporate Banking
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 19,187 16,505 21,087 21,204 21,800 24,158
+    ADV AVG 16,617 15,344 19,045 20,430 20,581 20,878
+    Deposits EOP
+    CA EOP 2,969 2,293 1,945 1,164 2,400 3,750
+    SA EOP 96 34 42 63 250 250
+    TD EOP 10,242 8,988 10,045 9,583 10,650 12,646
+    Deposits EOP 13,307 11,314 12,031 10,810 13,300 16,646
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 1,279 1,098 1,298 1,175 1,562 1,610
+    SA AVG 101 46 49 57 150 150
+    TD AVG 9,138 8,375 10,633 9,708 10,790 10,944
+    Deposits Avg 10,518 9,519 11,980 10,940 12,502 12,704
+    MNC
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 322.2 352.4 145.1 189.6 405.0 467.0
+    ADV AVG 197.2 143.5 188.3 150.4 350.0 388.0
+    Deposits EOP
+    CA EOP 2,969 2,293 1,945 1,164 2,400 3,750
+    SA EOP 96 34 42 63 250 250
+    TD EOP 10,242 8,988 10,045 9,583 10,650 12,646
+    Deposits EOP 13,307 11,314 12,031 10,810 13,300 16,646
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 1,279 1,098 1,298 1,175 1,562 1,610
+    SA AVG 101 46 49 57 150 150
+    TD AVG 9,138 8,375 10,633 9,708 10,790 10,944
+    Deposits Avg 10,518 9,519 11,980 10,940 12,502 12,704
+    Commercial Banking
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 12,833 10,469 14,303 14,215 14,300 16,641
+    ADV AVG 10,489 9,380 12,948 13,922 13,385 13,597
+    Deposits EOP
+    CA EOP 2,969 2,293 1,945 1,164 2,400 3,750
+    SA EOP 96 34 42 63 250 250
+    TD EOP 10,242 8,988 10,045 9,583 10,650 12,646
+    Deposits EOP 13,307 11,314 12,031 10,810 13,300 16,646
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 1,279 1,098 1,298 1,175 1,562 1,610
+    SA AVG 101 46 49 57 150 150
+    TD AVG 9,138 8,375 10,633 9,708 10,790 10,944
+    Deposits Avg 10,518 9,519 11,980 10,940 12,502 12,704
+    SCF
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 1,629.9 1,369.8 1,657.9 1,706.7 1,802.0 2,150.0
+    ADV AVG 1,403.6 1,314.8 1,638.7 1,615.6 1,715.0 1,795.0
+    Deposits EOP
+    CA EOP 7.8 6.0 23.4 9.6 20.0 20.0
+    SA EOP 0.3 0.6 0.6 0.6 0.0 0.0
+    TD EOP 204.7 78.0 251.7 272.6 180.0 304.0
+    Deposits EOP 212.7 84.7 275.6 282.8 200.0 324.0
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 6.3 4.8 5.8 8.1 15.0 10.0
+    SA AVG 0.4 0.5 0.3 0.6 0.0 0.0
+    TD AVG 132.2 72.6 220.5 258.9 163.0 177.0
+    Deposits Avg 138.8 77.9 226.6 267.5 178.0 187.0
+    FIG
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 8,195 5,798 8,205 8,755 8,700 10,000
+    ADV AVG 5,953 5,155 6,642 7,625 7,330 7,500
+    Deposits EOP
+    CA EOP 7,185 5,153 1,547 827 2,100 3,101
+    SA EOP 752 329 1,229 1,040 550 1,221
+    TD EOP 3,203 2,513 2,881 1,779 2,313 2,313
+    Deposits EOP 11,140 7,995 5,657 3,646 4,963 6,635
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 1,575 1,542 1,362 1,360 1,697 1,846
+    SA AVG 267 332 599 607 352 382
+    TD AVG 3,063 2,029 3,971 2,601 3,487 3,595
+    Deposits Avg 4,905 3,904 5,932 4,568 5,536 5,823
+    Liabilities & New Economy
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 867.0 704.7 937.9 933.3 924.0 1,122.0
+    ADV AVG 631.1 610.8 804.8 856.3 869.0 932.0
+    Deposits EOP
+    CA EOP 3,258 1,358 2,299 1,171 2,500 4,000
+    SA EOP 22 17 28 17 36 36
+    TD EOP 2,992 2,635 3,715 4,552 3,141 3,305
+    Deposits EOP 6,272 4,010 6,042 5,740 5,677 7,341
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 1,151 1,257 1,236 1,304 1,677 1,687
+    SA AVG 15 21 24 23 28 31
+    TD AVG 2,954 2,355 4,573 4,594 3,215 3,295
+    Deposits Avg 4,120 3,633 5,833 5,920 4,920 5,013
+    Liabilities & New Economy
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 3,540 2,527 4,008 4,009 3,668 4,206
+    ADV AVG 2,547 2,429 3,578 3,985 3,534 3,734
+    Deposits EOP
+    CA EOP 951 598 867 46 550 1,185
+    SA EOP 1 1 1 1 15 15
+    TD EOP 664 667 437 320 650 900
+    Deposits EOP 1,615 1,266 1,305 366 1,215 2,100
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 52.7 49.9 62.6 57.8 110.0 110.0
+    SA AVG 2.0 4.7 1.0 0.5 8.0 9.0
+    TD AVG 460.3 717.0 538.3 390.6 687.0 700.0
+    Deposits Avg 515.0 771.6 601.9 448.9 805.0 819.0
+    Government Banking
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 6.6 19.9 0.3 372.0 220.0 467.0
+    ADV AVG 11.0 25.9 20.4 37.6 204.0 243.0
+    Deposits EOP
+    CA EOP 836 246 422 637 1,000 1,269
+    SA EOP 831 381 407 401 732 996
+    TD EOP 9,118 8,233 8,383 7,609 10,390 12,022
+    Deposits EOP 10,786 8,860 9,212 8,647 12,122 14,287
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 1,613 303 593 426 2,008 1,931
+    SA AVG 504 429 840 376 569 595
+    TD AVG 7,711 6,338 9,340 7,812 9,669 10,032
+    Deposits Avg 9,828 7,070 10,773 8,614 12,246 12,558
+    Gems & Jewellery
+    Advances
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    ADV EOP 851.7 490.8 979.0 905.0 837.0 935.0
+    ADV AVG 479.4 387.6 858.9 915.5 728.0 776.0
+    Deposits EOP
+    CA EOP 79.0 96.0 132.7 40.1 109.0 109.0
+    SA EOP 4.2 12.3 5.1 4.0 7.0 7.0
+    TD EOP 70.8 154.3 157.0 123.3 119.0 119.0
+    Deposits EOP 154.0 262.6 294.8 167.4 235.0 235.0
+    Oneview FY 26 A Q1 FY26 A Q1 FY27 A Jul'26 P Q2 FY27 B FY 27 B
+    CA AVG 66.8 63.3 56.9 55.3 84.0 90.0
+    SA AVG 8.3 6.5 10.6 4.7 8.0 8.0
+    TD AVG 95.2 136.5 121.9 150.3 133.0 147.0
+    Deposits Avg 170.3 206.3 189.3 210.3 225.0 245.0
+    Glossary:
+    For MNC Segment and Liabilities & New Economy Segment, CA EOP & CA AVG values include the Nodal Balance.
+    However, for the rest of the business segments, Nodal Balance is excluded.
+
+================================================================================
+  DOCUMENT: 2a7323461ad9438b
+================================================================================
+
+--- Page 1 ---
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_001.png
+  Text:
+    Credit Cards
+    Business Update: Feb-26
+
+--- Page 2 ---
+  Heading: Content
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_002.png
+  Text:
+    Content
+    1. Sourcing Trend and Channel Mix
+    2. Net Addition
+    o CIF
+    o Advances
+    3. Portfolio Metrics
+    4. Coss Sell Booking – Inline + PL on Cards
+    5. Collection Metrics
+    6. PnL
+
+--- Page 3 ---
+  Heading: Sourcing Trends – Channel & Product
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_003.png
+  Text:
+    Sourcing Trends – Channel & Product
+    Channel Mix
+    1,06,786 1,06,532
+    1,03,859
+    97,351
+    89,717 13,658 11,741 12,275
+    13,664
+    74,009 10,563 22,769
+    68,372 27,780 25,650
+    63,331
+    57,910 13,146 27,107 25,276
+    16,487
+    13,819
+    15,166
+    15,460
+    9,447
+    10,784
+    9,252 65,348 66,468 71,488
+    56,580 53,878
+    42,438 38,728 45,697
+    33,198
+    Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26
+    Branch + DST Online/Digital Partner Sourcing Total
+    1 lac+ sourcing run rate now with
+    only ~10% Cobrand Channel Mix,
+    Product Mix
+    Month Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26
+    Proprietary 28,184 35,321 33,476 42,365 61,512 56,054 66,890 63,158 61,709
+    Consumer 15,776 19,111 18,356 20,938 25,492 24,895 28,215 29,814 33,643
+    Distribution 13,736 13,644 11,25 10,365 10,146 8,566 11,437 10,436 10,802
+    Premium 214 296 224 341 201 202 244 451 378
+    Total 57,910 68,372 63,331 74,009 97,351 89,717 1,06,786 1,03,859 1,06,532
+
+--- Page 4 ---
+  Heading: CIF Net Addition
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_004.png
+  Text:
+    CIF Net Addition
+    49,00,000 -51,976 44,019
+    -40,842 10,674 20,723 25,670 1,20,000
+    -19,812 -13,638
+    48,00,000 -47,329 -41,061
+    -1,05,727 20,000
+    47,00,000
+    -80,000
+    46,00,000
+    -1,80,000
+    45,00,000
+    -2,80,000
+    44,00,000
+    -3,80,000
+    43,00,000 -4,80,000
+    42,00,000 -5,80,000
+    41,00,000 47,76,130 47,35,288 46,87,959 46,46,898 45,41,171 45,85,190 45,65,378 45,76,052 45,96,775 45,83,137 46,08,807 -6,80,000
+    40,00,000 -7,80,000
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26
+    CIF Net Addition
+    Net addition was positive in Dec'25 and Feb'26... In Jan'26 it slightly dropped due to revised logic
+
+--- Page 5 ---
+  Heading: ENR Walk
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_005.png
+  Text:
+    ENR Walk
+    Q1FY26 Q2FY26 Q3FY26 Q4FY26 (till Feb)
+    Opening Book 21,548 21,499 21,282 20,506
+    Spend 21,105 21,168 21,446 13,627
+    Payment -23,128 -23,284 -24,002 -14,948
+    STPL Booking 562 421 608 470
+    XPS booking 210 227 224 123
+    Write Off -466 -430 -663 -420
+    Income/GST Posted 1,638 1,659 1,628 1,031
+    Closing Book 21,499 21,282 20,506 20,350
+    1. Repayments + Write off are higher than Spend + Revenue + PL which is causing Run down
+    2. EMI book net addition has been negative (STPL to be specific)
+
+--- Page 6 ---
+  Heading: Portfolio metrics trend
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_006.png
+  Text:
+    Portfolio metrics trend
+    Spends (Cr.) Active Rate
+    7,458
+    7,219 7,065 7,201 7,157 47% 48% 48% 48% 50% 48% 48% 47% 48%
+    6,857 6,871 6,755
+    6,471
+    Lower spends in Feb due to shorter month,
+    spend/card/day and active rate remain flat
+    Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26
+    Spends/Card/Day
+    Spend/Card ENR Term & Non-Term
+    Non-Term Term
+    Spends/Card/Day
+    16,753
+    15,319 15,341 15,371 14,973 15,907 15,615
+    14,422
+    13849
+    46% 46% 45% 45% 44% 44% 44% 44% 44%
+    54% 54% 55% 55% 56% 56% 56% 56% 56%
+    481 494 496 505 533 501 513 497 495
+    Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26
+    Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26
+
+--- Page 7 ---
+  Heading: Cross Sell (Trends and Numbers)
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_007.png
+  Text:
+    Cross Sell (Trends and Numbers)
+    Split & Pay (EMI) Dial For Cash (STPL)
+    3. 35 729.5 795 751 758 732 740 818 680 697
+    702
+    89 00 00 11 68 258 261 230 50
+    0
+    2.5 631 67 00 00 11 24 176 195 190
+    161 154
+    196 208 200
+    2 500 10
+    124 126 150
+    1.5 400 8
+    300 6 100
+    1
+    200 4
+    50
+    0.5
+    100 2
+    3 3.3 3.2 3.18 3.0 2.9 3.3 3.1 3.1 2.8 2.4 9.6 11.3 11.4 8.7 9.4 10.1 10.0 13.4 16.6 12.9 15.2
+    0 0 0 0
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26 Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26
+    No.of Cases (In Lacs) Disbursal (In Cr) No.of Cases (in 000') Disbursal (In Cr)
+    SNP booking is ~10% of Total Spends across FY26. The booking amount is STPL booking crossed 260Cr in shorter month, aiming for ~300 Cr in
+    lesser in Feb-26 because of shorter month. March'26
+    Xpress Cash
+    18.0 78 79 77 82 75 90
+    16.0 69 71 67 67 80
+    14.0 63 70
+    57
+    12.0 60
+    10.0 50
+    8.0 40
+    6.0 30
+    4.0 20
+    2.0 10
+    12.6 14.8 12.4 14.7 14.3 14.8 15.6 14.9 14.9 13.2 11.6
+    0.0 0
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26
+    No.of Cases (in 000') Disbursal (In Cr)
+
+--- Page 8 ---
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_008.png
+  Text:
+    Credit Cards
+    Collections
+
+--- Page 9 ---
+  Heading: Performance Pre X
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_009.png
+  Text:
+    Performance Pre X
+    PDD 4 bounce in decreasing and B1 flow has been in the range of 2% - 2.4% since Oct’25 cycle
+
+--- Page 10 ---
+  Heading: Performance Buckets*SOC Month
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_010.png
+  Text:
+    Performance Buckets*SOC Month
+    B1 and B2 pool is reducing month on month, B3 has started to come down after inching up in Q3 FY26
+
+--- Page 11 ---
+  Heading: Collection Agency Cost
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_011.png
+  Text:
+    Collection Agency Cost
+    Overall agency cost is in range of 60 Cr per month against ~116 Cr in Apr’25. Cost of resolution has improved for PreX and B1, for B2 and B3 this will come
+    down gradually
+
+--- Page 12 ---
+  Heading: Collection Agency Cost-Channel wise (Prex)
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_012.png
+  Text:
+    Collection Agency Cost-Channel wise (Prex)
+    Humanoid is tested and thru segmented allocation load is already ~60% of what it used to be earlier, cost impact will be seen from March SOC onwards
+
+--- Page 13 ---
+  Heading: Collection Agency Cost-Channel wise (Bucket-1)
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_013.png
+  Text:
+    Collection Agency Cost-Channel wise (Bucket-1)
+    Direct channel (low cost) performance is inching up, Agency performance is moving towards desired level of 75%
+
+--- Page 14 ---
+  Heading: - -
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_014.png
+  Text:
+    - -
+    
+    189
+    P&L
+    50
+    
+    223
+    
+    CATRL
+
+--- Page 15 ---
+  Heading: FY’26 PNL- Quarterly
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_015.png
+  Text:
+    FY’26 PNL- Quarterly
+    Overall PnL looks bad but clean pool
+    only is supposed to deliver 2.5% PBT
+    ROA
+
+--- Page 16 ---
+  Heading: FY’26 Clean PNL- Quarterly
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_016.png
+  Text:
+    FY’26 Clean PNL- Quarterly
+    Q4 is comparatively muted due to lower
+    interest yield (impact of high write off –
+    collection performance Q2/Q3)
+
+--- Page 17 ---
+  Heading: FY’26 Loss- Quarterly
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_017.png
+  Text:
+    FY’26 Loss- Quarterly
+    Total pool Clean pool
+    Q4 Slippages are expected to be in range of 600-620 Cr 30 Cr portfolio sale is considered in Q4 FY26 which looks
+    unlikely, this will impact credit cost adversely
+
+--- Page 18 ---
+  Heading: FY’27 PNL- Quarterly
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_018.png
+  Text:
+    FY’27 PNL- Quarterly
+    Clean pool is expected to deliver 4% PBT
+    ROA
+
+--- Page 19 ---
+  Heading: FY’27 Clean PNL- Quarterly
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_019.png
+  Text:
+    FY’27 Clean PNL- Quarterly
+    Credit Cost form this pool is expected to
+    be ~6%
+
+--- Page 20 ---
+  Heading: FY’27 Loss- Quarterly
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_020.png
+  Text:
+    FY’27 Loss- Quarterly
+    Total pool Clean pool
+    Slippage in range of 7%-8%, Q1 is
+    impacted by additional bill cycles
+
+--- Page 21 ---
+  Heading: Annexures
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_021.png
+  Text:
+    Annexures
+    
+    22
+
+--- Page 22 ---
+  Heading: PNL FY25-29
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_022.png
+  Text:
+    PNL FY25-29
+    
+    RBLBANK
+    
+    Particulars
+    
+    FY 25 FY 26 FY_ 27 FY 28 FY_ 29
+    
+    NCA
+    
+    12,40,664 10,08,684 17,64,073 20,15,880 24,19,044
+    
+    AIF
+    
+    48,95,967 44,77,947 51,69,650 59,29,020 68,64,654
+    
+    ENR
+    
+    21,548 20,258 22,555 25,826 29,767
+    
+    Spend
+    
+    87,406 84,734 93,272 1,06,752 1,21,554
+    
+    ANR
+    
+    21,378 20,486 21,574 24,567 28,074
+    
+    ENR/AIF
+    
+    41,185 44,133 45,059 44,143 43,783
+    
+    Spend/AIF
+    
+    14,032 15,212 16,234 15,985 15,797
+    
+    Dupont
+    FY 25 FY 26 FY 27 FY_ 28 FY 29
+    
+    GII
+    
+    4,371 4,217 4,257 4,730 5,333 20.4% 20.6% 19.7% 19.3% 19.0%
+    
+    FTP
+    
+    1,823 1,752
+    
+    1,805
+    
+    1,993 2,230 8.5% 8.6% 8.4% 8.1% 7.9%
+    
+    NII
+    
+    2,548 2,465 2,452 2,737 3,103 11.9% 12.0% 11.4% 11.1% 11.1%
+    
+    Fee
+    
+    2,072 2,071 2,272 2,492 2,773 9.7% 10.1% 10.5% 10.1% 9.9%
+    
+    Net Revenue
+    
+    4,621 4,536 4,724 5,229 5,875 21.6% 22.1% 21.9% 21.3% 20.9%
+    
+    Opex
+    
+    2,376 2,679 2,799 2,725 2,989 11.1% 13.1% 13.0% 11.1% 10.6%
+    
+    Direct Cost
+    
+    988
+    
+    989 1,399
+    
+    1,642
+    
+    1,808 4.6% 4.8% 6.5% 6.7% 6.4%
+    
+    Attributible Cost
+    
+    1,304 1,597 1,297
+    
+    960 1,019 6.1% 7.8% 6.0% 3.9% 3.6%
+    
+    Central allocation
+    
+    84
+    
+    94
+    
+    103
+    
+    123
+    
+    161 0.4% 0.5% 0.5% 0.5% 0.6%
+    
+    Operating Profit
+    
+    2,244 1,856 1,925 2,503 2,887 10.5% 9.1% 8.9% 10.2% 10.3%
+    
+    Credit Cost
+    
+    1,757 1,809 1,754 1,471 1,567 8.2% 8.8% 8.1% 6.0% 5.6%
+    
+    Gco+Prov
+    
+    2,003 2,167 2,037
+    
+    1,697 1,778 9.4% 10.6% 9.4% 6.9% 6.3%
+    
+    Recovery
+    
+    -246
+    
+    -349
+    
+    -293
+    
+    -240
+    
+    -227 -1.2% -1.7% -1.4% -1.0% -0.8%
+    
+    PSL
+    
+    139
+    
+    133
+    
+    140
+    
+    160
+    
+    182 0.7% 0.7% 0.6% 0.6% 0.6%
+    
+    PBT
+    
+    348
+    
+    -86
+    
+    31
+    
+    873 1,137 1.6% -0.4% 0.1% 3.6% 4.1%
+    
+    Capital credit
+    
+    160
+    
+    154
+    
+    161
+    
+    184
+    
+    210 0.7% 0.8% 0.7% 0.7% 0.7%
+    
+    PBT with CC
+    
+    508
+    
+    67
+    
+    193 1,057 1,347 2.4% 0.3% 0.9% 4.3% 4.8%
+    
+    C/I
+    
+    51%
+    
+    59%
+    
+    59%
+    
+    52%
+    
+    51%
+
+--- Page 23 ---
+  Heading: OPEX FY25-29
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_023.png
+  Text:
+    OPEX FY25-29
+    
+    RBLBANK
+    
+    Drivers
+    
+    Head
+    
+    AIF Partner payout
+    Spend Rewards
+    AIF Collections
+    AIF IT (FDC)
+    
+    Per Driver Cost
+    
+    DuPont
+    FY 25 FY_ 26 FY_27 FY 28 FY_29 FY_ 25 FY_ 26 FY_27 FY 28 FY_ 29 FY_ 25 FY_26 FY_27 FY_ 28 FY_29
+    230 251 426 508 467 444 540 891 912 729 1.08% 1.22% 1.98% 2.07% 1.66%
+    142 174 176 212 257 0.16% 0.21% 0.19% 0.20% 0.21% 0.66% 0.85% 0.81% 0.86% 0.91%
+    1,109 1,429 1,105 727 773 2,136 3,077 2,308 1,306 1,206 5.19% 6.97% 5.12% 2.96% 2.75%
+    122 82 121 150 185 235 178 253 270 288 0.57% 0.40% 0.56% 0.61% 0.66%
+    Spend Value Prop, Customer Promo (Promotional) 57 64 92 105 119 0.06% 0.08% 0.10% 0.10% 0.10% 0.26% 0.31% 0.42% 0.43% 0.43%
+    AIF Customer Service
+    
+    46 37 34 37 28 89 81 71 66 44 0.22% 0.18% 0.16% 0.15% 0.10%
+    
+    Spend Activation,Retention, Xsell
+    
+    63 60 63 72 83 0.07% 0.07% 0.07% 0.07% 0.07% 0.29% 0.29% 0.29% 0.29% 0.29%
+    
+    Spend Network Cost
+    
+    71 35 80 93 107 0.08% 0.04% 0.09% 0.09% 0.09% 0.33% 0.17% 0.37% 0.38% 0.38%
+    
+    AIF Salary
+    
+    83 84 98 109 120 160 181 205 196 187 0.39% 0.41% 0.46% 0.44% 0.43%
+    
+    NCA New Account Boarding
+    
+    65 47 73 84 100 524 466 416 417 415 0.30% 0.23% 0.34% 0.34% 0.36%
+    
+    AIF Account Management
+    
+    33 24 21 24 27 64 52 43 42 42 0.16% 0.12% 0.10% 0.10% 0.10%
+    
+    AIF Risk & UW
+    
+    34 40 39 62 63 65 87 82 112 98 0.16% 0.20% 0.18% 0.25% 0.22%
+    Spend Value Prop, Customer Promo (Contractual) 99 90 94 109 127 0.11% 0.11% 0.10% 0.10% 0.10% 0.47% 0.44% 0.43% 0.45% 0.45%
+    NCA Sourcing Cost
+    
+    132 162 252 287 344 3,029 2,611 2,592 2,482 2,480 0.62% 0.79% 1.17% 1.17% 1.23%
+    
+    AIF Others
+    
+    5 5 22 24 27 10 11 46 43 42 0.02% 0.03% 0.10% 0.10% 0.10%
+    
+    Total
+    
+    2,292 2,585 2,696 2,602 2,827 4,415 5,570 5,632 4,676 4,409 10.72% 12.62% 12.50% 10.59% 10.07%
+    
+    Allocation
+    
+    84 94 103 123 161 163 203 215 221 251 0.40% 0.46% 0.48% 0.50% 0.57%
+    
+    Grand Total
+    
+    2,376 2,679 2,799 2,725 2,989 4,578 5,772 5,846 4,897 4,661 11.12% 13.08% 12.98% 11.09% 10.65%
+
+--- Page 24 ---
+  Heading: LOSS FY25-29
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_024.png
+  Text:
+    LOSS FY25-29
+
+--- Page 25 ---
+  Heading: Clean PNL (FY’25-FY’29)
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_025.png
+  Text:
+    Clean PNL (FY’25-FY’29)
+
+--- Page 26 ---
+  Heading: Vintage Performance
+  Image:   data\docs\2026-03-11 - Credit Cards Update - Bikram__2a7323461ad9438b\pages\page_026.png
+  Text:
+    Vintage Performance
+    
+    PDD Bounce Rate
+    
+    B1 Resolution Rate
+    
+    RBLBANK
+    
+    Vinatge Band Apr-25 May-25 Jun-25 Jul-25 Aug 25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 TTL Apr-25 May -25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26
+    0_12
+    
+    15.8% 15.6% 16.1% 24.4% 19.5% 17.9% 19.3% 16.3% 18.2% 17.9% 0_12 77.2% 77.6% 37.1% 41.7% 65.1% 62.3% 65.4% 62.7% 67.6% 64.3%
+    
+    13_ 24
+    
+    23.2% 23.3% 22.1% 27.9% 25.0% 23.6% 25.4% 21.4% 23.9% 23.3% 13_ 24 76.7% 78.7% 40.3% 42.9% 64.3% 64.5% 66.8% 66.9% 68.9% 68.6%
+    
+    25 36
+    
+    24.2% 24.5% 23.2% 26.1% 25.7% 24.9% 26.4% 22.8% 25.5% 25.0% 25 36 77.1% 77.9% 41.8% 46.4% 62.8% 62.3% 65.8% 65.3% 69.1% 70.0%
+    
+    37 48
+    
+    23.9% 24.2% 22.9% 25.3% 26.3% 25.4% 24.7% 22.7% 25.3% 24. 6% 37_ 48 77.2% 79.8% 43.3% 46.4% 62.3% 63.8% 67.1% 67.7% 70.3% 71.6%
+    
+    48+
+    
+    24.1% 24.3% 22.2% 24.5% 25.2% 24.6% 27.3% 22.6% 24.6% 23.8% 48+ 78.6% 80.5% 40.6% 40.4% 59.1% 62.5% 66.0% 67.3% 69.4% 70.9%
+    
+    Total
+    
+    22.2% 22.4% 21.2% 25.5% 24.4% 23.4% 25.2% 21.4% 23.7% 23.0% TTL 77.6% 79.2% 40.7% 42.8% 61.8% 63.0% 66.2% 66.6% 69.3% 69.9%
+    
+    PDD+4 Bounce Rate
+    
+    B2 Flow%
+    Vinatge_ Band Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 TTL Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26
+    0_12
+    
+    4.4% 4.2% 4.0% 7.8% 6.6% 6.3% 5.6% 5.8% 5.4% 5.4% 0_ 12 0.5% 0.5% 1.3% 0.9% 0.5% 0.6% 0.4% 0.4% 0.3% 0.4%
+    
+    13 24
+    
+    8.4% 8.3% 7.6% 9.8% 8.8% 8.9% 8.0% 8.0% 7.8% 7.3% 13 24 1.0% 1.0% 2.5% 1.8% 1.0% 1.1% 0.7% 0.8% 0.7% 0.7%
+    
+    25 36
+    
+    9.1% 9.1% 8.5% 9.6% 9.2% 9.4% 8.4% 8.5% 8.6% 8.0% 25 36 1.0% 1.1% 2.6% 1.9% 1.2% 1.4% 0.9% 1.0% 0.8% 0.8%
+    
+    37_48
+    
+    8.4% 8.4% 7.7% 8.2% 8.5% 8.7% 8.1% 8.3% 8.3% 7.8% 37_48 0.9% 0.9% 2.4% 1.8% 1.1% 1.2% 0.8% 0.9% 0.7% 0.7%
+    
+    48+
+    
+    8.5% 8.7% 7.6% 7.8% 8.0% 8.1% 7.4% 7.6% 7.9% 7.2% 48+ 0.9% 1.0% 2.6% 2.0% 1.1% 1.2% 0.8% 0.8% 0.7% 0.6%
+    
+    TTL
+    
+    7.7% 7.8% 7.0% 8.5% 8.2% 8.2% 7.4% 7.6% 7.6% 7.1% TTL 0.9% 0.9% 2.3% 1.7% 1.0% 1.1% 0.7% 0.8% 0.6% 0.6%
+    
+    Pre-X Resolution Rate
+    
+    B2 Resolution Rate
+    
+    TTL
+    
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 TTL Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26
+    
+    lo_ 12
+    
+    87.1% 85.6% 86.9% 93.8% 93.0% 91.5% 94.2% 92.8% 94.7% 94.1% 0_ 12 45.2% 43.6% 19.4% 8.0% 10.6% 41.5% 41.5% 39.9% 43.8% 40.7%
+    
+    13_ 24
+    
+    81.9% 79.8% 81.4% 88.6% 88.8% 87.0% 91.2% 88.5% 91.2% 90.9% 13_ 24 39.1% 39.4% 16.6% 9.7% 13.0% 36.1% 36.4% 37.6% 38.8% 38.4%
+    
+    25_ 36
+    
+    81.3% 79.7% 80.4% 86.1% 87.4% 85.4% 89.7% 87.4% 90.0% 89.6% 25 36 39.3% 39.0% 18.0% 10.9% 14.5% 32.1% 33.2% 33.0% 35.1% 37.6%
+    
+    37 48
+    
+    82.6% 81.2% 81.5% 86.6% 88.4% 86.9% 90.6% 87.7% 90.4% 89.9% 37 48 38.8% 41.1% 18.5% 11.4% 15.0% 30.7% 33.7% 36.1% 38.5% 39.6%
+    
+    48+
+    
+    82.3% 79.0% 80.1% 86.2% 89.0% 87.5% 91.4% 88.9% 91.2% 90.8% 48+ 47.4% 47.7% 19.7% 9.2% 12.2% 32.8% 34.7% 37.3% 40.6% 39.7%
+    
+    TTL
+    
+    82.8% 80.4% 81.6% 88.1% 89.2% 87.5% 91.4% 88.9% 91.4% 90.9% TTL 42.6% 42.9% 18.4% 9.7% 13.0% 33.5% 35.0% 36.5% 39.0% 39.1%
+    
+    B1 Flow%
+    
+    B3 Flow%
+    
+    TTL
+    
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 TTL Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26
+    
+    O_12
+    
+    2.0% 2.2% 2.1% 1.5% 1.4% 1.5% 1.1% 1.2% 1.0% 1.1% 0_12 0.3% 0.3% 1.1% 0.8% 0.4% 0.3% 0.2% 0.3% 0.2% 0.2%
+    
+    13_24
+    
+    4.2% 4.7% 4.1% 3.2% 2.8% 3.1% 2.2% 2.5% 2.1% 2.1% 13_24 0.6% 0.6% 2.0% 1.6% 0.9% 0.7% 0.5% 0.5% 0.4% 0.4%
+    
+    25 36
+    
+    4.5% 5.0% 4.5% 3.6% 3.2% 3.6% 2.7% 2.9% 2.6% 2.6% 25 36 0.6% 0.7% 2.2% 1.7% 1.0% 0.9% 0.6% 0.7% 0.5% 0.5%
+    
+    37_ 48
+    
+    4.2% 4.6% 4.2% 3.4% 3.0% 3.3% 2.3% 2.8% 2.4% 2.5% 37_ 48 0.6% 0.5% 2.0% 1.6% 1.0% 0.8% 0.5% 0.6% 0.4% 0.4%
+    
+    48+
+    
+    4.3% 5.1% 4.4% 3.4% 2.8% 3.1% 2.3% 2.5% 2.2% 2.2% 48+ 0.5% 0.5% 2.1% 1.8% 1.0% 0.8% 0.5% 0.5% 0.4% 0.4%
+    
+    TTL
+    
+    3.8% 4.4% 3.9% 3.0% 2.6% 2.9% 2.2% 2.4% 2.0% 2.1% TTL 0.5% 0.5% 1.9% 1.6% 0.9% 0.7% 0.5% 0.5% 0.4% 0.4%
+
+================================================================================
+  DOCUMENT: 2afe6e64d1e44f6c
+================================================================================
+
+--- Page 1 ---
+  Heading: | OVERVIEW OF ADVANCES
+  Image:   data\docs\Net Advances Insights__2afe6e64d1e44f6c\pages\page_001.png
+  Text:
+    | OVERVIEW OF ADVANCES
+    Net Funded Advances
+    Retail Wholesale
+    ₹ 115,240
+    ₹ 110,532
+    ₹ 100,527 ₹ 102,086
+    ₹ 64,195
+    ₹ 63,419
+    ₹ 60,131 ₹ 59,611
+    ₹ 40,396 ₹ 42,475 ₹ 47,112 ₹ 51,044
+    September 2025 December 2025 March 2026 June 2026
+    Net Funded Advances Detailed Amount in Crore
+    Month of Balance Date
+    Advanced Category Business Line Business Line Product September 2025 December 2025 March 2026 June 2026
+    Grand Total ₹ 100,527 ₹ 103,086 ₹ 114,232 ₹ 116,226
+    Wholesale Commercial CB (incl Agri & NE) ₹ 11,556 ₹ 12,413 ₹ 13,493 ₹ 15,070
+    Banking CB- BBG ₹ 23 ₹ 145 ₹ 149 ₹ 150
+    Supply Chain ₹ 1,536 ₹ 1,457 ₹ 1,626 ₹ 1,654
+    Corporate C&IB Agri ₹ 1 ₹ 1
+    Banking Corporate Banking (incl G&J) ₹ 17,696 ₹ 18,438 ₹ 19,782 ₹ 21,812
+    FI ₹ 6,775 ₹ 6,835 ₹ 8,195 ₹ 8,205
+    FIGU- BBB ₹ 7 ₹ 7 ₹ 0
+    Govt. Banking ₹ 3
+    IFI ₹ 2,698 ₹ 2,901 ₹ 3,540 ₹ 4,008
+    MNC ₹ 108 ₹ 277 ₹ 322 ₹ 145
+    Retail Housing Loans Affordable Housing ₹ 1,760 ₹ 1,987 ₹ 2,307 ₹ 2,501
+    Housing Loan CL ₹ 1,175 ₹ 1,223 ₹ 1,186 ₹ 1,218
+    Housing Loan DA ₹ 1,008 ₹ 962 ₹ 938 ₹ 890
+    Prime Housing ₹ 4,553 ₹ 4,528 ₹ 4,399 ₹ 4,321
+    Loan Against LAP - CL ₹ 393 ₹ 462 ₹ 473 ₹ 476
+    Property LAP - DA ₹ 1,742 ₹ 2,169 ₹ 2,103 ₹ 1,990
+    Prime LAP ₹ 8,230 ₹ 8,942 ₹ 9,936 ₹ 10,306
+    Small LAP ₹ 581 ₹ 750 ₹ 916 ₹ 999
+    Gold Loans Gold Loan - BBB ₹ 676 ₹ 933 ₹ 1,348 ₹ 1,441
+    Gold Loan DA/CL ₹ 1,544 ₹ 2,423 ₹ 2,907 ₹ 2,965
+    Business MSME ₹ 47 ₹ 39 ₹ 33 ₹ 28
+    Banking & RetailRetail Agri ₹ 1,580 ₹ 1,598 ₹ 1,716 ₹ 1,715
+    Agri
+    WCF/BBG ₹ 2,044 ₹ 2,307 ₹ 2,820 ₹ 2,852
+    Credit Cards Credit Card excl STPL ₹ 17,197 ₹ 16,690 ₹ 16,250 ₹ 16,040
+    STPL ₹ 3,260 ₹ 3,211 ₹ 3,327 ₹ 3,281
+    Micro Banking Micro Banking ₹ 5,885 ₹ 6,692 ₹ 7,771 ₹ 8,216
+    Retail Others Agri-BBB ₹ 5 ₹ 4 ₹ 5 ₹ 4
+    BIL/SBL ₹ 41 ₹ 43 ₹ 43 ₹ 39
+    Education Loan ₹ 24 ₹ 27 ₹ 30 ₹ 33
+    LAS ₹ 0
+    ODFD ₹ 533 ₹ 519 ₹ 663 ₹ 607
+    Retail - Others ₹ 4,391 ₹ 387 ₹ 401 ₹ 410
+    Wheels Rural Vehicle Finance ₹ 3,047 ₹ 3,244 ₹ 3,372 ₹ 3,399
+    Two Wheeler ₹ 309 ₹ 364 ₹ 369 ₹ 364
+    Used Car Loans ₹ 107 ₹ 108 ₹ 107 ₹ 100
+    Null Retail Others Null ₹ 1,000 ₹ 3,700 ₹ 986
+    5202
+    tsuguA
+    rebmetpeS 5202 5202
+    rebotcO
+    rebmevoN 5202 rebmeceD 5202 6202
+    yraunaJ
+    6202
+    yraurbeF
+    6202
+    hcraM
+    6202
+    lirpA
+    6202
+    yaM
+    6202
+    enuJ
+    6202
+    yluJ
+    6202
+    tsuguA
+    80K
+    60K
+    40K
+    20K
+    0K
+    weN
+    secnavdA
+    teN
+    153,02
+    ₹
+    754,02
+    ₹
+    243,02
+    ₹
+    871,02
+    ₹
+    109,91
+    ₹
+    627,91
+    ₹
+    238,91
+    ₹
+    775,91
+    ₹
+    924,31
+    ₹
+    308,91
+    ₹
+    313,31
+    ₹
+    362,91
+    ₹
+    114,31
+    ₹
+    123,91
+    ₹
+    177,31
+    ₹
+    629,81
+    ₹
+    988,31
+    ₹
+    536,91
+    ₹
+    620,41
+    ₹
+    Retail Net Advances
+    ₹ 73,958
+    ₹ 63,419₹ 63,272₹ 63,452₹ 64,195₹ 65,077 ₹ 60,131₹ 60,659₹ 61,723 ₹ 59,611₹ 60,959₹ 61,256
+    ₹ 57,865
+    5202
+    tsuguA
+    rebmetpeS 5202 rebotcO 5202 rebmevoN 5202 rebmeceD 5202 yraunaJ 6202 yraurbeF 6202 6202
+    hcraM
+    6202
+    lirpA
+    6202
+    yaM
+    6202
+    enuJ
+    6202
+    yluJ
+    6202
+    tsuguA
+    50K
+    40K
+    30K
+    20K
+    10K
+    0K
+    weN
+    secnavdA
+    teN
+    434,21
+    ₹
+    230,42
+    ₹
+    511,31
+    ₹
+    082,72
+    ₹
+    166,21
+    ₹
+    542,52
+    ₹
+    057,21
+    ₹
+    857,72
+    ₹
+    610,41
+    ₹
+    064,82
+    ₹
+    687,31
+    ₹
+    131,92
+    ₹
+    790,41
+    ₹
+    420,13
+    ₹
+    762,51
+    ₹
+    548,13
+    ₹
+    493,51
+    ₹
+    322,03
+    ₹
+    094,51
+    ₹
+    296,03
+    ₹
+    478,61
+    ₹
+    071,43
+    ₹
+    377,61
+    ₹
+    771,53
+    ₹
+    937,71
+    ₹
+    381,63
+    ₹
+    Branch wise Retail Assets
+    Overall Advances Net Advances Net Advances Insights Credit Portfolio Overview Retail Disbursement MIS
+    Advances
+    Wholesale Net Advances
+    ₹ 53,922
+    ₹ 51,950
+    ₹ 51,044
+    ₹ 45,121₹ 47,112 ₹ 45,617₹ 46,181
+    ₹ 42,475₹ 42,918 ₹ 40,396 ₹ 40,508 ₹ 37,907 ₹ 36,466
+
+================================================================================
+  DOCUMENT: 2f7b0e39c77a7c6e
+================================================================================
+
+--- Page 1 ---
+  Heading: | OVERVIEW OF ADVANCES
+  Image:   data\docs\Overall Advances__2f7b0e39c77a7c6e\pages\page_001.png
+  Text:
+    | OVERVIEW OF ADVANCES
+    Branch wise Retail Assets
+    Overall Advances Net Advances Net Advances Insights Credit Portfolio Overview Retail Disbursement MIS
+    Advances
+    Gross Advances
+    Balance Date
+    26-Aug-26 31-Jul-26 30-Jun-26 31-May-26
+    Category Sub Category Gross Advances # Accounts # Customers Gross Advances # Accounts # Customers Gross Advances # Accounts # Customers Gross Advances# Accounts
+    Overall Advances ₹ 126,108.71 6,003,330 5,757,648 ₹ 119,273.32 5,904,324 5,676,691 ₹ 117,318.52 5,926,228 5,700,683 ₹ 114,456.96 5,958,220 5,743,530
+    Wholesale Sub Total ₹ 53,873.70 3,135 1,219 ₹ 52,230.94 3,110 1,204 ₹ 51,322.63 3,024 1,206 ₹ 46,483.02 2,927 1,181
+    C&IB Agri
+    CB (incl Agri & NE) ₹ 15,715.13 1,507 469 ₹ 14,955.87 1,515 472 ₹ 15,090.59 1,497 480 ₹ 13,723.25 1,439 462
+    CB- BBG ₹ 147.84 36 6 ₹ 137.84 25 4 ₹ 149.81 24 4 ₹ 140.64 24 5
+    Corporate Banking (incl G&.. ₹ 23,736.16 853 303 ₹ 22,103.54 867 294 ₹ 22,066.31 841 296 ₹ 20,247.46 809 288
+    FI ₹ 8,259.59 132 49 ₹ 8,755.24 127 48 ₹ 8,204.68 117 43 ₹ 7,053.03 116 41
+    FIGU- BBB ₹ 2.18 1 1 ₹ 3.00 1 1 ₹ 0.30 1 1 ₹ 5.61 1 1
+    Govt. Banking ₹ 190.06 7 2 ₹ 369.00 1 1
+    IFI ₹ 3,876.27 118 35 ₹ 4,010.12 119 35 ₹ 4,007.99 112 35 ₹ 3,540.73 105 33
+    MNC ₹ 172.31 11 8 ₹ 189.60 10 7 ₹ 145.08 11 9 ₹ 99.24 6 6
+    Supply Chain ₹ 1,774.16 470 346 ₹ 1,706.73 445 342 ₹ 1,657.86 421 338 ₹ 1,673.06 427 345
+    Retail - Others
+    Retail Sub Total ₹ 27,619.34 245,245 222,235 ₹ 27,885.39 245,901 222,807 ₹ 27,831.05 243,630 220,817 ₹ 27,521.35 246,930 223,832
+    Lending
+    Affordable Housing ₹ 2,606.15 17,561 10,130 ₹ 2,585.66 17,290 10,095 ₹ 2,509.03 16,721 9,887 ₹ 2,434.39 16,172 9,749
+    Prime Housing ₹ 4,271.99 7,912 5,816 ₹ 4,300.78 7,907 5,829 ₹ 4,324.98 7,926 5,859 ₹ 4,339.70 7,914 5,858
+    Housing Loan CL ₹ 1,232.25 4,074 4,042 ₹ 1,232.04 4,059 4,024 ₹ 1,222.04 3,994 3,959 ₹ 1,223.45 3,967 3,931
+    Housing Loan DA ₹ 938.53 6,920 5,849 ₹ 954.73 6,796 5,718 ₹ 913.49 6,876 5,788 ₹ 929.54 6,983 5,879
+    Small LAP ₹ 1,027.29 4,551 4,379 ₹ 1,023.28 4,531 4,361 ₹ 999.47 4,413 4,257 ₹ 970.12 4,314 4,164
+    Prime LAP ₹ 10,457.71 7,237 5,799 ₹ 10,517.40 7,256 5,825 ₹ 10,382.90 7,181 5,774 ₹ 10,045.12 7,093 5,709
+    LAP - CL ₹ 467.39 1,257 1,226 ₹ 470.17 1,267 1,235 ₹ 477.59 1,276 1,244 ₹ 481.56 1,275 1,243
+    LAP - DA ₹ 1,936.94 4,748 4,513 ₹ 1,981.52 4,731 4,493 ₹ 2,017.01 4,781 4,546 ₹ 2,023.02 4,842 4,607
+    BIL/SBL ₹ 37.18 312 308 ₹ 38.47 318 314 ₹ 39.29 380 378 ₹ 40.56 406 404
+    Gold Loan - BBB ₹ 1,384.46 24,068 19,671 ₹ 1,429.34 24,323 19,937 ₹ 1,444.03 24,250 19,990 ₹ 1,433.15 24,057 19,905
+    Gold Loan DA/CL ₹ 2,724.28 93,084 87,000 ₹ 2,819.96 94,484 88,089 ₹ 2,968.42 93,898 87,257 ₹ 3,066.17 98,918 91,455
+    ₹ 35.50 82 81 ₹ 34.99 83 82 ₹ 32.98 77 76 ₹ 31.79 75 74
+    ₹ 384.67 71,415 71,407 ₹ 388.49 70,885 70,840 ₹ 389.26 69,868 69,819 ₹ 389.14 68,913 68,858
+    Liability MEB
+    ₹ 100.55 1,809 1,805 ₹ 103.17 1,830 1,826 ₹ 105.35 1,850 1,846 ₹ 108.20 1,861 1,858
+    ₹ 0.33 10 26-Au1g0-2026 ₹ 0.26 5 5 31-Ju₹l- 200.0206 1 1 ₹ 0.00 30-Jun-20216 1
+    PRODUCT SUB PRODUCT ₹ 14.11 MEB205 # Ac1c9o9unts ₹# 5 C.1u2stomers 136 MEB 134 # Acc₹o u5n.2t2s # C1u3s8tomers 136 MEB ₹ 5.43 # Accoun1t3s9 137
+    LIABILITY CA ₹6,079.10 158,382 149,222 ₹6,395.63 157,791 148,704 ₹6,947.86 162,931
+    DEPOSITS ₹81,230.06 661,190 215,707 ₹65,244.74 655,678 213,983 ₹57,566.67 649,558
+    NR ₹3,355.70 92,185 57,393 ₹3,174.16 91,016 56,929 ₹2,729.86 90,604
+    SA ₹15,061.87 1,508,338 1,492,921 ₹14,951.75 1,500,369 1,484,987 ₹15,288.43 1,549,583
+    SA DIGITAL ₹171.30 331,727 331,715 ₹171.50 324,967 324,956 ₹179.12 331,067
+    SALARY ₹853.99 378,402 378,379 ₹973.44 374,637 374,614 ₹932.22 369,767
+    Grand Total ₹106,752.03 3,130,224 2,625,337 ₹90,911.22 3,104,458 2,604,173 ₹83,644.18 3,153,510
+
+================================================================================
+  DOCUMENT: 5637676d257147c7
+================================================================================
+
+--- Page 1 ---
+  Heading: MFI - MAILERS
+  Image:   data\docs\SMA and Collection Efficiency__5637676d257147c7\pages\page_001.png
+  Text:
+    MFI - MAILERS
+    SMA and Collection Efficiency Daily Bucket Resolution Report
+    SMA and Collection Pool Performance
+    MTD Performance as on 26 August 2026 STLM Performance as on 26 July 2026
+    July 2026 End Starting DPD Previous Month End Previous Month End
+    Starting DPD July 2026 End Balance Stabilized Flow Forward Roll Backward Normalized Stabilized FlowForward RollBackward Normalized
+    Accounts Bucket Accounts Balance
+    1)0 - dpd 1,923,659 ₹ 7,603.87 Cr 98.38% 1.62% 0.00% 0.00% 1)0 - dpd 1,915,951 ₹ 7,506.11 Cr 98.26% 1.74% 0.00% 0.00%
+    2)1-30 19,548 ₹ 55.96 Cr 29.34% 62.67% 0.00% 7.99% 2)1-30 18,325 ₹ 50.67 Cr 32.54% 59.75% 0.00% 7.72%
+    3)31-60 9,781 ₹ 29.07 Cr 6.53% 91.24% 1.01% 1.22% 3)31-60 9,565 ₹ 26.35 Cr 7.30% 90.55% 0.91% 1.24%
+    4)61-90 8,676 ₹ 24.41 Cr 2.92% 96.22% 0.34% 0.52% 4)61-90 10,129 ₹ 24.38 Cr 3.68% 95.16% 0.37% 0.80%
+    5)91-180 43,131 ₹ 70.61 Cr 71.42% 27.83% 0.02% 0.73% 5)91-180 45,974 ₹ 69.31 Cr 68.67% 30.45% 0.05% 0.84%
+    Grand Total 2,004,795 ₹ 7,783.91 Cr 96.99% 2.93% 0.01% 0.07% Grand Total 1,999,944 ₹ 7,676.82 Cr 96.94% 2.99% 0.00% 0.07%
+    Previous Months Same Day Resolution Rate
+    Report Date
+    DPD Buckets 26-08-2026 26-07-2026 26-06-2026 26-05-2026 26-04-2026 26-03-2026 26-02-2026 26-01-2026
+    Current 98.38% 98.26% 98.68% 98.72% 98.72% 98.80% 99.03% 98.21%
+    SMA-0 37.33% 40.25% 42.10% 42.37% 45.09% 49.50% 50.61% 44.52%
+    SMA-1 8.76% 9.45% 10.53% 12.64% 14.33% 15.39% 15.68% 15.18%
+    SMA-2 3.78% 4.84% 2.27% 7.47% 3.89% 3.43% 6.16% 4.89%
+    BC Wise Resolution Rate
+    MTD Performance as of : 26 August 2026 STLM Performance as on 26 July 2026
+    Current SMA-0 SMA-1 SMA-2
+    Current SMA-0 SMA-1 SMA-2
+    BC Name RR Target Δ RR Target Δ RR Target Δ RR Target Δ
+    BC Name RR Target Δ RR Target Δ RR Target Δ RR Target Δ
+    RBLFINSERVE 98.41% 99.30 % -0.89% 37.59% 50.00 % -12.41% 8.33% 20.00 % -11.67% 3.50% 3.50 % 0.00%
+    RBLFINSERVE 98.27% 99.30 % -1.03% 40.21% 50.00 % -9.79% 9.09% 20.00 % -10.91% 4.50% 3.50 % 1.00%
+    NOCPL 98.40% 99.30 % -0.90% 37.85% 50.00 % -12.15% 15.95% 25.00 % -9.05% 12.34% 3.50 % 8.84% NOCPL 98.81% 99.30 % -0.49% 39.79% 50.00 % -10.21% 14.82% 25.00 % -10.18% 16.18% 3.50 % 12.68%
+    PAHAL 97.93% 99.30 % -1.37% 32.34% 50.00 % -17.66% 13.48% 25.00 % -11.52% 4.60% 3.50 % 1.10% PAHAL 97.78% 99.30 % -1.52% 41.21% 50.00 % -8.79% 12.70% 25.00 % -12.30% 5.76% 3.50 % 2.26%
+    Bucket Wise Collection Efficiency (in crs )
+    Performance As of : 26 August 2026 STLM Performance As Of : 26 July 2026
+    Dpd Buckets Current Demand Total Collection % Dpd Buckets Current Demand Total Collection %
+    CURRENT ₹ 1,184.23 Cr ₹ 1,163.74 Cr 98.27% CURRENT ₹ 583.51 Cr ₹ 572.18 Cr 98.06%
+    1-30 DPD ₹ 10.16 Cr ₹ 4.85 Cr 47.76% 1-30 DPD ₹ 4.74 Cr ₹ 2.45 Cr 51.66%
+    31-60 DPD ₹ 5.00 Cr ₹ 0.81 Cr 16.18% 31-60 DPD ₹ 2.40 Cr ₹ 0.42 Cr 17.37%
+    61-90 DPD ₹ 4.18 Cr ₹ 0.48 Cr 11.45% 61-90 DPD ₹ 2.21 Cr ₹ 0.32 Cr 14.67%
+    Total ₹ 1,203.56 Cr ₹ 1,169.88 Cr 97.20% Total ₹ 592.86 Cr ₹ 575.37 Cr 97.05%
+    91-180 DPD ₹ 10.86 Cr ₹ 2.37 Cr 21.85% 91-180 DPD ₹ 5.57 Cr ₹ 1.51 Cr 27.02%
+    180+ DPD ₹ 185.81 Cr ₹ 18.17 Cr 9.78% 180+ DPD ₹ 98.13 Cr ₹ 9.27 Cr 9.45%
+    Total ₹ 196.67 Cr ₹ 20.54 Cr 10.44% Total ₹ 103.70 Cr ₹ 10.78 Cr 10.39%
+    Grand Total ₹ 1,400.23 Cr ₹ 1,190.42 Cr 85.02% Grand Total ₹ 696.57 Cr ₹ 586.15 Cr 84.15%
+    BC Wise Recovery Status
+    MTD As on : 26 August 2026 STLM MTD As on : 26 July 2026
+    NPA WOFF Grand Total NPA WOFF Grand Total
+    Bc Name POS Recovery Recovery Rate % POS Recovery Recovery Rate % POS Recovery Recovery Rate % Bc Name POS Recovery Recovery Rate % POS Recovery Recovery Rate % POS Recovery Recovery Rate %
+    RFL 520.73 4.25 0.82% 2,513.29 3.81 0.15% 3,034.02 8.07 0.27% RFL 503.92 4.56 0.91% 2,517.42 3.72 0.15% 3,021.34 8.28 0.27%
+    NOCPL 27.82 0.13 0.48% 144.64 0.19 0.13% 172.47 0.32 0.19% NOCPL 27.53 0.21 0.75% 144.88 0.28 0.19% 172.41 0.48 0.28%
+    PAHAL 28.58 0.11 0.40% 255.83 0.23 0.09% 284.41 0.34 0.12% STSPL 0.00 0.00 0.00% 25.88 0.01 0.05% 25.88 0.01 0.05%
+    STSPL 0.00 0.00 0.00% 25.85 0.02 0.07% 25.85 0.02 0.07% PAHAL 27.58 0.13 0.48% 256.07 0.25 0.10% 283.65 0.38 0.14%
+    Grand Grand
+    577.14 4.50 0.78% 2,939.62 4.25 0.14% 3,516.76 8.75 0.25% 559.03 4.90 0.88% 2,944.25 4.26 0.14% 3,503.29 9.16 0.26%
+    Total Total
+    Vintage Wise Recovery Status
+    MTD Vintage Wise Recovery as on : 26 August 2026 STLM MTD Vintage Wise Recovery as on : 26 July 2026
+    Npa DPD Npa DPD
+    VINTAGE POS Recovery Recovery Rate % VINTAGE POS Recovery Recovery Rate %
+    Techwoff Buckets Techwoff Buckets
+    91-180 V0 58.60 0.56 0.96% 91-180 V0 54.51 0.61 1.13%
+    NPA NPA
+    181-365 V1 518.54 3.94 0.76% 181-365 V1 504.53 4.29 0.85%
+    < 456 V2 99.35 0.29 0.30% < 456 V2 173.78 0.49 0.28%
+    457-637 V3 563.87 1.71 0.30% 457-637 V3 639.92 1.68 0.26%
+    WOFF 638-818 V4 610.61 0.94 0.15% WOFF 638-818 V4 522.61 0.74 0.14%
+    819-999 V5 282.69 0.24 0.08% 819-999 V5 268.95 0.21 0.08%
+    > 1000 V5+ 1,383.10 1.08 0.08% > 1000 V5+ 1,339.00 1.13 0.08%
+    Grand Total 3,516.76 8.75 0.25% Grand Total 3,503.29 9.16 0.26%
+    SMA Forward Flow Position
+    Opening Pool and Status As on : 26 August 2026 Status As on : 25 August 2026 MTD Pool and FF as on: 26 August 2026
+    Dpd Bucket Opening Pool Opening Pool Resolution Flow Forward Dpd Bucket Dpd Bucket Opening Pool Opening Pool
+    RR % FF % Resolution Amount RR % Flow Forward Amount FF % MTD FF AccountsMTD FF Amounts MTD FF %
+    Current Accounts Amount Amount Amount Current Current Accounts Amounts
+    1-30 DPD 19,543 55.96 20.89 37.33% 35.07 62.67% 1-30 DPD 20.53 36.69% 35.43 63.31% 1-30 DPD 19,543 55.96 11,717 35.07 62.67%
+    31-60 DPD 9,781 29.07 2.55 8.76% 26.52 91.24% 31-60 DPD 2.52 8.66% 26.55 91.34% 31-60 DPD 9,685 28.82 8,714 26.52 92.00%
+    61-90 DPD 8,674 24.41 0.92 3.78% 23.48 96.22% 61-90 DPD 0.92 3.78% 23.48 96.22% 61-90 DPD 8,383 23.73 8,233 23.48 98.97%
+    Grand Total 37,998 109.44 24.36 22.26% 85.08 77.74% Grand Total 23.97 21.91% 85.46 78.09% Grand Total 37,611 108.52 28,664 85.08 78.40%
+    BC Wise Forward Flow Position
+    Opening Pool and Status As on : 26 August 2026 Status As on : 25 August 2026 MTD Pool and FF as on : 26 August 2026
+    Bc Dpd Bucket Opening PoolOpening PoolResolution Flow Forward Bc Dpd Bucket Flow Forward Dpd Bucket Opening Pool Opening Pool MTD FF MTD FF
+    RR % FF % Resolution Amount RR % FF % Bc Name MTD FF %
+    Name Current Accounts Amounts Amount Amount Name Current Amount Current Accounts Amount Accounts Amounts
+    1-30 DPD 17,531 51.86 19.49 37.59% 32.37 62.41% 1-30 DPD 19.17 36.95% 32.70 63.05% 1-30 DPD 17,531 51.86 10,348 32.37 62.41%
+    31-60 DPD 8,602 26.92 2.24 8.33% 24.68 91.67% 31-60 DPD 2.22 8.23% 24.71 91.77% 31-60 DPD 8,531 26.73 7,711 24.68 92.34%
+    RFL RFL RFL
+    61-90 DPD 7,522 22.38 0.78 3.50% 21.60 96.50% 61-90 DPD 0.78 3.50% 21.60 96.50% 61-90 DPD 7,296 21.79 7,179 21.60 99.09%
+    Total 33,655 101.17 22.52 22.26% 78.65 77.74% Total 22.16 21.91% 79.00 78.09% Total 33,358 100.39 25,238 78.65 78.34%
+    1-30 DPD 833 1.22 0.46 37.85% 0.76 62.15% 1-30 DPD 0.46 37.85% 0.76 62.15% 1-30 DPD 833 1.22 580 0.76 62.15%
+    31-60 DPD 511 0.67 0.11 15.95% 0.56 84.05% 31-60 DPD 0.11 15.95% 0.56 84.05% 31-60 DPD 490 0.63 432 0.56 88.49%
+    NOCPL NOCPL NOCPL
+    61-90 DPD 528 0.59 0.07 12.34% 0.52 87.66% 61-90 DPD 0.07 12.34% 0.52 87.66% 61-90 DPD 477 0.53 458 0.52 97.39%
+    Total 1,872 2.48 0.64 25.86% 1.84 74.14% Total 0.64 25.86% 1.84 74.14% Total 1,800 2.39 1,470 1.84 77.01%
+    1-30 DPD 1,179 2.88 0.93 32.34% 1.95 67.66% 1-30 DPD 0.91 31.46% 1.97 68.54% 1-30 DPD 1,179 2.88 789 1.95 67.66%
+    31-60 DPD 668 1.47 0.20 13.48% 1.28 86.52% 31-60 DPD 0.20 13.25% 1.28 86.75% 31-60 DPD 664 1.46 571 1.28 87.28%
+    PAHAL PAHAL PAHAL
+    61-90 DPD 624 1.44 0.07 4.60% 1.37 95.40% 61-90 DPD 0.07 4.60% 1.37 95.40% 61-90 DPD 610 1.40 596 1.37 97.70%
+    Total 2,471 5.79 1.20 20.65% 4.59 79.35% Total 1.17 20.16% 4.62 79.84% Total 2,453 5.74 1,956 4.59 79.99%
+
+================================================================================
+  DOCUMENT: 673a6357156e5200
+================================================================================
+
+--- Page 1 ---
+  Heading: Retail Disbursement MIS
+  Image:   data\docs\Disb MIS__673a6357156e5200\pages\page_001.png
+  Text:
+    Retail Disbursement MIS LATEST DATE: 8/18/2026
+    FY 2026 FY 2027
+    Q3 Q4 Q1 Q2
+    Product Category Sub Product Disb in Crs Disb # Yield % Disb in Crs Disb # Yield % Disb in Crs Disb # Yield % Disb in Crs Disb # Yield %
+    LAP ₹ 1,030.19 516 9.44% ₹ 1,305.36 584 9.11% ₹ 960.54 533 8.96% ₹ 455.23 287 8.90%
+    Micro LAP ₹ 88.98 447 13.08% ₹ 90.74 420 12.99% ₹ 68.18 293 12.89% ₹ 34.60 164 12.34%
+    Micro LAP RFL ₹ 13.78 86 13.03% ₹ 17.66 108 12.99% ₹ 10.00 59 12.75% ₹ 5.29 25 12.78%
+    Loan Against Property
+    LAP Colending ₹ 96.14 9 9.40% ₹ 90.23 59 8.86% ₹ 33.08 62 9.42% ₹ 11.77 24 9.41%
+    DA Portfolio LAP ₹ 545.18 3 8.06% ₹ 8.85 2 9.84% ₹ 42.15 1 8.70% ₹ 29.72 3 8.76%
+    Total ₹ 1,774.27 1,061 10.60% ₹ 1,512.84 1,173 10.76% ₹ 1,113.94 948 10.54% ₹ 536.61 503 10.44%
+    PHL ₹ 192.15 495 8.60% ₹ 180.13 434 8.38% ₹ 215.02 420 8.44% ₹ 88.52 224 8.36%
+    AHL ₹ 264.71 1,835 10.87% ₹ 361.18 2,390 10.69% ₹ 275.19 2,165 10.69% ₹ 123.30 1,059 10.69%
+    AHL RFL ₹ 25.96 248 11.39% ₹ 35.64 340 11.48% ₹ 32.39 294 11.34% ₹ 13.61 148 11.30%
+    Home Loan
+    AHL Colending ₹ 2.98 3 10.05%
+    PHL Colending ₹ 123.28 3 9.00%
+    Total ₹ 609.08 2,584 9.98% ₹ 576.95 3,164 10.19% ₹ 522.61 2,879 10.16% ₹ 225.43 1,431 10.11%
+    New Car Loan ₹ 5.57 39 8.90% ₹ 5.40 47 9.28% ₹ 2.41 22 9.26% ₹ 1.34 11 9.39%
+    Two Wheeler ₹ 112.68 13,330 20.81% ₹ 68.40 7,980 20.85% ₹ 60.78 7,011 20.83% ₹ 31.65 3,622 20.85%
+    Wheels Used Car Loan ₹ 6.10 109 14.17% ₹ 4.93 81 14.03% ₹ 2.88 53 13.69% ₹ 0.61 15 13.87%
+    RVF ₹ 563.72 11,936 15.70% ₹ 401.71 9,029 16.08% ₹ 447.82 9,826 15.93% ₹ 158.88 3,584 16.36%
+    Total ₹ 688.08 25,414 14.89% ₹ 480.44 17,137 15.06% ₹ 513.89 16,912 14.93% ₹ 192.47 7,232 15.12%
+    BIL ₹ 7.86 29 16.49% ₹ 5.50 20 15.77% ₹ 1.11 5 15.62% ₹ 1.25 6 15.65%
+    Education Loan ₹ 3.67 29 9.43% ₹ 3.82 29 9.31% ₹ 3.85 22 9.31% ₹ 3.53 19 9.25%
+    Retail Others
+    Gold Loan-BBB ₹ 655.21 11,843 11.56% ₹ 756.67 11,394 11.42% ₹ 396.14 7,395 11.59% ₹ 150.89 3,523 11.82%
+    Total ₹ 666.74 11,901 12.50% ₹ 765.99 11,443 12.17% ₹ 401.09 7,422 12.17% ₹ 155.68 3,548 12.24%
+    Grand Total ₹ 3,738.17 40,960 11.76% ₹ 3,336.22 32,917 12.07% ₹ 2,551.52 28,161 11.96% ₹ 1,110.20 12,714 11.98%
+    FY 2027 Q2
+    Disb in Crs Disb # Yield %
+    ₹ 5.3 25 12.8%
+    ₹ 34.6 164 12.3%
+    ₹ 11.8 24 9.4%
+    ₹ 455.2 287 8.9%
+    ₹ 29.7 3 8.8%
+    ₹ 536.6 503 10.4%
+    ₹ 88.5 224 8.4%
+    ₹ 56.4 2 8.8%
+    ₹ 13.6 148 11.3%
+    ₹ 4.1 41 12.3%
+    ₹ 123.3 1,059 10.7%
+    ₹ 285.9 1,474 10.3%
+    ₹ 0.6 15 13.9%
+    ₹ 31.7 3,622 20.8%
+    ₹ 158.9 3,584 16.4%
+    ₹ 1.3 11 9.4%
+    ₹ 192.5 7,232 15.1%
+    ₹ 0.0 0
+    ₹ 864.8 139,608 25.0%
+    ₹ 150.9 3,523 11.8%
+    ₹ 3.5 19 9.2%
+    ₹ 1.3 6 15.7%
+    ₹ 1,020.5 143,156 15.4%
+    ₹ 2,035.5 152,365 12.5%
+    Note : Cards, BBG and Agri TL are not part of the Dashboard
+
+================================================================================
+  DOCUMENT: 791a6ce4b83f0c08
+================================================================================
+
+--- Page 1 ---
+  Heading: Liability Summary
+  Image:   data\docs\Liablity Summary__791a6ce4b83f0c08\pages\page_001.png
+  Text:
+    Liability Summary Data Updated Till : 15-May-26
+    Liability Summary Contractual Maturity Interest Rate Sensitivity -Deposits Interest Rate Sensitivity - Deposits Maturity Balance Movement Analysis
+    Oneview Zone Name Cluster Branch Name Fincon Segment NTB Flag Source Currency Code
+    All All All All All All All All
+    Business Segment wise Accounts and Current Balance No of Accounts By View
+    ■ CA ■ SA ■ Deposits
+    CA Deposits SA Grand Total
+    CA Deposits
+    segment No of Accounts Current Balance No of Accounts Current Balance No of Accounts Current Balance No of Accounts Current Balance
+    2.22% 7.87%
+    AFFLUENT 33,121 ₹ 1,897.16 49,885 ₹ 6,941.63 237,389 ₹ 1,278.31 320,395 ₹ 10,117.09
+    ASPIRE 23,755 ₹ 538.50 164,029 ₹ 6,658.91 115,385 ₹ 2,138.85 303,169 ₹ 9,336.27
+    INSIGNIA 20,478 ₹ 3,450.76 117,652 ₹ 21,935.17 72,285 ₹ 10,128.26 210,415 ₹ 35,514.20
+    MASSMKT 86,511 ₹ 2,175.58 171,035 ₹ 17,718.49 1,802,921 ₹ 2,685.80 2,060,467 ₹ 22,579.86
+    PREMIUM 6,818 ₹ 3,349.61 8,246 ₹ 29,998.73 6,681 ₹ 672.68 21,745 ₹ 34,021.03
+    RBS 573 ₹ 12.22 106 ₹ 3.41 61 ₹ 0.22 740 ₹ 15.85
+    SIGNATURE 10,581 ₹ 494.66 134,158 ₹ 8,156.33 90,523 ₹ 3,326.76 235,262 ₹ 11,977.75 SA
+    89.91%
+    WEALTH 81 ₹ 16.70 52 ₹ 6.46 133 ₹ 23.15
+    Grand Total 181,918 ₹ 11,935.19 645,111 ₹ 91,412.67 2,325,297 ₹ 20,237.35 3,152,326 ₹ 123,585.21 Accounts and Current Day Balance By Segment
+    ■ CA ■ SA ■ Deposits
+    Month On Month Trend
+    AFFLUENT ASPIRE INSIGNIA MASSMKT PREMIUM
+    April 2026 March 2026 February 2026 January 2026 December 2025
+    segment No of Accounts Current Balance No of Accounts Current Balance No of Accounts Current Balance No of Accounts Current Balance No of Accounts Current Balance
+    AFFLUENT 312,403 10,501.83Cr. 305,766 11,299.44Cr. 301,483 9,630.03Cr. 293,084 9,152.02Cr. 286,894 9,856.31Cr.
+    ASPIRE 294,469 8,896.32Cr. 295,208 8,954.36Cr. 296,092 8,593.69Cr. 295,752 8,525.99Cr. 296,688 8,640.84Cr.
+    INSIGNIA 208,501 35,537.37Cr. 206,705 36,014.76Cr. 204,716 33,896.21Cr. 201,924 32,600.81Cr. 199,971 32,758.71Cr.
+    MASSMKT 2,002,892 22,056.87Cr. 1,996,911 23,983.40Cr. 1,988,751 25,073.22Cr. 1,977,375 21,631.95Cr. 1,969,151 24,299.49Cr.
+    PREMIUM 21,236 35,474.81Cr. 20,591 35,619.69Cr. 20,061 30,692.25Cr. 19,252 27,489.43Cr. 18,371 28,793.02Cr.
+    RBS 738 15.91Cr. 738 15.56Cr. 741 14.34Cr. 741 15.30Cr. 742 15.43Cr.
+    SIGNATURE 233,223 11,984.80Cr. 232,843 12,076.34Cr. 233,760 11,771.78Cr. 232,575 11,700.91Cr. 233,185 11,800.80Cr.
+    WEALTH 136 8.45Cr. 136 12.53Cr. 138 6.50Cr. 137 6.91Cr. 137 8.33Cr.No of Current Day No of Current Day No of Current Day No of Current Day
+    Accounts Balance Accounts Balance Accounts Balance Accounts Balance
+    Grand Total 3,073,598 124,476.36Cr. 3,058,898 127,976.09Cr. 3,045,742 119,678.01Cr. 3,020,840 111,123.32Cr. 3,005,139 116,172.94Cr.
+
+================================================================================
+  DOCUMENT: 80072a5aee09e5f9
+================================================================================
+
+--- Page 1 ---
+  Heading: BBRL Book Allocation
+  Image:   data\docs\Book Growth Analysis__80072a5aee09e5f9\pages\page_001.png
+  Text:
+    Data available till:
+    BBRL Book Allocation
+    Home
+    8/29/2026
+    BBRL MEB Balance Sheet - Region, Zone, Cluster,
+    BBRL MEB Balance Sheet - Segment Level BBRL MEB Balance Sheet - TL & RM Level BBRL MEB Balance Sheet - Group Level BBRL MEB Balance Sheet - Customer Level BBRL MEB Balance Sheet - Account Level
+    Branch
+    BBRL MAB Balance Sheet - Region, Zone, Cluster,
+    BBRL MAB Balance Sheet - Segment Level BBRL MAB Balance Sheet - TL & RM Level Portfolio First Winback Summary
+    Branch
+    BBRL AUM - Segment Level BBRL AUM - Region, Zone, Cluster, Branch BBRL AUM - TL & RM Level Trend Book Growth Analysis BBRL DAILY SEGMENT TRACKER
+    Balance Date Selection Customer Segment Rm Segment Region Cluster Zone RM Name AH Name Product Insignia 1 Cr Plus Flag ENBD Journey Flag Leveraged Accounts
+    8/29/2026 All All All All All All All All All All All
+    Balancesheet Flag BBB Flag Gift City Flag CO OP Bank Flag Diplomat Flag FIGU Flag Salary Flag TASC Flag Upgrade Flag NR Flag
+    All BBRL All All All All All All All All
+    NTB ERV Flag (Point OnTime) Connected/Startup Flag Senior Citizen Flag Selection ERV Book NTB New Logic Individual Cust Flag
+    All All All Customer Segment (Bank Level) All All All
+    CM
+    Selected Segment
+    % of Total CM MEB along
+    CM MEB % of Total CM MEB along Table (Across) CM MEB
+    Table (Across)
+    _Product INSIGNIA SIGNATURE ASPIRE MASS INSIGNIA SIGNATURE ASPIRE MASS Total Total
+    CA 3,849.97 438.94 515.22 1,393.38 62.12% 7.08% 8.31% 22.48% 6,197.51 100.00%
+    SA 11,257.45 3,129.55 1,601.00 3,434.88 57.96% 16.11% 8.24% 17.68% 19,422.88 100.00%
+    Deposits 52,910.64 7,509.46 6,510.42 20,542.05 60.49% 8.58% 7.44% 23.48% 87,472.57 100.00%
+    ODFD 8.78 3.34 1.51 3.22 52.12% 19.80% 8.98% 19.09% 16.84 100.00%
+    Grand Total 68,026.83 11,081.29 8,628.16 25,373.53 60.14% 9.80% 7.63% 22.43% 113,109.81 100.00%
+    LY CM Vs LY : Growth in Allocated Segment CM Vs LY : Segment Book Growth
+    Selected Segment Selected Segment Selected Segment
+    LY MEB % of Total LY LY MEB % of Total LY CM Vs LY Growth _Product INSIGNIA SIGNATURE ASPIRE MASS Grand Total
+    _Product INSIGNIA SIGNATURE ASPIRE MASS INSIGNIA SIGNATURE ASPIRE MASS Total Total _Product INSIGNIA SIGNATURE ASPIRE MASS CA -21.54% -20.48% -20.17% -49.12% -29.92%
+    CA 4,906.99 551.97 645.42 2,738.80 55.49% 6.24% 7.30% 30.97% 8,843.18 100.00% CA 6.63% 0.84% 1.01% -8.49%
+    SA 0.48% 0.46% 2.19% -7.60% -0.92%
+    SA 11,203.79 3,115.25 1,566.72 3,717.23 57.15% 15.89% 7.99% 18.96% 19,602.98 100.00% SA 0.81% 0.22% 0.25% -1.28%
+    Deposits 111.67% 24.88% 17.49% -9.82% 47.44%
+    Deposits 24,996.33 6,013.38 5,541.37 22,778.25 42.13% 10.14% 9.34% 38.39% 59,329.33 100.00% Deposits 18.36% -1.55% -1.90% -14.91%
+    ODFD -2.51% -29.60% -8.05% -9.04% -10.99%
+    ODFD 9.00 4.74 1.64 3.54 47.59% 25.04% 8.69% 18.68% 18.92 100.00% ODFD 4.54% -5.23% 0.29% 0.41%
+    Grand Total 41,116.12 9,685.33 7,755.15 29,237.82 46.83% 11.03% 8.83% 33.30% 87,794.42 100.00% Grand Total 13.31% -1.23% -1.21% -10.87% Grand Total 65.45% 14.41% 11.26% -13.22% 28.83%
+    LM CM Vs LM : Growth in Allocated Segment CM Vs LM : Segment Book Growth
+    Selected Segment Selected Segment Selected Segment
+    LM MEB % of Total LM MEB along Table (Across) LM MEB % of Total .. _Product INSIGNIA SIGNATURE ASPIRE MASS _Product INSIGNIA SIGNATURE ASPIRE MASS Grand Total
+    _Product INSIGNIA SIGNATURE ASPIRE MASS INSIGNIA SIGNATURE ASPIRE MASS Total Total CA 3.50% -0.55% 0.01% -2.96% CA 2.01% -10.62% -3.59% -14.95% -3.74%
+    CA 3,774.25 491.11 534.41 1,638.21 58.62% 7.63% 8.30% 25.45% 6,437.98 100.00%
+    SA 0.30% -0.25% 0.03% -0.09% SA 1.32% -0.73% 1.14% 0.30% 0.79%
+    SA 11,110.84 3,152.62 1,582.89 3,424.50 57.66% 16.36% 8.21% 17.77% 19,270.85 100.00%
+    Deposits 10.35% -1.28% -1.30% -7.77% Deposits 55.96% 12.50% 10.05% -2.87% 29.27%
+    Deposits 33,926.56 6,675.19 5,916.00 21,149.29 50.14% 9.86% 8.74% 31.25% 67,667.04 100.00%
+    ODFD -4.76% 4.50% -3.05% 3.30% ODFD -31.47% -3.20% -44.18% -9.57% -25.21%
+    ODFD 12.81 3.45 2.71 3.56 56.88% 15.30% 12.03% 15.79% 22.52 100.00%
+    Grand Total 48,824.46 10,322.37 8,036.01 26,215.56 52.28% 11.05% 8.60% 28.07% 93,398.40 100.00% Grand Total 7.87% -1.26% -0.98% -5.64% Grand Total 39.33% 7.35% 7.37% -3.21% 21.10%
+    LQ CM Vs LQ : Growth in Allocated Segment CM vs LQ : Segment Book Growth
+    Selected Segment Selected Segment Selected Segment
+    LQ MEB % of Total LQ MEB along Table (Across) LQ MEB % of Total .. _Product INSIGNIA SIGNATURE ASPIRE MASS _Product INSIGNIA SIGNATURE ASPIRE MASS Grand Total
+    _Product INSIGNIA SIGNATURE ASPIRE MASS INSIGNIA SIGNATURE ASPIRE MASS Total Total CA 6.23% 0.42% 0.20% -6.85% CA -0.77% -5.13% -8.50% -31.57% -10.72%
+    CA 3,879.65 462.67 563.06 2,036.22 55.89% 6.67% 8.11% 29.33% 6,941.60 100.00%
+    SA 0.19% -0.21% -0.23% 0.25% SA 1.87% 0.22% -1.23% 3.00% 1.53%
+    SA 11,051.02 3,122.71 1,621.02 3,334.89 57.77% 16.32% 8.47% 17.43% 19,129.64 100.00%
+    Deposits 17.19% -1.94% -2.07% -13.18% Deposits 103.09% 18.62% 13.72% -6.89% 45.38%
+    Deposits 26,052.53 6,330.66 5,724.89 22,061.57 43.30% 10.52% 9.51% 36.67% 60,169.66 100.00%
+    ODFD -9.95% 4.15% 2.44% 3.36% ODFD -36.08% -3.68% 4.56% -7.64% -23.87%
+    ODFD 13.73 3.46 1.45 3.48 62.07% 15.65% 6.54% 15.74% 22.12 100.00%
+    Grand Total 40,996.93 9,919.50 7,910.42 27,436.17 47.53% 11.50% 9.17% 31.81% 86,263.02 100.00% Grand Total 12.62% -1.70% -1.54% -9.37% Grand Total 65.93% 11.71% 9.07% -7.52% 31.12%
+    R/Z/C/B MEB/MAB
+    Balance Movement
+    - MAB
+    Selected LYCM < 3 Ind
+    Dynamic _Product CD* CD < 3 Cr* CD < 3 Ind Cr* PD* PD < 3 Cr* PD < 3 Ind Cr* CM* CM < 3 Cr* CM < 3 Ind Cr* LM* LM < 3 Cr * LM < 3 Ind Cr * LY* LY < 3 Cr* LY < 3 Ind Cr* LYCM* LYCM < 3 Cr*
+    Segment Cr*
+    INSIGNIA - CA 3,632 1,993 165 3,623 1,992 164 3,632.20 1,993.14 164.65 3,654.79 2,007.00 166.48 3,771.85 2,005.68 168.68 3,520.74 1,820.98 152.38
+    SA 11,292 8,238 7,636 11,277 8,224 7,623 11,292.23 8,237.78 7,636.22 11,009.63 8,255.49 7,660.36 10,755.15 8,328.96 7,737.18 10,769.10 8,986.49 8,276.84
+    Deposits 53,834 25,134 17,074 53,779 25,067 17,004 53,834.13 25,133.69 17,073.96 34,820.85 24,584.69 16,922.51 24,851.69 22,642.50 15,771.57 21,769.31 20,035.28 14,567.77
+    ODFD 11 11 4 12 12 4 10.93 10.93 3.63 12.92 9.84 3.22 14.31 14.31 2.71 5.10 5.10 3.59
+    SIGNATURE - CA 464 405 22 465 405 22 464.43 404.88 22.31 448.61 407.99 23.14 451.09 414.86 21.05 403.49 377.86 19.10
+    SA 3,163 2,821 2,634 3,158 2,816 2,630 3,162.61 2,820.83 2,634.12 3,131.39 2,840.13 2,648.78 2,975.19 2,750.52 2,555.06 2,889.62 2,766.81 2,554.14
+    Deposits 7,691 6,488 5,165 7,685 6,479 5,156 7,691.48 6,488.34 5,164.50 6,971.53 6,415.62 5,117.17 5,987.47 5,815.50 4,671.18 5,563.27 5,436.99 4,478.53
+    ODFD 3 3 1 3 3 1 3.39 3.39 1.34 3.54 3.54 1.42 4.75 4.75 2.01 1.80 1.80 1.57
+    ASPIRE - CA 512 487 25 512 483 25 512.41 486.51 24.90 519.02 492.30 25.79 519.49 501.14 22.50 492.75 452.15 25.58
+    SA 1,601 1,459 1,358 1,597 1,458 1,357 1,600.80 1,459.24 1,357.70 1,571.98 1,438.74 1,340.47 1,489.31 1,406.70 1,308.01 1,397.93 1,331.13 1,238.57
+    Deposits 6,650 5,238 4,198 6,644 5,232 4,193 6,649.50 5,238.19 4,198.40 6,048.97 5,222.25 4,195.70 5,465.44 4,833.60 3,976.14 4,964.08 4,556.55 3,827.28
+    ODFD 2 2 1 2 2 1 1.57 1.57 0.85 2.12 2.12 0.80 2.07 2.07 1.29 0.96 0.96 0.67
+    MASS - CA 1,430 949 38 1,429 946 38 1,429.87 949.08 37.56 1,488.67 928.15 36.43 1,517.97 912.73 30.39 1,018.29 754.52 28.11
+    SA 3,425 2,873 2,673 3,420 2,869 2,669 3,424.93 2,873.50 2,672.71 3,310.68 2,779.41 2,576.04 3,585.50 2,632.36 2,430.85 2,760.59 2,248.48 2,070.45
+    Deposits 21,726 7,994 3,431 21,745 7,983 3,422 21,726.17 7,994.29 3,430.71 21,873.22 7,730.07 3,287.99 21,698.96 6,791.36 2,802.95 17,832.35 5,330.82 2,456.20
+    ODFD 12 8 3 12 8 3 11.98 8.27 2.91 12.86 3.93 2.95 8.70 8.70 3.07 7.00 7.00 2.99
+    Grand Total 115,449 64,104 44,426 115,364 63,980 44,312 115,448.64 64,103.64 44,426.48 94,880.79 63,121.29 44,009.26 83,098.91 59,065.73 41,504.63 73,396.38 54,112.92 39,703.76
+
+================================================================================
+  DOCUMENT: 9a2109927e5060a3
+================================================================================
+
+--- Page 1 ---
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_001.png
+  Text:
+    JLG Update – Nov’25
+    1
+
+--- Page 2 ---
+  Heading: MICROFINANCE INDUSTRY COMPARISON
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_002.png
+  Text:
+    MICROFINANCE INDUSTRY COMPARISON
+    Industry Industry RBL RBL Industry Y-o-Y RBL Y-o-Y
+    Sep-24 Sep-25 Sep-24 Sep-25 (Sep’24 to Sep’25) (Sep’24 to Sep’25)
+    GLP (₹ Cr) 414.0K 345.6K 8.7K 6.7K -16.5% -23.7%
+    Active Loans (Cr) 15.3 12.4 0.37 0.27 -19.3% -27.7%
+    PAR 1-30 2.12% 1.41% 3.12% 1.20% 0.71% 1.92%
+    PAR 31-90 2.45% 1.84% 3.93% 1.76% 0.61% 2.17%
+    PAR 91-180 1.84% 2.74% 2.80% 3.78% 0.90% 0.98%
+    • Industry has observed portfolio degrowth. Delinquency decreased across bucket on YoY basis.
+    • On similar lines RBL bank’s MFI portfolio also contracted.
+    • Delinquencies in case of RBL bank for the month of Sep’25 is better than industry delinquency percentage.
+    PAR Y-o-Y is in percentage points (unit for difference of two percentages)
+    Industry Data Source: CRIF MICROLEND (Sep 2025) 1
+
+--- Page 3 ---
+  Heading: INDUSTRY UPDATE : Number Of Lender Association & Borrower Credit Association
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_003.png
+  Text:
+    INDUSTRY UPDATE : Number Of Lender Association & Borrower Credit Association
+    • Significant reduction in portfolio exposure of borrowers with • Share of borrower level credit exposure exceeding >₹2L
+    >3 lender associations | >=5 now make up only 3% of the total declined by 2.8% YoY.
+    book • Share of borrower level credit exposure 1.5L+ reduced from
+    14.6% as of Sep’24 to 10.2% as of Sep’25
+    Industry Data Source: CRIF MICROLEND (Sep 2025)
+    5
+
+--- Page 4 ---
+  Heading: RBL: NUMBER OF LENDER ASSOCIATION TREND
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_004.png
+  Text:
+    RBL: NUMBER OF LENDER ASSOCIATION TREND
+    Portfolio O/S (₹ Cr)
+    Active
+    Lender
+    POS % POS % POS % POS %
+    POS %Share
+    Associations Sep’24 Dec’24 Share Mar’25 Share(Mar’2 Jun’25 Share Sep’25 Share(Sep-
+    (Sep-24)
+    (Dec-24) 5) (Jun-25) 25)
+    <=2 5,063 58.0% 4,596 58.8% 4,036 57.87% 3,830 57.6% 4,293 64.6%
+    3 1,261 14.4% 1,163 14.9% 1,320 18.93% 1,335 20.1% 1,402 21.0%
+    4 1,005 11.5% 910 11.6% 838 12.01% 752 11.3% 554 8.3%
+    >=5 1,404 16.1% 1,151 14.7% 780 11.18% 730 11.0% 401 6.0%
+    RBL 8,734 100% 7,819 100.0% 6,974 100.00% 6,646 100% 6675 100%
+    • Customer having 4 and above lender has reduced from ₹ 2409 Cr. in Sep’24 to ₹ 955 Cr. in Sep’25, which is a significant reduction
+    in FY’25.
+    The provided status is quarter end position of RBL bank JLG/MFI portfolio basis Credit Bureau Scrub.
+    The status is not at the time of sourcing, after the implementation of guardrails 2.0, no application gets approved having >3 lenders (including RBL) & 2 lakh indebtedness (including
+    unsecured retail loan & applied loan amount)
+    6
+
+--- Page 5 ---
+  Heading: RBL: BORROWER LEVEL CREDIT EXPOSURE
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_005.png
+  Text:
+    RBL: BORROWER LEVEL CREDIT EXPOSURE
+    Portfolio O/S (₹ Cr)
+    Borrower
+    level
+    credit
+    POS % POS % POS % POS %
+    POS %Share
+    Exposure Sep’24 Dec'24 Share Mar’25 Share(Mar- Jun’25 Share Sep’25 Share(Sep-
+    (Sep-24)
+    (Dec-24) 25) (Jun-25) 25)
+    0-20K 742 8.5% 727 9.3% 600 8.6% 465 7.0% 441 6.6%
+    20K-50K 3,179 36.4% 2,791 35.7% 2,134 30.6% 1,908 28.7% 1,762 26.4%
+    50K-80K 1,162 13.3% 1,165 14.9% 1,346 19.3% 1,416 21.3% 1,649 24.7%
+    80K-1.2L 1,345 15.4% 1,259 16.1% 1,451 20.8% 1,482 22.3% 1,542 23.1%
+    1.2L-1.6L 1,083 12.4% 938 12.0% 893 12.8% 824 12.4% 774 11.6%
+    1.6L-2L 638 7.3% 493 6.3% 363 5.2% 326 4.9% 294 4.4%
+    >2L 576 6.6% 438 5.6% 195 2.8% 219 3.3% 214 3.2%
+    RBL 8,734 100% 7,819 100% 6,974 100% 6,647 100% 6,675 100%
+    • Customer having 1.2L+ exposure has reduced from 26.3%% in Sep’24 to 19.2% in Sep’25, which is a significant reduction in FY’25.
+    The provided status is quarter end position of RBL bank JLG/MFI portfolio basis Credit Bureau Scrub.
+    The status is not at the time of sourcing, after the implementation of guardrails 2.0, no application gets approved having >3 lenders (including RBL) & 2 lakh indebtedness (including
+    unsecured retail loan & applied loan amount)
+    7
+
+--- Page 6 ---
+  Heading: IMPACT OF CONTROLS
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_006.png
+  Text:
+    IMPACT OF CONTROLS
+    6 MOB 30+ RBL vs Industry
+    RBL
+    5.60%
+    5.37%
+    Industry(ex. RBL)
+    4.95%
+    4.71%
+    4.27%
+    3.55%
+    4.33% 3.33%
+    2.53%
+    2.12% 3.11% 3.09% 3.08% 3.42% 3.33% 2.44% 1.91% 1.87% 2.11% 2.06%
+    1.25% 1.35% 1.43% 1.45% 1.46% 1.15% 0.89% 1.10% 1.07% 1.48% 2.06% 2.67% 2.34% 1.92%
+    1.82%
+    1.03% 1.27% 1.11% 1.25% 1.20% 1.41% 1.44% 1.44% 1.16% 1.31% 1.30%
+    0.76% 0.85% 0.88%
+    Apr-23 May-23 Jun-23 Jul-23 Aug-23 Sep-23 Oct-23 Nov-23 Dec-23 Jan-24 Feb-24 Mar-24 Apr-24 May-24 Jun-24 Jul-24 Aug-24 Sep-24 Oct-24 Nov-24 Dec-24 Jan-25 Feb-25 Mar-25 Apr-25
+    Onboarded Month
+    1.77%
+    1.71% RBL
+    Portfolio Performance with Guardrails in Place – 3 MOB 30+ : RBL vs Industry
+    Industry(ex. RBL)
+    Guardrail 1 Guardrail 2
+    1.16%
+    1.04%
+    0.94% 0.96%
+    0.83%
+    0.64% 0.65% 0.63% 0.69%
+    0.56% 0.57%
+    0.43% 0.37% 0.42% 0.39%
+    00 .. 01 93 %% 00 .. 01 76 %% 00 .. 02 52 %% 00 .. 01 95 %% 00 .. 12 22% % 00 .. 02 85 %% 00 .. 03 73 %% 0.04% 00 .. 03 43 %% 00 .. 02 39 %% 00 .. 03 43 %% 0.06% 0.13% 0.16% 0.20% 0.28% 0.27% 0.16% 0.12% 0.10% 0.04% 00 .. 02 38 %% 0.04% 0.08% 0.06% 0.04% 0.06%
+    Onboarded Month
+    Post implementation of Guardrails, new sourcing is showing better performance than industry
+    19
+
+--- Page 7 ---
+  Heading: Disbursement FY’26
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_007.png
+  Text:
+    Disbursement FY’26
+    Projected Disbursement
+    YTD FY’26 (Cr.)
+    Apr'25 May'25 Jun'25 Q1'FY26 Jul'25 Aug'25 Sep'25 Q2'FY26 Oct'25 Nov'25 Dec'25 Q3'FY26 Jan'26 Feb'26 Mar'26 Q4'FY26 YTM FY'26
+    BC Partner
+    Budget 341 415 450 1,206 519 522 537 1,578 563 577 583 1,723 641 651 664 1,956 6,463
+    RFL Actual 332 367 391 1,091 414 504 616 1,535 570 653 650 1,873 660 670 700 2,030 6,528
+    Variance -9 -48 -59 -115 -105 -18 80 -43 7 76 67 150 19 19 36 74 65
+    Budget 12 12 12 36 20 20 20 60 30 30 31 91 31 31 31 93 280
+    NOCPL Actual 10 16 13 39 18 18 22 58 20 22 32 74 35 35 35 105 276
+    Variance -2 4 1 3 -2 -2 2 -2 -10 -8 1 -17 4 4 4 12 -4
+    Budget 26 26 26 78 29 29 29 87 41 41 41 123 41 41 42 124 412
+    PAHAL Actual 21 24 23 68 31 36 37 103 28 40 45 113 50 50 50 150 435
+    Variance -5 -2 -3 -10 2 7 8 16 -13 -1 4 -10 9 9 8 26 23
+    Budget 379 453 488 1,320 568 571 586 1,725 634 648 655 1,937 713 723 737 2,173 7,155
+    RBL Bank Actual 363 407 428 1,198 463 558 675 1,696 617 715 727 2,059 745 755 785 2,285 7,238
+    Variance -16 -46 -60 -122 -104 -14 89 -29 -17 67 72 122 32 32 48 112 84
+    YTD FY’25 (Cr.)
+    Apr'24 May'24 Jun'24 Q1'FY25 Jul'24 Aug'24 Sep'24 Q2'FY25 Oct'24 Nov'24 Dec'24 Q3'FY25 Jan'25 Feb'25 Mar'25 Q4'FY25 FY'25
+    BC Partner
+    RFL 456 425 468 1,349 336 350 288 975 324 193 232 750 249 155 301 705 3,778
+    NOCPL 22 19 30 71 20 16 13 50 17 8 5 30 5 5 8 18 169
+    SUBK 19 25 25 69 25 25 22 71 31 18 26 75 22 16 31 69 284
+    RBL Bank 497 469 523 1,489 381 391 323 1,096 373 219 263 854 276 176 340 792 4,231
+
+--- Page 8 ---
+  Heading: Disbursement Growth Trend
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_008.png
+  Text:
+    Disbursement Growth Trend
+    Snapshot Sequential Growth Q-o-Q Y-o-Y Growth
+    DB (in Cr) Q1 Q2 Q3 Q4 FY DB (in Cr) Q1 Q2 Q3 Q4 FY DB (%) Q1 Q2 Q3 Q4 FY
+    FY'24 2,162 1,996 2,002 2,308 8,467 FY'25 -819 -393 -241 -62 -4,236 FY'25 -31.12% -45.10% -57.32% -65.67% -50.03%
+    FY'25 1,489 1,096 854 792 4,231 FY'26 415 503 362 213 3,044 FY'26 -18.93% 56.11% 142.57% 188.41% 71.94%
+    FY'26 1,207 1,710 2,072 2,285 7,275
+    FY'26 AOP 1,320 1,710 1,935 2,190 7,155
+    Book Growth Trend
+    Snapshot Sequential Growth Q-o-Q Y-o-Y Growth
+    Book (in Cr) Q1 Q2 Q3 Q4 FY Book (in Cr) Q1 Q2 Q3 Q4 FY Book (%) Q1 Q2 Q3 Q4 FY
+    FY'24 7,619 8,328 8,908 9,648 9,648 FY'25 -197 -719 -913 -860 -2,688 FY'25 24.05% 4.86% -12.22% -27.86% -27.86%
+    FY'25 9,451 8,733 7,819 6,960 6,960 FY'26 -326 32 417 599 722 FY'26 -29.81% -23.67% -9.41% 10.38% 10.38%
+    FY'26 6,634 6,666 7,083 7,682 7,682
+    FY'26 AOP 6,678 6,640 6,830 7,318 7,318
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26 Mar-26
+    Opening Book 6,960 6,873 6,842 6,634 6,566 6,556 6,666 6,730 6,898 7,083 7,273 7,438
+    Disbursals 363 407 428 463 558 675 617 715 725 726 726 776
+    Write off 219 121 170 172 162 150 129 110 120 75
+    Foreclosure 29 27 25 27 24 23 23 25 26 26 26 27
+    Pre & Repayment 420 412 392 383 374 370 369 372 385 400 415 430
+    Closing Book 6,873 6,842 6,634 6,566 6,556 6,666 6,730 6,898 7,083 7,273 7,438 7,682
+
+--- Page 9 ---
+  Heading: State wise Disbursement FY’26
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_009.png
+  Text:
+    State wise Disbursement FY’26
+    FY'25-26 Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25
+    State DB (in Cr) % DB (in Cr) % DB (in Cr) % DB (in Cr) % DB (in Cr) % DB (in Cr) % DB (in Cr) % DB (in Cr) %
+    Bihar 100.29 27.4% 110.60 27.0% 117.25 27.2% 113.92 24.4% 129.96 23.1% 167.21 24.6% 157.68 25.3% 191.26 26.5%
+    Uttar Pradesh 75.99 20.8% 84.81 20.7% 68.50 15.9% 79.63 17.0% 94.52 16.8% 115.84 17.0% 105.59 16.9% 117.85 16.3%
+    Rajasthan 58.96 16.1% 64.25 15.7% 73.25 17.0% 74.09 15.9% 79.20 14.1% 94.72 13.9% 80.68 12.9% 93.07 12.9%
+    Odisha 8.40 2.3% 9.30 2.3% 13.30 3.1% 16.14 3.5% 30.94 5.5% 34.77 5.1% 37.41 6.0% 44.01 6.1%
+    Jharkhand 21.11 5.8% 23.64 5.8% 25.89 6.0% 24.58 5.3% 35.04 6.2% 41.29 6.1% 37.44 6.0% 43.69 6.1%
+    Karnataka 0.17 0.0% 1.18 0.3% 3.51 0.8% 6.24 1.3% 10.64 1.9% 11.88 1.7% 12.74 2.0% 15.78 2.2%
+    Tamil Nadu 4.52 1.2% 10.34 2.5% 9.20 2.1% 14.16 3.0% 15.48 2.7% 20.54 3.0% 19.31 3.1% 22.86 3.2%
+    Haryana 12.23 3.3% 13.65 3.3% 15.83 3.7% 14.12 3.0% 15.68 2.8% 21.09 3.1% 18.62 3.0% 20.09 2.8%
+    Madhya Pradesh 19.48 5.3% 17.49 4.3% 22.35 5.2% 25.10 5.4% 32.17 5.7% 39.60 5.8% 36.02 5.8% 39.56 5.5%
+    West Bengal 20.57 5.6% 28.46 6.9% 27.52 6.4% 29.13 6.2% 37.73 6.7% 42.15 6.2% 40.53 6.5% 46.06 6.4%
+    Gujarat 9.34 2.6% 9.20 2.2% 8.79 2.0% 11.33 2.4% 14.67 2.6% 19.47 2.9% 15.28 2.5% 18.17 2.5%
+    Punjab 10.17 2.8% 10.83 2.6% 14.21 3.3% 18.50 4.0% 20.94 3.7% 25.04 3.7% 23.82 3.8% 23.62 3.3%
+    Maharashtra 9.73 2.7% 9.32 2.3% 9.51 2.2% 12.70 2.7% 13.70 2.4% 13.83 2.0% 10.87 1.7% 16.13 2.2%
+    Kerala 0.06 0.0% 0.06 0.0% 0.15 0.0% 0.05 0.0% - 0.0% - 0.0% - 0.0% - 0.0%
+    Uttarakhand 1.57 0.4% 1.64 0.4% 0.98 0.2% 1.56 0.3% 1.99 0.4% 2.35 0.3% 1.72 0.3% 2.47 0.3%
+    Chhattisgarh 0.89 0.2% 1.19 0.3% 1.41 0.3% 1.86 0.4% 2.00 0.4% 2.25 0.3% 1.58 0.3% 2.55 0.4%
+    Goa 0.37 0.0% 0.30 0.0% 0.60 0.0% 0.90 0.0% 1.16 0.0% 0.77 0.0% 0.69 0.0% 0.93 0.0%
+    Pondicherry 0.03 0.1% 0.15 0.1% 0.14 0.1% 0.21 0.2% 0.12 0.2% 0.18 0.1% 0.13 0.1% 0.13 0.1%
+    Telangana 6.35 0.0% 4.91 0.0% 6.09 0.0% 6.31 0.0% 6.61 0.0% 7.31 0.0% 5.39 0.0% 3.96 0.0%
+    Andhra Pradesh 5.61 0.0% 6.49 0.0% 6.62 0.0% 7.61 0.0% 7.25 0.0% 7.36 0.0% 6.21 0.0% 6.87 0.0%
+    Assam 0.06 1.7% 2.06 1.2% 6.22 1.4% 9.17 1.3% 13.35 1.2% 12.38 1.1% 12.02 0.9% 12.68 0.5%
+    Grand Total 365.89 409.84 431.32 467.30 563.15 680.02 623.72 721.74
+
+--- Page 10 ---
+  Heading: Loan Cycle Overview
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_010.png
+  Text:
+    Loan Cycle Overview FY’26
+    Average Ticket Size Nov’25 Loan Cycle Trend
+    45% 40% 37% 38% 44% 43% 46% 46%
+    1 2 3
+    9 4 9 ,3 5 9 2 ,1 7 8 6 2 ,2 6 9 2 1 ,4 5 1 9 ,2 7 6 9 2 ,1 6 6 2 0 ,8 9 6 7 ,3 6 3 2 1 ,6 5 7 2 8 ,3 5 2 1 ,2 7 0 1 0 ,1 6 55% 60% 63% 62% 56% 57% 54% 54%
+    4
+    NOCPL RBL Finserve PAHAL Grand Total Apr'25 May'25 Jun'25 Jul'25 Aug'25 Sep'25 Oct'25 Nov'25
+    NTC/NTB Renewal Total NTB/NTC Renewal
+    September'25 October'25
+    BC Name
+    NTB/NTC Renewal Total Disbursement (in Cr) NTB/NTC Renewal Total Disbursement (in Cr)
+    NOCPL 8.56 11.28 19.84 10.01 12.19 22.20
+    RBL Finserve 319.94 255.88 575.83 359.95 299.14 659.10
+    PAHAL 10.50 17.55 28.05 16.81 23.63 40.44
+    Grand Total 339.01 284.71 623.72 386.77 334.97 721.74
+
+--- Page 11 ---
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_011.png
+  Text:
+    Portfolio Performance
+    11
+
+--- Page 12 ---
+  Heading: FI PORTFOLIO PERFORMANCE
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_012.png
+  Text:
+    FI PORTFOLIO PERFORMANCE
+    Portfolio Trend
+    12,000 25.00%
+    23.75%
+    22.40%
+    22.04%
+    21.30% 21.29%
+    10,000 9,648
+    9,451 19.45%
+    21.14% 20.00%
+    8,733
+    7,819 19.30% 19.42% 19.09% 17.17%
+    17.60%
+    8,000 16.51%
+    17.40% 15.16%
+    6,960 6,873 6,842 15.41% 6,898 15.00%
+    6,634 6,566 6,555 6,666 6,730
+    12.96%
+    6,000 13.61%
+    10.21%
+    11.79% 11.66%
+    10.00%
+    4,000
+    5.85%
+    4.50%
+    6.28% 5.00%
+    2,000
+    4.31%
+    3.26%
+    - 0.00%
+    Mar'24 Jun'24 Sep'24 Dec'24 Mar'25 Apr'25 May'25 Jun'25 Jul'25 Aug'25 Sep'25 Oct'25 Nov'25
+    POS (INR Cr) PAR30+ PAR90+
+    • MFI POS increased by 2% on M-o-M basis but declined by 16% on Y-o-Y basis.
+    • PAR 30+ at Rs. 894.10Cr (12.96%), PAR 60+ at Rs. 850.61Cr (12.33%) and PAR 90+ at Rs. 804.09Cr (11.66%)
+    12
+
+--- Page 13 ---
+  Heading: BC WISE AND BUCKET WISE COLLECTION EFFICIENCY
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_013.png
+  Text:
+    BC WISE AND BUCKET WISE COLLECTION EFFICIENCY
+    13
+    BC WISE COLLECTION EFFICIENCY (Excl 90+%)
+    99%
+    98%
+    97%
+    96%
+    95%
+    94%
+    93%
+    92%
+    91%
+    90%
+    Mar'25 Jun'25 Sep'25 Oct'25 Nov'25
+    Bank RFL NOCPL PAHAL
+    Mar- 25 Jun- 25 Sep- 25 Oct- 25 Nov- 25
+    Bucket Current Total Collection Current Total Collection Current Total Collection Current Total Collection Current Total Collection
+    Demand Collection Efficiency Demand Collection Efficiency Demand Collection Efficiency Demand Collection Efficiency Demand Collection Efficiency
+    Current 566.23 560.35 98.96% 496.97 488.71 98.34% 470.40 464.60 98.77% 471.52 466.73 98.98% 480.92 477.91 99.37%
+    1-30 DPD 18.80 6.27 33.33% 12.15 4.89 40.21% 10.44 4.73 45.33% 9.89 4.85 49.06% 8.79 5.01 56.99%
+    31-60 DPD 13.25 2.35 17.74% 11.26 1.70 15.11% 7.51 1.38 18.33% 6.94 1.37 19.71% 6.27 1.41 22.41%
+    61-90 DPD 13.10 1.72 13.14% 7.81 1.18 15.11% 7.93 1.14 14.36% 6.79 1.05 15.51% 6.04 1.02 16.86%
+    91-180 DPD 46.87 6.97 14.88% 34.60 5.89 17.01% 23.15 4.63 19.98% 22.89 4.11 17.95% 19.62 3.29 16.77%
+    180+ DPD 87.72 18.63 21.24% 114.25 11.34 9.92% 126.53 13.30 10.51% 123.98 18.31 14.77% 127.78 12.66 9.91%
+    Total 745.97 596.30 79.94% 677.04 513.70 75.87% 645.96 489.77 75.82% 642.01 496.42 77.32% 649.43 501.29 77.19%
+    13
+
+--- Page 14 ---
+  Heading: BUCKET RESOLUTIONS TREND
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_014.png
+  Text:
+    BUCKET RESOLUTIONS TREND
+    Resolution Rate
+    120.00%
+    99.47% 98.99% 99.16% 98.61% 98.17% 96.99% 97.08% 97.21% 97.15% 97.98% 97.97% 97.42% 98.58% 97.59% 98.44% 98.32% 98.61% 98.71% 98.81% 99.03% 99.36%
+    100.00%
+    80.00%
+    60.00%
+    47.65% 47.34% 46.26%
+    39.62% 39.54%
+    40.00% 35.12% 34.77% 34.46% 36.57%
+    31.12% 32.41%
+    23.19% 28.76% 25.56% 23.72% 23.88% 23.79% 26.28% 26.75% 25.21% 25.21% 27.76%
+    20.95%
+    17.38%
+    20.00% 14.06% 13.13% 9.43% 8.37% 7.28% 8.05% 10.45% 10.12% 12.22% 11.34% 9.17% 13.03% 9.91% 12.17% 10.61% 11.65% 12.30% 13.88%
+    2.98% 1.75% 3.24% 2.36% 1.92% 1.65% 1.56% 1.06% 1.00% 1.24% 1.19% 5.58% 2.15% 2.66% 2.93% 1.57% 1.46% 1.43% 1.84% 1.50% 1.72%
+    0.00%
+    Mar-24 Apr-24 May-24 Jun-24 Jul-24 Aug-24 Sep-24 Oct-24 Nov-24 Dec-24 Jan-25 Feb-25 Mar-25 Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25
+    Current SMA - 0 SMA - 1 SMA - 2
+    • Resolution rate of current bucket achieved @ 99.36% for the November month increased by 33bps on M-o-M basis, last month current bucket RR was 99.03%.
+    • The resolution rate of RFL is 99.37% highest among 3 BCs,, increased by 33 bps from 99.04% on M-o-M basis.
+    • The resolution rate of 99.35% for Pahal increased by 28 bps from 99.07% on M-o-M basis.
+    • The resolution rate of NOCPL is lowest among three BCs at 99.07% increased by 32 bps from 98.75% achieved during previous month.
+    • SMA 0 - Resolution rate has increased to 46.26% on M-o-M basis from 39.54% .
+    • SMA 1 - Resolution rate has increased to 13.88% from 12.30% from previous month
+    • SMA 2 - Resolution rate was 1.72% increased from 1.50% from previous month.
+    14
+
+--- Page 15 ---
+  Heading: BC WISE BUCKET RESOLUTIONS TREND
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_015.png
+  Text:
+    BC WISE BUCKET RESOLUTIONS TREND
+    Current Bucket Resolution Trend SMA - 0 Resolution Trend
+    99.50% 60.00%
+    50.00%
+    99.00%
+    40.00%
+    98.50%
+    % % %
+    99 78 .. 50 00 %% % 8 5 .8 9% 2 3 .8 9% 1 6 .8 9% 1 7 .8 9% 1 8 .8 9% 3 0 .9 96 3 .9 9 % 2 6 .8 9% 2 3 .8 9% 2 6 .8 9% 3 7 .8 9% 5 8 .8 9% 4 0 .9 97 3 .9 9 % 9 0 .8 9% 1 0 .8 9% 0 9 .7 9% 0 0 .8 9% 5 1 .8 9% 5 7 .8 9% 7 0 .9 9 % 6 4 .8 9% 2 5 .8 9% 8 8 .8 9% 8 8 .8 9% 3 7 .8 9% 7 0 .9 95 3 .9 9 123 000 ... 000 000 %%% % 1 2 .5 2% 1 4 .2 3% 7 7 .4 3% 6 4 .4 3% 7 5 .6 3% 4 5 .9 3% 6 2 .6 4 % 4 4 .3 2% 6 4 .1 3% 5 7 .3 3% 5 2 .4 3% 8 4 .6 3% 1 5 .9 3% 6 2 .6 4 % 0 2 .2 2% 4 4 .9 1% 7 7 .2 2% 5 8 .2 2% 4 3 .2 2% 0 8 .1 2% 2 2 .4 3 % 2 8 .3 4% 1 9 .7 4% 7 4 .2 5% 7 9 .4 4% 8 0 .8 4% 9 2 .1 5% 7 8 .2 5
+    97.00% 0.00%
+    Bank RFL NOCPL PAHAL Bank RFL NOCPL PAHAL
+    Mar-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Mar-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25
+    SMA - 1 Resolution Trend SMA - 2 Resolution Trend
+    25.00% 5.00%
+    4.50%
+    20.00% 4.00%
+    3.50%
+    15.00% 3.00%
+    1 50 .. 00 00 %% % 4 3 .1 1% 1 9 .9% 7 1 .2 1% 1 6 .0 1% 5 6 .1 1% 0 3 .2 1% 8 8 .3 1 % 0 8 .0 1% 8 2 .9% 0 5 .1 1% 9 0 .0 1% 2 1 .1 1% 0 9 .1 1% 1 2 .3 1 % 0 6 .1 1% 6 1 .8% 7 7 .8% 1 8 .7% 8 1 .9% 7 1 .8% 8 5 .4 1 % 1 0 .8 1% 4 8 .8 1% 5 1 .2 2% 5 7 .9 1% 1 5 .0 2% 2 8 .1 2% 0 8 .1 2 01122 ..... 50505 00000 %%%%% % 5 1 .2% 7 5 .1% 6 4 .1% 3 4 .1% 4 8 .1% 0 5 .1% 2 7 .1 % 3 1 .2% 9 3 .1% 8 2 .1% 9 2 .1% 5 7 .1% 7 3 .1% 6 4
+    .1
+    % 0 5 .2% 9 0 .3% 6 8 .2% 5 4 .2% 5 6 .2% 8 4 .2% 1 4 .4 % 3 0 .2% 9 0 .2% 9 5 .2% 2 3 .2% 8 3 .2% 0 5 .2% 6 6 .2
+    0.00% 0.00%
+    Bank RFL NOCPL PAHAL Bank RFL NOCPL PAHAL
+    Mar-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Mar-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25
+    6
+
+--- Page 16 ---
+  Heading: SMA POOL WITH RESOLUTION
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_016.png
+  Text:
+    SMA POOL WITH RESOLUTION
+    Nov-25 Oct-25 Month SMA - 0 Resolution SMA - 1 Resolution SMA - 2 Resolution
+    State POS Resolution POS Resolution Sep’24 270 24% 140 8% 104 2%
+    30.11.25 Current SMA0 SMA1 SMA2 31.10.25 Current SMA0 SMA1 SMA2
+    Oct'24 272 24% 214 7% 129 1%
+    BR 1,825 99.42% 53.72% 14.51% 1.68% 1,794 98.96% 47.28% 14.57% 1.71%
+    Nov' 24 249 24% 218 8% 194 1%
+    UP 1,167 99.34% 36.53% 14.76% 1.61% 1,135 99.16% 34.18% 12.35% 1.81%
+    RJ 857 99.47% 43.92% 12.87% 1.09% 817 98.96% 31.87% 11.86% 0.76% Dec'24 242 26% 202 10% 201 1%
+    WB 432 99.27% 46.74% 13.90% 1.55% 417 99.21% 41.23% 11.74% 1.47% Jan’ 25 176 26% 193 10% 176 1%
+    OR 375 99.34% 24.56% 8.45% 0.85% 377 99.15% 23.40% 8.63% 0.46%
+    Feb’25 156 25% 139 12% 171 6%
+    JH 370 99.49% 48.09% 14.61% 1.64% 357 99.17% 43.54% 11.27% 2.07%
+    Mar’25 175 25% 130 11% 129 2%
+    MP 362 99.24% 46.41% 11.97% 1.09% 347 98.73% 44.30% 9.71% 0.89%
+    KR 287 99.20% 42.14% 14.70% 1.90% 308 98.79% 32.63% 11.67% 1.45% Apr’25 103 28% 143 9% 117 3%
+    TN 275 98.96% 36.22% 11.78% 3.17% 283 98.63% 22.27% 7.98% 2.06% May’25 141 31% 84 13% 132 3%
+    HR 190 99.38% 44.38% 13.28% 2.13% 182 99.39% 38.29% 9.37% 1.96%
+    Jun’25 105 32% 105 10% 73 2%
+    MH 160 99.50% 51.97% 17.83% 1.36% 155 99.27% 50.48% 18.75% 1.82%
+    Jul’25 107 35% 79 12% 95 1%
+    GJ 158 99.54% 49.74% 9.05% 1.86% 151 99.05% 43.70% 6.89% 0.63%
+    PB 157 99.81% 42.83% 17.73% 2.16% 139 99.84% 39.83% 17.16% 3.21% Aug’25 94 34% 77 11% 68 1%
+    TS 77 97.78% 51.20% 18.97% 1.02% 76 97.06% 39.49% 16.04% 0.82% Sep’25 85 37% 65 12% 69 2%
+    AP 65 99.14% 57.47% 11.97% 0.00% 61 99.32% 38.39% 33.19% 0.00%
+    Oct’25 80 40% 60 12% 58 2%
+    AS 64 99.85% 18.79% 0.00% 0.00% 53 99.92% 2.98% 0.00% 0.00%
+    Nov’25 71 46% 54 14% 51 2%
+    CG 28 99.13% 52.62% 15.35% 2.24% 27 98.16% 47.99% 16.63% 3.88%
+    UK 25 99.52% 58.44% 20.42% 2.88% 25 99.35% 52.60% 19.65% 1.62%
+    • The top 5 states contribute to 67.5% of portfolio of which Rajasthan is
+    GA 11 99.66% 69.75% 28.82% 3.55% 11 99.25% 66.37% 34.29% 1.60%
+    having highest current bucket resolution of 99.47% followed by Bihar
+    KL 8 99.39% 47.09% 23.54% 9.08% 10 98.84% 36.00% 18.31% 1.41%
+    (99.42%), UP (99.34%), Odisha (99.34%) and West Bengal (99.27%).
+    PY 4 98.15% 35.52% 27.05% 13.20% 5 98.06% 22.38% 11.08% 5.64%
+    • The resolution% on M-o-M basis increased in Rajasthan (0.51%) followed
+    TR 0 95.18% 22.99% 47.54% 22.73% 0 94.58% 49.58% 52.09% 18.08%
+    by Bihar (0.46%), Odisha (0.19%), UP (0.18%) and West Bengal (0.06%).
+    Total 6,898 99.36% 46.26% 13.88% 1.72% 6,730 99.03% 39.54% 12.30% 1.50%
+    7
+
+--- Page 17 ---
+  Heading: SLIPPAGE TREND
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_017.png
+  Text:
+    SLIPPAGE TREND
+    Total RFL PAHAL NOCPL
+    Month
+    POS Slippage % POS Slippage % POS Slippage % POS Slippage %
+    Q1- FY25 9,451 148.9 1.54% 8,330 139.8 1.65% 586 3.4 0.56% 534 5.7 1.00%
+    Q2- FY25 8,733 242.4 2.56% 7,715 224.6 2.70% 542 7.3 1.24% 476 10.5 1.96%
+    Oct - 24 8,548 135.7 1.55% 7,556 125.0 1.62% 534 4.0 0.74% 458 6.7 1.42%
+    Nov - 24 8,242 192.3 2.25% 7,291 179.6 2.38% 516 4.8 0.90% 435 8.0 1.74%
+    Dec - 24 7,819 207.6 2.52% 6,913 191.8 2.63% 503 6.2 1.20% 403 9.6 2.21%
+    Q3- FY25 7,819 535.7 6.13% 6,913 496.4 6.43% 503 15.0 2.77% 403 24.3 5.10%
+    Jan-25 7,572 182.9 2.34% 6,706 167.8 2.43% 488 5.9 1.17% 378 9.2 2.28%
+    Feb-25 7,252 162.5 2.15% 6,428 147.4 2.20% 469 5.8 1.19% 356 9.3 2.45%
+    Mar-25 6,960 127.0 1.75% 6,166 111.5 1.73% 461 6.6 1.40% 332 8.9 2.51%
+    Q4- FY25 6,960 472.3 6.04% 6,166 426.7 6.17% 461 18.3 3.64% 332 27.4 6.79%
+    FY2025 1,399 14.5% 1,287.5 44.0 67.8
+    Apr-25 6,873 114.6 1.65% 6,105 100.0 1.62% 450 7.2 1.57% 318 7.3 2.21%
+    May-25 6,842 131.5 1.91% 6,089 115.0 1.88% 442 8.8 1.97% 311 7.6 2.39%
+    Jun-24 6,634 72.4 1.06% 5,912 61.5 1.01% 428 5.7 1.30% 293 5.1 1.64%
+    Q1- FY26 6,634 318.4 4.58% 5,912 276.6 4.49% 428 21.8 4.73% 293 20.0 6.03%
+    Jul-25 6,566 97.0 1.46% 5,856 85.3 1.44% 426 6.2 1.46% 285 5.5 1.86%
+    Aug-25 6,555 69.4 1.06% 5,850 60.7 1.04% 428 4.8 1.12% 277 4.0 1.39%
+    Sep-25 6,666 68.4 1.04% 5,962 60.7 1.04% 431 4.1 0.95% 272 3.6 1.30%
+    Q2- FY26 6,666 234.8 3.54% 5,962 206.7 3.50% 431 15.1 3.52% 272 13.0 4.44%
+    Oct-25 6,730 59.3 0.89% 6,038 52.2 0.88% 426 3.6 0.84% 266 3.5 1.30%
+    Nov-25 6,898 50.4 0.75% 6,201 44.4 0.73% 434 2.9 0.68% 263 3.2 1.19%
+    Q3- FY26 6,898 109.8 1.65% 6,201 96.6 1.62% 434 6.5 1.51% 263 6.7 2.46%
+    FY2026 663.0 579.9 43.4 39.8
+    Total slippage for November 2025 is 50.4 Cr decline by 15% M-o-M and 239% Y-o-Y
+    8
+
+--- Page 18 ---
+  Heading: MFI BOOK VINTAGE 30+ %
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_018.png
+  Text:
+    MFI BOOK VINTAGE 30+ %
+    Months on Book
+    Disb. Month 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+    Apr-23 0.00% 0.00% 0.00% 0.09% 0.20% 0.41% 1.25% 1.82% 2.63% 3.26% 3.81% 4.41% 4.82% 5.53% 6.11% 6.99% 7.99% 9.24% 10.37% 10.34% 11.05% 9.56% 9.86% 10.46% 9.79% 16.66%
+    May-23 0.00% 0.00% 0.01% 0.07% 0.20% 0.54% 1.35% 2.12% 2.70% 3.21% 3.81% 4.22% 5.02% 5.68% 6.67% 7.76% 9.13% 10.42% 10.99% 11.89% 10.40% 10.79% 11.27% 10.13% 11.46% 21.60%
+    Jun'23 0.00% 0.00% 0.00% 0.05% 0.24% 0.51% 1.43% 1.99% 2.52% 3.19% 3.67% 4.49% 5.17% 6.24% 7.48% 9.07% 10.53% 11.48% 12.48% 11.60% 12.08% 12.68% 11.24% 11.90% 13.19% 22.03%
+    Jul-23 0.00% 0.00% 0.00% 0.09% 0.27% 0.74% 1.45% 2.03% 2.64% 3.13% 4.00% 4.70% 5.80% 7.14% 8.80% 10.36% 11.55% 12.63% 12.17% 12.83% 13.55% 12.16% 12.61% 13.32% 12.31% 25.39%
+    Aug-23 0.00% 0.00% 0.01% 0.12% 0.42% 0.79% 1.46% 2.06% 2.47% 3.28% 4.01% 5.18% 6.55% 8.37% 10.14% 11.48% 12.69% 12.84% 13.50% 14.46% 13.19% 13.68% 14.06% 12.20% 12.77% 23.91%
+    Sep-23 0.00% 0.00% 0.00% 0.08% 0.26% 0.59% 1.15% 1.52% 2.20% 2.86% 4.02% 5.41% 7.27% 9.23% 10.72% 12.15% 12.87% 13.65% 14.69% 14.04% 14.59% 14.96% 12.97% 12.62% 12.35% 23.21%
+    Oct-23 0.00% 0.00% 0.01% 0.07% 0.25% 0.53% 0.89% 1.45% 2.09% 3.16% 4.57% 6.45% 8.51% 10.18% 11.71% 12.68% 13.55% 14.68% 14.44% 15.16% 15.58% 13.81% 12.94% 11.99% 11.87%
+    Nov-23 0.00% 0.00% 0.01% 0.04% 0.21% 0.46% 1.10% 1.66% 2.73% 4.15% 6.11% 8.24% 10.00% 11.75% 12.84% 13.83% 15.01% 15.17% 15.96% 16.58% 14.95% 14.01% 12.55% 11.66%
+    Dec-23 0.00% 0.00% 0.00% 0.04% 0.15% 0.49% 1.07% 1.98% 3.28% 5.21% 7.41% 9.18% 10.93% 12.13% 13.13% 14.50% 14.99% 15.84% 16.39% 15.40% 14.64% 13.18% 11.77%
+    Jan-24 0.00% 0.00% 0.00% 0.03% 0.22% 0.58% 1.48% 2.70% 4.59% 6.80% 8.73% 10.59% 11.90% 12.99% 14.55% 15.22% 16.15% 16.74% 16.12% 15.66% 14.24% 12.71%
+    Feb-24 0.00% 0.00% 0.00% 0.04% 0.28% 0.91% 2.12% 3.99% 6.13% 8.02% 10.01% 11.36% 12.49% 14.10% 14.88% 15.92% 16.61% 16.57% 16.12% 14.94% 13.56%
+    Mar-24 0.00% 0.00% 0.01% 0.06% 0.57% 1.65% 3.55% 5.85% 7.88% 10.03% 11.52% 12.81% 14.71% 15.58% 16.76% 17.54% 17.89% 17.62% 16.44% 15.12%
+    Apr-24 0.00% 0.00% 0.00% 0.13% 0.94% 2.64% 4.95% 7.07% 9.29% 10.84% 12.14% 13.87% 14.69% 15.97% 16.79% 17.62% 17.64% 16.66% 15.30%
+    May-24 0.00% 0.00% 0.00% 0.16% 1.42% 3.38% 5.37% 7.61% 9.23% 10.53% 12.48% 13.39% 14.71% 15.63% 16.65% 17.36% 16.85% 15.86%
+    Jun'24 0.00% 0.00% 0.00% 0.20% 1.83% 3.55% 5.60% 7.11% 8.33% 10.24% 11.12% 12.49% 13.38% 14.34% 15.19% 15.69% 15.03%
+    Jul'24 0.00% 0.00% 0.00% 0.37% 1.77% 3.45% 4.71% 5.87% 7.65% 8.57% 9.96% 10.91% 11.89% 12.86% 13.55% 14.02%
+    Aug'24 0.00% 0.00% 0.00% 0.28% 1.74% 3.04% 4.27% 6.08% 7.08% 8.51% 9.66% 10.79% 11.85% 12.73% 13.58%
+    Sep'24 0.00% 0.00% 0.00% 0.27% 1.22% 2.08% 3.33% 3.99% 5.14% 6.16% 7.30% 8.23% 9.09% 9.93%
+    Oct'24 0.00% 0.00% 0.00% 0.16% 0.83% 1.86% 2.53% 3.66% 4.63% 5.82% 6.87% 7.83% 8.69%
+    Nov'24 0.00% 0.00% 0.02% 0.12% 0.71% 1.10% 1.92% 2.64% 3.45% 4.28% 5.07% 5.80%
+    Dec-24 0.00% 0.00% 0.00% 0.10% 0.37% 0.89% 1.44% 2.09% 2.77% 3.40% 4.04%
+    Jan-25 0.00% 0.00% 0.00% 0.04% 0.45% 0.80% 1.44% 2.03% 2.60% 3.27%
+    Feb-25 0.00% 0.00% 0.00% 0.03% 0.25% 0.66% 1.16% 1.73% 2.34%
+    Mar-25 0.00% 0.00% 0.00% 0.04% 0.37% 0.77% 1.31% 1.88%
+    Apr-25 0.00% 0.00% 0.00% 0.08% 0.34% 0.74% 1.30%
+    May-25 0.00% 0.00% 0.00% 0.06% 0.34% 0.81%
+    Jun-25 0.00% 0.00% 0.00% 0.04% 0.36%
+    Jul-25 0.00% 0.00% 0.00% 0.06%
+    Aug-25 0.00% 0.00% 0.00%
+    Sep-25 0.00% 0.00%
+    Oct-25 0.00%
+    Early delinquency (30+ at 3 and 6 Months) level has shown improvement since Dec – 24 post implementation of guardrail – 2
+    21
+
+--- Page 19 ---
+  Heading: MFI BOOK VINTAGE 90+ %
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_019.png
+  Text:
+    MFI BOOK VINTAGE 90+ %
+    Months on Book
+    Disb. Month 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+    Apr-23 0.00% 0.00% 0.00% 0.00% 0.00% 0.06% 0.14% 0.35% 1.09% 1.61% 2.31% 2.92% 3.52% 4.18% 4.61% 5.31% 5.98% 6.86% 7.92% 8.27% 9.41% 8.31% 8.92% 9.66% 9.20% 16.05%
+    May-23 0.00% 0.00% 0.00% 0.00% 0.01% 0.05% 0.15% 0.48% 1.22% 1.87% 2.42% 2.98% 3.62% 4.04% 4.83% 5.57% 6.54% 7.68% 8.62% 9.98% 8.94% 9.65% 10.22% 9.38% 10.91% 20.79%
+    Jun'23 0.00% 0.00% 0.00% 0.00% 0.00% 0.03% 0.18% 0.50% 1.24% 1.75% 2.32% 3.01% 3.48% 4.31% 5.06% 6.11% 7.40% 8.77% 10.25% 9.85% 10.67% 11.33% 10.25% 11.20% 12.56% 21.18%
+    Jul-23 0.00% 0.00% 0.00% 0.00% 0.00% 0.06% 0.24% 0.63% 1.27% 1.86% 2.51% 2.99% 3.84% 4.61% 5.69% 7.04% 8.60% 10.14% 10.22% 11.22% 11.96% 10.95% 11.76% 12.56% 11.74% 24.46%
+    Aug-23 0.00% 0.00% 0.00% 0.00% 0.01% 0.12% 0.34% 0.69% 1.34% 1.95% 2.37% 3.15% 3.96% 5.08% 6.46% 8.18% 9.95% 10.65% 11.66% 12.59% 11.72% 12.62% 13.12% 11.52% 12.16% 23.03%
+    Sep-23 0.00% 0.00% 0.00% 0.00% 0.00% 0.05% 0.21% 0.54% 1.10% 1.44% 2.10% 2.84% 3.98% 5.33% 7.14% 9.06% 10.32% 11.55% 12.54% 12.34% 13.35% 13.83% 12.11% 11.91% 11.78% 22.35%
+    Oct-23 0.00% 0.00% 0.00% 0.00% 0.00% 0.05% 0.22% 0.51% 0.83% 1.39% 2.07% 3.10% 4.50% 6.29% 8.34% 9.94% 11.23% 12.29% 12.56% 13.77% 14.28% 12.79% 12.10% 11.35% 11.33%
+    Nov-23 0.00% 0.00% 0.00% 0.00% 0.00% 0.03% 0.20% 0.43% 1.06% 1.68% 2.70% 4.09% 5.96% 8.07% 9.81% 11.27% 12.42% 13.14% 14.33% 15.03% 13.75% 12.99% 11.76% 11.04%
+    Dec-23 0.00% 0.00% 0.00% 0.00% 0.00% 0.04% 0.14% 0.48% 1.08% 1.95% 3.24% 5.06% 7.24% 8.98% 10.45% 11.69% 12.69% 14.01% 14.68% 14.05% 13.46% 12.22% 11.00%
+    Jan-24 0.00% 0.00% 0.00% 0.00% 0.00% 0.02% 0.21% 0.59% 1.46% 2.67% 4.48% 6.63% 8.54% 10.09% 11.41% 12.64% 14.14% 14.87% 14.60% 14.31% 13.14% 11.82%
+    Feb-24 0.00% 0.00% 0.00% 0.00% 0.00% 0.04% 0.29% 0.90% 2.09% 3.84% 5.95% 7.82% 9.49% 10.85% 12.11% 13.66% 14.46% 14.81% 14.53% 13.65% 12.49%
+    Mar-24 0.00% 0.00% 0.00% 0.00% 0.01% 0.08% 0.58% 1.64% 3.42% 5.70% 7.72% 9.47% 11.02% 12.43% 14.26% 15.14% 15.90% 15.84% 14.98% 13.86%
+    Apr-24 0.00% 0.00% 0.00% 0.00% 0.00% 0.14% 0.96% 2.57% 4.88% 6.97% 8.77% 10.34% 11.76% 13.42% 14.27% 15.49% 15.69% 15.05% 13.93%
+    May-24 0.00% 0.00% 0.00% 0.00% 0.00% 0.20% 1.39% 3.30% 5.31% 7.14% 8.76% 10.21% 12.05% 12.96% 14.30% 15.21% 15.06% 14.28%
+    Jun'24 0.00% 0.00% 0.00% 0.00% 0.00% 0.25% 1.82% 3.52% 5.18% 6.70% 8.01% 9.79% 10.71% 12.09% 13.05% 13.81% 13.35%
+    Jul'24 0.00% 0.00% 0.00% 0.00% 0.00% 0.44% 1.77% 3.14% 4.42% 5.62% 7.30% 8.20% 9.59% 10.57% 11.53% 12.23%
+    Aug'24 0.00% 0.00% 0.00% 0.00% 0.00% 0.37% 1.54% 2.82% 4.09% 5.82% 6.75% 8.20% 9.33% 10.45% 11.52%
+    Sep'24 0.00% 0.00% 0.00% 0.00% 0.00% 0.20% 1.08% 1.99% 3.15% 3.76% 4.89% 5.93% 6.99% 7.91%
+    Oct'24 0.00% 0.00% 0.00% 0.00% 0.00% 0.13% 0.71% 1.67% 2.34% 3.44% 4.43% 5.54% 6.56%
+    Nov'24 0.00% 0.00% 0.00% 0.00% 0.02% 0.09% 0.61% 1.00% 1.73% 2.44% 3.25% 4.04%
+    Dec-24 0.00% 0.00% 0.00% 0.00% 0.00% 0.10% 0.34% 0.80% 1.31% 1.98% 2.58%
+    Jan-25 0.00% 0.00% 0.00% 0.00% 0.00% 0.05% 0.40% 0.73% 1.31% 1.87%
+    Feb-25 0.00% 0.00% 0.00% 0.00% 0.00% 0.02% 0.23% 0.60% 1.05%
+    Mar-25 0.00% 0.00% 0.00% 0.00% 0.00% 0.05% 0.33% 0.69%
+    Apr-25 0.00% 0.00% 0.00% 0.00% 0.00% 0.07% 0.31%
+    May-25 0.00% 0.00% 0.00% 0.00% 0.00% 0.06%
+    Jun-25 0.00% 0.00% 0.00% 0.00% 0.00%
+    Jul-25 0.00% 0.00% 0.00% 0.00%
+    Aug-25 0.00% 0.00% 0.00%
+    Sep-25 0.00% 0.00%
+    Oct-25 0.00%
+    90+ delinquency level at 6 MOB and 9 MOB has reduced since Dec – 24 post implementation of guardrail – 2
+    22
+
+--- Page 20 ---
+  Heading: Recovery Performance FY’26
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_020.png
+  Text:
+    Recovery Performance FY’26
+    Recovery
+    Q'1 FY'26 Q'2 FY'26 Oct'25 Nov'25 Dec'25 Q'3 FY'26
+    (Cr.)
+    BC Partner Target Recovery Short Fall Target Recovery Short Fall Target Recovery Short Fall Target Recovery Short Fall Target Recovery Short Fall Target Recovery Short Fall
+    RFL 62.18 47.25 14.93 74.14 47.01 27.13 23.69 15.33 8.37 25.88 11.96 13.92 27.96 77.53 27.29 50.25
+    PAHAL 4.65 2.85 1.79 5.14 2.12 3.02 1.80 1.36 0.44 1.82 2.47 -0.65 1.84 5.46 3.82 1.63
+    NOCPL 3.10 2.07 1.03 3.33 1.96 1.37 0.99 1.27 -0.29 1.00 0.68 0.32 1.01 3.00 1.96 1.05
+    RBL Bank 69.92 52.58 17.34 82.61 51.09 31.52 26.48 17.96 8.52 28.70 15.11 13.59 30.81 85.99 33.07 52.92
+    Q1' FY 25 (All Fig's in Cr.) Q2 FY'25 (All Fig's in Cr.)
+    NPA (Reco+Upgrade) W/off Total= NPA+W/off NPA (Reco+Upgrade) W/off Total= NPA+W/off
+    BC
+    Monthly Monthly Monthly BC Partner Monthly Monthly Monthly
+    Partner POS Rec POS Rec Total POS Total Rec POS Rec POS Rec Total POS Total Rec
+    ROR% ROR% ROR% ROR% ROR% ROR%
+    RFL 1255 34.99 0.93% 1006 10.31 0.34% 2261 45.30 0.67% RFL 1228 35.40 0.96% 1043 8.97 0.29% 2271 44.37 0.65%
+    Agency 51 0.71 0.46% 362 1.55 0.14% 414 2.26 0.18% Agency 29 0.75 0.86% 555 1.89 0.11% 585 2.64 0.15%
+    SUBK 54 0.94 0.58% 202 1.90 0.31% 256 2.84 0.37% PAHAL 63 0.81 0.43% 208 1.31 0.21% 271 2.12 0.26%
+    NOCPL 74 1.48 0.66% 72 0.59 0.27% 147 2.07 0.47% NOCPL 76 1.45 0.64% 84 0.50 0.20% 160 1.96 0.41%
+    G T-MFI 1435 38.13 0.89% 1642 14.34 0.29% 3077 52.47 0.57% G T-MFI 1396 38.41 0.92% 1891 12.68 0.22% 3287 51.09 0.52%
+    October FY'25 (All Fig's in Cr.) November FY'25 (All Fig's in Cr.)
+    BC NPA (Reco+Upgrade) W/off Total= NPA+W/off BC NPA (Reco+Upgrade) W/off Total= NPA+W/off
+    Partner POS Rec ROR% POS Rec ROR% Total POS Total Rec ROR% Partner POS Rec ROR% POS Rec ROR% Total POS Total Rec ROR%
+    RFL 1024 9.14 0.89% 1281 2.56 0.20% 2305 11.70 0.51% RFL 923 7.97 0.86% 1425 3.53 0.25% 2348 11.50 0.49%
+    Agency 19 0.04 0.23% 566 3.58 0.63% 585 3.63 0.62% Agency 18 0.04 0.22% 566 0.42 0.07% 583 0.46 0.08%
+    PAHAL 58 0.24 0.42% 216 1.12 0.52% 274 1.36 0.50% PAHAL 56 0.25 0.45% 221 2.21 1.00% 276 2.47 0.89%
+    NOCPL 65 0.45 0.69% 97 0.83 0.85% 163 1.27 0.78% NOCPL 60 0.42 0.70% 105 0.26 0.25% 165 0.68 0.41%
+    G T-MFI 1166 9.87 0.85% 2161 8.09 0.37% 3327 17.96 0.54% G T-MFI 1056 8.68 0.82% 2317 6.43 0.28% 3373 15.11 0.45%
+
+--- Page 21 ---
+  Heading: BBPS
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_021.png
+  Text:
+    BBPS
+    Go Live: 13th August 2025
+    ▪ Top 5 States – contributing to ~80% of BBPS collection
+    Demand VS Collection (0 DPD)
+    ▪ Bihar: ₹41Cr | Rajasthan: ₹16Cr | Uttar Pradesh: ₹12Cr
+    12.00%
+    ▪ Madhya Pradesh: ₹6Cr | Jharkhand: ₹5Cr
+    10.00% 9.00%
+    7.54% ▪ Average amount: ₹ 2500.
+    8.00%
+    6.00% 4.86% ▪ Actions Taken to increase penetration:
+    ▪ Awareness through BC’s
+    4.00%
+    ▪ Leaflets in regional language displayed at all BC branches
+    2.00%
+    ▪ WhatsApp campaigns for BBPS awareness
+    0.01%
+    0.00%
+    Aug '25 Sept '25 Oct '25 Nov '25
+    Bucket wise collection (Nov'25) Bucket Wise Collection (Aug'25 to Nov'25)
+    Bucket Transactions Count Total Amount Bucket Transactions Count Total Amount
+    0 DPD 168,082 ₹42.87 Cr 0 DPD 404,441 ₹101.64 Cr
+    1-30 DPD 2,037 ₹0.47 Cr 1-30 DPD 4,466 ₹1.04 Cr
+    31-60 DPD 440 ₹0.11 Cr 31-60 DPD 1,023 ₹0.26 Cr
+    61-90 DPD 289 ₹0.08 Cr 61-90 DPD 673 ₹0.18 Cr
+    91-365 DPD 1,822 ₹0.39 Cr 91-365 DPD 5,141 ₹1.09 Cr
+    >365 DPD 645 ₹0.17 Cr >365 DPD 1,665 ₹0.35 Cr
+    Grand Total 173,315 ₹44.09 Cr Grand Total 417,409 ₹104.56 Cr
+    Hindi & English Leaflet
+    Hindi Leaflet English Leaflet
+
+--- Page 22 ---
+  Image:   data\docs\2025-12-02 - Review MFI - Nov 2025 (Kumar Ashish & Mayank)__9a2109927e5060a3\pages\page_022.png
+  Text:
+    RBL Bank Limited
+    Corporate Office: One Indiabulls Centre, Tower 2B, 6th Floor,
+    841, Senapati Bapat Marg, Lower Parel, Mumbai - 400 013.
+    Tel: (022) 022 43020600, Fax: (022) 43020520
+    Website: www.rblbank.com 22
+
+================================================================================
+  DOCUMENT: 9a2896782c65c1a6
+================================================================================
+
+--- Page 1 ---
+  Heading: Interest Rate Sensitivity - Deposits Maturity
+  Image:   data\docs\Interest Rate Sensitivity - Deposits Maturity__9a2896782c65c1a6\pages\page_001.png
+  Text:
+    Interest Rate Sensitivity - Deposits Maturity Data Updated Till : 15-May-26
+    Liability Summary Contractual Maturity Interest Rate Sensitivity -Deposits Interest Rate Sensitivity - Deposits Maturity Balance Movement Analysis
+    Zone Name Cluster Branch Name Fincon Segment Source Show Amount in
+    All All All All All Cr.
+    Rate of
+    Null UPTO 6 Days 7 To 14 Days 15 To 45 Days 46 To 90 Days 91 To 180 Days 181 To 240 Days 241 To 364 Days 1 To 2 Yrs 2 To 3 Yrs 3 To 5 Yrs 5+ Yrs Grand Total
+    Interset Buc..
+    Amount 0.00 112.25 106.74 19.53 27.56 65.90 9.90 15.79 33.80 0.00 0.03 391.50
+    Upto 3.5%
+    No of Accounts 1 24 28 32 50 71 14 31 69 1 1 322
+    Amount 494.00 533.93 1,339.56 426.22 75.36 234.11 154.45 20.48 0.61 3,278.73
+    >3.25% to
+    4.25%
+    No of Accounts 1,009 1,222 1,457 268 162 64 516 26 4 4,728
+    Amount 256.29 102.90 1,470.92 485.76 165.78 23.82 148.49 269.26 45.30 203.67 3,172.19
+    >4.25% to
+    5.5%
+    No of Accounts 719 994 3,824 4,545 1,048 68 239 475 83 223 12,218
+    Amount 13.78 16.73 169.75 138.53 476.53 43.17 15.36 168.98 511.68 490.11 9.41 2,054.05
+    5.5% to 6%
+    No of Accounts 279 505 2,012 3,336 9,702 600 63 325 754 806 311 18,693
+    Amount 63.53 107.70 253.39 1,333.98 2,221.55 663.40 454.95 229.05 57.32 46.54 80.03 5,511.44
+    6.5% to 7%
+    No of Accounts 114 165 832 1,441 1,365 481 590 1,275 32 1,635 1,119 9,049
+    Amount 65.05 100.08 58.77 284.64 214.88 138.09 129.05 159.90 97.27 4.88 15.06 1,267.68
+    6% to 6.5%
+    No of Accounts 65 113 432 789 2,823 1,670 2,223 457 232 167 326 9,297
+    Amount 951.02 1,570.34 7,177.88 5,943.63 13,584.30 8,337.26 19,837.96 15,859.19 3,323.20 253.77 208.67 77,047.21
+    7% to 9%
+    No of Accounts 7,172 8,706 35,726 43,933 94,810 47,789 95,708 199,141 45,590 6,163 4,400 589,138
+    Amount 0.00 1.40 2.80 24.16 13.29 16.12 4.11 3.66 0.83 6.29 0.34 3.02 76.02
+    >9
+    No of Accounts 1 82 97 544 535 440 93 63 49 7 6 110 2,027
+    Amount 0.00 1,957.33 2,541.23 10,513.97 8,653.60 16,820.42 9,453.86 20,759.71 16,741.50 4,041.67 999.34 316.19 92,798.82
+    Grand Total
+    No of Accounts 2 9,464 11,830 44,859 54,897 110,421 50,779 99,433 201,817 46,703 9,001 6,266 645,472
+
+================================================================================
+  DOCUMENT: a58a4c869f3a8663
+================================================================================
+
+--- Page 1 ---
+  Heading: |
+  Image:   data\docs\Product Wise__a58a4c869f3a8663\pages\page_001.png
+  Text:
+    | PORTFOLIO MONITORING - SMA NPA Weekly
+    Data Updated Till :
+    Product Summary SMA NPA Summary wise Account Level Summary 29 Aug 2026
+    Product Product Type Norms. Absolute / In cr
+    All All All Absolute In Cr In Cr
+    Product Summary
+    31 Jul 2026 04 Aug 2026 29 Aug 2026 29 Jul 2026 29 Jun 2026
+    Product Product Sub Last Month Last day Last Month Last day
+    Product Type. Norms. First week Accounts First week Advances Current Date Accounts Current Date Advances CM-1 Accounts CM-1 Advances CM-2 Accounts CM-2 Advances
+    Final Group New Accounts Advances
+    Agri Agri New Book 90 3,376 ₹357.77 3,361 ₹355.63 3,333 ₹357.89 3,348 ₹ 351.97 3,442 ₹ 350.06
+    365 19,562 ₹1,113.55 19,548 ₹1,112.21 19,589 ₹1,114.22 19,524 ₹ 1,109.42 19,364 ₹ 1,111.70
+    Old Book 90 554 ₹6.21 553 ₹5.17 552 ₹5.30 554 ₹ 6.53 559 ₹ 6.54
+    365 11,284 ₹240.32 11,268 ₹240.06 11,148 ₹237.53 11,280 ₹ 240.31 11,336 ₹ 241.90
+    Total 34,776 ₹1,717.85 34,730 ₹1,713.06 34,622 ₹1,714.94 34,706 ₹ 1,708.22 34,701 ₹ 1,710.20
+    Total 34,776 ₹1,717.85 34,730 ₹1,713.06 34,622 ₹1,714.94 34,706 ₹ 1,708.22 34,701 ₹ 1,710.20
+    BBG BBG New Book 90 1,693 ₹2,953.38 1,699 ₹2,940.12 1,754 ₹3,016.48 1,654 ₹ 2,865.30 1,449 ₹ 2,750.96
+    Old Book 90 265 ₹239.91 267 ₹237.01 272 ₹244.46 268 ₹ 238.83 274 ₹ 241.23
+    365 1 ₹0.00 1 ₹0.00 1 ₹0.00 1 ₹ 0.00 1 ₹ 0.00
+    Total 1,959 ₹3,193.29 1,967 ₹3,177.14 2,027 ₹3,260.94 1,923 ₹ 3,104.13 1,724 ₹ 2,992.18
+    Total 1,959 ₹3,193.29 1,967 ₹3,177.14 2,027 ₹3,260.94 1,923 ₹ 3,104.13 1,724 ₹ 2,992.18
+    HL AHL 90 8 ₹0.02 8 ₹0.02 8 ₹0.02 8 ₹ 0.02 9 ₹ 0.02
+    AHL( High Yield ) 90 17,360 ₹2,603.03 17,395 ₹2,607.11 17,704 ₹2,633.22 17,223 ₹ 2,571.04 16,704 ₹ 2,506.17
+    Total 17,368 ₹2,603.05 17,403 ₹2,607.13 17,712 ₹2,633.23 17,231 ₹ 2,571.05 16,713 ₹ 2,506.18
+    HL CL HL CL 90 4,060 ₹1,232.04 4,066 ₹1,234.15 4,078 ₹1,234.75 4,025 ₹ 1,218.53 3,978 ₹ 1,216.48
+    Total 4,060 ₹1,232.04 4,066 ₹1,234.15 4,078 ₹1,234.75 4,025 ₹ 1,218.53 3,978 ₹ 1,216.48
+    HL Co-Lending 90 1 ₹0.11
+    Total 1 ₹0.11
+    HL DA HL DA 90 6,798 ₹954.73 6,797 ₹954.73 6,920 ₹938.53 6,815 ₹ 898.30 6,879 ₹ 913.50
+    Total 6,798 ₹954.73 6,797 ₹954.73 6,920 ₹938.53 6,815 ₹ 898.30 6,879 ₹ 913.50
+    Housing Loan 90 5 ₹1.11 5 ₹1.11 4 ₹1.10 5 ₹ 1.11 5 ₹ 1.11
+    AHL( High Yield ) 90 25 ₹1.40 25 ₹1.40 25 ₹1.34 25 ₹ 1.40 25 ₹ 1.40
+    Total 30 ₹2.51 30 ₹2.51 29 ₹2.44 30 ₹ 2.51 30 ₹ 2.52
+    PHL PHL( Low Yield ) 90 7,883 ₹4,293.31 7,884 ₹4,289.46 7,892 ₹4,268.24 7,877 ₹ 4,273.33 7,887 ₹ 4,303.00
+    Total 7,883 ₹4,293.31 7,884 ₹4,289.46 7,892 ₹4,268.24 7,877 ₹ 4,273.33 7,887 ₹ 4,303.00
+    Total 36,139 ₹9,085.64 36,180 ₹9,087.98 36,632 ₹9,077.31 35,978 ₹ 8,963.72 35,487 ₹ 8,941.68
+    LAP HL - LAP Team New Book 90 202 ₹152.46 202 ₹150.97 199 ₹154.20 201 ₹ 151.99 203 ₹ 152.99
+    Old Book 90 111 ₹15.98 111 ₹15.96 110 ₹15.88 111 ₹ 15.98 112 ₹ 16.13
+    Total 313 ₹168.43 313 ₹166.93 309 ₹170.08 312 ₹ 167.96 315 ₹ 169.12
+    HL - LAP Team RSTR Old Book 90 5 ₹2.78 5 ₹2.78 5 ₹2.77 5 ₹ 2.78 5 ₹ 2.79
+    Total 5 ₹2.78 5 ₹2.78 5 ₹2.77 5 ₹ 2.78 5 ₹ 2.79
+    LAP New Book 90 5,109 ₹9,173.53 5,106 ₹9,159.17 5,154 ₹9,205.58 5,015 ₹ 8,930.04 4,922 ₹ 8,758.33
+    Old Book 90 1,680 ₹895.83 1,672 ₹892.00 1,645 ₹865.13 1,683 ₹ 899.27 1,710 ₹ 922.84
+    Total 6,789 ₹10,069.35 6,778 ₹10,051.17 6,799 ₹10,070.71 6,698 ₹ 9,829.31 6,632 ₹ 9,681.17
+    LAP Co-Lending New Book 90 1,217 ₹454.62 1,217 ₹454.62 1,207 ₹451.35 1,213 ₹ 453.84 1,225 ₹ 458.47
+    Old Book 90 50 ₹15.55 50 ₹15.55 50 ₹16.03 51 ₹ 16.74 52 ₹ 16.83
+    Total 1,267 ₹470.17 1,267 ₹470.17 1,257 ₹467.38 1,264 ₹ 470.59 1,277 ₹ 475.29
+    LAP Direct Assignment New Book 90 5,070 ₹1,877.73 5,070 ₹1,877.65 5,084 ₹1,835.36 5,101 ₹ 1,848.01 5,142 ₹ 1,868.57
+    Old Book 90 408 ₹122.15 407 ₹122.15 406 ₹119.35 408 ₹ 122.44 409 ₹ 125.11
+    Total 5,478 ₹1,999.88 5,477 ₹1,999.80 5,490 ₹1,954.71 5,509 ₹ 1,970.45 5,551 ₹ 1,993.68
+    LAP ECL New Book 90 28 ₹3.16 26 ₹3.09 23 ₹2.65 28 ₹ 3.29 29 ₹ 3.55
+    Old Book 90 30 ₹1.70 29 ₹1.70 29 ₹1.70 30 ₹ 1.70 32 ₹ 1.70
+    Total 58 ₹4.86 55 ₹4.80 52 ₹4.35 58 ₹ 4.99 61 ₹ 5.25
+    LAP ECL RSTR Old Book 90 15 ₹2.30 15 ₹2.30 15 ₹2.30 15 ₹ 2.30 17 ₹ 2.30
+    Total 15 ₹2.30 15 ₹2.30 15 ₹2.30 15 ₹ 2.30 17 ₹ 2.30
+    LAP RSTR New Book 90 27 ₹40.49 26 ₹40.47 26 ₹40.39 27 ₹ 40.55 27 ₹ 40.72
+    Old Book 90 207 ₹238.51 206 ₹236.76 204 ₹236.18 207 ₹ 238.89 210 ₹ 240.37
+    Total 234 ₹279.00 232 ₹277.23 230 ₹276.57 234 ₹ 279.44 237 ₹ 281.10
+    Micro LAP New Book 90 1,719 ₹264.52 1,723 ₹265.05 1,726 ₹265.09 1,698 ₹ 260.43 1,674 ₹ 256.71
+    Total 1,719 ₹264.52 1,723 ₹265.05 1,726 ₹265.09 1,698 ₹ 260.43 1,674 ₹ 256.71
+    Mini LAP New Book 90 824 ₹186.32 826 ₹186.47 828 ₹187.02 812 ₹ 183.71 804 ₹ 182.41
+    Total 824 ₹186.32 826 ₹186.47 828 ₹187.02 812 ₹ 183.71 804 ₹ 182.41
+    Small LAP New Book 90 1,980 ₹570.29 1,980 ₹569.74 2,008 ₹577.73 1,950 ₹ 561.24 1,888 ₹ 545.63
+    Total 1,980 ₹570.29 1,980 ₹569.74 2,008 ₹577.73 1,950 ₹ 561.24 1,888 ₹ 545.63
+    Total 18,682 ₹14,017.93 18,671 ₹13,996.43 18,719 ₹13,978.71 18,555 ₹ 13,733.20 18,461 ₹ 13,595.44
+    Two WheelerTwo Wheeler Loan 90 72,528 ₹387.41 72,667 ₹388.18 73,488 ₹385.86 72,353 ₹ 386.04 71,426 ₹ 387.38
+    Loan
+    Total 72,528 ₹387.41 72,667 ₹388.18 73,488 ₹385.86 72,353 ₹ 386.04 71,426 ₹ 387.38
+    Two Wheeler Loan - TA 90 65 ₹1.16 52 ₹1.44 69 ₹1.22 64 ₹ 1.23 61 ₹ 1.48
+    Total 65 ₹1.16 52 ₹1.44 69 ₹1.22 64 ₹ 1.23 61 ₹ 1.48
+    Total 72,593 ₹388.57 72,719 ₹389.62 73,557 ₹387.08 72,417 ₹ 387.28 71,487 ₹ 388.86
+    OTHERS Null 90 1 ₹0.12 1 ₹ 985.72
+    Total 1 ₹0.12 1 ₹ 985.72
+    Agri 90 1,072 ₹48.90 901 ₹48.20 976 ₹44.06 1,004 ₹ 40.07 1,001 ₹ 45.87
+    365 10 ₹0.12 10 ₹0.12 10 ₹0.12 10 ₹ 0.12 14 ₹ 0.12
+    Total 1,082 ₹49.03 911 ₹48.32 986 ₹44.18 1,014 ₹ 40.19 1,015 ₹ 45.99
+    Bills 90 377 ₹1,577.49 376 ₹1,619.39 367 ₹1,712.40 377 ₹ 1,590.90 377 ₹ 1,786.96
+    Total 377 ₹1,577.49 376 ₹1,619.39 367 ₹1,712.40 377 ₹ 1,590.90 377 ₹ 1,786.96
+    Bullion 90 79 ₹439.15 80 ₹447.10 83 ₹472.70 79 ₹ 440.71 71 ₹ 345.33
+    Total 79 ₹439.15 80 ₹447.10 83 ₹472.70 79 ₹ 440.71 71 ₹ 345.33
+    Business Loans 90 411 ₹38.01 410 ₹38.00 409 ₹37.40 411 ₹ 37.62 412 ₹ 38.93
+    365 76 ₹0.00 73 ₹0.00 72 ₹0.00 71 ₹ 0.00 71 ₹ 0.00
+    Total 487 ₹38.01 483 ₹38.00 481 ₹37.40 482 ₹ 37.62 483 ₹ 38.93
+    Cash Credit 90 776 ₹3,397.82 777 ₹3,557.34 775 ₹3,599.74 766 ₹ 3,399.69 778 ₹ 3,412.48
+    Total 776 ₹3,397.82 777 ₹3,557.34 775 ₹3,599.74 766 ₹ 3,399.69 778 ₹ 3,412.48
+    Consumer Durable 90 36 ₹0.00 36 ₹0.00 36 ₹0.00 36 ₹ 0.00 36 ₹ 0.00
+    Total 36 ₹0.00 36 ₹0.00 36 ₹0.00 36 ₹ 0.00 36 ₹ 0.00
+    Credit Card 90 612 ₹ 21,373.54
+    Total 612 ₹ 21,373.54
+    Education Loan 90 88 ₹35.34 88 ₹35.99 87 ₹36.45 86 ₹ 34.98 82 ₹ 33.24
+    Total 88 ₹35.34 88 ₹35.99 87 ₹36.45 86 ₹ 34.98 82 ₹ 33.24
+    FCY Loans 90 100 ₹1,511.66 96 ₹1,499.70 98 ₹1,553.88 100 ₹ 1,517.32 91 ₹ 1,290.07
+    Total 100 ₹1,511.66 96 ₹1,499.70 98 ₹1,553.88 100 ₹ 1,517.32 91 ₹ 1,290.07
+    Ganaseva 90 3,998,208 ₹8,568.50 3,993,850 ₹8,529.83 4,007,293 ₹8,581.77 3,993,388 ₹ 8,531.71 3,977,189 ₹ 8,505.54
+    Total 3,998,208 ₹8,568.50 3,993,850 ₹8,529.83 4,007,293 ₹8,581.77 3,993,388 ₹ 8,531.71 3,977,189 ₹ 8,505.54
+    Gift City Loans 90 415 ₹10,178.62 430 ₹10,449.81 636 ₹19,782.87 413 ₹ 9,891.82 398 ₹ 8,366.89
+    Total 415 ₹10,178.62 430 ₹10,449.81 636 ₹19,782.87 413 ₹ 9,891.82 398 ₹ 8,366.89
+    Gold DA 90 4,149 ₹31.84 4,148 ₹31.84 3,461 ₹27.84 4,263 ₹ 31.84 5,002 ₹ 35.97
+    Total 4,149 ₹31.84 4,148 ₹31.84 3,461 ₹27.84 4,263 ₹ 31.84 5,002 ₹ 35.97
+    GoldLoans 90 114,679 ₹4,217.46 114,691 ₹4,215.43 113,707 ₹4,331.52 117,820 ₹ 4,132.62 118,061 ₹ 4,170.23
+    Total 114,679 ₹4,217.46 114,691 ₹4,215.43 113,707 ₹4,331.52 117,820 ₹ 4,132.62 118,061 ₹ 4,170.23
+    Loan ag deposits / 90 12 ₹0.02 12 ₹0.02 12 ₹0.02 12 ₹ 0.02 12 ₹ 0.02
+    securities
+    Total 12 ₹0.02 12 ₹0.02 12 ₹0.02 12 ₹ 0.02 12 ₹ 0.02
+    Loan Against Car 90 127 ₹6.88 128 ₹6.91 127 ₹6.73 127 ₹ 6.86 124 ₹ 6.83
+    Total 127 ₹6.88 128 ₹6.91 127 ₹6.73 127 ₹ 6.86 124 ₹ 6.83
+    Misc 90 352 ₹4,023.49 347 ₹4,015.10 346 ₹3,823.16 348 ₹ 3,925.44 346 ₹ 3,857.43
+    365 1 ₹0.00 1 ₹0.00 1 ₹0.00 1 ₹ 0.00 1 ₹ 0.00
+    Total 353 ₹4,023.49 348 ₹4,015.10 347 ₹3,823.16 349 ₹ 3,925.44 347 ₹ 3,857.43
+    MSME Loans 90 4,688 ₹43.56 4,680 ₹43.33 4,641 ₹42.08 4,719 ₹ 43.70 4,793 ₹ 45.61
+    Total 4,688 ₹43.56 4,680 ₹43.33 4,641 ₹42.08 4,719 ₹ 43.70 4,793 ₹ 45.61
+    New Car Loan 90 266 ₹36.50 265 ₹36.50 268 ₹36.40 266 ₹ 36.64 257 ₹ 36.21
+    Total 266 ₹36.50 265 ₹36.50 268 ₹36.40 266 ₹ 36.64 257 ₹ 36.21
+    Overdraft 90 6,846 ₹1,358.51 6,785 ₹1,241.25 6,774 ₹1,294.22 6,708 ₹ 1,284.44 6,609 ₹ 1,236.23
+    Total 6,846 ₹1,358.51 6,785 ₹1,241.25 6,774 ₹1,294.22 6,708 ₹ 1,284.44 6,609 ₹ 1,236.23
+    PCA 90 176 ₹1,360.81 176 ₹1,304.95 177 ₹1,437.17 176 ₹ 1,367.46 180 ₹ 1,298.97
+    Total 176 ₹1,360.81 176 ₹1,304.95 177 ₹1,437.17 176 ₹ 1,367.46 180 ₹ 1,298.97
+    Personal Loan 90 4,342 ₹102.48 4,293 ₹102.35 4,267 ₹102.82 4,355 ₹ 105.06 4,310 ₹ 104.39
+    Total 4,342 ₹102.48 4,293 ₹102.35 4,267 ₹102.82 4,355 ₹ 105.06 4,310 ₹ 104.39
+    PIL 90 1 ₹0.00 1 ₹0.00 1 ₹0.00 1 ₹ 0.00 1 ₹ 0.00
+    Total 1 ₹0.00 1 ₹0.00 1 ₹0.00 1 ₹ 0.00 1 ₹ 0.00
+    Small Business Loan 90 818 ₹0.17 816 ₹0.17 814 ₹0.15 820 ₹ 0.17 827 ₹ 0.18
+    Total 818 ₹0.17 816 ₹0.17 814 ₹0.15 820 ₹ 0.17 827 ₹ 0.18
+    Staff Home Loan 90 885 ₹291.47 881 ₹290.60 884 ₹290.65 882 ₹ 292.16 871 ₹ 290.53
+    Total 885 ₹291.47 881 ₹290.60 884 ₹290.65 882 ₹ 292.16 871 ₹ 290.53
+    Term Loan 90 2,724 ₹13,998.95 2,725 ₹14,014.31 2,735 ₹14,798.70 2,714 ₹ 13,871.69 2,677 ₹ 13,711.79
+    Total 2,724 ₹13,998.95 2,725 ₹14,014.31 2,735 ₹14,798.70 2,714 ₹ 13,871.69 2,677 ₹ 13,711.79
+    Used Car Loan 90 1,458 ₹59.83 1,454 ₹59.64 1,440 ₹57.77 1,459 ₹ 59.92 1,487 ₹ 62.27
+    Total 1,458 ₹59.83 1,454 ₹59.64 1,440 ₹57.77 1,459 ₹ 59.92 1,487 ₹ 62.27
+    Vehicle Loan 90 171 ₹4.82 168 ₹4.81 167 ₹4.77 170 ₹ 4.69 175 ₹ 4.55
+    Total 171 ₹4.82 168 ₹4.81 167 ₹4.77 170 ₹ 4.69 175 ₹ 4.55
+    Working Capital Loans 90 1,068 ₹15,942.16 1,063 ₹14,638.75 1,056 ₹14,765.72 1,036 ₹ 14,331.89 1,008 ₹ 14,825.58
+    Total 1,068 ₹15,942.16 1,063 ₹14,638.75 1,056 ₹14,765.72 1,036 ₹ 14,331.89 1,008 ₹ 14,825.58
+    Total 4,144,411 ₹67,274.57 4,139,761 ₹66,231.46 4,151,721 ₹76,841.23 4,143,231 ₹ 87,338.81 4,127,261 ₹ 63,512.22
+    RVF RVF 90 30,568 ₹872.95 30,519 ₹870.77 30,669 ₹863.15 30,509 ₹ 869.93 30,247 ₹ 869.21
+    365 78,420 ₹2,543.35 78,376 ₹2,531.51 78,647 ₹2,523.67 78,273 ₹ 2,536.19 77,716 ₹ 2,514.08
+    Total 108,988 ₹3,416.30 108,895 ₹3,402.28 109,316 ₹3,386.82 108,782 ₹ 3,406.12 107,963 ₹ 3,383.29
+    Total 108,988 ₹3,416.30 108,895 ₹3,402.28 109,316 ₹3,386.82 108,782 ₹ 3,406.12 107,963 ₹ 3,383.29
+    Grand Total 4,417,548 ₹99,094.13 4,412,923 ₹97,997.96 4,426,594 ₹108,647.03 4,415,592 ₹ 118,641.47 4,397,084 ₹ 94,523.88
+
+================================================================================
+  DOCUMENT: d941c0a2ab773bcf
+================================================================================
+
+--- Page 1 ---
+  Heading: Retail Assets - Collections Efficiency 23-08-2026
+  Image:   data\docs\Retail Assets - Collections Efficiency__d941c0a2ab773bcf\pages\page_001.png
+  Text:
+    Retail Assets - Collections Efficiency Collec S t u io m n m s - a B ry ounce Coll S e n ct a i p o s n h s o D t aily 23 D - a 0 ta 8 A -2 s o 0 n 2 : 6
+    *Minor variations will be resolved post validation
+    Monthly Bounce *** DA & Co-lending a * r * e B d o i o s k a F b l l a e g s a n n e d ed c s a n to b b e e t o u g se g d le f d o a r s o n p l e y r L r A e P qu O i D re C m a e s n es t
+    *** *MOB Range Filter is applicable only for NPA & Non-NPA
+    PRODUCT SUBPRODUCT DATE ZONE STATE CITY BOOK FLAG** DA_CL_FLAG*** MOB RANGE CYCLE DATE Channel Type MODE
+    ALL ALL 23-08-2026 All All All All Multiple values All All All All
+    Base Data As Of: August 2026 *For subproducts under LAP, individual targets are available in tooltip
+    Total Book # Total Book ₹ Current Book # Current Book ₹ Bounce # Bounce ₹ Not to R b a e t P io resent Mar-26 EOM B J o u u n n - c 2 e 6 Rate ₹ Jul-26 Best M (₹)
+    1,61,579 ₹ 48,768.14 Cr 96,063 ₹ 32,364.12 Cr 15.73% 6.94% 3.96% 7.25% 7.32% 7.64% Sept-25
+    # Region CUSTOMER CITY CUSTOMER STATE Team
+    Data as per:23-08-2026 All All All All *This Filter Is Applicable To Non NPA Pool
+    Allocation Team # POS RES # RES POS STAB% RB% NORM% NR+RB% % RES Target Mar-2 S 6 ame Day J P u r n ev -2 io 6 us Months Jul-26 Mar-26 J E un O - M 26 Jul-26
+    Digital Collection - (Including Field Referred) 2,267 ₹279.79Cr 924 ₹129.95Cr 0.00% 0.00% 46.45% 46.45% 46.45% 67.14% 55.91% 47.89% 55.13% 55.91% 47.88% 55.21%
+    Telecalling - (Including Field Referred) 3,643 ₹457.12Cr 1,730 ₹338.93Cr 0.00% 0.00% 74.14% 74.14% 74.14% 74.29% 67.46% 81.41% 78.62% 75.54% 86.55% 88.97%
+    Telecalling - (Excluding Field Referred) 2,501 ₹501.72cr 2122 ₹417.98Cr 0.00% 0.00% 83.31% 83.31% 83.31% 100.00% 88.26% 91.32% 87.62% 99.16% 99.50% 99.94%
+    Sales 3,989 ₹84.61Cr 2253 ₹49.69Cr 0.00% 0.00% 58.73% 58.73% 58.73% 100.00% 75.36% 69.73% 71.29% 96.93% 94.91% 96.57%
+    Field Tele Employee (FTE) 9,284 ₹526.98Cr 2,666 ₹155.26Cr 0.00% 0.00% 29.46% 29.46% 29.46% 96.76% 26.35% 38.43% 38.33% 95.02% 95.70% 96.44%
+    Field (Day1) 6,491 ₹450.61Cr 1338 ₹125.03Cr 0.00% 0.00% 27.75% 27.75% 27.75% 96.77% 16.82% 35.70% 36.38% 95.32% 96.28% 96.47%
+    Field (TC Ref) 2,793 ₹69.87Cr 921 ₹28.19Cr 0.00% 0.00% 40.34% 40.34% 40.34% 96.77% 44.29% 54.66% 50.24% 94.47% 92.78% 96.75%
+    B1 14,575 ₹1,232.22Cr 7277 ₹749.35Cr 0.00% 0.00% 60.81% 60.81% 60.81% 97.79% 63.97% 68.52% 68.83% 97.42% 97.66% 98.37%
+    B2 2,200 ₹147.10Cr 606 ₹16.92Cr 9.72% 0.00% 1.78% 1.78% 11.50% 88.86% 22.15% 14.49% 21.54% 84.80% 78.03% 84.74%
+    B3 1,468 ₹103.04Cr 308 ₹10.96Cr 9.45% 0.25% 0.94% 1.19% 10.64% 86.86% 16.57% 19.54% 18.74% 94.96% 90.71% 83.81%
+    D Re a c ta o v A e s ry p T e a r r : g 2 e 3 ts -0 a 8 v - a 2 i 0 la 2 b 6 le for NPA Team T N e P a A m
+    NPA # ₹ Reco+Upg#Reco+ c U r pg₹ in ROR% Upg # Upg ₹ in cr Reco # Reco ₹ in Cr Target NPA. M S a a r- m 26 e Day J P u r n ev -2 io 6 us Mo J n u t l h -2 s 6 NPA. Mar-26 J E un O - M 26 Jul-26
+    DPD <=90 132 ₹ 48.42 Cr 62 ₹ 2.03 Cr 4.19% 5 ₹ 0.33 Cr 57 ₹ 1.70 Cr DPD <=90 ₹ (2 1 . . 6 0 1 0 % C ) r₹ (7 1 . . 0 6 3 9 % C ) r₹ (3 1 . . 9 0 2 2 % C ) r DPD <=90 ₹ (1 4 0 . . 1 6 0 7 % Cr )( ₹ 2 5 1 . . 1 3 5 9 % Cr ) ₹ (8 2 . . 8 3 6 1 % C ) r
+    DPD 91-120 428 ₹ 39.80 Cr 76 ₹ 0.18 Cr 0.46% 3 ₹ 0.04 Cr 73 ₹ 0.15 Cr DPD 91-120₹ (1 0 . . 9 2 0 2 % C ) r₹ (6 0 . . 8 6 2 7 % C ) r₹ (1 0 . . 0 1 5 5 % C ) r DPD 91-120₹ (2 2 0 . . 3 1 2 6 % Cr )( ₹ 1 1 1 . . 1 9 7 4 % Cr ) ₹ (2 0 . . 0 2 6 9 % C ) r
+    DPD 121-150 356 ₹ 30.37 Cr 50 ₹ 3.96 Cr 13.04% 6 ₹ 3.67 Cr 44 ₹ 0.29 Cr D 12 P 1 D -150 ₹ (1 0 . . 2 2 2 4 % C ) r₹ (1 0 . . 2 1 7 7 % C ) r₹ (5 0 . . 2 3 7 8 % C ) r D 12 P 1 D -150 ₹ (4 8 3 . . 5 9 6 8 % Cr ) ₹ (2 0 . . 8 3 5 8 % C ) r₹ (6 0 . . 1 4 3 4 % C ) r
+    DPD 151-180 300 ₹ 10.59 Cr 20 ₹ 0.05 Cr 0.51% 0 ₹ 0.00 Cr 20 ₹ 0.05 Cr D 15 P 1 D -180 ₹ (0 0 . . 8 0 7 4 % C ) r₹ (0 0 . . 6 0 8 3 % C ) r₹ (5 0 . . 1 5 9 6 % C ) r D 15 P 1 D -180 ₹ (1 0 . . 2 0 3 6 % C ) r₹ (1 0 . . 1 0 9 5 % C ) r ( ₹ 1 1 1 . . 2 8 7 1 % Cr )
+    ₹ 2.58 Cr
+    DPD >180 4,124 ₹ 220.87 Cr 96 ₹ 1.21 Cr 0.55% 5 ₹ 0.10 Cr 91 ₹ 1.11 Cr DPD >180 ₹ (0 1 . . 9 3 4 5 % C ) r₹ (0 0 . . 4 4 0 0 % C ) r₹ (0 0 . . 6 6 2 5 % C ) r DPD >180 ₹ (3 4 . . 3 8 9 7 % C ) r₹ (0 0 . . 7 7 2 2 % C ) r₹ (2 2 . . 0 1 3 6 % C ) r
+    Total 5,340 ₹ 350.05 Cr 304 ₹ 7.43 Cr 2.12% 19 ₹ 4.14 Cr 285 ₹ 3.29 Cr Total ₹ (1 2 . . 3 8 1 5 % C ) r₹ (1 2 . . 9 9 5 6 % C ) r₹ (1 2 . . 6 7 8 7 % C ) r Total ₹ ( 9 1 . 9 1 . 5 9 % 0 C ) r₹ (4 7 . . 9 4 3 7 % C ) r₹ (3 6 . . 9 4 4 7 % C ) r
+    Tech Off 5,986 ₹ 194.11 Cr 44 ₹ 0.48 Cr 0.25% 0 ₹ 0.00 Cr 16 ₹ 0.48 Cr Tech Off ₹ (0 0 . . 3 3 8 7 % C ) r₹ (0 0 . . 2 2 9 9 % C ) r₹ (0 0 . . 4 4 6 5 % C ) r Tech Off ₹ (1 1 . . 1 1 8 5 % C ) r₹ (1 1 . . 3 2 1 9 % C ) r₹ (2 2 . . 1 1 4 0 % C ) r
+    Total 5,986 ₹ 194.11 Cr 44 ₹ 0.48 Cr 0.25% 0 ₹ 0.00 Cr 16 ₹ 0.48 Cr Total ₹ (0 0 . . 3 3 8 7 % C ) r₹ (0 0 . . 2 2 9 9 % C ) r₹ (0 0 . . 4 4 6 5 % C ) r Total ₹ (1 1 . . 1 1 8 5 % C ) r₹ (1 1 . . 3 2 1 9 % C ) r₹ (2 2 . . 1 1 4 0 % C ) r
+    VINTAGE # ₹ Reco+Upg#Reco+ c U r pg₹ in ROR% Upg # Upg ₹ in cr Reco # Reco ₹ in Cr Mar-26 Same Day J P u r n ev -2 io 6 us Months Jul-26 Mar-26 J E un O - M 26 Jul-26
+    V1 2,349 ₹ 158.07 Cr 196 ₹ 5.03 Cr 3.18% 18 ₹ 4.14 Cr 178 ₹ 0.89 Cr 1.35% 3.32% 2.45% 20.19% 7.67% 5.72%
+    V2 1,295 ₹ 60.37 Cr 51 ₹ 0.37 Cr 0.62% 0 ₹ 0.00 Cr 51 ₹ 0.37 Cr 1.03% 1.86% 0.19% 3.64% 2.64% 1.01%
+    V3 886 ₹ 46.81 Cr 27 ₹ 0.48 Cr 1.04% 1 ₹ 0.00 Cr 26 ₹ 0.48 Cr 0.95% 0.75% 2.53% 3.86% 2.71% 3.86%
+    V4 444 ₹ 71.33 Cr 21 ₹ 1.30 Cr 1.82% 0 ₹ 0.00 Cr 21 ₹ 1.30 Cr 0.17% 0.15% 1.54% 3.22% 2.08% 3.88%
+    V5+ 366 ₹ 13.48 Cr 9 ₹ 0.25 Cr 1.83% 0 ₹ 0.00 Cr 9 ₹ 0.25 Cr 0.81% 0.20% 0.17% 7.85% 7.42% 0.47%
+    Total 5,340 ₹ 350.05 Cr 304 ₹ 7.43 Cr 2.12% 19 ₹ 4.14 Cr 285 ₹ 3.29 Cr 0.92% 1.20% 1.10% 9.15% 4.93% 3.94%
+    Resolution: Last 6 Months NPA ROR%: Last 6 Months
+    Feb-26 Mar-26 Apr-26 May-26 Jun-26 Jul-26 NPA Feb-26 Mar-26 Apr-26 May-26 Jun-26 Jul-26
+    A. Digital Collection - (Including Field Referred) 49.06% 55.91% 62.33% 53.35% 47.88% 55.21% DPD <=90 15.04% 12.33% 29.15% 22.61% 20.12% 8.21%
+    B. Telecalling - (Including Field Referred) 86.28% 75.54% 81.85% 77.85% 86.55% 88.97% DPD 91-120 1.29% 43.65% 7.72% 5.69% 10.94% 2.63%
+    C. Telecalling - (Excluding Field Referred) 99.53% 99.16% 98.87% 99.78% 99.50% 99.94% DPD 121-150 9.30% 43.02% 2.48% 1.27% 2.90% 5.80%
+    D. Sales 95.89% 96.93% 99.94% 96.50% 94.91% 96.57%
+    DPD 151-180 2.68% 0.94% 0.50% 0.97% 1.47% 10.96%
+    E. Field Total (F+G) 95.54% 95.02% 95.21% 93.06% 95.70% 96.44%
+    DPD >180 2.15% 2.70% 0.91% 1.10% 0.39% 1.15%
+    F. Field (Day1) 95.84% 95.32% 96.46% 93.89% 96.28% 96.47%
+    Tech Off 0.36% 0.84% 3.69% 0.37% 0.94% 1.52%
+    G. Field (TC Ref) 94.30% 94.47% 87.90% 89.31% 92.78% 96.75%
+    H. B1 97.70% 97.42% 97.13% 96.12% 97.66% 98.37%
+    I. B2 89.78% 84.80% 83.51% 86.98% 78.03% 84.74%
+    K. B3 87.43% 94.96% 88.73% 93.10% 90.71% 83.81%
+
+================================================================================
+  DOCUMENT: e4d5aeb33077cbc6
+================================================================================
+
+--- Page 1 ---
+  Image:   data\docs\2026-01-01 - Credit Cards Updated Dec-25__e4d5aeb33077cbc6\pages\page_001.png
+  Text:
+    Credit Cards
+    Business Update Dec-25
+
+--- Page 2 ---
+  Heading: Credit Card Journey
+  Image:   data\docs\2026-01-01 - Credit Cards Updated Dec-25__e4d5aeb33077cbc6\pages\page_002.png
+  Text:
+    Credit Card Journey
+    Note: Oct-25(Net Revenue, Expense & PBT are provisional) * With capital credit
+    A
+    6 5
+    p r-2 5 M
+    6
+    a y
+    9
+    -2 5 Ju
+    5
+    n
+    8
+    -2 5
+    N e
+    Ju
+    w
+    6 8
+    l-2
+    C
+    5
+    a
+    A
+    r
+    u
+    d
+    6
+    g
+    s (
+    3
+    -2 5
+    '0
+    S e
+    0
+    7
+    p
+    0 s
+    4
+    -2 5
+    )
+    O
+    9 7
+    c t-2 5 N
+    9
+    o v
+    0
+    -2 5 D
+    1
+    e
+    0
+    c
+    7
+    -2 5
+    4
+    A
+    ,7 7
+    p r-2
+    6
+    5 M
+    4 ,7
+    a y
+    3
+    -2
+    5
+    5
+    4
+    Ju
+    ,6 8
+    n -2
+    8
+    5
+    4
+    Ju
+    C
+    ,6 4
+    l-2
+    7
+    5
+    I F ( '0 0
+    4 ,5 4 1
+    A u g -2 5
+    0 s )
+    4 ,4
+    S e p
+    6
+    -2
+    8
+    5
+    4
+    O
+    ,4 5
+    c t-2
+    0
+    5
+    4
+    N
+    ,4
+    o v
+    5
+    -2
+    1
+    5
+    4 ,4
+    D e c
+    6
+    -2
+    6
+    5
+    Net Revenue (Cr) Expense (Cr) PBT* (Cr)
+    61
+    59
+    55
+    410 407 400 372 416 363 397 275
+    341 249 248
+    324 226 219 16
+    193 191 188 192
+    4
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25
+    -6
+    -19
+    -28
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25
+    -35
+    2
+    A
+    1
+    p
+    ,7
+    r-
+    4 1
+    2 5
+    2
+    M
+    1
+    a
+    ,2 9
+    y -2
+    4
+    5
+    2 1
+    Ju
+    ,4 9 9
+    n -2 5
+    P
+    2
+    o
+    1
+    Ju
+    r t f o
+    ,1 3 5
+    l- 2 5
+    l i
+    2
+    A
+    o
+    1
+    u
+    S
+    ,1 2
+    g -2
+    i
+    8
+    5
+    z e
+    2
+    S
+    ( C
+    1 ,2 8
+    e p -2
+    r
+    2
+    5
+    )
+    2
+    O
+    1
+    c
+    ,1 0
+    t-2
+    6
+    5
+    2
+    N
+    0 ,8
+    o v
+    6
+    -2
+    1
+    5
+    2
+    D
+    0
+    e
+    ,5 0
+    c -2
+    6
+    5
+
+--- Page 3 ---
+  Heading: P&L Details YTM’26 (Total)
+  Image:   data\docs\2026-01-01 - Credit Cards Updated Dec-25__e4d5aeb33077cbc6\pages\page_003.png
+  Text:
+    P&L Details YTM’26 (Total)
+    Q1 Q2 Q3 YTM YTM FY'26 YTM YTM
+    Particulars Var.
+    Actual Actual Prov Actual Budget Budget Actual Budget
+    NCA 1 ,92,728 2 ,05,712 2 ,93,855 6 ,92,295 9 ,09,000 1 2,50,000 -2,16,705 Lower NCA by 217k (DST 121K,Digital 3K, Co-brand 92K)
+    AIF ('000) 4,754 4,531 4,527 4,527 4,833 4 ,909 - 306
+    ENR 2 1,499 2 1,282 2 0,506 2 0,506 2 2,222 22,871 - 1,716
+    Spend 2 1,105 2 1,168 2 1,446 6 3,719 6 8,971 93,632 - 5,252
+    ANR 2 1,018 2 0,720 2 0,382 2 0,707 2 1,407 21,648 - 700
+    GII 1,068 1,094 1,068 3,230 3,297 4 ,432 -67 20.80% 20.53%
+    FTP 454 451 433 1,338 1,411 1 ,901 -73 8.62% 8.79%
+    NII 614 643 635 1,892 1,886 2 ,531 6 12.18% 11.75%
+    Fee 461 537 541 1,538 1,726 2 ,404 - 188 9.90% 10.75% Fee down due to drop-in interchange fee, utility fee and
+    Net Revenue 1,075 1,180 1,175 3,430 3,612 4 ,935 - 182 22.09% 22.50% rental fee (due to lower spend & change in spend mix)
+    Opex 717 636 628 1,980 1,913 2 ,556 68 12.75% 11.91% and x sell booking.
+    Direct Cost 267 311 168 747 1,000 1 ,353 - 253 4.81% 6.23%
+    Attributable Cost 429 305 440 1,173 862 1 ,136 3 11 7.55% 5.37% Higher Collection Cost Compared to Budget
+    Central Allocation 2 1 2 1 1 9 6 0 5 1 68 9 0.39% 0.32%
+    Operating Profit 358 544 548 1,450 1,699 2 ,379 - 249 9.34% 10.58%
+    Credit Cost 379 461 519 1,359 1,114 1 ,464 2 45 8.75% 6.94% Higher Credit Cost due to worsening in Collection
+    GCO+Prov 478 530 591 1,599 1,316 1 ,726 2 83 10.30% 8.19% Performance in Q2
+    Recovery - 99 - 68 - 69 -236 -204 - 267 -31 -1.52% -1.27%
+    Prov for Std Adv -0 -1 -3 -4 3 5 - 7 -0.03% 0.02%
+    PSL 3 4 3 4 3 3 101 105 1 41 - 3 0.65% 0.65%
+    PBT - 55 4 9 -4 - 10 480 7 75 - 491 -0.07% 2.99%
+    Capital credit 3 9 3 9 3 8 116 120 1 62 - 4 0.75% 0.75%
+    PBT+CC - 16 8 7 3 4 106 601 9 37 - 495 0.68% 3.74%
+    C/I 66.7% 53.9% 53.4% 57.7% 53.0% 51.8% 57.7% 53.0%
+
+--- Page 4 ---
+  Heading: Portfolio metrics trend
+  Image:   data\docs\2026-01-01 - Credit Cards Updated Dec-25__e4d5aeb33077cbc6\pages\page_004.png
+  Text:
+    Portfolio metrics trend
+    Spends (Cr.) Active Rate
+    7458
+    7,431
+    48% 47% 48% 48% 48% 50% 48% 48%
+    45%
+    7,219 7201
+    7,065
+    6,857 6,871
+    6,817
+    6755
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25
+    Spend/Card ENR Term & Non-Term
+    Non-Term Term
+    16,753
+    15,907
+    15,471 15,319 15,341 15,371 14,973
+    14,422
+    13,647
+    49% 46% 46% 46% 45% 45% 44% 44% 44%
+    51% 54% 54% 54% 55% 55% 56% 56% 56%
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25
+
+--- Page 5 ---
+  Heading: Cross Sell (Trends and Numbers)
+  Image:   data\docs\2026-01-01 - Credit Cards Updated Dec-25__e4d5aeb33077cbc6\pages\page_005.png
+  Text:
+    Cross Sell (Trends and Numbers)
+    9 8
+    7
+    6
+    5
+    4
+    3
+    2
+    1
+    0 0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0 0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    7
+    A
+    2
+    p
+    9 .5
+    r-2 5 M
+    7
+    a
+    9
+    y
+    5
+    -2 5
+    7 5 1
+    Ju n -2 5
+    7
+    Ju
+    S
+    5 8
+    l-2
+    p
+    5
+    l i t
+    D
+    &
+    A
+    is
+    P a
+    7 3 2
+    u g - 2 5
+    b u rs a
+    y ( E
+    S
+    l (In C
+    M
+    7 4
+    e p
+    r )
+    I )
+    0
+    -2 5 O
+    8
+    c
+    1 8
+    t- 2 5 N
+    6
+    o
+    8
+    v
+    0
+    -2 5 D
+    6
+    e
+    9 7
+    c -2 5
+    3
+    2
+    2
+    1
+    1
+    0
+    5
+    0
+    5
+    0
+    5
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    A
+    1
+    p
+    7 6
+    r - 2 5 M
+    1
+    a
+    9
+    y
+    5
+    - 2 5 J u
+    1 9 0
+    n - 2 5
+    D i a
+    1
+    J u
+    l F
+    2 4
+    l- 2 5
+    o
+    D
+    r
+    is b
+    C
+    A
+    u
+    a
+    1 2
+    u g
+    r s
+    s h
+    6
+    - 2 5
+    a l ( In
+    ( S
+    C
+    T
+    1
+    S e
+    r )
+    P
+    6
+    p
+    L
+    1
+    - 2 5
+    )
+    O
+    1
+    c
+    5 4
+    t- 2 5 N
+    1
+    o
+    9
+    v
+    6
+    - 2 5 D
+    2
+    e
+    5
+    c
+    8
+    - 2 5
+    Xpress Cash
+    90 82
+    80 78 79 77 75
+    71
+    69 67
+    70 63
+    60
+    50
+    40
+    30
+    20
+    10
+    0
+    Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25
+    Disbursal (In Cr)
+
+--- Page 6 ---
+  Heading: Collection Metrics
+  Image:   data\docs\2026-01-01 - Credit Cards Updated Dec-25__e4d5aeb33077cbc6\pages\page_006.png
+  Text:
+    Collection Metrics
+    Allocation Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25
+    PDD Allocation ($) 4,217 4,199 3,949 4,624 4,375 4,161 4,485 3,782 Not Yet
+    PDD+4 Allocation ($) 1,463 1,453 1,312 1,541 1,466 1,466 1,323 1,342 Completed
+    Bucket 1 Allocation ($) 1,119 1,180 1,300 1,025 800 774 823 700 700
+    Bucket 2 Allocation ($) 355 359 353 848 669 384 407 405 358
+    Bucket 3 Allocation ($) 302 285 283 373 973 1,224 1,153 1,154 1,203
+    Bucket 3 Rest ($) 289 436 332 345 241 334
+    Bucket 3 SP ($) 84 537 892 808 913 869
+    Bucket 4 Allocation ($) 215 231 220 216 179 303 344 292 224
+    Pre X Resolution (%) 83.00% 80.44% 81.58% 88.10% 89.18% 87.50% 91.36% 88.92%
+    Pre 4-10 Resolution (%) 50.38% 43.46% 44.57% 64.31% 67.71% 64.50% 70.71% 68.77%
+    Bucket 1 Resolution (%) 77.86% 79.23% 40.73% 42.79% 61.76% 63.05% 66.22% 66.91%
+    Bucket 2 Resolution (%) 43.48% 42.91% 18.41% 9.74% 12.97% 33.53% 35.04% 37.31%
+    Bucket 3 Resolution (%) 35.98% 34.04% 35.29% 59.68% 71.17% 75.97% 79.10% 84.63%
+    Bucket 3 Rest ($) 53.3% 42.2% 86.3% 34.5% 27.9%
+    Bucket 3 SP ($) 98.6% 97.4% 93.8% 97.3% 98.3%
+    Bucket 4 Resolution (%) 25.61% 24.28% 27.04% 25.64% 26.76% 22.71% 21.65% 25.19%
+    • Bucket 1: Allocation reduced from 823 to 700 effective November 2025 SOC.
+    • Bucket 2: Allocation reduced from 405 to 358 effective December 2025 SOC.
+    • Bucket 3: Allocation reduction will commence from January 2025 SOC.
+
+================================================================================
+  DOCUMENT: eba5ceb37604385e
+================================================================================
+
+--- Page 1 ---
+  Heading: | Credit Card Daily Collections
+  Image:   data\docs\Collection Daily Refresh__eba5ceb37604385e\pages\page_001.png
+  Text:
+    | Credit Card Daily Collections Data Updated Till : 27-08-2026
+    Overall (BAU + Supercards) Bucket-wise Resolution MIS, along with stocks, till 26 EOD - Aug'26 Closing Cycles.
+    B1 resolutions Dip by 5.00% And Normalization Dip by 2.66% vs last month.
+    B2 resolutions Dip by 2.67% And Normalization Dip by 1.20% vs last month.
+    B3 resolutions Dip by 2.02% And Normalization Dip by 0.25% vs last month.
+    NPA money collection Dip by 1.805 in Cr vs last month
+    W-off Recovery money collection Better Off by 67.16 lac's vs last month
+    Pre-NPA Portfolio (B1 – B3)
+    BAU + Supercards Currbal in Cr Resolution % Var Normalization % Var Roll Back % Var Stab % Var
+    Jul'26 Closing Aug'26 Closing Jul'26 Closing Aug'26 Closing Aug'26 Vs Jul'26 Closing Aug'26 Closing Aug'26 Vs Jul'26 Closing Aug'26 Closing Aug'26 Vs Jul'26 Closing Aug'26 Closing Aug'26 Vs
+    Bucket
+    Cycles Cycles Cycles Cycles Jul'26 Cycles Cycles Jul'26 Cycles Cycles Jul'26 Cycles Cycles Jul'26
+    B1 677.4 700.2 23.4% 18.4% -5.00% 11.1% 8.5% -2.66% 0.0% 0.0% 0.00% 12.2% 9.9% -2.33%
+    B2 258.5 254.6 9.1% 6.4% -2.67% 3.2% 2.0% -1.20% 0.7% 0.6% -0.12% 5.1% 3.8% -1.34%
+    B3 267.4 535.6 3.5% 1.4% -2.02% 0.6% 0.4% -0.25% 0.3% 0.1% -0.18% 2.6% 1.0% -1.59%
+    Note - NPA and TWO Numbers will be refresh post 10th of every month and performance tracking will be done tiill month end.
+    NPA Portfolio (90-120 DPD)
+    BAU + Supercards Allocated Balance in Cr Money Collected in Cr Var in Cr
+    Bucket Jul'26 MTD Aug'26 MTD Jul'26 MTD Aug'26 MTD Aug'26 vs Jul'26
+    NPA 467.2 307.3 10.2 8.4 -1.81
+    TWO Portfolio (120+ DPD)
+    BAU + Supercards Allocated Balance in Cr Money Collected in Cr Var in Cr
+    Bucket Jul'26 MTD Aug'26 MTD Jul'26 MTD Aug'26 MTD Aug'26 Vs Jul'26
+    TWO - Tech Write-off 3,360.0 2,866.8 21.4 22.1 0.67
+    Overall (BAU + Supercards) by Balance Band
+    B1 resolutions Dip by 4.36%, 1L to 2L Dip by 5.60% and >2L vs last month.
+    B2 resolutions Dip by 2.94%, 1L to 2L Dip by 2.91% and >2L vs last month.
+    B3 resolutions < 1L Dip by 3.00%, 1L to 2L Dip by 1.11% and >2L vs last month.
+    Pre-NPA Portfolio (B1 – B3)
+    BAU + Supercards Currbal in Cr Resolution % Var Normalization % Var Roll Back % Var Stab % Var
+    Jul'26 Closing Aug'26 Closing Jul'26 Closing Aug'26 Closing Aug'26 Vs Jul'26 Closing Aug'26 Closing Aug'26 Vs Jul'26 Closing Aug'26 Closing Aug'26 Vs Jul'26 Closing Aug'26 Closing Aug'26 Vs
+    Bucket
+    Cycles Cycles Cycles Cycles Jul'26 Cycles Cycles Aug'26 Cycles Cycles Jul'26 Cycles Cycles Jul'26
+    B1 < 1L 298.0 318.9 26.1% 21.7% -4.36% 12.7% 10.4% -2.29% 0.0% 0.0% 0.00% 13.4% 11.3% -2.07%
+    B1 1L -2L 150.7 159.3 21.5% 15.9% -5.60% 9.4% 6.7% -2.68% 0.0% 0.0% 0.00% 12.1% 9.2% -2.93%
+    B1 2L -5L 189.3 185.7 20.7% 15.2% -5.52% 9.3% 6.5% -2.78% 0.0% 0.0% 0.00% 11.4% 8.6% -2.75%
+    B1 >5L 39.4 36.3 22.7% 16.0% -6.72% 15.1% 9.4% -5.65% 0.0% 0.0% 0.00% 7.7% 6.6% -1.07%
+    Total 677.4 700.2 23.4% 18.4% -5.00% 11.1% 8.5% -2.66% 0.0% 0.0% 0.00% 12.2% 9.9% -2.33%
+    B2 < 1L 112.7 112.0 11.5% 8.6% -2.94% 3.3% 2.3% -0.96% 0.8% 0.5% -0.26% 7.5% 5.8% -1.72%
+    B2 1L -2L 57.9 56.2 7.8% 4.9% -2.91% 3.3% 1.6% -1.68% 0.9% 0.6% -0.34% 3.6% 2.7% -0.89%
+    B2 2L -5L 69.3 70.5 6.0% 4.4% -1.62% 2.6% 1.7% -0.98% 0.5% 0.7% 0.15% 2.8% 2.1% -0.78%
+    B2 >5L 18.6 15.9 9.2% 5.0% -4.28% 4.7% 2.8% -1.88% 0.5% 1.0% 0.44% 4.0% 1.1% -2.84%
+    Total 258.5 254.6 9.1% 6.4% -2.67% 3.2% 2.0% -1.20% 0.7% 0.6% -0.12% 5.1% 3.8% -1.34%
+    B3 < 1L 89.9 137.0 6.6% 3.6% -3.00% 1.3% 0.8% -0.51% 0.4% 0.2% -0.23% 4.8% 2.6% -2.25%
+    B3 1L -2L 67.4 137.8 2.1% 1.0% -1.11% 0.4% 0.2% -0.16% 0.1% 0.1% -0.03% 1.6% 0.7% -0.92%
+    B3 2L -5L 89.7 220.0 1.7% 0.5% -1.18% 0.3% 0.2% -0.09% 0.1% 0.0% -0.13% 1.3% 0.3% -0.96%
+    B3 >5L 20.5 40.8 2.1% 0.8% -1.30% 0.0% 0.6% 0.56% 0.5% 0.0% -0.51% 1.5% 0.2% -1.35%
+    Total 267.4 535.6 3.5% 1.4% -2.02% 0.6% 0.4% -0.25% 0.3% 0.1% -0.18% 2.6% 1.0% -1.59%
+    NPA Portfolio (90-120 DPD)
+    BAU + Supercards Allocated Balance in Cr Money Collected in Cr Var in Cr
+    Bucket Jul'26 MTD Aug'26 MTD Jul'26 MTD Aug'26 MTD Aug'26 vs Jul'26
+    < 1L 134.5 99.3 4.5 3.9 -0.63
+    1L -2L 121.5 77.7 2.4 2.1 -0.27
+    2L -3L 92.8 59.0 1.6 1.2 -0.44
+    3L -4L 55.7 31.2 0.7 0.6 -0.14
+    4L -5L 30.4 17.9 0.5 0.3 -0.20
+    >5L 32.3 22.1 0.5 0.3 -0.13
+    NPA 467.2 307.3 10.2 8.4 -1.81
+    TWO Portfolio (120+ DPD)
+    BAU + Supercards Allocated Balance in Cr Money Collected in Cr Var in Cr
+    Bucket Jul'26 MTD Aug'26 MTD Jul'26 MTD Aug'26 MTD Aug'26 Vs Jul'26
+    < 1L 1,638.3 1,251.5 14.6 14.3 -0.29
+    1L -2L 807.6 719.4 3.7 3.9 0.26
+    2L -3L 465.6 446.4 1.7 1.9 0.22
+    3L -4L 247.9 245.7 0.6 1.0 0.33
+    4L -5L 130.1 133.2 0.6 0.5 -0.04
+    >5L 70.5 70.6 0.2 0.4 0.19
+    W-off Recovery 3,360.0 2,866.8 21.4 22.1 0.67
+
+================================================================================
+  DOCUMENT: f60bc9647c6b1bda
+================================================================================
+
+--- Page 1 ---
+  Heading: New Originations- Month Wise
+  Image:   data\docs\New Originations- Month Wise__f60bc9647c6b1bda\pages\page_001.png
+  Text:
+    New Originations- Month Wise
+    Customer Type # Distinct Count of Customers
+    SA ATS (in Lacs)
+    Timeline: Mar'25 to Mar'26
+    Mar-26 Feb-26 Jan-26 Dec-25 Nov-25 Oct-25 Sept-25 Aug-25 Jul-25 Jun-25 May-25 Apr-25 Mar-25
+    Customer
+    Product # Customers # ATS # ATS # ATS # ATS # ATS # ATS # ATS # ATS # ATS # ATS # ATS # ATS # ATS
+    Footprint
+    OFFUS 35,881 133 ₹62.90 3,002 ₹58.26 2,830 ₹60.46 3,203 ₹67.53 2,924 ₹61.00 2,580 ₹66.53 3,071 ₹65.23 2,796 ₹ 61.59 2,843 ₹57.33 2,665 ₹ 54.57 2,561 ₹ 55.16 1,893 ₹ 55.30 3,528 ₹ 61.17
+    Housing Loan
+    ONUS 4,974 0 ₹0.00 442 ₹31.48 428 ₹33.07 397 ₹32.41 413 ₹36.66 398 ₹39.94 433 ₹60.02 357 ₹ 29.09 398 ₹26.93 362 ₹ 34.41 411 ₹ 28.03 309 ₹ 30.02 481 ₹ 28.96
+    OFFUS 24,378 31 ₹99.06 1,995 ₹89.00 1,985 ₹108.89 2,147 ₹109.91 1,934 ₹90.35 1,853 ₹86.23 2,061 ₹105.08 1,819 ₹ 97.73 1,959 ₹78.30 1,755 ₹ 79.05 1,694 ₹ 84.36 1,391 ₹ 85.37 2,395 ₹ 83.65
+    Property Loan
+    ONUS 1,945 0 ₹0.00 200 ₹74.77 224 ₹93.09 203 ₹114.14 207 ₹88.38 202 ₹88.62 216 ₹79.28 192 ₹ 83.27 182 ₹74.67 158 ₹ 89.14 109 ₹ 62.66 72 ₹ 248.07 144 ₹ 160.57
+    OFFUS 132,558 4,608 ₹4.68 38,463 ₹4.71 28,506 ₹4.16 23,679 ₹3.85 20,113 ₹3.46 17,869 ₹3.47 13,881 ₹3.23 10,120 ₹ 2.92 10,635 ₹2.77 9,374 ₹ 2.60 9,260 ₹ 2.58 6,331 ₹ 2.41 5,718 ₹ 2.56
+    Gold Loan
+    ONUS 13,102 0 ₹0.00 3,524 ₹7.58 3,801 ₹6.55 3,345 ₹6.18 2,745 ₹5.62 1,782 ₹4.74 1,459 ₹4.64 911 ₹ 4.19 854 ₹3.94 627 ₹ 4.10 579 ₹ 3.93 404 ₹ 4.00 303 ₹ 4.06
+    Two Wheeler OFFUS 49,237 470 ₹1.08 3,425 ₹1.11 3,965 ₹1.06 3,315 ₹1.16 4,185 ₹1.06 7,101 ₹1.01 3,616 ₹1.12 3,712 ₹ 1.11 3,594 ₹1.12 3,680 ₹ 1.10 3,628 ₹ 1.08 3,688 ₹ 1.06 3,650 ₹ 1.18
+    Loan ONUS 434 0 ₹0.00 13 ₹0.93 25 ₹0.85 26 ₹0.94 29 ₹0.84 58 ₹0.86 20 ₹0.94 25 ₹ 0.93 41 ₹0.95 33 ₹ 0.97 54 ₹ 0.95 43 ₹ 0.92 38 ₹ 0.94
+    OFFUS 32,479 147 ₹11.05 2,318 ₹12.93 2,356 ₹13.43 3,275 ₹12.44 2,342 ₹12.79 3,387 ₹11.91 2,784 ₹13.06 2,413 ₹ 13.58 2,473 ₹12.63 2,210 ₹ 12.75 2,125 ₹ 13.78 2,052 ₹ 13.64 2,596 ₹ 13.12
+    Auto Loan
+    ONUS 86 0 ₹0.00 11 ₹10.66 9 ₹9.11 0 ₹0.00 4 ₹6.65 12 ₹12.64 11 ₹20.88 6 ₹ 13.67 5 ₹7.03 3 ₹ 8.07 6 ₹ 17.62 11 ₹ 10.32 9 ₹ 9.94
+    Rural Vehicle OFFUS 4,311 13 ₹5.98 276 ₹5.20 335 ₹4.98 318 ₹5.13 417 ₹5.04 484 ₹5.49 289 ₹5.23 255 ₹ 6.02 336 ₹5.01 365 ₹ 5.11 333 ₹ 4.93 276 ₹ 5.08 332 ₹ 5.00
+    Finance ONUS 240 0 ₹0.00 249 ₹4.54 86 ₹4.80 24 ₹4.75 31 ₹5.59 23 ₹4.62 17 ₹5.51 13 ₹ 5.20 14 ₹4.62 14 ₹ 5.04 17 ₹ 5.04 10 ₹ 5.97 21 ₹ 5.35
+    OFFUS 4,470 14 ₹15.37 303 ₹12.02 356 ₹14.76 426 ₹20.98 366 ₹13.83 309 ₹16.68 460 ₹20.84 491 ₹ 22.99 538 ₹21.85 423 ₹ 19.23 274 ₹ 20.83 248 ₹ 17.80 223 ₹ 20.63
+    Education Loan
+    ONUS 70 0 ₹0.00 5 ₹33.42 3 ₹40.41 0 ₹0.00 3 ₹27.00 6 ₹31.20 12 ₹50.08 8 ₹ 69.88 8 ₹91.82 3 ₹ 44.56 9 ₹ 67.78 2 ₹ 150.00 5 ₹ 29.80
+    OFFUS 80,581 562 ₹13.85 8,467 ₹9.33 8,761 ₹10.41 8,953 ₹14.81 7,789 ₹11.71 7,146 ₹15.89 7,230 ₹12.44 6,284 ₹ 13.42 6,635 ₹14.26 5,943 ₹ 19.60 5,564 ₹ 15.18 4,360 ₹ 12.33 5,955 ₹ 21.01
+    Business Loan
+    ONUS 969 0 ₹0.00 62 ₹127.25 74 ₹73.72 87 ₹65.18 97 ₹221.06 76 ₹79.88 75 ₹89.26 84 ₹ 103.29 93 ₹115.33 75 ₹ 118.29 79 ₹ 122.98 37 ₹ 248.74 74 ₹ 149.53
+    OFFUS 286,830 7,519 ₹0.97 42,373 ₹1.73 38,843 ₹1.90 35,221 ₹2.07 30,580 ₹2.23 31,410 ₹2.17 30,133 ₹2.29 25,102 ₹ 2.51 22,424 ₹2.56 19,443 ₹ 2.36 18,230 ₹ 2.48 16,072 ₹ 2.38 16,570 ₹ 2.76
+    Personal Loan
+    ONUS 1,241 0 ₹0.00 272 ₹3.77 264 ₹4.06 126 ₹3.89 136 ₹3.79 126 ₹3.87 128 ₹4.04 101 ₹ 4.29 64 ₹4.11 72 ₹ 4.39 92 ₹ 3.86 76 ₹ 4.06 87 ₹ 3.92
+    OFFUS 213,489 177 ₹0.22 12,576 ₹0.28 16,933 ₹0.39 16,330 ₹0.48 16,402 ₹0.53 16,833 ₹0.59 18,235 ₹0.59 16,625 ₹ 0.65 18,002 ₹0.64 15,299 ₹ 0.66 15,142 ₹ 0.70 14,971 ₹ 0.73 16,832 ₹ 0.73
+    Credit Card
+    ONUS 32,007 0 ₹0.00 2,721 ₹0.31 3,301 ₹0.32 3,301 ₹0.41 2,961 ₹0.49 3,269 ₹0.46 3,016 ₹0.53 2,209 ₹ 0.51 2,338 ₹0.50 2,186 ₹ 0.62 2,298 ₹ 0.60 1,843 ₹ 0.60 2,428 ₹ 0.63
+    OFFUS 7,196 49 ₹2.76 432 ₹4.92 436 ₹5.31 517 ₹7.93 521 ₹6.20 507 ₹8.86 663 ₹7.45 598 ₹ 5.79 656 ₹7.46 659 ₹ 7.91 591 ₹ 4.79 451 ₹ 7.99 601 ₹ 7.65
+    Agri
+    ONUS 322 0 ₹0.00 44 ₹9.07 26 ₹4.55 23 ₹11.39 38 ₹7.83 27 ₹4.68 18 ₹3.00 16 ₹ 7.01 40 ₹5.48 23 ₹ 7.68 23 ₹ 3.69 7 ₹ 2.51 26 ₹ 5.02
+    Consumer Loan OFFUS 191,661 1,801 ₹0.32 24,855 ₹0.30 27,780 ₹0.31 23,671 ₹0.28 23,160 ₹0.28 36,897 ₹0.29 23,717 ₹0.29 19,340 ₹ 0.34 15,571 ₹0.34 11,406 ₹ 0.35 9,320 ₹ 0.43 7,896 ₹ 0.42 6,595 ₹ 0.43
+    LAS OFFUS 4,311 1 ₹91.00 432 ₹24.54 430 ₹17.63 455 ₹29.36 429 ₹45.20 456 ₹14.84 423 ₹46.64 371 ₹ 38.18 357 ₹57.82 309 ₹ 56.17 297 ₹ 21.72 277 ₹ 23.27 309 ₹ 22.14
+    OFFUS 11,600 125 ₹10.31 1,333 ₹28.76 1,332 ₹34.06 1,330 ₹36.32 1,030 ₹33.61 983 ₹21.31 1,044 ₹38.86 897 ₹ 25.73 912 ₹44.24 847 ₹ 33.78 763 ₹ 25.21 714 ₹ 25.00 959 ₹ 35.11
+    Overdraft
+    ONUS 654 0 ₹0.00 64 ₹79.81 81 ₹196.99 87 ₹121.87 52 ₹204.51 53 ₹76.09 55 ₹351.23 45 ₹ 60.45 56 ₹74.38 44 ₹ 182.57 35 ₹ 88.95 36 ₹ 55.65 65 ₹ 84.07
+    OFFUS 10,298 45 ₹6.55 778 ₹8.98 812 ₹8.24 792 ₹8.82 775 ₹8.31 791 ₹7.67 755 ₹8.02 782 ₹ 8.22 836 ₹8.05 796 ₹ 8.01 798 ₹ 8.46 688 ₹ 8.32 887 ₹ 8.92
+    Used Car Loan
+    ONUS 67 0 ₹0.00 4 ₹8.28 2 ₹6.00 2 ₹8.72 6 ₹6.87 4 ₹9.50 1 ₹5.06 12 ₹ 9.20 3 ₹8.98 5 ₹ 2.08 3 ₹ 4.04 4 ₹ 4.33 6 ₹ 6.08
+    Customer Type
+    # Distinct Count of Customers
+    SA
+    Timeline: Mar'25 to Mar'26
+    Mar-25 Feb-25 Jan-25 Dec-24 Nov-25 Oct-25 Sept-25 Aug-25 Jul-25 Jun-25 May-25 Apr-25 Mar-25
+    Customer
+    Product # Customers # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr # Sanction Cr
+    Footprint
+    OFFUS 35,881 133 ₹ 84 3,002 ₹ 1,749 2,830 ₹ 1,711 3,203 ₹ 2,163 2,924 ₹ 1,784 2,580 ₹ 1,716 3,071 ₹ 2,003 2,796 ₹ 1,722 2,843 ₹ 1,630 2,665 ₹ 1,454 2,561 ₹ 1,413 1,893 ₹ 1,047 3,528 ₹ 2,158
+    Housing Loan
+    ONUS 4,974 0 ₹ 0 442 ₹ 139 428 ₹ 142 397 ₹ 129 413 ₹ 151 398 ₹ 159 433 ₹ 260 357 ₹ 104 398 ₹ 107 362 ₹ 125 411 ₹ 115 309 ₹ 93 481 ₹ 139
+    OFFUS 24,378 31 ₹ 31 1,995 ₹ 1,775 1,985 ₹ 2,162 2,147 ₹ 2,360 1,934 ₹ 1,747 1,853 ₹ 1,598 2,061 ₹ 2,166 1,819 ₹ 1,778 1,959 ₹ 1,534 1,755 ₹ 1,387 1,694 ₹ 1,429 1,391 ₹ 1,188 2,395 ₹ 2,003
+    Property Loan
+    ONUS 1,945 0 ₹ 0 200 ₹ 150 224 ₹ 209 203 ₹ 232 207 ₹ 183 202 ₹ 179 216 ₹ 171 192 ₹ 160 182 ₹ 136 158 ₹ 141 109 ₹ 68 72 ₹ 179 144 ₹ 231
+    OFFUS 132,558 4,608 ₹ 215 38,463 ₹ 1,811 28,506 ₹ 1,185 23,679 ₹ 913 20,113 ₹ 696 17,869 ₹ 620 13,881 ₹ 448 10,120 ₹ 295 10,635 ₹ 295 9,374 ₹ 244 9,260 ₹ 239 6,331 ₹ 152 5,718 ₹ 146
+    Gold Loan
+    ONUS 13,102 0 ₹ 0 3,524 ₹ 267 3,801 ₹ 249 3,345 ₹ 207 2,745 ₹ 154 1,782 ₹ 84 1,459 ₹ 68 911 ₹ 38 854 ₹ 34 627 ₹ 26 579 ₹ 23 404 ₹ 16 303 ₹ 12
+    Two Wheeler OFFUS 49,237 470 ₹ 5 3,425 ₹ 38 3,965 ₹ 42 3,315 ₹ 39 4,185 ₹ 44 7,101 ₹ 72 3,616 ₹ 41 3,712 ₹ 41 3,594 ₹ 40 3,680 ₹ 40 3,628 ₹ 39 3,688 ₹ 39 3,650 ₹ 43
+    Loan ONUS 434 0 ₹ 0 13 ₹ 0 25 ₹ 0 26 ₹ 0 29 ₹ 0 58 ₹ 0 20 ₹ 0 25 ₹ 0 41 ₹ 0 33 ₹ 0 54 ₹ 1 43 ₹ 0 38 ₹ 0
+    OFFUS 32,479 147 ₹ 16 2,318 ₹ 300 2,356 ₹ 316 3,275 ₹ 408 2,342 ₹ 300 3,387 ₹ 404 2,784 ₹ 364 2,413 ₹ 328 2,473 ₹ 312 2,210 ₹ 282 2,125 ₹ 293 2,052 ₹ 280 2,596 ₹ 341
+    Auto Loan
+    ONUS 86 0 ₹ 0 11 ₹ 1 9 ₹ 1 0 ₹ 0 4 ₹ 0 12 ₹ 2 11 ₹ 2 6 ₹ 1 5 ₹ 0 3 ₹ 0 6 ₹ 1 11 ₹ 1 9 ₹ 1
+    Rural Vehicle OFFUS 4,311 13 ₹ 1 276 ₹ 14 335 ₹ 17 318 ₹ 16 417 ₹ 21 484 ₹ 27 289 ₹ 15 255 ₹ 15 336 ₹ 17 365 ₹ 19 333 ₹ 16 276 ₹ 14 332 ₹ 17
+    Finance ONUS 240 0 ₹ 0 249 ₹ 11 86 ₹ 4 24 ₹ 1 31 ₹ 2 23 ₹ 1 17 ₹ 1 13 ₹ 1 14 ₹ 1 14 ₹ 1 17 ₹ 1 10 ₹ 1 21 ₹ 1
+    OFFUS 4,470 14 ₹ 2 303 ₹ 36 356 ₹ 53 426 ₹ 89 366 ₹ 51 309 ₹ 52 460 ₹ 96 491 ₹ 113 538 ₹ 118 423 ₹ 81 274 ₹ 57 248 ₹ 44 223 ₹ 46
+    Education Loan
+    ONUS 70 0 ₹ 0 5 ₹ 2 3 ₹ 1 0 ₹ 0 3 ₹ 1 6 ₹ 2 12 ₹ 6 8 ₹ 6 8 ₹ 7 3 ₹ 1 9 ₹ 6 2 ₹ 3 5 ₹ 1
+    OFFUS 80,581 562 ₹ 78 8,467 ₹ 790 8,761 ₹ 912 8,953 ₹ 1,326 7,789 ₹ 912 7,146 ₹ 1,135 7,230 ₹ 899 6,284 ₹ 843 6,635 ₹ 946 5,943 ₹ 1,165 5,564 ₹ 844 4,360 ₹ 538 5,955 ₹ 1,251
+    Business Loan
+    ONUS 969 0 ₹ 0 62 ₹ 79 74 ₹ 55 87 ₹ 57 97 ₹ 214 76 ₹ 61 75 ₹ 67 84 ₹ 87 93 ₹ 107 75 ₹ 89 79 ₹ 97 37 ₹ 92 74 ₹ 111
+    OFFUS 286,830 7,519 ₹ 73 42,373 ₹ 733 38,843 ₹ 739 35,221 ₹ 729 30,580 ₹ 681 31,410 ₹ 681 30,133 ₹ 689 25,102 ₹ 630 22,424 ₹ 575 19,443 ₹ 458 18,230 ₹ 451 16,072 ₹ 382 16,570 ₹ 457
+    Personal Loan
+    ONUS 1,241 0 ₹ 0 272 ₹ 10 264 ₹ 11 126 ₹ 5 136 ₹ 5 126 ₹ 5 128 ₹ 5 101 ₹ 4 64 ₹ 3 72 ₹ 3 92 ₹ 4 76 ₹ 3 87 ₹ 3
+    OFFUS 213,489 177 ₹ 0 12,576 ₹ 36 16,933 ₹ 65 16,330 ₹ 79 16,402 ₹ 86 16,833 ₹ 98 18,235 ₹ 108 16,625 ₹ 108 18,002 ₹ 116 15,299 ₹ 101 15,142 ₹ 106 14,971 ₹ 109 16,832 ₹ 122
+    Credit Card
+    ONUS 32,007 0 ₹ 0 2,721 ₹ 8 3,301 ₹ 10 3,301 ₹ 14 2,961 ₹ 14 3,269 ₹ 15 3,016 ₹ 16 2,209 ₹ 11 2,338 ₹ 12 2,186 ₹ 14 2,298 ₹ 14 1,843 ₹ 11 2,428 ₹ 15
+    OFFUS 7,196 49 ₹ 1 432 ₹ 21 436 ₹ 23 517 ₹ 41 521 ₹ 32 507 ₹ 45 663 ₹ 49 598 ₹ 35 656 ₹ 49 659 ₹ 52 591 ₹ 28 451 ₹ 36 601 ₹ 46
+    Agri
+    ONUS 322 0 ₹ 0 44 ₹ 4 26 ₹ 1 23 ₹ 3 38 ₹ 3 27 ₹ 1 18 ₹ 1 16 ₹ 1 40 ₹ 2 23 ₹ 2 23 ₹ 1 7 ₹ 0 26 ₹ 1
+    Consumer Loan OFFUS 191,661 1,801 ₹ 6 24,855 ₹ 75 27,780 ₹ 85 23,671 ₹ 66 23,160 ₹ 65 36,897 ₹ 107 23,717 ₹ 70 19,340 ₹ 65 15,571 ₹ 53 11,406 ₹ 40 9,320 ₹ 40 7,896 ₹ 33 6,595 ₹ 28
+    LAS OFFUS 4,311 1 ₹ 1 432 ₹ 106 430 ₹ 76 455 ₹ 134 429 ₹ 194 456 ₹ 68 423 ₹ 197 371 ₹ 142 357 ₹ 206 309 ₹ 174 297 ₹ 65 277 ₹ 64 309 ₹ 68
+    OFFUS 11,600 125 ₹ 13 1,333 ₹ 383 1,332 ₹ 454 1,330 ₹ 483 1,030 ₹ 346 983 ₹ 209 1,044 ₹ 406 897 ₹ 231 912 ₹ 404 847 ₹ 286 763 ₹ 192 714 ₹ 178 959 ₹ 337
+    Overdraft
+    ONUS 654 0 ₹ 0 64 ₹ 51 81 ₹ 160 87 ₹ 106 52 ₹ 106 53 ₹ 40 55 ₹ 193 45 ₹ 27 56 ₹ 42 44 ₹ 80 35 ₹ 31 36 ₹ 20 65 ₹ 55
+    OFFUS 10,298 45 ₹ 3 778 ₹ 70 812 ₹ 67 792 ₹ 70 775 ₹ 64 791 ₹ 61 755 ₹ 61 782 ₹ 64 836 ₹ 67 796 ₹ 64 798 ₹ 68 688 ₹ 57 887 ₹ 79
+    Used Car Loan
+    ONUS 67 0 ₹ 0 4 ₹ 0 2 ₹ 0 2 ₹ 0 6 ₹ 0 4 ₹ 0 1 ₹ 0 12 ₹ 1 3 ₹ 0 5 ₹ 0 3 ₹ 0 4 ₹ 0 6 ₹ 0
+
+
+Total: 68 page(s)

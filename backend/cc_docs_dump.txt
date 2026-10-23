@@ -1,0 +1,3843 @@
+
+████████████████████████████████████████████████████████████████████████████████████████████████████
+  FILE: 2026-01-01 - Credit Cards Updated Dec-25.pdf
+  doc_id=e4d5aeb33077cbc6  type=business_update  pages=6  as_of=Dec-25
+  title: Credit Cards — Business Update Dec-25
+████████████████████████████████████████████████████████████████████████████████████████████████████
+
+  ── BLOCKS (15) ──
+    p.2 [heading   ] Credit Card Journey
+         title: Credit Card Journey
+         Credit Cards — Business Update Dec-25 | p.2 | Credit Card Journey Credit Card Journey...
+    p.2 [footnote  ] Credit Card Journey
+         Credit Cards — Business Update Dec-25 | p.2 | Credit Card Journey Note: Oct-25(Net Revenue, Expense ...
+    p.2 [narrative ] Credit Card Journey
+         Credit Cards — Business Update Dec-25 | p.2 | Credit Card Journey Net Revenue (Cr) Expense (Cr) PBT*...
+    p.2 [table     ] Credit Card Journey
+         title: Credit Card Journey
+         Credit Cards — Business Update Dec-25 | p.2 | Credit Card Journey Credit Card Journey | 0 C I F ( ' ...
+    p.3 [heading   ] P&L Details YTM’26 (Total)
+         title: P&L Details YTM’26 (Total)
+         Credit Cards — Business Update Dec-25 | p.3 | P&L Details YTM’26 (Total) P&L Details YTM’26 (Total)...
+    p.3 [table     ] P&L Details YTM’26 (Total)
+         title: P&L Details YTM’26 (Total)
+         Credit Cards — Business Update Dec-25 | p.3 | P&L Details YTM’26 (Total) P&L Details YTM’26 (Total) ...
+    p.4 [heading   ] Portfolio metrics trend
+         title: Portfolio metrics trend
+         Credit Cards — Business Update Dec-25 | p.4 | Portfolio metrics trend Portfolio metrics trend...
+    p.4 [narrative ] Portfolio metrics trend
+         Credit Cards — Business Update Dec-25 | p.4 | Portfolio metrics trend Spends (Cr.) Active Rate...
+    p.4 [narrative ] Portfolio metrics trend
+         Credit Cards — Business Update Dec-25 | p.4 | Portfolio metrics trend Spend/Card ENR Term & Non-Term...
+    p.5 [heading   ] Cross Sell (Trends and Numbers)
+         title: Cross Sell (Trends and Numbers)
+         Credit Cards — Business Update Dec-25 | p.5 | Cross Sell (Trends and Numbers) Cross Sell (Trends and...
+    p.6 [heading   ] Collection Metrics
+         title: Collection Metrics
+         Credit Cards — Business Update Dec-25 | p.6 | Collection Metrics Collection Metrics...
+    p.6 [takeaway  ] Collection Metrics
+         Credit Cards — Business Update Dec-25 | p.6 | Collection Metrics Bucket 1: Allocation reduced from 8...
+    p.6 [takeaway  ] Collection Metrics
+         Credit Cards — Business Update Dec-25 | p.6 | Collection Metrics Bucket 2: Allocation reduced from 4...
+    p.6 [takeaway  ] Collection Metrics
+         Credit Cards — Business Update Dec-25 | p.6 | Collection Metrics Bucket 3: Allocation reduction will...
+    p.6 [table     ] Collection Metrics
+         title: Collection Metrics
+         Credit Cards — Business Update Dec-25 | p.6 | Collection Metrics Collection Metrics | Allocation | A...
+
+  ── SERIES (193) with FACTS ──
+
+    p.2 [-       ] Credit Card Journey › 8 4 , 6
+         unit=-  metric_id=-  entity=-
+         facts: 25-May-25=4.0, 25-Jul-25=7.0
+
+    p.2 [-       ] Credit Card Journey › 4 4 , 5 4 , 4
+         unit=-  metric_id=-  entity=-
+         facts: 25-Apr-25=5.0, 25-Jun-25=1.0, 25-Aug-25=6.0, 25-Nov-25=5.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › AIF ('000)
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=4754.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › AIF ('000)
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=4531.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › AIF ('000)
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=4527.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › AIF ('000)
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=4527.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › AIF ('000)
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=4833.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › AIF ('000)
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=306.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › 0,506 ENR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › 0,506 ENR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1499.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › 0,506 ENR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › 0,506 ENR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1282.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › 0,506 ENR
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › FY'26 Budget › 0,506 ENR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=506.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual › 0,506 ENR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget › 0,506 ENR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2222.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Lower NCA by 217k (DST 121K,Digital 3K, Co-brand 92
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=22871.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q1 Actual › 3,719 Spend
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q2 Actual › 3,719 Spend
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1105.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q3 Prov › 3,719 Spend
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › 3,719 Spend
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1168.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › 3,719 Spend
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › FY'26 Budget › 3,719 Spend
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1446.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual › 3,719 Spend
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=6.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget › 3,719 Spend
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=8971.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Lower NCA by 217k (DST 121K,Digital 3K, Co-brand 92
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=93632.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › 0,707 ANR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › 0,707 ANR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1018.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › 0,707 ANR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › 0,707 ANR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=720.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › 0,707 ANR
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › FY'26 Budget › 0,707 ANR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=382.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual › 0,707 ANR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget › 0,707 ANR
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1407.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Lower NCA by 217k (DST 121K,Digital 3K, Co-brand 92
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=21648.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › GII
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1068.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › GII
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1094.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › GII
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1068.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › GII
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=3230.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › GII
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=3297.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › GII
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=-67.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › GII
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=20.8
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › GII
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=20.53
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › FTP
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=454.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › FTP
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=451.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › FTP
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=433.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › FTP
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1338.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › FTP
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=1411.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › FTP
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=-73.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › FTP
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=8.62
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › FTP
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=8.79
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q1 Actual › NII
+         unit=-  metric_id=nii  entity=-
+         facts: Dec-25=614.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q2 Actual › NII
+         unit=-  metric_id=nii  entity=-
+         facts: Dec-25=643.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q3 Prov › NII
+         unit=-  metric_id=nii  entity=-
+         facts: Dec-25=635.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › NII
+         unit=-  metric_id=nii  entity=-
+         facts: Dec-25=1892.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › NII
+         unit='000  metric_id=nii  entity=-
+         facts: Dec-25=1886.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › NII
+         unit=-  metric_id=nii  entity=-
+         facts: Dec-25=6.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual › NII
+         unit=%  metric_id=nii  entity=-
+         facts: Dec-25=12.18
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget › NII
+         unit=%  metric_id=nii  entity=-
+         facts: Dec-25=11.75
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › Fee
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=461.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › Fee
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=537.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › Fee
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=541.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › Fee
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1538.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › Fee
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=1726.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › Fee
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=188.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › Fee
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=9.9
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › Fee
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=10.75
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › Net Revenue
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1075.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › Net Revenue
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1180.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › Net Revenue
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1175.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › Net Revenue
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=3430.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › Net Revenue
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=3612.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › Net Revenue
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=182.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › Net Revenue
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=22.09
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › Net Revenue
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=22.5
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q1 Actual › Opex
+         unit=-  metric_id=opex  entity=-
+         facts: Dec-25=717.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q2 Actual › Opex
+         unit=-  metric_id=opex  entity=-
+         facts: Dec-25=636.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q3 Prov › Opex
+         unit=-  metric_id=opex  entity=-
+         facts: Dec-25=628.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › Opex
+         unit=-  metric_id=opex  entity=-
+         facts: Dec-25=1980.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › Opex
+         unit='000  metric_id=opex  entity=-
+         facts: Dec-25=1913.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › Opex
+         unit=-  metric_id=opex  entity=-
+         facts: Dec-25=68.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual › Opex
+         unit=%  metric_id=opex  entity=-
+         facts: Dec-25=12.75
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget › Opex
+         unit=%  metric_id=opex  entity=-
+         facts: Dec-25=11.91
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q1 Actual › Direct Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=267.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q2 Actual › Direct Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=311.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q3 Prov › Direct Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=168.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › Direct Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=747.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › Direct Cost
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=1000.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › Direct Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=253.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › Direct Cost
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=4.81
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › Direct Cost
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=6.23
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q1 Actual › Attributable Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=429.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q2 Actual › Attributable Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=305.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q3 Prov › Attributable Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=440.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › Attributable Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1173.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › Attributable Cost
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=862.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › Attributable Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual › Attributable Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=11.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › Attributable Cost
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=7.55
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › 1 Central Allocation
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › 1 Central Allocation
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › 1 Central Allocation
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › 1 Central Allocation
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › 1 Central Allocat
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=1.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › FY'26 Budget › 1 Central Allocation
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=9.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Lower NCA by 217k (DST 121K,Digital 3K, Co-brand 92
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=68.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q1 Actual › Operating Profit
+         unit=-  metric_id=operating_profit  entity=-
+         facts: Dec-25=358.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q2 Actual › Operating Profit
+         unit=-  metric_id=operating_profit  entity=-
+         facts: Dec-25=544.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q3 Prov › Operating Profit
+         unit=-  metric_id=operating_profit  entity=-
+         facts: Dec-25=548.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › Operating Profit
+         unit=-  metric_id=operating_profit  entity=-
+         facts: Dec-25=1450.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › Operating Profit
+         unit='000  metric_id=operating_profit  entity=-
+         facts: Dec-25=1699.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › Operating Profit
+         unit=-  metric_id=operating_profit  entity=-
+         facts: Dec-25=249.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual › Operating Profit
+         unit=%  metric_id=operating_profit  entity=-
+         facts: Dec-25=9.34
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget › Operating Profit
+         unit=%  metric_id=operating_profit  entity=-
+         facts: Dec-25=10.58
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q1 Actual › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=379.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q2 Actual › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=461.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › Q3 Prov › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=519.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1359.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › Credit Cost
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=1114.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › Credit Cost
+         unit=-  metric_id=credit_cost  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [amount  ] P&L Details YTM’26 (Total) › YTM Actual › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=45.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › Credit Cost
+         unit=%  metric_id=credit_cost  entity=-
+         facts: Dec-25=8.75
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › GCO+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=478.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › GCO+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=530.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › GCO+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=591.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › GCO+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=1599.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › GCO+Prov
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=1316.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › GCO+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=2.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual › GCO+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=83.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › GCO+Prov
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=10.3
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=99.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=-236.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › Recovery
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=-204.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=-31.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=-1.52
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=-1.27
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › Prov for Std Adv
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=-0.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › Prov for Std Adv
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=-1.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › Prov for Std Adv
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=-3.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › Prov for Std Adv
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=-4.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › Prov for Std Adv
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › FY'26 Budget › Prov for Std Adv
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=5.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Var. / -2,16,705 › Prov for Std Adv
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=7.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › Prov for Std Adv
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=-0.03
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › Prov for Std Adv
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=0.02
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › 3 PSL
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › 3 PSL
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=4.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › 3 PSL
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › 3 PSL
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=4.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › 3 PSL
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › FY'26 Budget › 3 PSL
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Lower NCA by 217k (DST 121K,Digital 3K, Co-brand 92
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=41.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Q2 Actual › 2.99% PBT
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=4.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Q3 Prov › 2.99% PBT
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=9.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › 2.99% PBT
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=10.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › FY'26 Budget › 2.99% PBT
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=480.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › 2.99% PBT
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=75.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › 2.99% PBT
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=491.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Lower NCA by 217k (DST 121K,Digital 3K, Co-brand 92
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=-0.07
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q1 Actual › 4 Capital credit
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q2 Actual › 4 Capital credit
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=9.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Q3 Prov › 4 Capital credit
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › 4 Capital credit
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=9.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › 4 Capital credit
+         unit='000  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › FY'26 Budget › 4 Capital credit
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=8.0
+
+    p.3 [-       ] P&L Details YTM’26 (Total) › Lower NCA by 217k (DST 121K,Digital 3K, Co-brand 92
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=62.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Q2 Actual › 0.68% PBT+CC
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=8.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Q3 Prov › 0.68% PBT+CC
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=7.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › 0.68% PBT+CC
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=3.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › 0.68% PBT+CC
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=4.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › FY'26 Budget › 0.68% PBT+CC
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=106.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › 0.68% PBT+CC
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=9.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Lower NCA by 217k (DST 121K,Digital 3K, Co-brand 92
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=495.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Q1 Actual › C/I
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=66.7
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Q2 Actual › C/I
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=53.9
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › Q3 Prov › C/I
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=53.4
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual / 6 ,92,295 › C/I
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=57.7
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget / 2,50,000 9 ,09,000 › C/I
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=53.0
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › FY'26 Budget › C/I
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=51.8
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Actual › C/I
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=57.7
+
+    p.3 [percent ] P&L Details YTM’26 (Total) › YTM Budget › C/I
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=53.0
+
+    p.6 [-       ] Collection Metrics › PDD Allocation ($)
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=4217.0, May-25=4199.0, Jun-25=3949.0, Jul-25=4624.0, Aug-25=4375.0, Sep-25=4161.0, Oct-25=4485.0, Nov-25=3782.0
+
+    p.6 [-       ] Collection Metrics › PDD+4 Allocation ($)
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=1463.0, May-25=1453.0, Jun-25=1312.0, Jul-25=1541.0, Aug-25=1466.0, Sep-25=1466.0, Oct-25=1323.0, Nov-25=1342.0
+
+    p.6 [-       ] Collection Metrics › Bucket 1 Allocation ($)
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=1119.0, May-25=1180.0, Jun-25=1300.0, Jul-25=1025.0, Aug-25=800.0, Sep-25=774.0, Oct-25=823.0, Nov-25=700.0, Dec-25=700.0
+
+    p.6 [-       ] Collection Metrics › Bucket 2 Allocation ($)
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=355.0, May-25=359.0, Jun-25=353.0, Jul-25=848.0, Aug-25=669.0, Sep-25=384.0, Oct-25=407.0, Nov-25=405.0, Dec-25=358.0
+
+    p.6 [-       ] Collection Metrics › Bucket 3 Allocation ($)
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=302.0, May-25=285.0, Jun-25=283.0, Jul-25=373.0, Aug-25=973.0, Sep-25=1224.0, Oct-25=1153.0, Nov-25=1154.0, Dec-25=1203.0
+
+    p.6 [-       ] Collection Metrics › Bucket 3 Rest ($)
+         unit=-  metric_id=-  entity=-
+         facts: Jul-25=289.0, Aug-25=436.0, Sep-25=332.0, Oct-25=345.0, Nov-25=241.0, Dec-25=334.0
+
+    p.6 [-       ] Collection Metrics › Bucket 3 SP ($)
+         unit=-  metric_id=-  entity=-
+         facts: Jul-25=84.0, Aug-25=537.0, Sep-25=892.0, Oct-25=808.0, Nov-25=913.0, Dec-25=869.0
+
+    p.6 [-       ] Collection Metrics › Bucket 4 Allocation ($)
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=215.0, May-25=231.0, Jun-25=220.0, Jul-25=216.0, Aug-25=179.0, Sep-25=303.0, Oct-25=344.0, Nov-25=292.0, Dec-25=224.0
+
+    p.6 [-       ] Collection Metrics › in text › Bucket 1: Allocation reduced from 823 to 700 effe
+         unit=-  metric_id=-  entity=-
+         facts: period not stated=823.0
+
+    p.6 [-       ] Collection Metrics › in text › Bucket 1: Allocation reduced from 823 to 700 effe
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=700.0
+
+    p.6 [-       ] Collection Metrics › in text › Bucket 2: Allocation reduced from 405 to 358 effe
+         unit=-  metric_id=-  entity=-
+         facts: period not stated=405.0
+
+    p.6 [-       ] Collection Metrics › in text › Bucket 2: Allocation reduced from 405 to 358 effe
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=358.0
+
+  ── ISSUES (first 10 of ...) ──
+    p.2 [table_check] Credit Card Journey: score 0.661; header missing or numeric
+    p.2 [unknown_metric] 4 4 , 5 4 , 4, 8 4 , 6: 2 labels not in metrics.yaml (stored under their own names)
+    p.3 [table_check] P&L Details YTM’26 (Total): score 0.629; text inside number columns: 2 1,716 -, 6 5,252 -, 2 700 -, 6 9, 0 0
+    p.3 [cross_doc_conflict] P&L Details YTM’26 (Total) › YTM Actual › Opex @ Dec-25: 12.75 here vs 35 in 'Mortgages Update — Nov’25' p.9
+    p.3 [cross_doc_conflict] P&L Details YTM’26 (Total) › YTM Actual › Opex @ Dec-25: 12.75 here vs 13 in 'Mortgages Update — Nov’25' p.10
+    p.3 [unknown_metric] 0,506 ENR, 0,707 ANR, 0.68% PBT+CC, 1 Central Allocation, 2.99% PBT, 3 PSL, 3,719 Spend, 4 Capital credit, AIF ('000), Attributable Cost, C/I, Credit Cost: 20 labels not in metrics.yaml (stored under their own names)
+    p.3 [cross_doc_conflict] P&L Details YTM’26 (Total) › YTM Actual › Opex @ Dec-25: 12.75 here vs 13 in 'Mortgages Update — Nov’25' p.11
+    p.3 [cross_doc_conflict] P&L Details YTM’26 (Total) › YTM Actual › Opex @ Dec-25: 12.75 here vs 5 in 'Mortgages Update — Nov’25' p.12
+    p.3 [cross_doc_conflict] P&L Details YTM’26 (Total) › Q1 Actual › NII @ Dec-25: 614 here vs 5.21 in 'Agri Strategy Jan’26 & FY 26 — RBLBANK' p.4
+    p.3 [cross_doc_conflict] P&L Details YTM’26 (Total) › Q1 Actual › NII @ Dec-25: 614 here vs 5.4 in 'Agri Strategy Jan’26 & FY 26 — RBLBANK' p.4
+
+  ── CALCULATED METRICS (first 30) ──
+    Active rate › Active-rate range [business-approved workbook output] = 47–50%, a 3 pp range 
+         answer: Active-rate range: 47–50%, a 3 pp range
+    Active rate › Spend vs. active-rate co-movement [business-approved workbook output] = Both peak in Oct 
+         answer: Spend vs. active-rate co-movement: Both peak in Oct
+    Book movement › Annualised run-down [business-approved workbook output] = about −936 per year (−4.6%) 
+         answer: Annualised run-down: about −936 per year (−4.6%)
+    Book movement › FYTD book change [business-approved workbook output] = −1,198 (−5.6%) 
+         answer: FYTD book change: −1,198 (−5.6%)
+    Book movement › Monthly run-down rate [business-approved workbook output] = −16 / −72 / −259 / −78 per month 
+         answer: Monthly run-down rate: −16 / −72 / −259 / −78 per month
+    Book movement › Run-down acceleration [business-approved workbook output] = Q3 vs. Q2: −187 per month; Q4 vs. Q3: +181 per month 
+         answer: Run-down acceleration: Q3 vs. Q2: −187 per month; Q4 vs. Q3: +181 per month
+    Book movement › Worst quarter [business-approved workbook output] = Q3, on both bases 
+         answer: Worst quarter: Q3, on both bases
+    Card base › Card base vs. CIF [business-approved workbook output] = Feb: 46.73 ÷ 46.09 = 1.01 cards per customer 
+         answer: Card base vs. CIF: Feb: 46.73 ÷ 46.09 = 1.01 cards per customer
+    Card base › Card base vs. P&L AIF [business-approved workbook output] = Q1 and Q3 tie; Q2 −61K; Feb 46.73 lakh vs. Feb-pack Q4 AIF 44.78 lakh (projected) 
+         answer: Card base vs. P&L AIF: Q1 and Q3 tie; Q2 −61K; Feb 46.73 lakh vs. Feb-pack Q4 AI
+    Change (pp) › Feb − Jun (pp) — Active rate [Feb − Jun (pp)] = Feb − Jun (pp): 1.00 pp
+         answer: Feb − Jun (pp) — Active rate: Feb − Jun (pp): 1.00
+    Change (pp) › Feb − Jun (pp) — Non-term share of ENR [Feb − Jun (pp)] = Feb − Jun (pp): -2.00 pp
+         answer: Feb − Jun (pp) — Non-term share of ENR: Feb − Jun (pp): -2.00
+    Change (pp) › Feb − Jun (pp) — Term share of ENR [Feb − Jun (pp)] = Feb − Jun (pp): 2.00 pp
+         answer: Feb − Jun (pp) — Term share of ENR: Feb − Jun (pp): 2.00
+    Channel mix › 9-month channel share [business-approved workbook output] = Branch 61.7%; Online 22.6%; Partner 15.7% 
+         answer: 9-month channel share: Branch 61.7%; Online 22.6%; Partner 15.7%
+    Channel mix › Peak share month [business-approved workbook output] = Online Nov; Partner Jun; Branch Feb 
+         answer: Peak share month: Online Nov; Partner Jun; Branch Feb
+    Channel–product link › Callout check [business-approved workbook output] = Partner 11.5%; Distribution 10.1% 
+         answer: Callout check: Partner 11.5%; Distribution 10.1%
+    Concentration › Top-channel share [business-approved workbook output] = Branch Feb: 67.1% 
+         answer: Top-channel share: Branch Feb: 67.1%
+    Contribution › Contribution to Q3 vs. Q2 change [business-approved workbook output] = Branch 55.5%; Online 50.8%; Partner −6.3% 
+         answer: Contribution to Q3 vs. Q2 change: Branch 55.5%; Online 50.8%; Partner −6.3%
+    Cross-page › Active-rate conflict [business-approved workbook output] = 48% vs. 45% 
+         answer: Active-rate conflict: 48% vs. 45%
+    Cross-page › Actual March from Mar'26 pack [business-approved workbook output] = −303, about 3.3x the projection 
+         answer: Actual March from Mar'26 pack: −303, about 3.3x the projection
+    Cross-page › Closing vs. P&L ENR [business-approved workbook output] = All tie 
+         answer: Closing vs. P&L ENR: All tie
+    Cross-page › FY'26 full-year book change [business-approved workbook output] = −1,501 (−7.0%) 
+         answer: FY'26 full-year book change: −1,501 (−7.0%)
+    Cross-page › FY STPL booking [business-approved workbook output] = about 2,354, which ties to "closed the year at Rs 2,353 Cr" 
+         answer: FY STPL booking: about 2,354, which ties to "closed the year at Rs 2,353 Cr"
+    Cross-page › Implied EMI and PL-on-card book trend [business-approved workbook output] = EMI about 5,375 → 4,811; PL on cards about 4,085 → 3,608 (rounded shares) 
+         answer: Implied EMI and PL-on-card book trend: EMI about 5,375 → 4,811; PL on cards abou
+    Cross-page › Implied March from Feb pack [business-approved workbook output] = −92 projected 
+         answer: Implied March from Feb pack: −92 projected
+    Cross-page › Income vs. P&L GII + Fee [business-approved workbook output] = +109 / +28 / +17 (indicative; includes GST and timing) 
+         answer: Income vs. P&L GII + Fee: +109 / +28 / +17 (indicative; includes GST and timing)
+    Cross-page › Jan–Feb spend vs. ENR walk [business-approved workbook output] = +1 (ties) 
+         answer: Jan–Feb spend vs. ENR walk: +1 (ties)
+    Cross-page › Mar'26 daily-spend change [business-approved workbook output] = 245.1 vs. 231.1: +6.1% per day 
+         answer: Mar'26 daily-spend change: 245.1 vs. 231.1: +6.1% per day
+    Cross-page › Mar'26 rebound [business-approved workbook output] = 7,597, +17.4% and the FY'26 high 
+         answer: Mar'26 rebound: 7,597, +17.4% and the FY'26 high
+    Cross-page › Mar'26 SPCD rebound [business-approved workbook output] = 523 vs. 495: +5.7% 
+         answer: Mar'26 SPCD rebound: 523 vs. 495: +5.7%
+    Cross-page › Mar'26 spend drivers [business-approved workbook output] = Insurance +35%; Education +20%; Fuel and Auto +12% 
+         answer: Mar'26 spend drivers: Insurance +35%; Education +20%; Fuel and Auto +12%
+
+
+████████████████████████████████████████████████████████████████████████████████████████████████████
+  FILE: CC12.pdf
+  doc_id=2a7323461ad9438b  type=business_update  pages=26  as_of=Feb-26
+  title: Credit Cards — Business Update: Feb-26
+████████████████████████████████████████████████████████████████████████████████████████████████████
+
+  ── BLOCKS (91) ──
+    p.2 [heading   ] Content
+         title: Content
+         Credit Cards — Business Update: Feb-26 | p.2 | Content Content...
+    p.2 [narrative ] Content
+         Credit Cards — Business Update: Feb-26 | p.2 | Content 1. Sourcing Trend and Channel Mix...
+    p.2 [narrative ] Content
+         Credit Cards — Business Update: Feb-26 | p.2 | Content 4. Coss Sell Booking – Inline + PL on Cards...
+    p.3 [heading   ] Sourcing Trends – Channel & Product
+         title: Sourcing Trends – Channel & Product
+         Credit Cards — Business Update: Feb-26 | p.3 | Sourcing Trends – Channel & Product Sourcing Trends –...
+    p.3 [narrative ] Sourcing Trends – Channel & Product
+         Credit Cards — Business Update: Feb-26 | p.3 | Sourcing Trends – Channel & Product 1 lac+ sourcing r...
+    p.3 [table     ] Sourcing Trends – Channel & Product
+         title: Product Mix
+         Credit Cards — Business Update: Feb-26 | p.3 | Sourcing Trends – Channel & Product Product Mix | Mon...
+    p.3 [chart     ] Sourcing Trends – Channel & Product
+         title: Channel Mix
+         Credit Cards — Business Update: Feb-26 | p.3 | Sourcing Trends – Channel & Product Chart: Channel Mi...
+    p.4 [heading   ] CIF Net Addition
+         title: CIF Net Addition
+         Credit Cards — Business Update: Feb-26 | p.4 | CIF Net Addition CIF Net Addition...
+    p.4 [takeaway  ] CIF Net Addition
+         Credit Cards — Business Update: Feb-26 | p.4 | CIF Net Addition Net addition was positive in Dec'25 ...
+    p.4 [chart     ] CIF Net Addition
+         title: CIF Net Addition
+         Credit Cards — Business Update: Feb-26 | p.4 | CIF Net Addition Chart: CIF Net Addition | Month | CI...
+    p.5 [heading   ] ENR Walk
+         title: ENR Walk
+         Credit Cards — Business Update: Feb-26 | p.5 | ENR Walk ENR Walk...
+    p.5 [takeaway  ] ENR Walk
+         Credit Cards — Business Update: Feb-26 | p.5 | ENR Walk 1. Repayments + Write off are higher than Sp...
+    p.5 [table     ] ENR Walk
+         Credit Cards — Business Update: Feb-26 | p.5 | ENR Walk  |  | Q1FY26 | Q2FY26 | Q3FY26 | Q4FY26 (til...
+    p.6 [heading   ] Portfolio metrics trend
+         title: Portfolio metrics trend
+         Credit Cards — Business Update: Feb-26 | p.6 | Portfolio metrics trend Portfolio metrics trend...
+    p.6 [takeaway  ] Portfolio metrics trend
+         Credit Cards — Business Update: Feb-26 | p.6 | Portfolio metrics trend Lower spends in Feb due to sh...
+    p.6 [narrative ] Portfolio metrics trend
+         Credit Cards — Business Update: Feb-26 | p.6 | Portfolio metrics trend Spend/Card ENR Term & Non-Ter...
+    p.6 [table     ] Portfolio metrics trend
+         Credit Cards — Business Update: Feb-26 | p.6 | Portfolio metrics trend  | Month/Year | Spends/Card/D...
+    p.6 [chart     ] Portfolio metrics trend
+         title: Spends (Cr.)
+         Credit Cards — Business Update: Feb-26 | p.6 | Portfolio metrics trend Chart: Spends (Cr.) | Month |...
+    p.6 [chart     ] Portfolio metrics trend
+         title: Active Rate
+         Credit Cards — Business Update: Feb-26 | p.6 | Portfolio metrics trend Chart: Active Rate | Month | ...
+    p.6 [chart     ] Portfolio metrics trend
+         title: ENR Term & Non-Term
+         Credit Cards — Business Update: Feb-26 | p.6 | Portfolio metrics trend Chart: ENR Term & Non-Term | ...
+    p.6 [chart     ] Portfolio metrics trend
+         title: Spend/Card
+         Credit Cards — Business Update: Feb-26 | p.6 | Portfolio metrics trend Chart: Spend/Card | Month | S...
+    p.7 [heading   ] Cross Sell (Trends and Numbers)
+         title: Cross Sell (Trends and Numbers)
+         Credit Cards — Business Update: Feb-26 | p.7 | Cross Sell (Trends and Numbers) Cross Sell (Trends an...
+    p.7 [narrative ] Cross Sell (Trends and Numbers)
+         Credit Cards — Business Update: Feb-26 | p.7 | Cross Sell (Trends and Numbers) Cross Sell (Trends an...
+    p.7 [narrative ] Cross Sell (Trends and Numbers)
+         Credit Cards — Business Update: Feb-26 | p.7 | Cross Sell (Trends and Numbers) SNP booking is ~10% o...
+    p.7 [chart     ] Cross Sell (Trends and Numbers)
+         title: Split & Pay (EMI)
+         Credit Cards — Business Update: Feb-26 | p.7 | Cross Sell (Trends and Numbers) Chart: Split & Pay (E...
+    p.7 [chart     ] Cross Sell (Trends and Numbers)
+         title: Dial For Cash (STPL)
+         Credit Cards — Business Update: Feb-26 | p.7 | Cross Sell (Trends and Numbers) Chart: Dial For Cash ...
+    p.7 [chart     ] Cross Sell (Trends and Numbers)
+         title: Xpress Cash
+         Credit Cards — Business Update: Feb-26 | p.7 | Cross Sell (Trends and Numbers) Chart: Xpress Cash | ...
+    p.9 [heading   ] Performance Pre X
+         title: Performance Pre X
+         Credit Cards — Business Update: Feb-26 | p.9 | Performance Pre X Performance Pre X...
+    p.9 [takeaway  ] Performance Pre X
+         Credit Cards — Business Update: Feb-26 | p.9 | Performance Pre X PDD 4 bounce in decreasing and B1 f...
+    p.9 [table     ] Performance Pre X
+         Credit Cards — Business Update: Feb-26 | p.9 | Performance Pre X  | Month | Jan-25 | Feb-25 | Mar-25...
+    p.9 [table     ] Performance Pre X
+         Credit Cards — Business Update: Feb-26 | p.9 | Performance Pre X  | Month | Jan-25 | Feb-25 | Mar-25...
+    p.10 [heading   ] Performance Buckets*SOC Month
+         title: Performance Buckets*SOC Month
+         Credit Cards — Business Update: Feb-26 | p.10 | Performance Buckets*SOC Month Performance Buckets*SO...
+    p.10 [narrative ] Performance Buckets*SOC Month
+         Credit Cards — Business Update: Feb-26 | p.10 | Performance Buckets*SOC Month Performance Buckets*SO...
+    p.10 [table     ] Performance Buckets*SOC Month
+         Credit Cards — Business Update: Feb-26 | p.10 | Performance Buckets*SOC Month  | Flow% | Jan-25 | Fe...
+    p.10 [table     ] Performance Buckets*SOC Month
+         Credit Cards — Business Update: Feb-26 | p.10 | Performance Buckets*SOC Month  | RR% | Jan-25 | Feb-...
+    p.10 [table     ] Performance Buckets*SOC Month
+         Credit Cards — Business Update: Feb-26 | p.10 | Performance Buckets*SOC Month  | Pool | Jan-25 | Feb...
+    p.11 [heading   ] Collection Agency Cost
+         title: Collection Agency Cost
+         Credit Cards — Business Update: Feb-26 | p.11 | Collection Agency Cost Collection Agency Cost...
+    p.11 [narrative ] Collection Agency Cost
+         Credit Cards — Business Update: Feb-26 | p.11 | Collection Agency Cost Overall agency cost is in ran...
+    p.11 [table     ] Collection Agency Cost
+         title: BalanceinCr
+         Credit Cards — Business Update: Feb-26 | p.11 | Collection Agency Cost BalanceinCr | Bkt | Aug-24 | ...
+    p.11 [table     ] Collection Agency Cost
+         title: COC%
+         Credit Cards — Business Update: Feb-26 | p.11 | Collection Agency Cost COC% | Bkt | Aug-24 | Sep-24 ...
+    p.11 [table     ] Collection Agency Cost
+         title: Resolution%
+         Credit Cards — Business Update: Feb-26 | p.11 | Collection Agency Cost Resolution% | Bkt | Aug-24 | ...
+    p.11 [table     ] Collection Agency Cost
+         title: Cost(Cr)
+         Credit Cards — Business Update: Feb-26 | p.11 | Collection Agency Cost Cost(Cr) | Bkt | Aug-24 | Sep...
+    p.11 [table     ] Collection Agency Cost
+         title: CostperResolvedAccount
+         Credit Cards — Business Update: Feb-26 | p.11 | Collection Agency Cost CostperResolvedAccount | Bkt ...
+    p.11 [table     ] Collection Agency Cost
+         title: CostofResolution%
+         Credit Cards — Business Update: Feb-26 | p.11 | Collection Agency Cost CostofResolution% | Bkt | Aug...
+    p.12 [heading   ] Collection Agency Cost-Channel wise (Prex)
+         title: Collection Agency Cost-Channel wise (Prex)
+         Credit Cards — Business Update: Feb-26 | p.12 | Collection Agency Cost-Channel wise (Prex) Collectio...
+    p.12 [narrative ] Collection Agency Cost-Channel wise (Prex)
+         Credit Cards — Business Update: Feb-26 | p.12 | Collection Agency Cost-Channel wise (Prex) Collectio...
+    p.12 [table     ] Collection Agency Cost-Channel wise (Prex)
+         Credit Cards — Business Update: Feb-26 | p.12 | Collection Agency Cost-Channel wise (Prex)  | Alloba...
+    p.12 [table     ] Collection Agency Cost-Channel wise (Prex)
+         Credit Cards — Business Update: Feb-26 | p.12 | Collection Agency Cost-Channel wise (Prex)  | Resté ...
+    p.12 [table     ] Collection Agency Cost-Channel wise (Prex)
+         Credit Cards — Business Update: Feb-26 | p.12 | Collection Agency Cost-Channel wise (Prex)  | Cost |...
+    p.13 [heading   ] Collection Agency Cost-Channel wise (Bucket-1)
+         title: Collection Agency Cost-Channel wise (Bucket-1)
+         Credit Cards — Business Update: Feb-26 | p.13 | Collection Agency Cost-Channel wise (Bucket-1) Colle...
+    p.13 [takeaway  ] Collection Agency Cost-Channel wise (Bucket-1)
+         Credit Cards — Business Update: Feb-26 | p.13 | Collection Agency Cost-Channel wise (Bucket-1) Colle...
+    p.13 [table     ] Collection Agency Cost-Channel wise (Bucket-1)
+         Credit Cards — Business Update: Feb-26 | p.13 | Collection Agency Cost-Channel wise (Bucket-1)  | Al...
+    p.13 [table     ] Collection Agency Cost-Channel wise (Bucket-1)
+         Credit Cards — Business Update: Feb-26 | p.13 | Collection Agency Cost-Channel wise (Bucket-1)  | CO...
+    p.13 [table     ] Collection Agency Cost-Channel wise (Bucket-1)
+         Credit Cards — Business Update: Feb-26 | p.13 | Collection Agency Cost-Channel wise (Bucket-1)  | Re...
+    p.13 [table     ] Collection Agency Cost-Channel wise (Bucket-1)
+         Credit Cards — Business Update: Feb-26 | p.13 | Collection Agency Cost-Channel wise (Bucket-1)  | Co...
+    p.13 [table     ] Collection Agency Cost-Channel wise (Bucket-1)
+         Credit Cards — Business Update: Feb-26 | p.13 | Collection Agency Cost-Channel wise (Bucket-1)  | Co...
+    p.13 [table     ] Collection Agency Cost-Channel wise (Bucket-1)
+         Credit Cards — Business Update: Feb-26 | p.13 | Collection Agency Cost-Channel wise (Bucket-1)  | Co...
+    p.14 [heading   ] - -
+         title: - -
+         Credit Cards — Business Update: Feb-26 | p.14 | - - - -...
+    p.15 [heading   ] FY’26 PNL- Quarterly
+         title: FY’26 PNL- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.15 | FY’26 PNL- Quarterly FY’26 PNL- Quarterly...
+    p.15 [narrative ] FY’26 PNL- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.15 | FY’26 PNL- Quarterly Overall PnL looks bad but clean...
+    p.16 [heading   ] FY’26 Clean PNL- Quarterly
+         title: FY’26 Clean PNL- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.16 | FY’26 Clean PNL- Quarterly FY’26 Clean PNL- Quarterl...
+    p.16 [takeaway  ] FY’26 Clean PNL- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.16 | FY’26 Clean PNL- Quarterly FY’26 Clean PNL- Quarterl...
+    p.17 [heading   ] FY’26 Loss- Quarterly
+         title: FY’26 Loss- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.17 | FY’26 Loss- Quarterly FY’26 Loss- Quarterly...
+    p.17 [narrative ] FY’26 Loss- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.17 | FY’26 Loss- Quarterly Total pool Clean pool Q4 Slipp...
+    p.17 [table     ] FY’26 Loss- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.17 | FY’26 Loss- Quarterly  | Particulars | Q1_FY26 | Q2_...
+    p.17 [table     ] FY’26 Loss- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.17 | FY’26 Loss- Quarterly  | Particulars | Q1_FY26 | Q2_...
+    p.18 [heading   ] FY’27 PNL- Quarterly
+         title: FY’27 PNL- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.18 | FY’27 PNL- Quarterly FY’27 PNL- Quarterly...
+    p.18 [narrative ] FY’27 PNL- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.18 | FY’27 PNL- Quarterly Clean pool is expected to deliv...
+    p.19 [heading   ] FY’27 Clean PNL- Quarterly
+         title: FY’27 Clean PNL- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.19 | FY’27 Clean PNL- Quarterly FY’27 Clean PNL- Quarterl...
+    p.19 [narrative ] FY’27 Clean PNL- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.19 | FY’27 Clean PNL- Quarterly FY’27 Clean PNL- Quarterl...
+    p.20 [heading   ] FY’27 Loss- Quarterly
+         title: FY’27 Loss- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.20 | FY’27 Loss- Quarterly FY’27 Loss- Quarterly...
+    p.20 [narrative ] FY’27 Loss- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.20 | FY’27 Loss- Quarterly Total pool Clean pool Slippage...
+    p.20 [table     ] FY’27 Loss- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.20 | FY’27 Loss- Quarterly  | Particulars | Q1_FY27 | Q2_...
+    p.20 [table     ] FY’27 Loss- Quarterly
+         Credit Cards — Business Update: Feb-26 | p.20 | FY’27 Loss- Quarterly  | Particulars | Q1_FY27 | Q2_...
+    p.21 [heading   ] Annexures
+         title: Annexures
+         Credit Cards — Business Update: Feb-26 | p.21 | Annexures Annexures...
+    p.22 [heading   ] PNL FY25-29
+         title: PNL FY25-29
+         Credit Cards — Business Update: Feb-26 | p.22 | PNL FY25-29 PNL FY25-29...
+    p.22 [table     ] PNL FY25-29
+         Credit Cards — Business Update: Feb-26 | p.22 | PNL FY25-29  | Particulars / TuTuuLaLCTs-- | FY_25 |...
+    p.23 [heading   ] OPEX FY25-29
+         title: OPEX FY25-29
+         Credit Cards — Business Update: Feb-26 | p.23 | OPEX FY25-29 OPEX FY25-29...
+    p.23 [table     ] OPEX FY25-29
+         Credit Cards — Business Update: Feb-26 | p.23 | OPEX FY25-29  | Drivers | Head | FY_25 | FY_26 | FY_...
+    p.24 [heading   ] LOSS FY25-29
+         title: LOSS FY25-29
+         Credit Cards — Business Update: Feb-26 | p.24 | LOSS FY25-29 LOSS FY25-29...
+    p.24 [table     ] LOSS FY25-29
+         Credit Cards — Business Update: Feb-26 | p.24 | LOSS FY25-29  | Particulars | FY_25 | FY_26 | FY_27 ...
+    p.25 [heading   ] Clean PNL (FY’25-FY’29)
+         title: Clean PNL (FY’25-FY’29)
+         Credit Cards — Business Update: Feb-26 | p.25 | Clean PNL (FY’25-FY’29) Clean PNL (FY’25-FY’29)...
+    p.25 [table     ] Clean PNL (FY’25-FY’29)
+         Credit Cards — Business Update: Feb-26 | p.25 | Clean PNL (FY’25-FY’29)  | Particulars / TuTTICULEUT...
+    p.26 [heading   ] Vintage Performance
+         title: Vintage Performance
+         Credit Cards — Business Update: Feb-26 | p.26 | Vintage Performance Vintage Performance...
+    p.26 [table     ] Vintage Performance
+         title: DDBounceRate
+         Credit Cards — Business Update: Feb-26 | p.26 | Vintage Performance DDBounceRate | Vinatge_Ba | Apr-...
+    p.26 [table     ] Vintage Performance
+         title: B1ResolutionRate
+         Credit Cards — Business Update: Feb-26 | p.26 | Vintage Performance B1ResolutionRate | TTL | Apr-25 ...
+    p.26 [table     ] Vintage Performance
+         Credit Cards — Business Update: Feb-26 | p.26 | Vintage Performance  | Vinatge_Ba | Apr-25 | May-25 ...
+    p.26 [table     ] Vintage Performance
+         title: Pre-XResolutionRate
+         Credit Cards — Business Update: Feb-26 | p.26 | Vintage Performance Pre-XResolutionRate | TTL | Apr-...
+    p.26 [table     ] Vintage Performance
+         title: B2ResolutionRate
+         Credit Cards — Business Update: Feb-26 | p.26 | Vintage Performance B2ResolutionRate | TTL | Apr-25 ...
+    p.26 [table     ] Vintage Performance
+         title: B1Flow%
+         Credit Cards — Business Update: Feb-26 | p.26 | Vintage Performance B1Flow% | TTL | Apr-25 | May-25 ...
+    p.26 [table     ] Vintage Performance
+         title: B3Flov
+         Credit Cards — Business Update: Feb-26 | p.26 | Vintage Performance B3Flov | TTL | Apr-25 | May-25 |...
+
+  ── SERIES (659) with FACTS ──
+
+    p.3 [-       ] Sourcing Trends – Channel & Product › Product Mix › Proprietary
+         unit=-  metric_id=-  entity=-
+         facts: Jun-25=28184.0, Jul-25=35321.0, Aug-25=33476.0, Sep-25=42365.0, Oct-25=61512.0, Nov-25=56054.0, Dec-25=66890.0, Jan-26=63158.0, Feb-26=61709.0
+
+    p.3 [-       ] Sourcing Trends – Channel & Product › Product Mix › Consumer
+         unit=-  metric_id=-  entity=-
+         facts: Jun-25=15776.0, Jul-25=19111.0, Aug-25=18356.0, Sep-25=20938.0, Oct-25=25492.0, Nov-25=24895.0, Dec-25=28215.0, Jan-26=29814.0, Feb-26=33643.0
+
+    p.3 [-       ] Sourcing Trends – Channel & Product › Product Mix › Distribution
+         unit=-  metric_id=-  entity=-
+         facts: Jun-25=13736.0, Jul-25=13644.0, Aug-25=11275.0, Sep-25=10365.0, Oct-25=10146.0, Nov-25=8566.0, Dec-25=11437.0, Jan-26=10436.0, Feb-26=10802.0
+
+    p.3 [-       ] Sourcing Trends – Channel & Product › Product Mix › Premium
+         unit=-  metric_id=-  entity=-
+         facts: Jun-25=214.0, Jul-25=296.0, Aug-25=224.0, Sep-25=341.0, Oct-25=201.0, Nov-25=202.0, Dec-25=244.0, Jan-26=451.0, Feb-26=378.0
+
+    p.3 [count   ] Sourcing Trends – Channel & Product › Product Mix › Total
+         unit=-  metric_id=cc_sourcing_total  entity=-
+         facts: Jun-25=57910.0, Jul-25=68372.0, Aug-25=63331.0, Sep-25=74009.0, Oct-25=97351.0, Nov-25=89717.0, Dec-25=106786.0, Jan-26=103859.0, Feb-26=106532.0
+
+    p.3 [-       ] Sourcing Trends – Channel & Product › Channel Mix › Branch + DST
+         unit=-  metric_id=-  entity=-
+         facts: Jun-25=33198.0, Jul-25=42438.0, Aug-25=38728.0, Sep-25=45697.0, Oct-25=56580.0, Nov-25=53878.0, Dec-25=65348.0, Jan-26=66468.0, Feb-26=71488.0
+
+    p.3 [-       ] Sourcing Trends – Channel & Product › Channel Mix › Online/Digital
+         unit=-  metric_id=-  entity=-
+         facts: Jun-25=9252.0, Jul-25=9447.0, Aug-25=10784.0, Sep-25=15166.0, Oct-25=27107.0, Nov-25=25276.0, Dec-25=27780.0, Jan-26=25650.0, Feb-26=22769.0
+
+    p.3 [-       ] Sourcing Trends – Channel & Product › Channel Mix › Partner Sourcing
+         unit=-  metric_id=-  entity=-
+         facts: Jun-25=15460.0, Jul-25=16487.0, Aug-25=13819.0, Sep-25=13146.0, Oct-25=13664.0, Nov-25=10563.0, Dec-25=13658.0, Jan-26=11741.0, Feb-26=12275.0
+
+    p.3 [-       ] Sourcing Trends – Channel & Product › in text › 1 lac+ sourcing run rate now wit
+         unit=lakh  metric_id=-  entity=-
+         facts: period not stated=1.0
+
+    p.3 [percent ] Sourcing Trends – Channel & Product › in text › 1 lac+ sourcing run rate now wit
+         unit=%  metric_id=-  entity=-
+         facts: period not stated=10.0
+
+    p.4 [count   ] CIF Net Addition › CIF
+         unit=-  metric_id=cc_cif  entity=-
+         facts: Apr-25=4776130.0, May-25=4735288.0, Jun-25=4687959.0, Jul-25=4646898.0, Aug-25=4541171.0, Sep-25=4585190.0, Oct-25=4565378.0, Nov-25=4576052.0, Dec-25=4596775.0, Jan-26=4583137.0, Feb-26=4608807.0
+
+    p.4 [count   ] CIF Net Addition › Net Addition
+         unit=-  metric_id=cc_cif_net_addition  entity=-
+         facts: Apr-25=-51976.0, May-25=-40842.0, Jun-25=-47329.0, Jul-25=-41061.0, Aug-25=-105727.0, Sep-25=44019.0, Oct-25=-19812.0, Nov-25=10674.0, Dec-25=20723.0, Jan-26=-13638.0, Feb-26=25670.0
+
+    p.5 [-       ] ENR Walk › Opening Book
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=21548.0, Q2FY26=21499.0, Q3FY26=21282.0, Q4FY26 (partial)=20506.0
+
+    p.5 [amount  ] ENR Walk › Spend
+         unit=-  metric_id=cc_spends  entity=-
+         facts: Q1FY26=21105.0, Q2FY26=21168.0, Q3FY26=21446.0, Q4FY26 (partial)=13627.0
+
+    p.5 [-       ] ENR Walk › Payment
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=-23128.0, Q2FY26=-23284.0, Q3FY26=-24002.0, Q4FY26 (partial)=-14948.0
+
+    p.5 [-       ] ENR Walk › STPL Booking
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=562.0, Q2FY26=421.0, Q3FY26=608.0, Q4FY26 (partial)=470.0
+
+    p.5 [-       ] ENR Walk › XPS booking
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=210.0, Q2FY26=227.0, Q3FY26=224.0, Q4FY26 (partial)=123.0
+
+    p.5 [amount  ] ENR Walk › Write Off
+         unit=-  metric_id=write_off  entity=-
+         facts: Q1FY26=-466.0, Q2FY26=-430.0, Q3FY26=-663.0, Q4FY26 (partial)=-420.0
+
+    p.5 [-       ] ENR Walk › Income/GST Posted
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=1638.0, Q2FY26=1659.0, Q3FY26=1628.0, Q4FY26 (partial)=1031.0
+
+    p.5 [amount  ] ENR Walk › Closing Book
+         unit=-  metric_id=cc_enr  entity=-
+         facts: Q1FY26=21499.0, Q2FY26=21282.0, Q3FY26=20506.0, Q4FY26 (partial)=20350.0
+
+    p.6 [amount  ] Portfolio metrics trend › Spends/Card/Day
+         unit=-  metric_id=cc_spend_per_card_day  entity=-
+         facts: Jun-25=481.0, Jul-25=494.0, Aug-25=496.0, Sep-25=505.0, Oct-25=533.0, Nov-25=501.0, Dec-25=513.0, Jan-26=497.0, Feb-26=495.0
+
+    p.6 [amount  ] Portfolio metrics trend › Spends (Cr.)
+         unit=Cr  metric_id=cc_spends  entity=-
+         facts: Jun-25=6857.0, Jul-25=7219.0, Aug-25=7065.0, Sep-25=6871.0, Oct-25=7458.0, Nov-25=6755.0, Dec-25=7201.0, Jan-26=7157.0, Feb-26=6471.0
+
+    p.6 [percent ] Portfolio metrics trend › Active Rate
+         unit=%  metric_id=cc_active_rate  entity=-
+         facts: Jun-25=47.0, Jul-25=48.0, Aug-25=48.0, Sep-25=48.0, Oct-25=50.0, Nov-25=48.0, Dec-25=48.0, Jan-26=47.0, Feb-26=48.0
+
+    p.6 [percent ] Portfolio metrics trend › ENR Term & Non-Term › Non-Term
+         unit=%  metric_id=cc_enr_nonterm_share  entity=-
+         facts: Jun-25=54.0, Jul-25=54.0, Aug-25=55.0, Sep-25=55.0, Oct-25=56.0, Nov-25=56.0, Dec-25=56.0, Jan-26=56.0, Feb-26=56.0
+
+    p.6 [percent ] Portfolio metrics trend › ENR Term & Non-Term › Term
+         unit=%  metric_id=cc_enr_term_share  entity=-
+         facts: Jun-25=46.0, Jul-25=46.0, Aug-25=45.0, Sep-25=45.0, Oct-25=44.0, Nov-25=44.0, Dec-25=44.0, Jan-26=44.0, Feb-26=44.0
+
+    p.6 [amount  ] Portfolio metrics trend › Spend/Card › Spends/Card/Day
+         unit=-  metric_id=cc_spend_per_card_day  entity=-
+         facts: Jun-25=14422.0, Jul-25=15319.0, Aug-25=15341.0, Sep-25=15371.0, Oct-25=16753.0, Nov-25=14973.0, Dec-25=15907.0, Jan-26=15615.0, Feb-26=13849.0
+
+    p.6 [amount  ] Portfolio metrics trend › Spend/Card › Spends/Card/Day (Line)
+         unit=-  metric_id=-  entity=-
+         facts: Jun-25=481.0, Jul-25=494.0, Aug-25=496.0, Sep-25=505.0, Oct-25=533.0, Nov-25=501.0, Dec-25=513.0, Jan-26=497.0, Feb-26=495.0
+
+    p.7 [count   ] Cross Sell (Trends and Numbers) › Split & Pay (EMI) › No.of Cases (In Lacs)
+         unit=lakh  metric_id=-  entity=-
+         facts: Apr-25=3.0, May-25=3.3, Jun-25=3.2, Jul-25=3.18, Aug-25=3.0, Sep-25=2.9, Oct-25=3.3, Nov-25=3.1, Dec-25=3.1, Jan-26=2.8, Feb-26=2.4
+
+    p.7 [amount  ] Cross Sell (Trends and Numbers) › Split & Pay (EMI) › Disbursal (In Cr)
+         unit=Cr  metric_id=-  entity=-
+         facts: Apr-25=729.5, May-25=795.0, Jun-25=751.0, Jul-25=758.0, Aug-25=732.0, Sep-25=740.0, Oct-25=818.0, Nov-25=680.0, Dec-25=697.0, Jan-26=702.0, Feb-26=631.0
+
+    p.7 [count   ] Cross Sell (Trends and Numbers) › Dial For Cash (STPL) › No.of Cases (in 000')
+         unit='000  metric_id=-  entity=-
+         facts: Apr-25=9.6, May-25=11.3, Jun-25=11.4, Jul-25=8.7, Aug-25=9.4, Sep-25=10.1, Oct-25=10.0, Nov-25=13.4, Dec-25=16.6, Jan-26=12.9, Feb-26=15.2
+
+    p.7 [amount  ] Cross Sell (Trends and Numbers) › Dial For Cash (STPL) › Disbursal (In Cr)
+         unit=Cr  metric_id=-  entity=-
+         facts: Apr-25=176.0, May-25=195.0, Jun-25=190.0, Jul-25=124.0, Aug-25=126.0, Sep-25=161.0, Oct-25=154.0, Nov-25=196.0, Dec-25=258.0, Jan-26=208.0, Feb-26=261.0
+
+    p.7 [count   ] Cross Sell (Trends and Numbers) › Xpress Cash › No.of Cases (in 000')
+         unit='000  metric_id=-  entity=-
+         facts: Apr-25=12.6, May-25=14.8, Jun-25=12.4, Jul-25=14.7, Aug-25=14.3, Sep-25=14.8, Oct-25=15.6, Nov-25=14.9, Dec-25=14.9, Jan-26=13.2, Feb-26=11.6
+
+    p.7 [amount  ] Cross Sell (Trends and Numbers) › Xpress Cash › Disbursal (In Cr)
+         unit=Cr  metric_id=-  entity=-
+         facts: Apr-25=69.0, May-25=78.0, Jun-25=63.0, Jul-25=79.0, Aug-25=71.0, Sep-25=77.0, Oct-25=82.0, Nov-25=75.0, Dec-25=67.0, Jan-26=67.0, Feb-26=57.0
+
+    p.7 [percent ] Cross Sell (Trends and Numbers) › in text › SNP booking is ~10% of Total Spends 
+         unit=%  metric_id=-  entity=-
+         facts: FY26=10.0
+
+    p.7 [amount  ] Cross Sell (Trends and Numbers) › in text › The booking amount is STPL booking c
+         unit=Cr  metric_id=-  entity=-
+         facts: period not stated=260.0
+
+    p.7 [amount  ] Cross Sell (Trends and Numbers) › in text › target/outlook: aiming for ~300 Cr i
+         unit=Cr  metric_id=-  entity=-
+         facts: Feb-26=300.0
+
+    p.9 [percent ] Performance Pre X › PDDBounce%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=21.7, Feb-25=20.1, Mar-25=24.2, Apr-25=22.2, May-25=22.4, Jun-25=21.2, Jul-25=25.5, Aug-25=24.4, Sep-25=23.4, Oct-25=25.2, Nov-25=21.4, Dec-25=23.7, Jan-26=23.0
+
+    p.9 [percent ] Performance Pre X › PDD4Bounce%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=7.4, Feb-25=7.0, Mar-25=7.5, Apr-25=7.7, May-25=7.8, Jun-25=7.0, Jul-25=8.5, Aug-25=8.2, Sep-25=8.2, Oct-25=7.4, Nov-25=7.6, Dec-25=7.6, Jan-26=7.1
+
+    p.9 [percent ] Performance Pre X › ResPDD4t010%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=52.1, Feb-25=44.9, Mar-25=54.3, Apr-25=51.0, May-25=43.5, Jun-25=44.6, Jul-25=64.3, Aug-25=67.7, Sep-25=64.5, Oct-25=70.7, Nov-25=68.8, Dec-25=72.5, Jan-26=69.8
+
+    p.9 [percent ] Performance Pre X › ResPrex(PDD)%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=83.7, Feb-25=80.7, Mar-25=85.8, Apr-25=82.8, May-25=80.4, Jun-25=81.6, Jul-25=88.1, Aug-25=89.2, Sep-25=87.5, Oct-25=91.4, Nov-25=88.9, Dec-25=91.4, Jan-26=90.9
+
+    p.9 [percent ] Performance Pre X › B1Flow
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=3.5, Feb-25=3.9, Mar-25=3.4, Apr-25=3.8, May-25=4.4, Jun-25=3.9, Jul-25=3.0, Aug-25=2.6, Sep-25=2.9, Oct-25=2.2, Nov-25=2.4, Dec-25=2.0, Jan-26=2.1
+
+    p.9 [-       ] Performance Pre X › PDDBounce › R4,201
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=4217.0, May-25=24199.0, Jun-25=3949.0, Aug-25=24375.0, Sep-25=4161.0, Nov-25=23782.0, Dec-25=24111.0
+
+    p.9 [-       ] Performance Pre X › PDD4Bounce › <1,428
+         unit=-  metric_id=-  entity=-
+         facts: Feb-25=1350.0, Mar-25=1398.0, Jun-25=1312.0, Jul-25=1541.0, Oct-25=1323.0
+
+    p.9 [percent ] Performance Pre X › in text › B1 flow has been in the range of 2% - 2.4% since O
+         unit=%  metric_id=-  entity=-
+         facts: period not stated=2.0
+
+    p.9 [percent ] Performance Pre X › in text › B1 flow has been in the range of 2% - 2.4% since O
+         unit=%  metric_id=-  entity=-
+         facts: period not stated=2.4
+
+    p.10 [percent ] Performance Buckets*SOC Month › B1Flow%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=3.5, Feb-25=3.9, Mar-25=3.4, Apr-25=3.8, May-25=4.4, Jun-25=3.9, Jul-25=3.0, Aug-25=2.6, Sep-25=2.9, Oct-25=2.2, Nov-25=2.4, Dec-25=2.0, Jan-26=2.1
+
+    p.10 [percent ] Performance Buckets*SOC Month › B2Flow%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=0.8, Feb-25=1.0, Mar-25=0.7, Apr-25=0.8, May-25=0.9, Jun-25=2.3, Jul-25=1.7, Aug-25=1.0, Sep-25=1.1, Oct-25=0.7, Nov-25=0.8, Dec-25=0.6, Jan-26=0.6
+
+    p.10 [percent ] Performance Buckets*SOC Month › B3Flow%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=0.4, Feb-25=0.6, Mar-25=0.4, Apr-25=0.5, May-25=0.5, Jun-25=1.9, Jul-25=1.6, Aug-25=0.9, Sep-25=0.7, Oct-25=0.5, Nov-25=0.5, Dec-25=0.4, Jan-26=0.4
+
+    p.10 [percent ] Performance Buckets*SOC Month › B1RR%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=79.9, Feb-25=76.1, Mar-25=80.5, Apr-25=78.9, May-25=80.3, Jun-25=41.5, Jul-25=43.1, Aug-25=62.1, Sep-25=63.5, Oct-25=67.0, Nov-25=67.3, Dec-25=69.9, Jan-26=71.0
+
+    p.10 [percent ] Performance Buckets*SOC Month › B2RR%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=43.2, Feb-25=43.2, Mar-25=43.5, Apr-25=45.8, May-25=46.3, Jun-25=19.2, Jul-25=9.9, Aug-25=13.0, Sep-25=34.4, Oct-25=36.0, Nov-25=37.8, Dec-25=40.3, Jan-26=41.1
+
+    p.10 [percent ] Performance Buckets*SOC Month › B3RR%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=32.7, Feb-25=33.9, Mar-25=35.2, Apr-25=35.0, May-25=36.5, Jun-25=37.3, Jul-25=65.0, Aug-25=75.4, Sep-25=93.4, Oct-25=81.3, Nov-25=85.8, Dec-25=72.7, Jan-26=80.6
+
+    p.10 [-       ] Performance Buckets*SOC Month › B1S
+         unit=-  metric_id=-  entity=-
+         facts: Jan-25=1069.0, Feb-25=1131.0, Mar-25=1178.0, Apr-25=1098.0, May-25=1162.0, Jun-25=1272.0, Jul-25=1012.0, Aug-25=792.0, Sep-25=765.0, Oct-25=808.0, Nov-25=687.0, Dec-25=687.0, Jan-26=641.0, Feb-26=638.0
+
+    p.10 [percent ] Performance Buckets*SOC Month › B1RR%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=79.9, Feb-25=76.1, Mar-25=80.5, Apr-25=78.9, May-25=80.3, Jun-25=41.5, Jul-25=43.1, Aug-25=62.1, Sep-25=63.5, Oct-25=67.0, Nov-25=67.3, Dec-25=69.9, Jan-26=71.0
+
+    p.10 [-       ] Performance Buckets*SOC Month › B2S
+         unit=-  metric_id=-  entity=-
+         facts: Jan-25=339.0, Feb-25=332.0, Mar-25=383.0, Apr-25=355.0, May-25=359.0, Jun-25=353.0, Jul-25=848.0, Aug-25=669.0, Sep-25=384.0, Oct-25=392.0, Nov-25=386.0, Dec-25=343.0, Jan-26=314.0, Feb-26=286.0
+
+    p.10 [percent ] Performance Buckets*SOC Month › B2RR%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=43.2, Feb-25=43.2, Mar-25=43.5, Apr-25=45.8, May-25=46.3, Jun-25=19.2, Jul-25=9.9, Aug-25=13.0, Sep-25=34.4, Oct-25=36.0, Nov-25=37.8, Dec-25=40.3, Jan-26=41.1
+
+    p.10 [-       ] Performance Buckets*SOC Month › B3S
+         unit=-  metric_id=-  entity=-
+         facts: Jan-25=307.0, Feb-25=288.0, Mar-25=275.0, Apr-25=302.0, May-25=285.0, Jun-25=283.0, Jul-25=373.0, Aug-25=973.0, Sep-25=1224.0, Oct-25=1084.0, Nov-25=1106.0, Dec-25=1154.0, Jan-26=998.0, Feb-26=955.0
+
+    p.10 [percent ] Performance Buckets*SOC Month › B3RR%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=32.7, Feb-25=33.9, Mar-25=35.2, Apr-25=35.0, May-25=36.5, Jun-25=37.3, Jul-25=65.0, Aug-25=75.4, Sep-25=93.4, Oct-25=81.3, Nov-25=85.8, Dec-25=72.7, Jan-26=80.6
+
+    p.10 [-       ] Performance Buckets*SOC Month › B3Cleans
+         unit=-  metric_id=-  entity=-
+         facts: Jan-25=307.0, Feb-25=288.0, Mar-25=275.0, Apr-25=302.0, May-25=285.0, Jun-25=283.0, Jul-25=289.0, Aug-25=436.0, Sep-25=332.0, Oct-25=276.0, Nov-25=193.0, Dec-25=277.0, Jan-26=270.0, Feb-26=256.0
+
+    p.10 [percent ] Performance Buckets*SOC Month › B3CleanRR%
+         unit=%  metric_id=-  entity=-
+         facts: Jan-25=32.7, Feb-25=33.9, Mar-25=35.2, Apr-25=35.0, May-25=36.5, Jun-25=37.3, Jul-25=53.3, Aug-25=42.2, Sep-25=86.3, Oct-25=34.4, Nov-25=27.8, Dec-25=31.1, Jan-26=32.0
+
+    p.10 [-       ] Performance Buckets*SOC Month › B3Non-Cleans
+         unit=-  metric_id=-  entity=-
+         facts: Jul-25=84.0, Aug-25=537.0, Sep-25=892.0, Oct-25=808.0, Nov-25=913.0, Dec-25=877.0, Jan-26=728.0, Feb-26=699.0
+
+    p.10 [percent ] Performance Buckets*SOC Month › B3Non-Clean_RR%
+         unit=%  metric_id=-  entity=-
+         facts: Jul-25=98.6, Aug-25=97.4, Sep-25=93.8, Oct-25=97.3, Nov-25=98.1, Dec-25=85.9, Jan-26=98.6
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › _PreX-UNA
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=57.0, Aug-25=1141.0, Sep-25=1995.0, Oct-25=1918.0, Nov-25=2391.0, Dec-25=1795.0, Jan-26=2183.0, Feb-26=2233.0
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › PreX-Allo
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=4758.0, Sep-24=4877.0, Oct-24=3963.0, Nov-24=4259.0, Dec-24=3836.0, Jan-25=4264.0, Feb-25=4201.0, Mar-25=3862.0, Apr-25=4493.0, May-25=4189.0, Jun-25=4176.0, Jul-25=3818.0, Aug-25=3452.0, Sep-25=2350.0, Oct-25=2212.0, Nov-25=2056.0, Dec-25=1943.0, Jan-26=2147.0, Feb-26=1976.0
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › PreX
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=4758.0, Sep-24=4877.0, Oct-24=3963.0, Nov-24=4259.0, Dec-24=3836.0, Jan-25=4264.0, Feb-25=4201.0, Mar-25=3862.0, Apr-25=4493.0, May-25=4189.0, Jun-25=4176.0, Jul-25=3874.0, Aug-25=4593.0, Sep-25=4345.0, Oct-25=4131.0, Nov-25=4447.0, Dec-25=3738.0, Jan-26=4330.0, Feb-26=4209.0
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › B1
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=1001.0, Sep-24=1046.0, Oct-24=1158.0, Nov-24=1111.0, Dec-24=1036.0, Jan-25=1059.0, Feb-25=1069.0, Mar-25=1131.0, Apr-25=1178.0, May-25=1098.0, Jun-25=1162.0, Jul-25=1272.0, Aug-25=1012.0, Sep-25=792.0, Oct-25=765.0, Nov-25=808.0, Dec-25=687.0, Jan-26=687.0, Feb-26=641.0
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › B2
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=515.0, Sep-24=362.0, Oct-24=354.0, Nov-24=422.0, Dec-24=418.0, Jan-25=381.0, Feb-25=339.0, Mar-25=332.0, Apr-25=383.0, May-25=355.0, Jun-25=359.0, Jul-25=353.0, Aug-25=848.0, Sep-25=669.0, Oct-25=384.0, Nov-25=392.0, Dec-25=386.0, Jan-26=343.0, Feb-26=314.0
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › B3-Agency
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=287.0, Sep-24=433.0, Oct-24=289.0, Nov-24=293.0, Dec-24=320.0, Jan-25=319.0, Feb-25=307.0, Mar-25=288.0, Apr-25=275.0, May-25=302.0, Jun-25=285.0, Jul-25=283.0, Aug-25=289.0, Sep-25=436.0, Oct-25=332.0, Nov-25=276.0, Dec-25=193.0, Jan-26=277.0, Feb-26=270.0
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › B3-SP
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=84.0, Sep-25=537.0, Oct-25=892.0, Nov-25=808.0, Dec-25=913.0, Jan-26=877.0, Feb-26=728.0
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › B3
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=287.0, Sep-24=433.0, Oct-24=289.0, Nov-24=293.0, Dec-24=320.0, Jan-25=319.0, Feb-25=307.0, Mar-25=288.0, Apr-25=275.0, May-25=302.0, Jun-25=285.0, Jul-25=283.0, Aug-25=373.0, Sep-25=973.0, Oct-25=1224.0, Nov-25=1084.0, Dec-25=1106.0, Jan-26=1154.0, Feb-26=998.0
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › 90+
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=813.0, Sep-24=912.0, Oct-24=964.0, Nov-24=922.0, Dec-24=808.0, Jan-25=790.0, Feb-25=768.0, Mar-25=740.0, Apr-25=696.0, May-25=686.0, Jun-25=673.0, Jul-25=667.0, Aug-25=613.0, Sep-25=696.0, Oct-25=799.0, Nov-25=880.0, Dec-25=801.0, Jan-26=884.0, Feb-26=870.0
+
+    p.11 [amount  ] Collection Agency Cost › BalanceinCr › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=1585.0, Sep-24=1680.0, Oct-24=1327.0, Nov-24=1416.0, Dec-24=1636.0, Jan-25=1762.0, Feb-25=1875.0, Mar-25=1987.0, Apr-25=2077.0, May-25=2197.0, Jun-25=2301.0, Jul-25=1460.0, Aug-25=1565.0, Sep-25=1651.0, Oct-25=1795.0, Nov-25=1874.0, Dec-25=2020.0, Jan-26=2177.0, Feb-26=2299.0
+
+    p.11 [percent ] Collection Agency Cost › COC% › PreX-UNA
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=0.0, Nov-25=0.0, Dec-25=0.0, Jan-26=0.0, Feb-26=0.0
+
+    p.11 [percent ] Collection Agency Cost › COC% › PreX-Allo
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=0.5, Sep-24=0.5, Oct-24=0.6, Nov-24=0.9, Dec-24=1.3, Jan-25=1.1, Feb-25=1.2, Mar-25=1.5, Apr-25=1.4, May-25=1.7, Jun-25=0.6, Jul-25=0.7, Aug-25=1.0, Sep-25=1.8, Oct-25=1.6, Nov-25=1.9, Dec-25=1.7, Jan-26=1.5, Feb-26=1.6
+
+    p.11 [percent ] Collection Agency Cost › COC% › PreX
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=0.5, Sep-24=0.5, Oct-24=0.6, Nov-24=0.9, Dec-24=1.3, Jan-25=1.1, Feb-25=1.2, Mar-25=1.5, Apr-25=1.4, May-25=1.7, Jun-25=0.6, Jul-25=0.7, Aug-25=0.6, Sep-25=0.7, Oct-25=0.6, Nov-25=0.5, Dec-25=0.6, Jan-26=0.5, Feb-26=0.5
+
+    p.11 [percent ] Collection Agency Cost › COC% › B1
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=19.7, Sep-24=15.7, Oct-24=14.8, Nov-24=16.1, Dec-24=18.1, Jan-25=18.6, Feb-25=19.0, Mar-25=18.3, Apr-25=19.7, May-25=19.6, Jun-25=18.2, Jul-25=14.9, Aug-25=7.5, Sep-25=17.9, Oct-25=18.7, Nov-25=17.9, Dec-25=17.8, Jan-26=17.3, Feb-26=17.5
+
+    p.11 [percent ] Collection Agency Cost › COC% › B2
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=19.4, Sep-24=21.6, Oct-24=19.5, Nov-24=30.1, Dec-24=30.9, Jan-25=23.5, Feb-25=23.9, Mar-25=23.9, Apr-25=24.5, May-25=24.6, Jun-25=25.0, Jul-25=17.5, Aug-25=8.9, Sep-25=9.2, Oct-25=48.9, Nov-25=46.4, Dec-25=43.7, Jan-26=42.9, Feb-26=42.3
+
+    p.11 [percent ] Collection Agency Cost › COC% › B3-Agency
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=30.6, Sep-24=30.4, Oct-24=30.3, Nov-24=34.5, Dec-24=37.9, Jan-25=38.6, Feb-25=39.4, Mar-25=40.4, Apr-25=41.7, May-25=42.9, Jun-25=45.5, Jul-25=46.4, Aug-25=45.1, Sep-25=31.9, Oct-25=40.2, Nov-25=104.9, Dec-25=57.1, Jan-26=74.3, Feb-26=70.0
+
+    p.11 [percent ] Collection Agency Cost › COC% › B3-SP
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=122.3, Sep-25=108.8, Oct-25=110.1, Nov-25=107.1, Dec-25=108.9, Jan-26=107.6, Feb-26=106.2
+
+    p.11 [percent ] Collection Agency Cost › COC% › B3
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=30.6, Sep-24=30.4, Oct-24=30.3, Nov-24=34.5, Dec-24=37.9, Jan-25=38.6, Feb-25=39.4, Mar-25=40.4, Apr-25=41.7, May-25=42.9, Jun-25=45.5, Jul-25=46.4, Aug-25=53.9, Sep-25=63.8, Oct-25=101.0, Nov-25=106.7, Dec-25=103.4, Jan-26=102.6, Feb-26=100.4
+
+    p.11 [percent ] Collection Agency Cost › COC% › 90+
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=22.6, Sep-24=22.9, Oct-24=24.6, Nov-24=25.4, Dec-24=27.7, Jan-25=27.4, Feb-25=27.7, Mar-25=29.5, Apr-25=27.4, May-25=28.8, Jun-25=27.3, Jul-25=28.7, Aug-25=28.9, Sep-25=28.6, Oct-25=27.5, Nov-25=27.8, Dec-25=28.2, Jan-26=27.1, Feb-26=28.8
+
+    p.11 [percent ] Collection Agency Cost › COC% › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=32.4, Sep-24=35.6, Oct-24=31.4, Nov-24=34.8, Dec-24=32.0, Jan-25=32.4, Feb-25=31.8, Mar-25=33.6, Apr-25=32.2, May-25=33.5, Jun-25=34.5, Jul-25=36.9, Aug-25=34.2, Sep-25=35.6, Oct-25=34.7, Nov-25=35.1, Dec-25=32.7, Jan-26=34.7, Feb-26=34.4
+
+    p.11 [percent ] Collection Agency Cost › Resolution% › PreX-UNA
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=100.0, Aug-25=100.0, Sep-25=100.0, Oct-25=100.0, Nov-25=100.0, Dec-25=100.0, Jan-26=100.0, Feb-26=100.0
+
+    p.11 [percent ] Collection Agency Cost › Resolution% › PreX-Allo
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=86.8, Sep-24=85.9, Oct-24=83.4, Nov-24=86.5, Dec-24=83.9, Jan-25=85.5, Feb-25=84.0, Mar-25=81.1, Apr-25=85.9, May-25=83.0, Jun-25=80.5, Jul-25=81.5, Aug-25=84.3, Sep-25=80.3, Oct-25=76.9, Nov-25=81.6, Dec-25=79.2, Jan-26=83.1, Feb-26=81.2
+
+    p.11 [percent ] Collection Agency Cost › Resolution% › PreX
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=86.8, Sep-24=85.9, Oct-24=83.4, Nov-24=86.5, Dec-24=83.9, Jan-25=85.5, Feb-25=84.0, Mar-25=81.1, Apr-25=85.9, May-25=83.0, Jun-25=80.5, Jul-25=81.8, Aug-25=88.2, Sep-25=89.3, Oct-25=87.6, Nov-25=91.5, Dec-25=89.2, Jan-26=91.6, Feb-26=91.2
+
+    p.11 [percent ] Collection Agency Cost › Resolution% › B1
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=75.9, Sep-24=77.4, Oct-24=73.4, Nov-24=75.1, Dec-24=77.1, Jan-25=80.0, Feb-25=79.9, Mar-25=76.1, Apr-25=80.5, May-25=78.9, Jun-25=80.3, Jul-25=41.5, Aug-25=43.1, Sep-25=62.1, Oct-25=63.5, Nov-25=67.0, Dec-25=67.3, Jan-26=69.9, Feb-26=71.0
+
+    p.11 [percent ] Collection Agency Cost › Resolution% › B2
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=29.4, Sep-24=39.7, Oct-24=36.5, Nov-24=43.7, Dec-24=45.2, Jan-25=43.6, Feb-25=43.2, Mar-25=43.2, Apr-25=43.5, May-25=45.8, Jun-25=46.3, Jul-25=19.2, Aug-25=9.9, Sep-25=13.0, Oct-25=34.4, Nov-25=36.0, Dec-25=37.8, Jan-26=40.3, Feb-26=41.1
+
+    p.11 [percent ] Collection Agency Cost › Resolution% › B3-Agency
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=18.2, Sep-24=14.4, Oct-24=22.7, Nov-24=25.4, Dec-24=28.0, Jan-25=30.5, Feb-25=32.7, Mar-25=33.9, Apr-25=35.2, May-25=35.0, Jun-25=36.5, Jul-25=37.3, Aug-25=53.3, Sep-25=42.2, Oct-25=86.3, Nov-25=34.4, Dec-25=27.8, Jan-26=31.1, Feb-26=32.0
+
+    p.11 [percent ] Collection Agency Cost › Resolution% › B3-SP
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=98.6, Sep-25=97.4, Oct-25=93.8, Nov-25=97.3, Dec-25=98.1, Jan-26=85.9, Feb-26=98.6
+
+    p.11 [percent ] Collection Agency Cost › Resolution% › B3
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=18.2, Sep-24=14.4, Oct-24=22.7, Nov-24=25.4, Dec-24=28.0, Jan-25=30.5, Feb-25=32.7, Mar-25=33.9, Apr-25=35.2, May-25=35.0, Jun-25=36.5, Jul-25=37.3, Aug-25=65.0, Sep-25=75.4, Oct-25=93.4, Nov-25=81.3, Dec-25=85.8, Jan-26=72.7, Feb-26=80.6
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › PreX-UNA
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=0.0, Nov-25=0.0, Dec-25=0.0, Jan-26=0.0, Feb-26=0.0
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › PreX-Allo
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=6.1, Sep-24=6.0, Oct-24=6.0, Nov-24=8.9, Dec-24=11.0, Jan-25=10.5, Feb-25=11.1, Mar-25=12.6, Apr-25=13.9, May-25=15.5, Jun-25=5.3, Jul-25=5.4, Aug-25=5.9, Sep-25=6.7, Oct-25=5.4, Nov-25=5.9, Dec-25=5.0, Jan-26=5.2, Feb-26=5.2
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › PreX
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=6.1, Sep-24=6.0, Oct-24=6.0, Nov-24=8.9, Dec-24=11.0, Jan-25=10.5, Feb-25=11.1, Mar-25=12.6, Apr-25=13.9, May-25=15.5, Jun-25=5.3, Jul-25=5.4, Aug-25=5.9, Sep-25=6.7, Oct-25=5.4, Nov-25=5.9, Dec-25=5.0, Jan-26=5.2, Feb-26=5.2
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › B1
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=47.1, Sep-24=39.3, Oct-24=40.5, Nov-24=42.7, Dec-24=47.4, Jan-25=54.7, Feb-25=57.0, Mar-25=56.4, Apr-25=69.7, May-25=63.0, Jun-25=66.9, Jul-25=27.6, Aug-25=9.7, Sep-25=23.0, Oct-25=24.0, Nov-25=26.2, Dec-25=22.5, Jan-26=23.5, Feb-26=23.0
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › B2
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=8.0, Sep-24=7.3, Oct-24=6.5, Nov-24=14.5, Dec-24=15.7, Jan-25=11.3, Feb-25=9.8, Mar-25=10.3, Apr-25=13.0, May-25=12.6, Jun-25=13.3, Jul-25=3.5, Aug-25=1.8, Sep-25=1.6, Oct-25=9.8, Nov-25=11.5, Dec-25=12.4, Jan-26=11.9, Feb-26=11.0
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › B3-Agency
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=2.8, Sep-24=3.3, Oct-24=3.3, Nov-24=4.5, Dec-24=6.8, Jan-25=8.1, Feb-25=8.3, Mar-25=8.5, Apr-25=10.0, May-25=10.7, Jun-25=11.8, Jul-25=12.1, Aug-25=20.5, Sep-25=17.4, Oct-25=3.4, Nov-25=10.1, Dec-25=4.3, Jan-26=7.0, Feb-26=7.0
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › B3-SP
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=7.2, Sep-25=42.2, Oct-25=62.9, Nov-25=58.3, Dec-25=69.9, Jan-26=56.5, Feb-26=54.0
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › B3
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=2.8, Sep-24=3.3, Oct-24=3.3, Nov-24=4.5, Dec-24=6.8, Jan-25=8.1, Feb-25=8.3, Mar-25=8.5, Apr-25=10.0, May-25=10.7, Jun-25=11.8, Jul-25=12.1, Aug-25=27.7, Sep-25=59.7, Oct-25=66.3, Nov-25=68.4, Dec-25=74.2, Jan-26=63.5, Feb-26=60.8
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › 90+
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=3.9, Sep-24=4.9, Oct-24=5.4, Nov-24=5.9, Dec-24=6.9, Jan-25=6.7, Feb-25=6.4, Mar-25=6.9, Apr-25=5.5, May-25=6.0, Jun-25=5.5, Jul-25=6.1, Aug-25=5.7, Sep-25=6.2, Oct-25=6.4, Nov-25=7.5, Dec-25=7.4, Jan-26=7.8, Feb-26=8.5
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › Recovery
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=2.6, Sep-24=2.9, Oct-24=2.8, Nov-24=3.5, Dec-24=4.2, Jan-25=4.5, Feb-25=4.5, Mar-25=5.4, Apr-25=4.2, May-25=4.7, Jun-25=4.8, Jul-25=5.5, Aug-25=5.0, Sep-25=5.2, Oct-25=4.4, Nov-25=4.7, Dec-25=4.9, Jan-26=5.4, Feb-26=5.5
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › Total
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=70.4, Sep-24=63.7, Oct-24=64.5, Nov-24=79.9, Dec-24=92.1, Jan-25=95.7, Feb-25=97.0, Mar-25=100.0, Apr-25=116.3, May-25=112.5, Jun-25=107.6, Jul-25=60.2, Aug-25=55.9, Sep-25=102.4, Oct-25=116.2, Nov-25=124.3, Dec-25=126.4, Jan-26=117.4, Feb-26=114.1
+
+    p.11 [amount  ] Collection Agency Cost › Cost(Cr) › TotalExB3-SP
+         unit=Cr  metric_id=-  entity=-
+         facts: Aug-24=70.4, Sep-24=63.7, Oct-24=64.5, Nov-24=79.9, Dec-24=92.1, Jan-25=95.7, Feb-25=97.0, Mar-25=100.0, Apr-25=116.3, May-25=112.5, Jun-25=107.6, Jul-25=60.2, Aug-25=48.7, Sep-25=60.2, Oct-25=53.3, Nov-25=66.0, Dec-25=56.5, Jan-26=60.9, Feb-26=60.1
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › PreX-UNA
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=0.0, Nov-25=0.0, Dec-25=0.0, Jan-26=0.0, Feb-26=0.0
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › PreX-Allo
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=116.0, Sep-24=110.0, Oct-24=142.0, Nov-24=193.0, Dec-24=276.0, Jan-25=230.0, Feb-25=255.0, Mar-25=334.0, Apr-25=292.0, May-25=366.0, Jun-25=126.0, Jul-25=145.0, Aug-25=205.0, Sep-25=286.0, Oct-25=258.0, Nov-25=227.0, Dec-25=233.0, Jan-26=208.0, Feb-26=231.0
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › PreX
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=116.0, Sep-24=110.0, Oct-24=142.0, Nov-24=193.0, Dec-24=276.0, Jan-25=230.0, Feb-25=255.0, Mar-25=334.0, Apr-25=292.0, May-25=366.0, Jun-25=126.0, Jul-25=142.0, Aug-25=123.0, Sep-25=142.0, Oct-25=123.0, Nov-25=97.0, Dec-25=104.0, Jan-26=90.0, Feb-26=94.0
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › B1
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=5031.0, Sep-24=3858.0, Oct-24=3603.0, Nov-24=4091.0, Dec-24=4799.0, Jan-25=5371.0, Feb-25=5693.0, Mar-25=5701.0, Apr-25=6248.0, May-25=6364.0, Jun-25=6284.0, Jul-25=4224.0, Aug-25=1546.0, Sep-25=3625.0, Oct-25=4089.0, Nov-25=3345.0, Dec-25=3338.0, Jan-26=3240.0, Feb-26=3282.0
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › B2
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=4667.0, Sep-24=4612.0, Oct-24=4257.0, Nov-24=7467.0, Dec-24=8107.0, Jan-25=6642.0, Feb-25=6284.0, Mar-25=6954.0, Apr-25=7823.0, May-25=7909.0, Jun-25=8284.0, Jul-25=3858.0, Aug-25=1487.0, Sep-25=1337.0, Oct-25=6502.0, Nov-25=6343.0, Dec-25=6502.0, Jan-26=6434.0, Feb-26=6400.0
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › B3-Agency
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=5953.0, Sep-24=5800.0, Oct-24=5183.0, Nov-24=5930.0, Dec-24=7667.0, Jan-25=8633.0, Feb-25=8766.0, Mar-25=9169.0, Apr-25=10715.0, May-25=10722.0, Jun-25=11405.0, Jul-25=11542.0, Aug-25=15705.0, Sep-25=12866.0, Oct-25=6172.0, Nov-25=13853.0, Dec-25=7523.0, Jan-26=7581.0, Feb-26=7283.0
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › B3-SP
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=0.0, Sep-24=0.0, Oct-24=0.0, Nov-24=0.0, Dec-24=0.0, Jan-25=0.0, Feb-25=0.0, Mar-25=0.0, Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=8428.0, Sep-25=10323.0, Oct-25=9799.0, Nov-25=9485.0, Dec-25=9604.0, Jan-26=9500.0, Feb-26=9418.0
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › B3
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=5953.0, Sep-24=5800.0, Oct-24=5183.0, Nov-24=5930.0, Dec-24=7667.0, Jan-25=8633.0, Feb-25=8766.0, Mar-25=9169.0, Apr-25=10715.0, May-25=10722.0, Jun-25=11405.0, Jul-25=11542.0, Aug-25=12835.0, Sep-25=10956.0, Oct-25=9510.0, Nov-25=9950.0, Dec-25=9452.0, Jan-26=9241.0, Feb-26=9118.0
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › 90+
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=2963.0, Sep-24=3010.0, Oct-24=3179.0, Nov-24=3284.0, Dec-24=3602.0, Jan-25=3498.0, Feb-25=3515.0, Mar-25=3763.0, Apr-25=3359.0, May-25=3528.0, Jun-25=3359.0, Jul-25=3616.0, Aug-25=3588.0, Sep-25=3493.0, Oct-25=3940.0, Nov-25=3557.0, Dec-25=3571.0, Jan-26=3533.0, Feb-26=3725.0
+
+    p.11 [amount  ] Collection Agency Cost › CostperResolvedAccount › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: Aug-24=3412.0, Sep-24=3493.0, Oct-24=3285.0, Nov-24=3548.0, Dec-24=3561.0, Jan-25=3572.0, Feb-25=3416.0, Mar-25=3697.0, Apr-25=3256.0, May-25=3407.0, Jun-25=3121.0, Jul-25=2715.0, Aug-25=2432.0, Sep-25=2562.0, Oct-25=2447.0, Nov-25=2512.0, Dec-25=2484.0, Jan-26=2813.0, Feb-26=2906.0
+
+    p.11 [percent ] Collection Agency Cost › CostofResolution% › PreX-UNA
+         unit=%  metric_id=-  entity=-
+         facts: Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=0.0, Nov-25=0.0, Dec-25=0.0, Jan-26=0.0, Feb-26=0.0
+
+    p.11 [percent ] Collection Agency Cost › CostofResolution% › PreX-Allo
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=0.1, Sep-24=0.1, Oct-24=0.2, Nov-24=0.2, Dec-24=0.3, Jan-25=0.3, Feb-25=0.3, Mar-25=0.4, Apr-25=0.4, May-25=0.4, Jun-25=0.2, Jul-25=0.2, Aug-25=0.2, Sep-25=0.4, Oct-25=0.3, Nov-25=0.4, Dec-25=0.3, Jan-26=0.3, Feb-26=0.3
+
+    p.11 [percent ] Collection Agency Cost › CostofResolution% › B1
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=6.2, Sep-24=4.9, Oct-24=4.8, Nov-24=5.1, Dec-24=5.9, Jan-25=6.5, Feb-25=6.7, Mar-25=6.6, Apr-25=7.4, May-25=7.3, Jun-25=7.2, Jul-25=5.2, Aug-25=2.2, Sep-25=4.7, Oct-25=4.9, Nov-25=4.8, Dec-25=4.9, Jan-26=4.9, Feb-26=5.0
+
+    p.11 [percent ] Collection Agency Cost › CostofResolution% › B2
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=5.3, Sep-24=5.1, Oct-24=5.0, Nov-24=7.8, Dec-24=8.3, Jan-25=6.8, Feb-25=6.7, Mar-25=7.2, Apr-25=7.8, May-25=7.7, Jun-25=8.0, Jul-25=5.1, Aug-25=2.1, Sep-25=1.9, Oct-25=7.4, Nov-25=8.2, Dec-25=8.5, Jan-26=8.6, Feb-26=8.9
+
+    p.11 [percent ] Collection Agency Cost › CostofResolution% › B3-Agency
+         unit=%  metric_id=-  entity=-
+         facts: Aug-24=5.3, Sep-24=5.4, Oct-24=5.1, Nov-24=6.0, Dec-24=7.6, Jan-25=8.3, Feb-25=8.2, Mar-25=8.7, Apr-25=10.3, May-25=10.2, Jun-25=11.4, Jul-25=11.4, Aug-25=13.3, Sep-25=9.5, Oct-25=1.2, Nov-25=10.7, Dec-25=8.0, Jan-26=8.2, Feb-26=7.9
+
+    p.11 [percent ] Collection Agency Cost › CostofResolution% › B3-SP
+         unit=%  metric_id=-  entity=-
+         facts: Aug-25=8.7, Sep-25=8.1, Oct-25=7.5, Nov-25=7.4, Dec-25=7.8, Jan-26=7.5, Feb-26=7.5
+
+    p.11 [amount  ] Collection Agency Cost › in text › Overall agency cost is in range of 60 Cr per 
+         unit=Cr  metric_id=-  entity=-
+         facts: period not stated=60.0
+
+    p.11 [amount  ] Collection Agency Cost › in text › Overall agency cost is in range of 60 Cr per 
+         unit=Cr  metric_id=-  entity=-
+         facts: Apr-25=116.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › TC-- › 4,160.04
+         unit=-  metric_id=-  entity=-
+         facts: May-25=3846.93, Jun-25=4034.62, Jul-25=3705.98, Aug-25=3285.69, Sep-25=2153.86, Oct-25=1983.07, Nov-25=1907.94, Dec-25=1812.51, Jan-26=2036.56, Feb-26=1843.81
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › TC-- › 4,160.04
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.6, May-25=0.6, Jun-25=0.6, Jul-25=0.7, Aug-25=1.0, Sep-25=2.1, Oct-25=1.9, Nov-25=2.0, Dec-25=1.9, Jan-26=1.6, Feb-26=1.8
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Globivava › I
+         unit=-  metric_id=-  entity=-
+         facts: Sep-25=57.28, Oct-25=38.74, Nov-25=36.64, Dec-25=56.25, Jan-26=71.03, Feb-26=68.78
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › Globivava › I
+         unit=%  metric_id=-  entity=-
+         facts: Sep-25=0.7, Oct-25=1.6, Nov-25=1.6, Dec-25=1.1, Jan-26=1.0, Feb-26=1.1
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Convinin- › -
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=69.74, Dec-25=24.54
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › Convinin- › -
+         unit=%  metric_id=-  entity=-
+         facts: Oct-25=0.3, Dec-25=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Avananta › -
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=26.32
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › Avananta › -
+         unit=%  metric_id=-  entity=-
+         facts: Nov-25=0.7
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Arrowhead › I
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=24.86
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › Arrowhead › I
+         unit=%  metric_id=-  entity=-
+         facts: Nov-25=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › GreyLabs › -
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=24.76
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › GreyLabs › -
+         unit=%  metric_id=-  entity=-
+         facts: Dec-25=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Knowl1- › -
+         unit=-  metric_id=-  entity=-
+         facts: Feb-26=24.8
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › Knowl1- › -
+         unit=%  metric_id=-  entity=-
+         facts: Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CallingAfterAl › I
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=27.48, Dec-25=27.19, Feb-26=9.81
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › CallingAfterAl › I
+         unit=%  metric_id=-  entity=-
+         facts: Nov-25=0.0, Dec-25=0.0, Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Al+Calling › I
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=69.74, Nov-25=51.18, Dec-25=49.31, Feb-26=24.8
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › Al+Calling › I
+         unit=%  metric_id=-  entity=-
+         facts: Oct-25=0.3, Nov-25=0.2, Dec-25=0.0, Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › DG-- › 156.09
+         unit=-  metric_id=-  entity=-
+         facts: May-25=139.38, Jun-25=141.26, Jul-25=111.67, Aug-25=166.13, Sep-25=139.24, Oct-25=120.71, Nov-25=138.55, Dec-25=29.62, Jan-26=39.17, Feb-26=34.91
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › DG-- › 156.09
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.1, May-25=0.1, Jun-25=0.1, Jul-25=0.1, Aug-25=0.1, Sep-25=0.1, Oct-25=0.1, Nov-25=0.1, Dec-25=0.5, Jan-26=0.3, Feb-26=0.4
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › HoldI › I
+         unit=-  metric_id=-  entity=-
+         facts: Jul-25=56.6, Aug-25=1141.18, Sep-25=1994.53, Oct-25=1918.43, Nov-25=2312.88, Dec-25=1789.99, Jan-26=2183.42, Feb-26=2233.05
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › HoldI › I
+         unit=%  metric_id=-  entity=-
+         facts: Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=0.0, Nov-25=0.0, Dec-25=0.0, Jan-26=0.0, Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Test-- › I
+         unit=-  metric_id=-  entity=-
+         facts: Feb-26=3.87
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › Test-- › I
+         unit=%  metric_id=-  entity=-
+         facts: Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › FR-- › 176.94
+         unit=-  metric_id=-  entity=-
+         facts: May-25=202.87
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › FR-- › 176.94
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=16.8, May-25=16.7
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › GrandTotal › 4,493.07
+         unit=-  metric_id=-  entity=-
+         facts: May-25=4189.19, Jun-25=4175.87, Jul-25=3874.25, Aug-25=4593.0, Sep-25=4344.92, Oct-25=4130.7, Nov-25=4447.19, Dec-25=3737.68, Jan-26=4330.18, Feb-26=4209.23
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › coc% › GrandTotal › 4,493.07
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=1.4, May-25=1.7, Jun-25=0.6, Jul-25=0.7, Aug-25=0.6, Sep-25=0.7, Oct-25=0.6, Nov-25=0.5, Dec-25=0.6, Jan-26=0.5, Feb-26=0.5
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › TC- › 86.8%
+         unit=%  metric_id=-  entity=-
+         facts: May-25=83.8, Jun-25=80.4, Jul-25=81.6, Aug-25=84.3, Sep-25=80.4, Oct-25=77.5, Nov-25=82.3, Dec-25=79.9, Jan-26=83.6, Feb-26=81.5
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › TC- › 86.8%
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=115.41, May-25=128.58, Jun-25=125.58, Jul-25=143.74, Aug-25=203.5, Sep-25=290.77, Oct-25=263.36, Nov-25=281.33, Dec-25=261.76, Jan-26=230.52, Feb-26=263.95
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Globivava › I
+         unit=-  metric_id=-  entity=-
+         facts: Sep-25=65.5, Oct-25=70.7, Nov-25=79.5, Dec-25=71.3, Jan-26=82.2, Feb-26=84.1
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › Globivava › I
+         unit=-  metric_id=-  entity=-
+         facts: Sep-25=90.56, Oct-25=227.09, Nov-25=226.47, Dec-25=108.47, Jan-26=130.59, Feb-26=133.87
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Convinn- › I
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=53.3, Nov-25=0.0, Dec-25=47.5
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › Convinn- › I
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=1.0, Oct-25=58.55
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Avananta › I
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=45.1
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › Avananta › I
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=95.34
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Arrowhead › I
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=47.6
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › Arrowhead › I
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=4.15
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › GreyLabs › I
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=42.2
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › GreyLabs › I
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=1.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › KnowlI › I
+         unit=-  metric_id=-  entity=-
+         facts: Feb-26=60.4
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CallingAfterAI › I
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=54.3, Dec-25=66.0, Feb-26=65.4
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Al-Calling › I
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=53.3, Nov-25=75.4, Dec-25=81.3, Feb-26=86.3
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › Al-Calling › I
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=58.55, Nov-25=31.35
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › DG- › 84.3%
+         unit=%  metric_id=-  entity=-
+         facts: May-25=80.4, Jun-25=82.7, Jul-25=80.7, Aug-25=84.3, Sep-25=84.6, Oct-25=82.9, Nov-25=85.9, Dec-25=52.9, Jan-26=62.0, Feb-26=58.9
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › DG- › 84.3%
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=4.76, May-25=4.91, Jun-25=4.94, Jul-25=4.72, Aug-25=5.35, Sep-25=5.01, Oct-25=4.57, Nov-25=2.78, Dec-25=25.01, Jan-26=16.16, Feb-26=19.32
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › Hold- › I
+         unit=%  metric_id=-  entity=-
+         facts: Jul-25=100.0, Aug-25=100.0, Sep-25=100.0, Oct-25=100.0, Nov-25=100.0, Dec-25=100.0, Jan-26=100.0, Feb-26=100.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Test- › I
+         unit=-  metric_id=-  entity=-
+         facts: Feb-26=53.6
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › FR-- › 67.7%
+         unit=%  metric_id=-  entity=-
+         facts: May-25=69.0
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › FR-- › 67.7%
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=12706.64, May-25=12972.04
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › GrandTotal › 85.9%
+         unit=%  metric_id=-  entity=-
+         facts: May-25=83.0, Jun-25=80.5, Jul-25=81.8, Aug-25=88.2, Sep-25=89.3, Oct-25=87.6, Nov-25=91.5, Dec-25=89.2, Jan-26=91.6, Feb-26=91.2
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › Cost/ResolvedAcc › GrandTotal › 85.
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=242.24, May-25=306.98, Jun-25=104.62, Jul-25=119.26, Aug-25=101.06, Sep-25=115.67, Oct-25=100.73, Nov-25=96.79, Dec-25=104.34, Jan-26=90.37, Feb-26=94.17
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › TC--
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=5.36, May-25=5.3, Jun-25=5.29, Jul-25=5.4, Aug-25=5.85, Sep-25=6.61, Oct-25=5.17, Nov-25=5.72, Dec-25=4.79, Jan-26=5.03, Feb-26=5.0
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › TC--
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.1, May-25=0.2, Jun-25=0.2, Jul-25=0.2, Aug-25=0.2, Sep-25=0.4, Oct-25=0.3, Nov-25=0.4, Dec-25=0.3, Jan-26=0.3, Feb-26=0.3
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Globivava-
+         unit=-  metric_id=-  entity=-
+         facts: Sep-25=0.07, Oct-25=0.14, Nov-25=0.15, Dec-25=0.15, Jan-26=0.18, Feb-26=0.18
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › Globivava-
+         unit=-  metric_id=-  entity=-
+         facts: Sep-25=0.2, Oct-25=0.5, Nov-25=0.5, Dec-25=0.4, Jan-26=0.3, Feb-26=0.3
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Convinn-
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=0.04
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › Convinn-
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=0.1, Dec-25=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Avananta-
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=0.02
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › Avananta-
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=0.2
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Arrowhead
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › Arrowhead
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › GreyLabss
+         unit=-  metric_id=-  entity=-
+         facts: Dec-25=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › KnowlI-
+         unit=-  metric_id=-  entity=-
+         facts: Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › CallingAfterAl
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=0.0, Dec-25=0.0, Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › Al+Calling
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=0.0, Nov-25=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › Al+Calling
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=0.1, Nov-25=0.1, Dec-25=0.0, Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › DG--
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=0.05, May-25=0.04, Jun-25=0.04, Jul-25=0.03, Aug-25=0.06, Sep-25=0.05, Oct-25=0.04, Nov-25=0.03, Dec-25=0.03, Jan-26=0.03, Feb-26=0.03
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › DG--
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=0.0, Nov-25=0.0, Dec-25=0.2, Jan-26=0.1, Feb-26=0.2
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › Hold--
+         unit=-  metric_id=-  entity=-
+         facts: Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=0.0, Nov-25=0.0, Dec-25=0.0, Jan-26=0.0, Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › Test--
+         unit=-  metric_id=-  entity=-
+         facts: Feb-26=0.0
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › FR--
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=8.44, May-25=10.14
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › FR--
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=7.0, May-25=7.2
+
+    p.12 [-       ] Collection Agency Cost-Channel wise (Prex) › GrandTotal
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=13.85, May-25=15.48, Jun-25=5.34, Jul-25=5.44, Aug-25=5.91, Sep-25=6.74, Oct-25=5.39, Nov-25=5.92, Dec-25=4.96, Jan-26=5.24, Feb-26=5.21
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › CostofResolutions › GrandTotal
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.4, May-25=0.4, Jun-25=0.2, Jul-25=0.2, Aug-25=0.1, Sep-25=0.2, Oct-25=0.1, Nov-25=0.1, Dec-25=0.1, Jan-26=0.1, Feb-26=0.1
+
+    p.12 [percent ] Collection Agency Cost-Channel wise (Prex) › in text › thru segmented allocation
+         unit=%  metric_id=-  entity=-
+         facts: period not stated=60.0
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › FR-Rest
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=956.05, May-25=896.3, Jun-25=950.92, Jul-25=1052.82, Aug-25=772.35, Sep-25=564.48, Oct-25=524.04, Nov-25=532.1, Dec-25=437.1, Jan-26=427.55, Feb-26=406.39
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › FR-L&S
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=201.95, May-25=183.3, Jun-25=188.09, Jul-25=172.88, Aug-25=152.01, Sep-25=137.47, Oct-25=120.83, Nov-25=144.94, Dec-25=122.36, Jan-26=123.28, Feb-26=111.98
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › Challenger
+         unit=-  metric_id=-  entity=-
+         facts: Aug-25=47.01, Sep-25=44.13, Oct-25=45.29, Nov-25=24.42, Dec-25=19.3, Jan-26=21.94, Feb-26=21.54
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › DC
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=38.73, Dec-25=45.09, Jan-26=48.82, Feb-26=34.67
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › DG
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=3.5, May-25=2.97, Jun-25=3.15, Jul-25=2.7, Aug-25=2.67, Sep-25=2.81, Oct-25=2.23, Nov-25=1.02, Dec-25=0.93, Jan-26=1.27, Feb-26=1.23
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › TC
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=15.24, May-25=13.66, Jun-25=18.02, Jul-25=42.86, Aug-25=37.34, Sep-25=42.41, Oct-25=71.31, Nov-25=63.42, Dec-25=59.22, Jan-26=59.95, Feb-26=61.44
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › UNA
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=1.28, May-25=1.33, Jun-25=1.37, Jul-25=0.93, Aug-25=0.94, Sep-25=0.92, Oct-25=1.14, Nov-25=3.7, Dec-25=2.82, Jan-26=3.84, Feb-26=3.94
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › GrandTotal
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=1178.02, May-25=1097.55, Jun-25=1161.55, Jul-25=1272.19, Aug-25=1012.31, Sep-25=792.23, Oct-25=764.84, Nov-25=808.33, Dec-25=686.82, Jan-26=686.65, Feb-26=641.18
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › FR-Rest
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=20.2, May-25=20.0, Jun-25=18.6, Jul-25=14.4, Aug-25=6.6, Sep-25=19.1, Oct-25=21.2, Nov-25=20.6, Dec-25=20.4, Jan-26=20.2, Feb-26=20.4
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › FR-L&S
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=19.4, May-25=19.0, Jun-25=18.4, Jul-25=21.1, Aug-25=12.4, Sep-25=22.0, Oct-25=22.5, Nov-25=21.7, Dec-25=21.6, Jan-26=21.3, Feb-26=21.4
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › Challenger
+         unit=%  metric_id=-  entity=-
+         facts: Aug-25=6.0, Sep-25=5.0, Oct-25=4.3, Nov-25=5.6, Dec-25=9.4, Jan-26=9.9, Feb-26=9.0
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › DC
+         unit=%  metric_id=-  entity=-
+         facts: Nov-25=7.9, Dec-25=8.4, Jan-26=7.4, Feb-26=9.8
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › DG
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=11.4, May-25=12.4, Jun-25=11.8, Jul-25=9.8, Aug-25=9.4, Sep-25=9.3, Oct-25=4.0, Nov-25=3.6, Dec-25=3.9, Jan-26=2.5, Feb-26=2.6
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › TC
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=1.2, Nov-25=1.0, Dec-25=1.1, Jan-26=0.9, Feb-26=1.1
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › JUNA
+         unit=%  metric_id=-  entity=-
+         facts: May-25=0.0, Jun-25=0.0, Jul-25=0.0, Sep-25=0.0, Nov-25=0.0, Dec-25=0.0, Jan-26=0.0, Feb-26=0.0
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › GrandTotal
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=19.7, May-25=19.6, Jun-25=18.2, Jul-25=14.9, Aug-25=7.5, Sep-25=17.9, Oct-25=18.7, Nov-25=17.9, Dec-25=17.8, Jan-26=17.3, Feb-26=17.5
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › FR-Rest
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=80.4, May-25=79.2, Jun-25=80.1, Jul-25=38.6, Aug-25=39.5, Sep-25=62.9, Oct-25=65.5, Nov-25=67.2, Dec-25=68.7, Jan-26=70.9, Feb-26=71.1
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › FR-L&S
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=82.8, May-25=79.7, Jun-25=84.3, Jul-25=57.1, Aug-25=65.8, Sep-25=71.7, Oct-25=74.0, Nov-25=75.1, Dec-25=75.9, Jan-26=77.1, Feb-26=78.1
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › Challenger
+         unit=%  metric_id=-  entity=-
+         facts: Aug-25=23.8, Sep-25=33.5, Oct-25=36.7, Nov-25=59.3, Dec-25=65.0, Jan-26=66.6, Feb-26=69.1
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › DC
+         unit=%  metric_id=-  entity=-
+         facts: Nov-25=52.3, Dec-25=52.1, Jan-26=55.0, Feb-26=62.2
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › DG
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=68.1, May-25=64.0, Jun-25=66.8, Jul-25=65.2, Aug-25=63.4, Sep-25=66.9, Oct-25=66.3, Nov-25=69.7, Dec-25=69.6, Jan-26=79.4, Feb-26=77.3
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › TC
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=58.2, May-25=54.6, Jun-25=52.7, Jul-25=46.2, Aug-25=48.7, Sep-25=49.4, Oct-25=48.0, Nov-25=57.3, Dec-25=49.6, Jan-26=61.0, Feb-26=62.0
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › UNA
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=76.2, May-25=74.3, Jun-25=84.6, Jul-25=75.7, Aug-25=67.8, Sep-25=65.1, Oct-25=71.8, Nov-25=81.5, Dec-25=89.9, Jan-26=86.7, Feb-26=91.4
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › GrandTotal
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=80.5, May-25=78.9, Jun-25=80.3, Jul-25=41.5, Aug-25=43.1, Sep-25=62.1, Oct-25=63.5, Nov-25=67.0, Dec-25=67.3, Jan-26=69.9, Feb-26=71.0
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › FR-Rest
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=7399.0, May-25=7553.0, Jun-25=7382.0, Jul-25=4717.0, Aug-25=1542.0, Sep-25=3970.0, Oct-25=4613.0, Nov-25=5108.0, Dec-25=5308.0, Jan-26=5402.0, Feb-26=5619.0
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › FR-L&S
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=3374.0, May-25=3295.0, Jun-25=3440.0, Jul-25=3207.0, Aug-25=1732.0, Sep-25=3012.0, Oct-25=2991.0, Nov-25=3225.0, Dec-25=3090.0, Jan-26=3177.0, Feb-26=3183.0
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › Challenger
+         unit=-  metric_id=-  entity=-
+         facts: Aug-25=1435.0, Sep-25=1191.0, Oct-25=1021.0, Nov-25=916.0, Dec-25=1327.0, Jan-26=1327.0, Feb-26=1195.0
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › DC
+         unit=-  metric_id=-  entity=-
+         facts: Nov-25=1225.0, Dec-25=1303.0, Jan-26=1217.0, Feb-26=1377.0
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › |DG
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=167.0, May-25=180.0, Jun-25=186.0, Jul-25=154.0, Aug-25=155.0, Sep-25=149.0, Oct-25=72.0, Nov-25=94.0, Dec-25=103.0, Jan-26=67.0, Feb-26=69.0
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › TC
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=143.0, Nov-25=110.0, Dec-25=121.0, Jan-26=102.0, Feb-26=117.0
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › JUNA › GrandTotal
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=5366.0, May-25=5531.0, Jun-25=5416.0, Jul-25=3430.0, Aug-25=1294.0, Sep-25=2867.0, Oct-25=3143.0, Nov-25=3345.0, Dec-25=3338.0, Jan-26=3240.0, Feb-26=3282.0
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › FR-Rest
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=58.97, May-25=53.91, Jun-25=56.62, Jul-25=21.04, Aug-25=6.01, Sep-25=16.85, Oct-25=17.99, Nov-25=18.83, Dec-25=16.23, Jan-26=16.9, Feb-26=16.45
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › FR-L&S
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=10.55, May-25=8.93, Jun-25=10.07, Jul-25=6.3, Aug-25=3.42, Sep-25=5.83, Oct-25=5.26, Nov-25=6.47, Dec-25=5.29, Jan-26=5.52, Feb-26=5.09
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › Challenger
+         unit=-  metric_id=-  entity=-
+         facts: Jul-25=0.1, Aug-25=0.2, Sep-25=0.2, Oct-25=0.2, Nov-25=0.24, Dec-25=0.33, Jan-26=0.39, Feb-26=0.36
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › DC
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=0.29, Nov-25=0.48, Dec-25=0.52, Jan-26=0.52, Feb-26=0.55
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › DG
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=0.18, May-25=0.15, Jun-25=0.17, Jul-25=0.12, Aug-25=0.12, Sep-25=0.12, Oct-25=0.05, Nov-25=0.02, Dec-25=0.02, Jan-26=0.02, Feb-26=0.02
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › TC
+         unit=-  metric_id=-  entity=-
+         facts: Oct-25=0.16, Nov-25=0.13, Dec-25=0.13, Jan-26=0.13, Feb-26=0.15
+
+    p.13 [-       ] Collection Agency Cost-Channel wise (Bucket-1) › UNA › GrandTotal
+         unit=-  metric_id=-  entity=-
+         facts: Apr-25=69.7, May-25=62.99, Jun-25=66.86, Jul-25=27.56, Aug-25=9.74, Sep-25=23.0, Oct-25=23.96, Nov-25=26.18, Dec-25=22.52, Jan-26=23.48, Feb-26=22.62
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › FR-Rest
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=7.7, May-25=7.6, Jun-25=7.4, Jul-25=5.2, Aug-25=2.0, Sep-25=4.7, Oct-25=5.2, Nov-25=5.3, Dec-25=5.4, Jan-26=5.6, Feb-26=5.7
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › FR-L&S
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=6.3, May-25=6.1, Jun-25=6.4, Jul-25=6.4, Aug-25=3.4, Sep-25=5.9, Oct-25=5.9, Nov-25=5.9, Dec-25=5.7, Jan-26=5.8, Feb-26=5.8
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › Challenger
+         unit=%  metric_id=-  entity=-
+         facts: Aug-25=1.8, Sep-25=1.4, Oct-25=1.2, Nov-25=1.7, Dec-25=2.6, Jan-26=2.7, Feb-26=2.4
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › DC
+         unit=%  metric_id=-  entity=-
+         facts: Nov-25=2.4, Dec-25=2.2, Jan-26=1.9, Feb-26=2.5
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › DG
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=7.5, May-25=8.0, Jun-25=8.2, Jul-25=6.8, Aug-25=6.8, Sep-25=6.6, Oct-25=3.1, Nov-25=3.1, Dec-25=3.4, Jan-26=2.2, Feb-26=2.3
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › TC
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=0.5, Nov-25=0.4, Dec-25=0.4, Jan-26=0.4, Feb-26=0.4
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › JUNA
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.0, May-25=0.0, Jun-25=0.0, Jul-25=0.0, Aug-25=0.0, Sep-25=0.0, Oct-25=0.0, Nov-25=0.0, Dec-25=0.0, Jan-26=0.0, Feb-26=0.0
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › GrandTotal
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=7.4, May-25=7.3, Jun-25=7.2, Jul-25=5.2, Aug-25=2.2, Sep-25=4.7, Oct-25=4.9, Nov-25=4.8, Dec-25=4.9, Jan-26=4.9, Feb-26=5.0
+
+    p.13 [percent ] Collection Agency Cost-Channel wise (Bucket-1) › in text › Agency performance is
+         unit=%  metric_id=-  entity=-
+         facts: period not stated=75.0
+
+    p.15 [percent ] FY’26 PNL- Quarterly › in text › clean pool only is supposed to deliver 2.5% PBT
+         unit=%  metric_id=-  entity=-
+         facts: period not stated=2.5
+
+    p.17 [amount  ] FY’26 Loss- Quarterly › ENR
+         unit=-  metric_id=cc_enr  entity=-
+         facts: Q1FY26=21499.0, FY26=20258.0, Q2FY26=21282.0, Q3FY26=20506.0, Q4FY26=20258.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › ANR
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=21018.0, FY26=20486.0, Q2FY26=20720.0, Q3FY26=20375.0, Q4FY26=19831.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › GNPA
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=322.0, FY26=329.0, Q2FY26=426.0, Q3FY26=324.0, Q4FY26=329.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › GCO
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=466.0, FY26=2125.0, Q2FY26=430.0, Q3FY26=663.0, Q4FY26=566.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › GCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=478.0, FY26=2167.0, Q2FY26=530.0, Q3FY26=587.0, Q4FY26=572.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=-99.0, FY26=-349.0, Q2FY26=-68.0, Q3FY26=-71.0, Q4FY26=-111.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › NCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=379.0, FY26=1817.0, Q2FY26=462.0, Q3FY26=515.0, Q4FY26=461.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › Std Adv Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=0.0, FY26=-9.0, Q2FY26=-1.0, Q3FY26=-3.0, Q4FY26=-5.0
+
+    p.17 [amount  ] FY’26 Loss- Quarterly › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=379.0, FY26=1809.0, Q2FY26=461.0, Q3FY26=512.0, Q4FY26=456.0
+
+    p.17 [percent ] FY’26 Loss- Quarterly › GNPA%
+         unit=%  metric_id=gnpa_pct  entity=-
+         facts: Q1FY26=1.5, FY26=1.63, Q2FY26=2.0, Q3FY26=1.58, Q4FY26=1.63
+
+    p.17 [percent ] FY’26 Loss- Quarterly › GCO%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY26=8.9, FY26=10.4, Q2FY26=8.3, Q3FY26=13.0, Q4FY26=11.4
+
+    p.17 [percent ] FY’26 Loss- Quarterly › GCO+Prov%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY26=9.1, FY26=10.6, Q2FY26=10.2, Q3FY26=11.5, Q4FY26=11.5
+
+    p.17 [percent ] FY’26 Loss- Quarterly › Recovery%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY26=-1.9, FY26=-1.7, Q2FY26=-1.3, Q3FY26=-1.4, Q4FY26=-2.2
+
+    p.17 [percent ] FY’26 Loss- Quarterly › Credit Cost%
+         unit=%  metric_id=credit_cost  entity=-
+         facts: Q1FY26=7.2, FY26=8.8, Q2FY26=8.9, Q3FY26=10.1, Q4FY26=9.2
+
+    p.17 [-       ] FY’26 Loss- Quarterly › Slippage
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=532.0, FY26=2297.0, Q2FY26=564.0, Q3FY26=596.0, Q4FY26=605.0
+
+    p.17 [percent ] FY’26 Loss- Quarterly › Slippage%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY26=9.9, FY26=10.7, Q2FY26=10.5, Q3FY26=11.2, Q4FY26=11.8
+
+    p.17 [amount  ] FY’26 Loss- Quarterly › ENR
+         unit=-  metric_id=cc_enr  entity=-
+         facts: Q1FY26=21499.0, FY26=19552.0, Q2FY26=21282.0, Q3FY26=19603.0, Q4FY26=19552.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › ANR
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=21018.0, FY26=20085.0, Q2FY26=20720.0, Q3FY26=19481.0, Q4FY26=19119.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › GNPA
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=322.0, FY26=329.0, Q2FY26=426.0, Q3FY26=263.0, Q4FY26=329.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › GCO
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=466.0, FY26=1920.0, Q2FY26=430.0, Q3FY26=598.0, Q4FY26=426.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › GCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=478.0, FY26=1961.0, Q2FY26=530.0, Q3FY26=476.0, Q4FY26=477.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=-99.0, FY26=-349.0, Q2FY26=-68.0, Q3FY26=-71.0, Q4FY26=-111.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › NCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=379.0, FY26=1612.0, Q2FY26=462.0, Q3FY26=405.0, Q4FY26=366.0
+
+    p.17 [-       ] FY’26 Loss- Quarterly › Std Adv Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=0.0, FY26=-9.0, Q2FY26=-1.0, Q3FY26=-3.0, Q4FY26=-5.0
+
+    p.17 [amount  ] FY’26 Loss- Quarterly › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=379.0, FY26=1603.0, Q2FY26=461.0, Q3FY26=402.0, Q4FY26=362.0
+
+    p.17 [percent ] FY’26 Loss- Quarterly › GNPA%
+         unit=%  metric_id=gnpa_pct  entity=-
+         facts: Q1FY26=1.5, FY26=1.68, Q2FY26=2.0, Q3FY26=1.34, Q4FY26=1.68
+
+    p.17 [percent ] FY’26 Loss- Quarterly › GCO%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY26=8.9, FY26=9.6, Q2FY26=8.3, Q3FY26=12.3, Q4FY26=8.9
+
+    p.17 [percent ] FY’26 Loss- Quarterly › GCO+Prov%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY26=9.1, FY26=9.8, Q2FY26=10.2, Q3FY26=9.8, Q4FY26=10.0
+
+    p.17 [percent ] FY’26 Loss- Quarterly › Recovery%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY26=-1.9, FY26=-1.7, Q2FY26=-1.3, Q3FY26=-1.5, Q4FY26=-2.3
+
+    p.17 [percent ] FY’26 Loss- Quarterly › Credit Cost%
+         unit=%  metric_id=credit_cost  entity=-
+         facts: Q1FY26=7.2, FY26=8.0, Q2FY26=8.9, Q3FY26=8.2, Q4FY26=7.6
+
+    p.17 [-       ] FY’26 Loss- Quarterly › Slippage
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY26=532.0, FY26=2091.0, Q2FY26=564.0, Q3FY26=470.0, Q4FY26=525.0
+
+    p.17 [percent ] FY’26 Loss- Quarterly › Slippage%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY26=9.9, FY26=9.7, Q2FY26=10.5, Q3FY26=8.8, Q4FY26=10.7
+
+    p.17 [-       ] FY’26 Loss- Quarterly › in text › target/outlook: Gross slippages
+         unit=-  metric_id=-  entity=-
+         facts: period not stated=600.0
+
+    p.17 [amount  ] FY’26 Loss- Quarterly › in text › target/outlook: Gross slippages
+         unit=Cr  metric_id=-  entity=-
+         facts: period not stated=620.0
+
+    p.17 [amount  ] FY’26 Loss- Quarterly › in text › target/outlook: Gross slippages
+         unit=Cr  metric_id=-  entity=-
+         facts: Q4FY26=30.0
+
+    p.18 [percent ] FY’27 PNL- Quarterly › in text › target/outlook: Clean pool is expected to deliv
+         unit=%  metric_id=-  entity=-
+         facts: period not stated=4.0
+
+    p.20 [amount  ] FY’27 Loss- Quarterly › ENR
+         unit=-  metric_id=cc_enr  entity=-
+         facts: Q1FY27=21496.0, FY27=22555.0, Q2FY27=22377.0, Q3FY27=22359.0, Q4FY27=22555.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › ANR
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=20536.0, FY27=21574.0, Q2FY27=21429.0, Q3FY27=21899.0, Q4FY27=22431.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › GNPA
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=304.0, FY27=278.0, Q2FY27=318.0, Q3FY27=333.0, Q4FY27=278.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › GCO
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=467.0, FY27=2039.0, Q2FY27=471.0, Q3FY27=552.0, Q4FY27=549.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › GCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=483.0, FY27=2037.0, Q2FY27=476.0, Q3FY27=564.0, Q4FY27=513.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=-80.0, FY27=-293.0, Q2FY27=-68.0, Q3FY27=-69.0, Q4FY27=-77.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › NCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=404.0, FY27=1744.0, Q2FY27=408.0, Q3FY27=495.0, Q4FY27=437.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › Std Adv Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=5.0, FY27=10.0, Q2FY27=4.0, Q3FY27=0.0, Q4FY27=1.0
+
+    p.20 [amount  ] FY’27 Loss- Quarterly › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=409.0, FY27=1754.0, Q2FY27=412.0, Q3FY27=495.0, Q4FY27=437.0
+
+    p.20 [percent ] FY’27 Loss- Quarterly › GNPA%
+         unit=%  metric_id=gnpa_pct  entity=-
+         facts: Q1FY27=1.42, FY27=1.23, Q2FY27=1.42, Q3FY27=1.49, Q4FY27=1.23
+
+    p.20 [percent ] FY’27 Loss- Quarterly › GCO%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY27=9.1, FY27=9.5, Q2FY27=8.8, Q3FY27=10.1, Q4FY27=9.8
+
+    p.20 [percent ] FY’27 Loss- Quarterly › GCO+Prov%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY27=9.4, FY27=9.4, Q2FY27=8.9, Q3FY27=10.3, Q4FY27=9.2
+
+    p.20 [percent ] FY’27 Loss- Quarterly › Recovery%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY27=-1.6, FY27=-1.4, Q2FY27=-1.3, Q3FY27=-1.3, Q4FY27=-1.4
+
+    p.20 [percent ] FY’27 Loss- Quarterly › Credit Cost%
+         unit=%  metric_id=credit_cost  entity=-
+         facts: Q1FY27=8.0, FY27=8.1, Q2FY27=7.7, Q3FY27=9.0, Q4FY27=7.8
+
+    p.20 [-       ] FY’27 Loss- Quarterly › Slippage
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=528.0, FY27=2180.0, Q2FY27=521.0, Q3FY27=603.0, Q4FY27=528.0
+
+    p.20 [percent ] FY’27 Loss- Quarterly › Slippage%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY27=10.5, FY27=10.8, Q2FY27=9.7, Q3FY27=10.8, Q4FY27=9.4
+
+    p.20 [amount  ] FY’27 Loss- Quarterly › ENR
+         unit=-  metric_id=cc_enr  entity=-
+         facts: Q1FY27=20821.0, FY27=22555.0, Q2FY27=21817.0, Q3FY27=22089.0, Q4FY27=22555.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › ANR
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=19854.0, FY27=21189.0, Q2FY27=20844.0, Q3FY27=21627.0, Q4FY27=22431.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › GNPA
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=304.0, FY27=278.0, Q2FY27=263.0, Q3FY27=277.0, Q4FY27=278.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › GCO
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=467.0, FY27=1557.0, Q2FY27=421.0, Q3FY27=338.0, Q4FY27=331.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › GCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=483.0, FY27=1554.0, Q2FY27=384.0, Q3FY27=349.0, Q4FY27=337.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=-80.0, FY27=-293.0, Q2FY27=-68.0, Q3FY27=-69.0, Q4FY27=-77.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › NCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=404.0, FY27=1261.0, Q2FY27=317.0, Q3FY27=280.0, Q4FY27=261.0
+
+    p.20 [-       ] FY’27 Loss- Quarterly › Std Adv Prov
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=5.0, FY27=10.0, Q2FY27=4.0, Q3FY27=0.0, Q4FY27=1.0
+
+    p.20 [amount  ] FY’27 Loss- Quarterly › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=409.0, FY27=1271.0, Q2FY27=320.0, Q3FY27=280.0, Q4FY27=262.0
+
+    p.20 [percent ] FY’27 Loss- Quarterly › GNPA%
+         unit=%  metric_id=gnpa_pct  entity=-
+         facts: Q1FY27=1.46, FY27=1.23, Q2FY27=1.2, Q3FY27=1.26, Q4FY27=1.23
+
+    p.20 [percent ] FY’27 Loss- Quarterly › GCO%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY27=9.4, FY27=7.3, Q2FY27=8.1, Q3FY27=6.3, Q4FY27=5.9
+
+    p.20 [percent ] FY’27 Loss- Quarterly › GCO+Prov%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY27=9.7, FY27=7.3, Q2FY27=7.4, Q3FY27=6.5, Q4FY27=6.0
+
+    p.20 [percent ] FY’27 Loss- Quarterly › Recovery%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY27=-1.6, FY27=-1.4, Q2FY27=-1.3, Q3FY27=-1.3, Q4FY27=-1.4
+
+    p.20 [percent ] FY’27 Loss- Quarterly › Credit Cost%
+         unit=%  metric_id=credit_cost  entity=-
+         facts: Q1FY27=8.2, FY27=6.0, Q2FY27=6.1, Q3FY27=5.2, Q4FY27=4.7
+
+    p.20 [-       ] FY’27 Loss- Quarterly › Slippage
+         unit=-  metric_id=-  entity=-
+         facts: Q1FY27=528.0, FY27=1697.0, Q2FY27=415.0, Q3FY27=388.0, Q4FY27=366.0
+
+    p.20 [percent ] FY’27 Loss- Quarterly › Slippage%
+         unit=%  metric_id=-  entity=-
+         facts: Q1FY27=10.8, FY27=8.7, Q2FY27=8.0, Q3FY27=7.1, Q4FY27=6.6
+
+    p.20 [percent ] FY’27 Loss- Quarterly › in text › Total pool Clean pool Slippage in range of 7%-
+         unit=%  metric_id=-  entity=-
+         facts: period not stated=7.0
+
+    p.20 [percent ] FY’27 Loss- Quarterly › in text › Total pool Clean pool Slippage in range of 7%-
+         unit=%  metric_id=-  entity=-
+         facts: period not stated=-8.0
+
+    p.22 [-       ] PNL FY25-29 › INCA
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1240664.0, FY26=1008684.0, FY27=1764073.0, FY28=2015880.0, FY29=2419044.0
+
+    p.22 [-       ] PNL FY25-29 › AIF
+         unit=-  metric_id=-  entity=-
+         facts: FY25=4895967.0, FY26=4477947.0, FY27=5169650.0, FY28=5929020.0, FY29=6864654.0
+
+    p.22 [-       ] PNL FY25-29 › JENR
+         unit=-  metric_id=-  entity=-
+         facts: FY25=21548.0, FY26=20258.0, FY27=22555.0, FY28=25826.0, FY29=29767.0
+
+    p.22 [amount  ] PNL FY25-29 › Spend
+         unit=-  metric_id=cc_spends  entity=-
+         facts: FY25=87406.0, FY26=84734.0, FY27=93272.0, FY28=106752.0, FY29=121554.0
+
+    p.22 [-       ] PNL FY25-29 › JANR
+         unit=-  metric_id=-  entity=-
+         facts: FY25=21378.0, FY26=20486.0, FY27=21574.0, FY28=24567.0, FY29=28074.0
+
+    p.22 [-       ] PNL FY25-29 › ENR/AIF
+         unit=-  metric_id=-  entity=-
+         facts: FY25=41185.0, FY26=44133.0, FY27=45059.0, FY28=44143.0, FY29=43783.0
+
+    p.22 [amount  ] PNL FY25-29 › Spend/AIF
+         unit=-  metric_id=-  entity=-
+         facts: FY25=14032.0, FY26=15212.0, FY27=16234.0, FY28=15985.0, FY29=15797.0
+
+    p.22 [-       ] PNL FY25-29 › GII
+         unit=-  metric_id=-  entity=-
+         facts: FY25=4371.0, FY26=4217.0, FY27=4257.0, FY28=4730.0, FY29=5333.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › GII
+         unit=%  metric_id=-  entity=-
+         facts: FY29=20.4
+
+    p.22 [percent ] PNL FY25-29 › part 3 › GII
+         unit=%  metric_id=-  entity=-
+         facts: FY29=20.6
+
+    p.22 [percent ] PNL FY25-29 › part 4 › GII
+         unit=%  metric_id=-  entity=-
+         facts: FY29=19.7
+
+    p.22 [percent ] PNL FY25-29 › part 5 › GII
+         unit=%  metric_id=-  entity=-
+         facts: FY29=19.3
+
+    p.22 [percent ] PNL FY25-29 › part 6 › GII
+         unit=%  metric_id=-  entity=-
+         facts: FY29=19.0
+
+    p.22 [-       ] PNL FY25-29 › FTP
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1823.0, FY26=1752.0, FY27=1805.0, FY28=1993.0, FY29=2230.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › FTP
+         unit=%  metric_id=-  entity=-
+         facts: FY29=8.5
+
+    p.22 [percent ] PNL FY25-29 › part 3 › FTP
+         unit=%  metric_id=-  entity=-
+         facts: FY29=8.6
+
+    p.22 [percent ] PNL FY25-29 › part 4 › FTP
+         unit=%  metric_id=-  entity=-
+         facts: FY29=8.4
+
+    p.22 [percent ] PNL FY25-29 › part 5 › FTP
+         unit=%  metric_id=-  entity=-
+         facts: FY29=8.1
+
+    p.22 [percent ] PNL FY25-29 › part 6 › FTP
+         unit=%  metric_id=-  entity=-
+         facts: FY29=7.9
+
+    p.22 [amount  ] PNL FY25-29 › NII
+         unit=-  metric_id=nii  entity=-
+         facts: FY25=2548.0, FY26=2465.0, FY27=2452.0, FY28=2737.0, FY29=3103.0
+
+    p.22 [amount  ] PNL FY25-29 › part 2 › NII
+         unit=%  metric_id=nii  entity=-
+         facts: FY29=11.9
+
+    p.22 [amount  ] PNL FY25-29 › part 3 › NII
+         unit=%  metric_id=nii  entity=-
+         facts: FY29=12.0
+
+    p.22 [amount  ] PNL FY25-29 › part 4 › NII
+         unit=%  metric_id=nii  entity=-
+         facts: FY29=11.4
+
+    p.22 [amount  ] PNL FY25-29 › part 5 › NII
+         unit=%  metric_id=nii  entity=-
+         facts: FY29=11.1
+
+    p.22 [amount  ] PNL FY25-29 › part 6 › NII
+         unit=%  metric_id=nii  entity=-
+         facts: FY29=11.1
+
+    p.22 [-       ] PNL FY25-29 › Fee
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2072.0, FY26=2071.0, FY27=2272.0, FY28=2492.0, FY29=2773.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › Fee
+         unit=%  metric_id=-  entity=-
+         facts: FY29=9.7
+
+    p.22 [percent ] PNL FY25-29 › part 3 › Fee
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.1
+
+    p.22 [percent ] PNL FY25-29 › part 4 › Fee
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.5
+
+    p.22 [percent ] PNL FY25-29 › part 5 › Fee
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.1
+
+    p.22 [percent ] PNL FY25-29 › part 6 › Fee
+         unit=%  metric_id=-  entity=-
+         facts: FY29=9.9
+
+    p.22 [-       ] PNL FY25-29 › NetRevenue
+         unit=-  metric_id=-  entity=-
+         facts: FY25=4621.0, FY26=4536.0, FY27=4724.0, FY28=5229.0, FY29=5875.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › NetRevenue
+         unit=%  metric_id=-  entity=-
+         facts: FY29=21.6
+
+    p.22 [percent ] PNL FY25-29 › part 3 › NetRevenue
+         unit=%  metric_id=-  entity=-
+         facts: FY29=22.1
+
+    p.22 [percent ] PNL FY25-29 › part 4 › NetRevenue
+         unit=%  metric_id=-  entity=-
+         facts: FY29=21.9
+
+    p.22 [percent ] PNL FY25-29 › part 5 › NetRevenue
+         unit=%  metric_id=-  entity=-
+         facts: FY29=21.3
+
+    p.22 [percent ] PNL FY25-29 › part 6 › NetRevenue
+         unit=%  metric_id=-  entity=-
+         facts: FY29=20.9
+
+    p.22 [amount  ] PNL FY25-29 › opex
+         unit=-  metric_id=opex  entity=-
+         facts: FY25=2376.0, FY26=2679.0, FY27=2799.0, FY28=2725.0, FY29=2989.0
+
+    p.22 [amount  ] PNL FY25-29 › part 2 › opex
+         unit=%  metric_id=opex  entity=-
+         facts: FY29=11.1
+
+    p.22 [amount  ] PNL FY25-29 › part 3 › opex
+         unit=%  metric_id=opex  entity=-
+         facts: FY29=13.1
+
+    p.22 [amount  ] PNL FY25-29 › part 4 › opex
+         unit=%  metric_id=opex  entity=-
+         facts: FY29=13.0
+
+    p.22 [amount  ] PNL FY25-29 › part 5 › opex
+         unit=%  metric_id=opex  entity=-
+         facts: FY29=11.1
+
+    p.22 [amount  ] PNL FY25-29 › part 6 › opex
+         unit=%  metric_id=opex  entity=-
+         facts: FY29=10.6
+
+    p.22 [amount  ] PNL FY25-29 › DirectCost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=988.0, FY26=989.0, FY27=1399.0, FY28=1642.0, FY29=1808.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › DirectCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=4.6
+
+    p.22 [percent ] PNL FY25-29 › part 3 › DirectCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=4.8
+
+    p.22 [percent ] PNL FY25-29 › part 4 › DirectCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.5
+
+    p.22 [percent ] PNL FY25-29 › part 5 › DirectCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.7
+
+    p.22 [percent ] PNL FY25-29 › part 6 › DirectCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.4
+
+    p.22 [amount  ] PNL FY25-29 › AttributibleCost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1304.0, FY26=1597.0, FY27=1297.0, FY28=960.0, FY29=1019.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › AttributibleCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.1
+
+    p.22 [percent ] PNL FY25-29 › part 3 › AttributibleCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=7.8
+
+    p.22 [percent ] PNL FY25-29 › part 4 › AttributibleCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.0
+
+    p.22 [percent ] PNL FY25-29 › part 5 › AttributibleCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=3.9
+
+    p.22 [percent ] PNL FY25-29 › part 6 › AttributibleCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=3.6
+
+    p.22 [-       ] PNL FY25-29 › Centralallocation
+         unit=-  metric_id=-  entity=-
+         facts: FY25=84.0, FY26=94.0, FY27=103.0, FY28=123.0, FY29=161.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › Centralallocation
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.4
+
+    p.22 [percent ] PNL FY25-29 › part 3 › Centralallocation
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.5
+
+    p.22 [percent ] PNL FY25-29 › part 4 › Centralallocation
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.5
+
+    p.22 [percent ] PNL FY25-29 › part 5 › Centralallocation
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.5
+
+    p.22 [percent ] PNL FY25-29 › part 6 › Centralallocation
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.6
+
+    p.22 [-       ] PNL FY25-29 › OperatingProfit
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2244.0, FY26=1856.0, FY27=1925.0, FY28=2503.0, FY29=2887.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › OperatingProfit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.5
+
+    p.22 [percent ] PNL FY25-29 › part 3 › OperatingProfit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=9.1
+
+    p.22 [percent ] PNL FY25-29 › part 4 › OperatingProfit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=8.9
+
+    p.22 [percent ] PNL FY25-29 › part 5 › OperatingProfit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.2
+
+    p.22 [percent ] PNL FY25-29 › part 6 › OperatingProfit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.3
+
+    p.22 [amount  ] PNL FY25-29 › Credit.Cost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1757.0, FY26=1809.0, FY27=1754.0, FY28=1471.0, FY29=1567.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › Credit.Cost
+         unit=%  metric_id=credit_cost  entity=-
+         facts: FY29=8.2
+
+    p.22 [percent ] PNL FY25-29 › part 3 › Credit.Cost
+         unit=%  metric_id=credit_cost  entity=-
+         facts: FY29=8.8
+
+    p.22 [percent ] PNL FY25-29 › part 4 › Credit.Cost
+         unit=%  metric_id=credit_cost  entity=-
+         facts: FY29=8.1
+
+    p.22 [percent ] PNL FY25-29 › part 5 › Credit.Cost
+         unit=%  metric_id=credit_cost  entity=-
+         facts: FY29=6.0
+
+    p.22 [percent ] PNL FY25-29 › part 6 › Credit.Cost
+         unit=%  metric_id=credit_cost  entity=-
+         facts: FY29=5.6
+
+    p.22 [-       ] PNL FY25-29 › Gco+Prov
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2003.0, FY26=2167.0, FY27=2037.0, FY28=1697.0, FY29=1778.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › Gco+Prov
+         unit=%  metric_id=-  entity=-
+         facts: FY29=9.4
+
+    p.22 [percent ] PNL FY25-29 › part 3 › Gco+Prov
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.6
+
+    p.22 [percent ] PNL FY25-29 › part 4 › Gco+Prov
+         unit=%  metric_id=-  entity=-
+         facts: FY29=9.4
+
+    p.22 [percent ] PNL FY25-29 › part 5 › Gco+Prov
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.9
+
+    p.22 [percent ] PNL FY25-29 › part 6 › Gco+Prov
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.3
+
+    p.22 [-       ] PNL FY25-29 › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: FY25=-246.0, FY26=-349.0, FY27=-293.0, FY28=-240.0, FY29=-227.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-1.2
+
+    p.22 [percent ] PNL FY25-29 › part 3 › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-1.7
+
+    p.22 [percent ] PNL FY25-29 › part 4 › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-1.4
+
+    p.22 [percent ] PNL FY25-29 › part 5 › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-1.0
+
+    p.22 [percent ] PNL FY25-29 › part 6 › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-0.8
+
+    p.22 [-       ] PNL FY25-29 › PSL-
+         unit=-  metric_id=-  entity=-
+         facts: FY25=139.0, FY26=133.0, FY27=140.0, FY28=160.0, FY29=182.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › PSL-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.22 [percent ] PNL FY25-29 › part 3 › PSL-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.22 [percent ] PNL FY25-29 › part 4 › PSL-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.6
+
+    p.22 [percent ] PNL FY25-29 › part 5 › PSL-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.6
+
+    p.22 [percent ] PNL FY25-29 › part 6 › PSL-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.6
+
+    p.22 [-       ] PNL FY25-29 › PBT-
+         unit=-  metric_id=-  entity=-
+         facts: FY25=348.0, FY26=-86.0, FY27=31.0, FY28=873.0, FY29=1137.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › PBT-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=1.6
+
+    p.22 [percent ] PNL FY25-29 › part 3 › PBT-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-0.4
+
+    p.22 [percent ] PNL FY25-29 › part 4 › PBT-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.1
+
+    p.22 [percent ] PNL FY25-29 › part 5 › PBT-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=3.6
+
+    p.22 [percent ] PNL FY25-29 › part 6 › PBT-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=4.1
+
+    p.22 [-       ] PNL FY25-29 › Capitalcredit
+         unit=-  metric_id=-  entity=-
+         facts: FY25=160.0, FY26=154.0, FY27=161.0, FY28=184.0, FY29=210.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › Capitalcredit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.22 [percent ] PNL FY25-29 › part 3 › Capitalcredit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.8
+
+    p.22 [percent ] PNL FY25-29 › part 4 › Capitalcredit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.22 [percent ] PNL FY25-29 › part 5 › Capitalcredit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.22 [percent ] PNL FY25-29 › part 6 › Capitalcredit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.22 [-       ] PNL FY25-29 › PBTwithcc
+         unit=-  metric_id=-  entity=-
+         facts: FY25=508.0, FY26=67.0, FY27=193.0, FY28=1057.0, FY29=1347.0
+
+    p.22 [percent ] PNL FY25-29 › part 2 › PBTwithcc
+         unit=%  metric_id=-  entity=-
+         facts: FY29=2.4
+
+    p.22 [percent ] PNL FY25-29 › part 3 › PBTwithcc
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.3
+
+    p.22 [percent ] PNL FY25-29 › part 4 › PBTwithcc
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.9
+
+    p.22 [percent ] PNL FY25-29 › part 5 › PBTwithcc
+         unit=%  metric_id=-  entity=-
+         facts: FY29=4.3
+
+    p.22 [percent ] PNL FY25-29 › part 6 › PBTwithcc
+         unit=%  metric_id=-  entity=-
+         facts: FY29=4.8
+
+    p.22 [percent ] PNL FY25-29 › C/I-
+         unit=%  metric_id=-  entity=-
+         facts: FY25=51.0, FY26=59.0, FY27=59.0, FY28=52.0, FY29=51.0
+
+    p.23 [-       ] OPEX FY25-29 › AIF › Partner payout
+         unit=-  metric_id=-  entity=-
+         facts: FY25=230.0, FY26=251.0, FY27=426.0, FY28=508.0, FY29=467.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › AIF › Partner payout
+         unit=-  metric_id=-  entity=-
+         facts: FY25=540.0, FY26=891.0, FY27=912.0, FY28=729.0, FY29=1.08
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › AIF › Partner payout
+         unit=%  metric_id=-  entity=-
+         facts: FY25=1.98, FY26=2.07, FY27=1.66
+
+    p.23 [amount  ] OPEX FY25-29 › Spend › Rewards
+         unit=-  metric_id=-  entity=-
+         facts: FY25=142.0, FY26=174.0, FY27=176.0, FY28=212.0, FY29=257.0
+
+    p.23 [percent ] OPEX FY25-29 › Per Driver Cost › Spend › Rewards
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.21, FY26=0.19, FY27=0.2, FY28=0.21, FY29=0.66
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › Spend › Rewards
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.81, FY26=0.86, FY27=0.91
+
+    p.23 [-       ] OPEX FY25-29 › AIF › Collections
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1109.0, FY26=1429.0, FY27=1105.0, FY28=727.0, FY29=773.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › AIF › Collections
+         unit=-  metric_id=-  entity=-
+         facts: FY25=3077.0, FY26=2308.0, FY27=1306.0, FY28=1206.0, FY29=5.19
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › AIF › Collections
+         unit=%  metric_id=-  entity=-
+         facts: FY25=5.12, FY26=2.96, FY27=2.75
+
+    p.23 [-       ] OPEX FY25-29 › AIF › IT (FDC)
+         unit=-  metric_id=-  entity=-
+         facts: FY25=122.0, FY26=82.0, FY27=121.0, FY28=150.0, FY29=185.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › AIF › IT (FDC)
+         unit=-  metric_id=-  entity=-
+         facts: FY25=178.0, FY26=253.0, FY27=270.0, FY28=288.0, FY29=0.57
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › AIF › IT (FDC)
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.56, FY26=0.61, FY27=0.66
+
+    p.23 [amount  ] OPEX FY25-29 › Spend › Value Prop, Customer Promo (Promotional)
+         unit=-  metric_id=-  entity=-
+         facts: FY25=57.0, FY26=64.0, FY27=92.0, FY28=105.0, FY29=119.0
+
+    p.23 [percent ] OPEX FY25-29 › Per Driver Cost › Spend › Value Prop, Customer Promo (Promotional
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.08, FY26=0.1, FY27=0.1, FY28=0.1, FY29=0.26
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › Spend › Value Prop, Customer Promo (Promotional)
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.42, FY26=0.43, FY27=0.43
+
+    p.23 [-       ] OPEX FY25-29 › AIF › Customer Service
+         unit=-  metric_id=-  entity=-
+         facts: FY25=46.0, FY26=37.0, FY27=34.0, FY28=37.0, FY29=28.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › AIF › Customer Service
+         unit=-  metric_id=-  entity=-
+         facts: FY25=81.0, FY26=71.0, FY27=66.0, FY28=44.0, FY29=0.22
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › AIF › Customer Service
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.16, FY26=0.15, FY27=0.1
+
+    p.23 [amount  ] OPEX FY25-29 › Spend › Activation,Retention, Xsell
+         unit=-  metric_id=-  entity=-
+         facts: FY25=63.0, FY26=60.0, FY27=63.0, FY28=72.0, FY29=83.0
+
+    p.23 [percent ] OPEX FY25-29 › Per Driver Cost › Spend › Activation,Retention, Xsell
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.07, FY26=0.07, FY27=0.07, FY28=0.07, FY29=0.29
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › Spend › Activation,Retention, Xsell
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.29, FY26=0.29, FY27=0.29
+
+    p.23 [amount  ] OPEX FY25-29 › Spend › Network Cost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=71.0, FY26=35.0, FY27=80.0, FY28=93.0, FY29=107.0
+
+    p.23 [percent ] OPEX FY25-29 › Per Driver Cost › Spend › Network Cost
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.04, FY26=0.09, FY27=0.09, FY28=0.09, FY29=0.33
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › Spend › Network Cost
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.37, FY26=0.38, FY27=0.38
+
+    p.23 [-       ] OPEX FY25-29 › AIF › Salary
+         unit=-  metric_id=-  entity=-
+         facts: FY25=83.0, FY26=84.0, FY27=98.0, FY28=109.0, FY29=120.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › AIF › Salary
+         unit=-  metric_id=-  entity=-
+         facts: FY25=181.0, FY26=205.0, FY27=196.0, FY28=187.0, FY29=0.39
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › AIF › Salary
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.46, FY26=0.44, FY27=0.43
+
+    p.23 [-       ] OPEX FY25-29 › NCA › New Account Boarding
+         unit=-  metric_id=-  entity=-
+         facts: FY25=65.0, FY26=47.0, FY27=73.0, FY28=84.0, FY29=100.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › NCA › New Account Boarding
+         unit=-  metric_id=-  entity=-
+         facts: FY25=466.0, FY26=416.0, FY27=417.0, FY28=415.0, FY29=0.3
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › NCA › New Account Boarding
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.34, FY26=0.34, FY27=0.36
+
+    p.23 [-       ] OPEX FY25-29 › AIF › Account Management
+         unit=-  metric_id=-  entity=-
+         facts: FY25=33.0, FY26=24.0, FY27=21.0, FY28=24.0, FY29=27.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › AIF › Account Management
+         unit=-  metric_id=-  entity=-
+         facts: FY25=52.0, FY26=43.0, FY27=42.0, FY28=42.0, FY29=0.16
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › AIF › Account Management
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.1, FY26=0.1, FY27=0.1
+
+    p.23 [-       ] OPEX FY25-29 › AIF › Risk & UW
+         unit=-  metric_id=-  entity=-
+         facts: FY25=34.0, FY26=40.0, FY27=39.0, FY28=62.0, FY29=63.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › AIF › Risk & UW
+         unit=-  metric_id=-  entity=-
+         facts: FY25=87.0, FY26=82.0, FY27=112.0, FY28=98.0, FY29=0.16
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › AIF › Risk & UW
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.18, FY26=0.25, FY27=0.22
+
+    p.23 [amount  ] OPEX FY25-29 › Spend › Value Prop, Customer Promo (Contractual)
+         unit=-  metric_id=-  entity=-
+         facts: FY25=99.0, FY26=90.0, FY27=94.0, FY28=109.0, FY29=127.0
+
+    p.23 [percent ] OPEX FY25-29 › Per Driver Cost › Spend › Value Prop, Customer Promo (Contractual
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.11, FY26=0.1, FY27=0.1, FY28=0.1, FY29=0.47
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › Spend › Value Prop, Customer Promo (Contractual)
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.43, FY26=0.45, FY27=0.45
+
+    p.23 [amount  ] OPEX FY25-29 › NCA › Sourcing Cost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=132.0, FY26=162.0, FY27=252.0, FY28=287.0, FY29=344.0
+
+    p.23 [amount  ] OPEX FY25-29 › Per Driver Cost › NCA › Sourcing Cost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2611.0, FY26=2592.0, FY27=2482.0, FY28=2480.0, FY29=0.62
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › NCA › Sourcing Cost
+         unit=%  metric_id=-  entity=-
+         facts: FY25=1.17, FY26=1.17, FY27=1.23
+
+    p.23 [-       ] OPEX FY25-29 › AIF › Others
+         unit=-  metric_id=-  entity=-
+         facts: FY25=5.0, FY26=5.0, FY27=22.0, FY28=24.0, FY29=27.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › AIF › Others
+         unit=-  metric_id=-  entity=-
+         facts: FY25=11.0, FY26=46.0, FY27=43.0, FY28=42.0, FY29=0.02
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › AIF › Others
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.1, FY26=0.1, FY27=0.1
+
+    p.23 [-       ] OPEX FY25-29 › Total
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2292.0, FY26=2585.0, FY27=2696.0, FY28=2602.0, FY29=2827.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › Total
+         unit=-  metric_id=-  entity=-
+         facts: FY25=5570.0, FY26=5632.0, FY27=4676.0, FY28=4409.0, FY29=10.72
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › Total
+         unit=%  metric_id=-  entity=-
+         facts: FY25=12.5, FY26=10.59, FY27=10.07
+
+    p.23 [-       ] OPEX FY25-29 › Allocation
+         unit=-  metric_id=-  entity=-
+         facts: FY25=84.0, FY26=94.0, FY27=103.0, FY28=123.0, FY29=161.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › Allocation
+         unit=-  metric_id=-  entity=-
+         facts: FY25=203.0, FY26=215.0, FY27=221.0, FY28=251.0, FY29=0.4
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › Allocation
+         unit=%  metric_id=-  entity=-
+         facts: FY25=0.48, FY26=0.5, FY27=0.57
+
+    p.23 [-       ] OPEX FY25-29 › Grand Total
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2376.0, FY26=2679.0, FY27=2799.0, FY28=2725.0, FY29=2989.0
+
+    p.23 [-       ] OPEX FY25-29 › Per Driver Cost › Grand Total
+         unit=-  metric_id=-  entity=-
+         facts: FY25=5772.0, FY26=5846.0, FY27=4897.0, FY28=4661.0, FY29=11.12
+
+    p.23 [percent ] OPEX FY25-29 › DuPont › Grand Total
+         unit=%  metric_id=-  entity=-
+         facts: FY25=12.98, FY26=11.09, FY27=10.65
+
+    p.24 [amount  ] LOSS FY25-29 › ENR
+         unit=-  metric_id=cc_enr  entity=-
+         facts: FY25=21548.0, FY26=20258.0, FY27=22555.0, FY28=25826.0, FY29=29767.0
+
+    p.24 [-       ] LOSS FY25-29 › ANR
+         unit=-  metric_id=-  entity=-
+         facts: FY25=21378.0, FY26=20486.0, FY27=21574.0, FY28=24567.0, FY29=28074.0
+
+    p.24 [-       ] LOSS FY25-29 › GNPA
+         unit=-  metric_id=-  entity=-
+         facts: FY25=285.0, FY26=329.0, FY27=278.0, FY28=311.0, FY29=353.0
+
+    p.24 [-       ] LOSS FY25-29 › GCO
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2019.0, FY26=2125.0, FY27=2039.0, FY28=1676.0, FY29=1750.0
+
+    p.24 [-       ] LOSS FY25-29 › GCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2003.0, FY26=2167.0, FY27=2037.0, FY28=1697.0, FY29=1778.0
+
+    p.24 [-       ] LOSS FY25-29 › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: FY25=-246.0, FY26=-349.0, FY27=-293.0, FY28=-240.0, FY29=-227.0
+
+    p.24 [-       ] LOSS FY25-29 › NCL+Prov
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1756.0, FY26=1817.0, FY27=1744.0, FY28=1458.0, FY29=1551.0
+
+    p.24 [-       ] LOSS FY25-29 › Std Adv Prov
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1.0, FY26=-9.0, FY27=10.0, FY28=13.0, FY29=16.0
+
+    p.24 [amount  ] LOSS FY25-29 › Credit Cost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1757.0, FY26=1809.0, FY27=1754.0, FY28=1471.0, FY29=1567.0
+
+    p.24 [percent ] LOSS FY25-29 › GNPA%
+         unit=%  metric_id=gnpa_pct  entity=-
+         facts: FY25=1.32, FY26=1.63, FY27=1.23, FY28=1.2, FY29=1.19
+
+    p.24 [percent ] LOSS FY25-29 › GCO%
+         unit=%  metric_id=-  entity=-
+         facts: FY25=9.4, FY26=10.4, FY27=9.5, FY28=6.8, FY29=6.2
+
+    p.24 [percent ] LOSS FY25-29 › GCO+Prov%
+         unit=%  metric_id=-  entity=-
+         facts: FY25=9.4, FY26=10.6, FY27=9.4, FY28=6.9, FY29=6.3
+
+    p.24 [percent ] LOSS FY25-29 › Recovery%
+         unit=%  metric_id=-  entity=-
+         facts: FY25=-1.2, FY26=-1.7, FY27=-1.4, FY28=-1.0, FY29=-0.8
+
+    p.24 [percent ] LOSS FY25-29 › Credit Cost%
+         unit=%  metric_id=credit_cost  entity=-
+         facts: FY25=8.2, FY26=8.8, FY27=8.1, FY28=6.0, FY29=5.6
+
+    p.24 [-       ] LOSS FY25-29 › Slippage
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2133.0, FY26=2297.0, FY27=2180.0, FY28=1845.0, FY29=1921.0
+
+    p.24 [percent ] LOSS FY25-29 › Slippage%
+         unit=%  metric_id=-  entity=-
+         facts: FY25=10.0, FY26=10.7, FY27=10.8, FY28=8.2, FY29=7.4
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › INCA
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1240664.0, FY26=1008684.0, FY27=1764073.0, FY28=2015880.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › INCA
+         unit=-  metric_id=-  entity=-
+         facts: FY29=2419044.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › AIF
+         unit=-  metric_id=-  entity=-
+         facts: FY25=4895967.0, FY26=4477947.0, FY27=5169650.0, FY28=5929020.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › AIF
+         unit=-  metric_id=-  entity=-
+         facts: FY29=6864654.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › ENR
+         unit=-  metric_id=cc_enr  entity=-
+         facts: FY25=21548.0, FY26=19552.0, FY27=22555.0, FY28=25826.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › von › ENR
+         unit=-  metric_id=cc_enr  entity=-
+         facts: FY29=29767.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › Spend
+         unit=-  metric_id=cc_spends  entity=-
+         facts: FY25=87406.0, FY26=84734.0, FY27=93272.0, FY28=106752.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › von › Spend
+         unit=-  metric_id=cc_spends  entity=-
+         facts: FY29=121554.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › ANR
+         unit=-  metric_id=-  entity=-
+         facts: FY25=21378.0, FY26=20085.0, FY27=21189.0, FY28=24567.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › ANR
+         unit=-  metric_id=-  entity=-
+         facts: FY29=28074.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › ENR/AIF
+         unit=-  metric_id=-  entity=-
+         facts: FY25=41185.0, FY26=43268.0, FY27=44255.0, FY28=44143.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › ENR/AIF
+         unit=-  metric_id=-  entity=-
+         facts: FY29=43783.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › Spend/AIF
+         unit=-  metric_id=-  entity=-
+         facts: FY25=14032.0, FY26=15212.0, FY27=16234.0, FY28=15985.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › von › Spend/AIF
+         unit=-  metric_id=-  entity=-
+         facts: FY29=15797.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › GII
+         unit=-  metric_id=-  entity=-
+         facts: FY25=4371.0, FY26=4081.0, FY27=4161.0, FY28=4730.0, FY29=20.4
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › GII
+         unit=%  metric_id=-  entity=-
+         facts: FY29=20.3
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › GII
+         unit=%  metric_id=-  entity=-
+         facts: FY29=19.6
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › GII
+         unit=%  metric_id=-  entity=-
+         facts: FY29=19.3
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › GII
+         unit=%  metric_id=-  entity=-
+         facts: FY29=19.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › GII
+         unit=-  metric_id=-  entity=-
+         facts: FY29=5333.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › FTP
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1823.0, FY26=1716.0, FY27=1771.0, FY28=1993.0, FY29=8.5
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › FTP
+         unit=%  metric_id=-  entity=-
+         facts: FY29=8.5
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › FTP
+         unit=%  metric_id=-  entity=-
+         facts: FY29=8.4
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › FTP
+         unit=%  metric_id=-  entity=-
+         facts: FY29=8.1
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › FTP
+         unit=%  metric_id=-  entity=-
+         facts: FY29=7.9
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › FTP
+         unit=-  metric_id=-  entity=-
+         facts: FY29=2230.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › NII
+         unit=-  metric_id=nii  entity=-
+         facts: FY25=2548.0, FY26=2365.0, FY27=2390.0, FY28=2737.0, FY29=11.9
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › part 2 › NII
+         unit=%  metric_id=nii  entity=-
+         facts: FY29=11.8
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › part 3 › NII
+         unit=%  metric_id=nii  entity=-
+         facts: FY29=11.3
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › part 4 › NII
+         unit=%  metric_id=nii  entity=-
+         facts: FY29=11.1
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › part 5 › NII
+         unit=%  metric_id=nii  entity=-
+         facts: FY29=11.1
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › von › NII
+         unit=-  metric_id=nii  entity=-
+         facts: FY29=3103.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › Fee
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2072.0, FY26=2046.0, FY27=2272.0, FY28=2492.0, FY29=9.7
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › Fee
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.2
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › Fee
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.7
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › Fee
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.1
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › Fee
+         unit=%  metric_id=-  entity=-
+         facts: FY29=9.9
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › Fee
+         unit=-  metric_id=-  entity=-
+         facts: FY29=2773.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › NetRevenue
+         unit=-  metric_id=-  entity=-
+         facts: FY25=4621.0, FY26=4410.0, FY27=4662.0, FY28=5229.0, FY29=21.6
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › NetRevenue
+         unit=%  metric_id=-  entity=-
+         facts: FY29=22.0
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › NetRevenue
+         unit=%  metric_id=-  entity=-
+         facts: FY29=22.0
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › NetRevenue
+         unit=%  metric_id=-  entity=-
+         facts: FY29=21.3
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › NetRevenue
+         unit=%  metric_id=-  entity=-
+         facts: FY29=20.9
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › NetRevenue
+         unit=-  metric_id=-  entity=-
+         facts: FY29=5875.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › opex
+         unit=-  metric_id=opex  entity=-
+         facts: FY25=2376.0, FY26=2316.0, FY27=2583.0, FY28=2725.0, FY29=11.1
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › part 2 › opex
+         unit=%  metric_id=opex  entity=-
+         facts: FY29=11.5
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › part 3 › opex
+         unit=%  metric_id=opex  entity=-
+         facts: FY29=12.2
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › part 4 › opex
+         unit=%  metric_id=opex  entity=-
+         facts: FY29=11.1
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › part 5 › opex
+         unit=%  metric_id=opex  entity=-
+         facts: FY29=10.6
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › von › opex
+         unit=-  metric_id=opex  entity=-
+         facts: FY29=2989.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › DirectCost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=988.0, FY26=1062.0, FY27=1534.0, FY28=1642.0, FY29=4.6
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › DirectCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=5.3
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › DirectCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=7.2
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › DirectCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.7
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › DirectCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.4
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › von › DirectCost
+         unit=-  metric_id=-  entity=-
+         facts: FY29=1808.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › AttributibleCost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1304.0, FY26=1161.0, FY27=946.0, FY28=960.0, FY29=6.1
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › AttributibleCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=5.8
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › AttributibleCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=4.5
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › AttributibleCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=3.9
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › AttributibleCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=3.6
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › von › AttributibleCost
+         unit=-  metric_id=-  entity=-
+         facts: FY29=1019.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › Centralallocation
+         unit=-  metric_id=-  entity=-
+         facts: FY25=84.0, FY26=94.0, FY27=103.0, FY28=123.0, FY29=0.4
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › Centralallocation
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.5
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › Centralallocation
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.5
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › Centralallocation
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.5
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › Centralallocation
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.6
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › Centralallocation
+         unit=-  metric_id=-  entity=-
+         facts: FY29=161.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › OperatingProfit
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2244.0, FY26=2094.0, FY27=2079.0, FY28=2503.0, FY29=10.5
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › OperatingProfit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.4
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › OperatingProfit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=9.8
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › OperatingProfit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.2
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › OperatingProfit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=10.3
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › OperatingProfit
+         unit=-  metric_id=-  entity=-
+         facts: FY29=2887.0
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › CreditCost
+         unit=-  metric_id=-  entity=-
+         facts: FY25=1757.0, FY26=1603.0, FY27=1271.0, FY28=1471.0, FY29=8.2
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › CreditCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=8.0
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › CreditCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.0
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › CreditCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.0
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › CreditCost
+         unit=%  metric_id=-  entity=-
+         facts: FY29=5.6
+
+    p.25 [amount  ] Clean PNL (FY’25-FY’29) › von › CreditCost
+         unit=-  metric_id=-  entity=-
+         facts: FY29=1567.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › GcotProv
+         unit=-  metric_id=-  entity=-
+         facts: FY25=2003.0, FY26=1961.0, FY27=1554.0, FY28=1697.0, FY29=9.4
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › GcotProv
+         unit=%  metric_id=-  entity=-
+         facts: FY29=9.8
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › GcotProv
+         unit=%  metric_id=-  entity=-
+         facts: FY29=7.3
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › GcotProv
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.9
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › GcotProv
+         unit=%  metric_id=-  entity=-
+         facts: FY29=6.3
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › GcotProv
+         unit=-  metric_id=-  entity=-
+         facts: FY29=1778.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: FY25=-246.0, FY26=-349.0, FY27=-293.0, FY28=-240.0, FY29=-1.2
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-1.7
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-1.4
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-1.0
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › Recovery
+         unit=%  metric_id=-  entity=-
+         facts: FY29=-0.8
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › Recovery
+         unit=-  metric_id=-  entity=-
+         facts: FY29=-227.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › PSL
+         unit=-  metric_id=-  entity=-
+         facts: FY25=139.0, FY26=131.0, FY27=138.0, FY28=160.0, FY29=0.7
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › PSL
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › PSL
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.6
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › PSL
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.6
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › PSL
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.6
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › PSL
+         unit=-  metric_id=-  entity=-
+         facts: FY29=182.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › PBT-
+         unit=-  metric_id=-  entity=-
+         facts: FY25=348.0, FY26=360.0, FY27=671.0, FY28=873.0, FY29=1.6
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › PBT-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=1.8
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › PBT-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=3.2
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › PBT-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=3.6
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › PBT-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=4.1
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › PBT-
+         unit=-  metric_id=-  entity=-
+         facts: FY29=1137.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › Capitalcredit
+         unit=-  metric_id=-  entity=-
+         facts: FY25=160.0, FY26=151.0, FY27=158.0, FY28=184.0, FY29=0.7
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › Capitalcredit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.8
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › Capitalcredit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › Capitalcredit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › Capitalcredit
+         unit=%  metric_id=-  entity=-
+         facts: FY29=0.7
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › Capitalcredit
+         unit=-  metric_id=-  entity=-
+         facts: FY29=210.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › PBTwithcc
+         unit=-  metric_id=-  entity=-
+         facts: FY25=508.0, FY26=510.0, FY27=829.0, FY28=1057.0, FY29=2.4
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 2 › PBTwithcc
+         unit=%  metric_id=-  entity=-
+         facts: FY29=2.5
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 3 › PBTwithcc
+         unit=%  metric_id=-  entity=-
+         facts: FY29=3.9
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 4 › PBTwithcc
+         unit=%  metric_id=-  entity=-
+         facts: FY29=4.3
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › part 5 › PBTwithcc
+         unit=%  metric_id=-  entity=-
+         facts: FY29=4.8
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › von › PBTwithcc
+         unit=-  metric_id=-  entity=-
+         facts: FY29=1347.0
+
+    p.25 [-       ] Clean PNL (FY’25-FY’29) › C/I-
+         unit=-  metric_id=-  entity=-
+         facts: FY25=51.0, FY26=53.0, FY27=55.0, FY28=52.0
+
+    p.25 [percent ] Clean PNL (FY’25-FY’29) › von › C/I-
+         unit=%  metric_id=-  entity=-
+         facts: FY29=51.0
+
+    p.26 [percent ] Vintage Performance › DDBounceRate › 0_12
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=15.8, May-25=15.6, Jun-25=16.1, Jul-25=24.4, Aug-25=19.5, Sep-25=17.9, Oct-25=19.3, Nov-25=16.3, Dec-25=18.2, Jan-26=17.9
+
+    p.26 [percent ] Vintage Performance › DDBounceRate › 13_24
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=23.2, May-25=23.3, Jun-25=22.1, Jul-25=27.9, Aug-25=25.0, Sep-25=23.6, Oct-25=25.4, Nov-25=21.4, Dec-25=23.9, Jan-26=23.3
+
+    p.26 [percent ] Vintage Performance › DDBounceRate › 25_36
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=24.2, May-25=24.5, Jun-25=23.2, Jul-25=26.1, Aug-25=25.7, Sep-25=24.9, Oct-25=26.4, Nov-25=22.8, Dec-25=25.5, Jan-26=25.0
+
+    p.26 [percent ] Vintage Performance › DDBounceRate › 37_48
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=23.9, May-25=24.2, Jun-25=22.9, Jul-25=25.3, Aug-25=26.3, Sep-25=25.4, Oct-25=24.7, Nov-25=22.7, Dec-25=25.3, Jan-26=24.6
+
+    p.26 [percent ] Vintage Performance › DDBounceRate › 48+
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=24.1, May-25=24.3, Jun-25=22.2, Jul-25=24.5, Aug-25=25.2, Sep-25=24.6, Oct-25=27.3, Nov-25=22.6, Dec-25=24.6, Jan-26=23.8
+
+    p.26 [percent ] Vintage Performance › DDBounceRate › Total
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=22.2, May-25=22.4, Jun-25=21.2, Jul-25=25.5, Aug-25=24.4, Sep-25=23.4, Oct-25=25.2, Nov-25=21.4, Dec-25=23.7, Jan-26=23.0
+
+    p.26 [percent ] Vintage Performance › B1ResolutionRate › 0_12
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=77.2, May-25=77.6, Jun-25=37.1, Jul-25=41.7, Aug-25=65.1, Sep-25=62.3, Oct-25=65.4, Nov-25=62.7, Dec-25=67.6, Jan-26=64.3
+
+    p.26 [percent ] Vintage Performance › B1ResolutionRate › 13_24
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=76.7, May-25=78.7, Jun-25=40.3, Jul-25=42.9, Aug-25=64.3, Sep-25=64.5, Oct-25=66.8, Nov-25=66.9, Dec-25=68.9, Jan-26=68.6
+
+    p.26 [percent ] Vintage Performance › B1ResolutionRate › 25_36
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=77.1, May-25=77.9, Jun-25=41.8, Jul-25=46.4, Aug-25=62.8, Sep-25=62.3, Oct-25=65.8, Nov-25=65.3, Dec-25=69.1, Jan-26=70.0
+
+    p.26 [percent ] Vintage Performance › B1ResolutionRate › 37_48
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=77.2, May-25=79.8, Jun-25=43.3, Jul-25=46.4, Aug-25=62.3, Sep-25=63.8, Oct-25=67.1, Nov-25=67.7, Dec-25=70.3, Jan-26=71.6
+
+    p.26 [percent ] Vintage Performance › B1ResolutionRate › 48+
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=78.6, May-25=80.5, Jun-25=40.6, Jul-25=40.4, Aug-25=59.1, Sep-25=62.5, Oct-25=66.0, Nov-25=67.3, Dec-25=69.4, Jan-26=70.9
+
+    p.26 [percent ] Vintage Performance › B1ResolutionRate › TTL
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=77.6, May-25=79.2, Jun-25=40.7, Jul-25=42.8, Aug-25=61.8, Sep-25=63.0, Oct-25=66.2, Nov-25=66.6, Dec-25=69.3, Jan-26=69.9
+
+    p.26 [percent ] Vintage Performance › 0_12
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=4.4, May-25=4.2, Jun-25=4.0, Jul-25=7.8, Aug-25=6.6, Sep-25=6.3, Oct-25=5.6, Nov-25=5.8, Dec-25=5.4, Jan-26=5.4
+
+    p.26 [percent ] Vintage Performance › TTL › 0_12
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.5, May-25=0.5, Jun-25=1.3, Jul-25=0.9, Aug-25=0.5, Sep-25=0.6, Oct-25=0.4, Nov-25=0.4, Dec-25=0.3, Jan-26=0.4
+
+    p.26 [percent ] Vintage Performance › 13_24
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=8.4, May-25=8.3, Jun-25=7.6, Jul-25=9.8, Aug-25=8.8, Sep-25=8.9, Oct-25=8.0, Nov-25=8.0, Dec-25=7.8, Jan-26=7.3
+
+    p.26 [percent ] Vintage Performance › TTL › 13_24
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=1.0, May-25=1.0, Jun-25=2.5, Jul-25=1.8, Aug-25=1.0, Sep-25=1.1, Oct-25=0.7, Nov-25=0.8, Dec-25=0.7, Jan-26=0.7
+
+    p.26 [percent ] Vintage Performance › 25_36
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=9.1, May-25=9.1, Jun-25=8.5, Jul-25=9.6, Aug-25=9.2, Sep-25=9.4, Oct-25=8.4, Nov-25=8.5, Dec-25=8.6, Jan-26=8.0
+
+    p.26 [percent ] Vintage Performance › TTL › 25_36
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=1.0, May-25=1.1, Jun-25=2.6, Jul-25=1.9, Aug-25=1.2, Sep-25=1.4, Oct-25=0.9, Nov-25=1.0, Dec-25=0.8, Jan-26=0.8
+
+    p.26 [percent ] Vintage Performance › 37_48
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=8.4, May-25=8.4, Jun-25=7.7, Jul-25=8.2, Aug-25=8.5, Sep-25=8.7, Oct-25=8.1, Nov-25=8.3, Dec-25=8.3, Jan-26=7.8
+
+    p.26 [percent ] Vintage Performance › TTL › 37_48
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.9, May-25=0.9, Jun-25=2.4, Jul-25=1.8, Aug-25=1.1, Sep-25=1.2, Oct-25=0.8, Nov-25=0.9, Dec-25=0.7, Jan-26=0.7
+
+    p.26 [percent ] Vintage Performance › 48+
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=8.5, May-25=8.7, Jun-25=7.6, Jul-25=7.8, Aug-25=8.0, Sep-25=8.1, Oct-25=7.4, Nov-25=7.6, Dec-25=7.9, Jan-26=7.2
+
+    p.26 [percent ] Vintage Performance › TTL › 48+
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.9, May-25=1.0, Jun-25=2.6, Jul-25=2.0, Aug-25=1.1, Sep-25=1.2, Oct-25=0.8, Nov-25=0.8, Dec-25=0.7, Jan-26=0.6
+
+    p.26 [percent ] Vintage Performance › TTL
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=7.7, May-25=7.8, Jun-25=7.0, Jul-25=8.5, Aug-25=8.2, Sep-25=8.2, Oct-25=7.4, Nov-25=7.6, Dec-25=7.6, Jan-26=7.1
+
+    p.26 [percent ] Vintage Performance › TTL › TTL
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.9, May-25=0.9, Jun-25=2.3, Jul-25=1.7, Aug-25=1.0, Sep-25=1.1, Oct-25=0.7, Nov-25=0.8, Dec-25=0.6, Jan-26=0.6
+
+    p.26 [percent ] Vintage Performance › Pre-XResolutionRate › 0_12
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=87.1, May-25=85.6, Jun-25=86.9, Jul-25=93.8, Aug-25=93.0, Sep-25=91.5, Oct-25=94.2, Nov-25=92.8, Dec-25=94.7, Jan-26=94.1
+
+    p.26 [percent ] Vintage Performance › Pre-XResolutionRate › 13_24
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=81.9, May-25=79.8, Jun-25=81.4, Jul-25=88.6, Aug-25=88.8, Sep-25=87.0, Oct-25=91.2, Nov-25=88.5, Dec-25=91.2, Jan-26=90.9
+
+    p.26 [percent ] Vintage Performance › Pre-XResolutionRate › 25_36
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=81.3, May-25=79.7, Jun-25=80.4, Jul-25=86.1, Aug-25=87.4, Sep-25=85.4, Oct-25=89.7, Nov-25=87.4, Dec-25=90.0, Jan-26=89.6
+
+    p.26 [percent ] Vintage Performance › Pre-XResolutionRate › 37_48
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=82.6, May-25=81.2, Jun-25=81.5, Jul-25=86.6, Aug-25=88.4, Sep-25=86.9, Oct-25=90.6, Nov-25=87.7, Dec-25=90.4, Jan-26=89.9
+
+    p.26 [percent ] Vintage Performance › Pre-XResolutionRate › 48+
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=82.3, May-25=79.0, Jun-25=80.1, Jul-25=86.2, Aug-25=89.0, Sep-25=87.5, Oct-25=91.4, Nov-25=88.9, Dec-25=91.2, Jan-26=90.8
+
+    p.26 [percent ] Vintage Performance › Pre-XResolutionRate › TTL
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=82.8, May-25=80.4, Jun-25=81.6, Jul-25=88.1, Aug-25=89.2, Sep-25=87.5, Oct-25=91.4, Nov-25=88.9, Dec-25=91.4, Jan-26=90.9
+
+    p.26 [percent ] Vintage Performance › B2ResolutionRate › 0_12
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=45.2, May-25=43.6, Jun-25=19.4, Jul-25=8.0, Aug-25=10.6, Sep-25=41.5, Oct-25=41.5, Nov-25=39.9, Dec-25=43.8, Jan-26=40.7
+
+    p.26 [percent ] Vintage Performance › B2ResolutionRate › 13_24
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=39.1, May-25=39.4, Jun-25=16.6, Jul-25=9.7, Aug-25=13.0, Sep-25=36.1, Oct-25=36.4, Nov-25=37.6, Dec-25=38.8, Jan-26=38.4
+
+    p.26 [percent ] Vintage Performance › B2ResolutionRate › 25_36
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=39.3, May-25=39.0, Jun-25=18.0, Jul-25=10.9, Aug-25=14.5, Sep-25=32.1, Oct-25=33.2, Nov-25=33.0, Dec-25=35.1, Jan-26=37.6
+
+    p.26 [percent ] Vintage Performance › B2ResolutionRate › 37_48
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=38.8, May-25=41.1, Jun-25=18.5, Jul-25=11.4, Aug-25=15.0, Sep-25=30.7, Oct-25=33.7, Nov-25=36.1, Dec-25=38.5, Jan-26=39.6
+
+    p.26 [percent ] Vintage Performance › B2ResolutionRate › 48+
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=47.4, May-25=47.7, Jun-25=19.7, Jul-25=9.2, Aug-25=12.2, Sep-25=32.8, Oct-25=34.7, Nov-25=37.3, Dec-25=40.6, Jan-26=39.7
+
+    p.26 [percent ] Vintage Performance › B2ResolutionRate › TTL
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=42.6, May-25=42.9, Jun-25=18.4, Jul-25=9.7, Aug-25=13.0, Sep-25=33.5, Oct-25=35.0, Nov-25=36.5, Dec-25=39.0, Jan-26=39.1
+
+    p.26 [percent ] Vintage Performance › B1Flow% › 0_12
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=2.0, May-25=2.2, Jun-25=2.1, Jul-25=1.5, Aug-25=1.4, Sep-25=1.5, Oct-25=1.1, Nov-25=1.2, Dec-25=1.0, Jan-26=1.1
+
+    p.26 [percent ] Vintage Performance › B1Flow% › 13_24
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=4.2, May-25=4.7, Jun-25=4.1, Jul-25=3.2, Aug-25=2.8, Sep-25=3.1, Oct-25=2.2, Nov-25=2.5, Dec-25=2.1, Jan-26=2.1
+
+    p.26 [percent ] Vintage Performance › B1Flow% › 25_36
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=4.5, May-25=5.0, Jun-25=4.5, Jul-25=3.6, Aug-25=3.2, Sep-25=3.6, Oct-25=2.7, Nov-25=2.9, Dec-25=2.6, Jan-26=2.6
+
+    p.26 [percent ] Vintage Performance › B1Flow% › 37_48
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=4.2, May-25=4.6, Jun-25=4.2, Jul-25=3.4, Aug-25=3.0, Sep-25=3.3, Oct-25=2.3, Nov-25=2.8, Dec-25=2.4, Jan-26=2.5
+
+    p.26 [percent ] Vintage Performance › B1Flow% › 48+
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=4.3, May-25=5.1, Jun-25=4.4, Jul-25=3.4, Aug-25=2.8, Sep-25=3.1, Oct-25=2.3, Nov-25=2.5, Dec-25=2.2, Jan-26=2.2
+
+    p.26 [percent ] Vintage Performance › B1Flow% › TTL
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=3.8, May-25=4.4, Jun-25=3.9, Jul-25=3.0, Aug-25=2.6, Sep-25=2.9, Oct-25=2.2, Nov-25=2.4, Dec-25=2.0, Jan-26=2.1
+
+    p.26 [percent ] Vintage Performance › B3Flov › 0_12
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.3, May-25=0.3, Jun-25=1.1, Jul-25=0.8, Aug-25=0.4, Sep-25=0.3, Oct-25=0.2, Nov-25=0.3, Dec-25=0.2, Jan-26=0.2
+
+    p.26 [percent ] Vintage Performance › B3Flov › 13_24
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.6, May-25=0.6, Jun-25=2.0, Jul-25=1.6, Aug-25=0.9, Sep-25=0.7, Oct-25=0.5, Nov-25=0.5, Dec-25=0.4, Jan-26=0.4
+
+    p.26 [percent ] Vintage Performance › B3Flov › 25_36
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.6, May-25=0.7, Jun-25=2.2, Jul-25=1.7, Aug-25=1.0, Sep-25=0.9, Oct-25=0.6, Nov-25=0.7, Dec-25=0.5, Jan-26=0.5
+
+    p.26 [percent ] Vintage Performance › B3Flov › 37_48
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.6, May-25=0.5, Jun-25=2.0, Jul-25=1.6, Aug-25=1.0, Sep-25=0.8, Oct-25=0.5, Nov-25=0.6, Dec-25=0.4, Jan-26=0.4
+
+    p.26 [percent ] Vintage Performance › B3Flov › 148+
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.5, May-25=0.5, Jun-25=2.1, Jul-25=1.8, Aug-25=1.0, Sep-25=0.8, Oct-25=0.5, Nov-25=0.5, Dec-25=0.4, Jan-26=0.4
+
+    p.26 [percent ] Vintage Performance › B3Flov › TTL
+         unit=%  metric_id=-  entity=-
+         facts: Apr-25=0.5, May-25=0.5, Jun-25=1.9, Jul-25=1.6, Aug-25=0.9, Sep-25=0.7, Oct-25=0.5, Nov-25=0.5, Dec-25=0.4, Jan-26=0.4
+
+  ── ISSUES (first 10 of ...) ──
+    p.3 [table_check] Product Mix: score 0.844; malformed numbers: 11,25; total mismatch: 'Total' / 'Aug-25' is 63,
+    p.3 [garbled_number] Sourcing Trends – Channel & Product › Product Mix › Distribution @ Aug-25: '11,25' is not a valid number
+    p.3 [unknown_metric] Branch + DST, Consumer, Distribution, Online/Digital, Partner Sourcing, Premium, Proprietary: 7 labels not in metrics.yaml (stored under their own names)
+    p.5 [unknown_metric] Income/GST Posted, Opening Book, Payment, STPL Booking, XPS booking: 5 labels not in metrics.yaml (stored under their own names)
+    p.6 [unknown_metric] Spends/Card/Day (Line): 1 labels not in metrics.yaml (stored under their own names)
+    p.7 [unknown_metric] Disbursal (In Cr), No.of Cases (In Lacs), No.of Cases (in 000'): 3 labels not in metrics.yaml (stored under their own names)
+    p.9 [table_check] table at [13.6, 92.2, 946.4, 184.7]: score 1.0; 17 numbers read with low confidence
+    p.9 [table_check] table at [13.6, 192.4, 946.4, 240.8]: score 0.817; 9 numbers read with low confidence
+    p.9 [unknown_metric] B1Flow, PDD4Bounce › <1,428, PDD4Bounce%, PDDBounce › R4,201, PDDBounce%, ResPDD4t010%, ResPrex(PDD)%: 7 labels not in metrics.yaml (stored under their own names)
+    p.10 [table_check] table at [9.3, 90.1, 950.4, 149.5]: score 0.986; 11 numbers read with low confidence
+
+  ── CALCULATED METRICS (first 30) ──
+    Active rate › Active-rate peak [Jun-25 to Feb-26] = 50.00% %
+         answer: Active-rate peak for Active Rate over Jun-25 to Feb-26 is 50.00%.
+    Active rate › Active-rate range [business-approved workbook output] = 47–50%, a 3 pp range 
+         answer: Active-rate range: 47–50%, a 3 pp range
+    Active rate › Average active rate [Jun-25 to Feb-26] = 48.00% %
+         answer: Average active rate for Active Rate over Jun-25 to Feb-26 is 48.00%.
+    Active rate › Jun-to-Feb change [Feb-26] = +1.00 pp pp
+         answer: Jun-to-Feb change for Active Rate in Feb-26 is +1.00 pp.
+    Active rate › MoM active-rate change [Aug-25] = +0.00 pp pp
+         answer: MoM active-rate change for Active Rate in Aug-25 is +0.00 pp.
+    Active rate › MoM active-rate change [Dec-25] = +0.00 pp pp
+         answer: MoM active-rate change for Active Rate in Dec-25 is +0.00 pp.
+    Active rate › MoM active-rate change [Feb-26] = +1.00 pp pp
+         answer: MoM active-rate change for Active Rate in Feb-26 is +1.00 pp.
+    Active rate › MoM active-rate change [Jan-26] = -1.00 pp pp
+         answer: MoM active-rate change for Active Rate in Jan-26 is -1.00 pp.
+    Active rate › MoM active-rate change [Jul-25] = +1.00 pp pp
+         answer: MoM active-rate change for Active Rate in Jul-25 is +1.00 pp.
+    Active rate › MoM active-rate change [Nov-25] = -2.00 pp pp
+         answer: MoM active-rate change for Active Rate in Nov-25 is -2.00 pp.
+    Active rate › MoM active-rate change [Oct-25] = +2.00 pp pp
+         answer: MoM active-rate change for Active Rate in Oct-25 is +2.00 pp.
+    Active rate › MoM active-rate change [Sep-25] = +0.00 pp pp
+         answer: MoM active-rate change for Active Rate in Sep-25 is +0.00 pp.
+    Active rate › Spend vs. active-rate co-movement [business-approved workbook output] = Both peak in Oct 
+         answer: Spend vs. active-rate co-movement: Both peak in Oct
+    Allocation sensitivity › Clean PBT with direct cost re-allocated [business-approved workbook output] = 360 − 73 = 287 
+         answer: Clean PBT with direct cost re-allocated: 360 − 73 = 287
+    Allocation sensitivity › Clean PBT with recovery allocated pro rata [business-approved workbook output] = 360 − (9.5% × 349 = 33) = 327 
+         answer: Clean PBT with recovery allocated pro rata: 360 − (9.5% × 349 = 33) = 327
+    Allocation sensitivity › Clean ROA with both adjustments [business-approved workbook output] = about 2.0% PBT with CC (vs. 2.5% reported); about 1.3% PBT 
+         answer: Clean ROA with both adjustments: about 2.0% PBT with CC (vs. 2.5% reported); abo
+    Amounts › Amount resolved in days 4–10 [business-approved workbook output] = Jan'25 744 → Jan'26 897 Cr
+         answer: Amount resolved in days 4–10: Jan'25 744 → Jan'26 897
+    Amounts › Average PDD4 amount, Pre vs. Post [business-approved workbook output] = 1,401 vs. 1,392 
+         answer: Average PDD4 amount, Pre vs. Post: 1,401 vs. 1,392
+    Amounts › Base consistency check [business-approved workbook output] = 12 consistent; Jan'26 inconsistent 
+         answer: Base consistency check: 12 consistent; Jan'26 inconsistent
+    Amounts › Due base vs. ENR [business-approved workbook output] = Dec: 17,346 ÷ 20,506 = 85% 
+         answer: Due base vs. ENR: Dec: 17,346 ÷ 20,506 = 85%
+    Amounts › Early-cured amount [business-approved workbook output] = Jan'26: 2,997 Cr
+         answer: Early-cured amount: Jan'26: 2,997
+    Amounts › Implied B1 inflow amount [business-approved workbook output] = Jan'25 684; peak May 821; Jan'26 388 (−43% YoY) Cr
+         answer: Implied B1 inflow amount: Jan'25 684; peak May 821; Jan'26 388 (−43% YoY)
+    Amounts › Implied due base (PDD) [business-approved workbook output] = 19,359 → 17,346 (Dec) → 18,617 (Jan'26, +7.3%) Cr
+         answer: Implied due base (PDD): 19,359 → 17,346 (Dec) → 18,617 (Jan'26, +7.3%)
+    Amounts › Implied due base (PDD4) [business-approved workbook output] = Jan'26 18,099 vs. 18,617 (2.8% gap) Cr
+         answer: Implied due base (PDD4): Jan'26 18,099 vs. 18,617 (2.8% gap)
+    Amounts › Series low and high [business-approved workbook output] = P4₹ low Jan'26 1,285; high Jul 1,541 
+         answer: Series low and high: P4₹ low Jan'26 1,285; high Jul 1,541
+    Amounts › YoY change in amounts [business-approved workbook output] = PB₹ +1.9%; P4₹ −10.0% %
+         answer: YoY change in amounts: PB₹ +1.9%; P4₹ −10.0%
+    Book movement › Annualised run-down [business-approved workbook output] = about −936 per year (−4.6%) 
+         answer: Annualised run-down: about −936 per year (−4.6%)
+    Book movement › Average book [Q1FY26] = 21,523.50 Cr Cr
+         answer: Average book for Average Book in Q1FY26 is 21,523.50 Cr.
+    Book movement › Average book [Q2FY26] = 21,390.50 Cr Cr
+         answer: Average book for Average Book in Q2FY26 is 21,390.50 Cr.
+    Book movement › Average book [Q3FY26] = 20,894.00 Cr Cr
+         answer: Average book for Average Book in Q3FY26 is 20,894.00 Cr.
