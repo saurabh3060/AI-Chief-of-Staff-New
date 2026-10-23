@@ -384,6 +384,8 @@ _HEADER_LINE_RE = re.compile(
     r"^\s*(from|sent|to|cc|bcc|subject|date|reply-to|importance)\s*:",
     re.IGNORECASE,
 )
+# Rendered-thread markers ("=== Message 1 of 2 ===", "Message-ID: ...") carry no answer content.
+_MESSAGE_MARKER_RE = re.compile(r"^\s*(?:={3,}\s*Message\s+\d+\s+of\s+\d+\s*={3,}|Message-ID\s*:.*)$", re.IGNORECASE)
 # Separator rules: ----, ====, ____, **** (3+ of the same char).
 _SEPARATOR_RE = re.compile(r"^\s*[-=_*]{3,}\s*$")
 # "-----Original Message-----" and "On ... wrote:" reply boundaries.
@@ -655,7 +657,10 @@ def _clean_paragraphs(text: str, cfg: ContextConfig) -> list[list[str]]:
         if not line:
             flush()
             continue
-        if _REPLY_BOUNDARY_RE.match(line) or _HEADER_LINE_RE.match(line) or _SEPARATOR_RE.match(line):
+        if (
+            _REPLY_BOUNDARY_RE.match(line) or _HEADER_LINE_RE.match(line)
+            or _SEPARATOR_RE.match(line) or _MESSAGE_MARKER_RE.match(line)
+        ):
             end_message()
             continue
         if _is_boilerplate_line(line):
@@ -725,7 +730,60 @@ def _is_table_value(line: str) -> bool:
     return _TABLE_VALUE_RE.match(line.strip()) is not None
 
 
-def _structure_segment(seg: list[str]) -> list[str] | None:
+# A period header cell: Mar'25, Jun'26, Sep-26, Q1, FY26, Q1 FY'27.
+_PERIOD_CELL_RE = re.compile(
+    r"^(?:[A-Za-z]{3,9}[\s'’\-]*\d{2,4}|Q[1-4](?:\s*FY['’]?\d{2,4})?|FY['’\s]*\d{2,4})$",
+    re.IGNORECASE,
+)
+
+
+def _continues_name(prev: str, cell: str) -> bool:
+    """True when header ``cell`` finishes the column name begun by ``prev``:
+    a qualifier after a period cell (Mar'26 + Actuals), a bracketed or
+    lower-case tail ("(with X)", "achieve"), or the end of a dangling lead
+    ("Gap to", "YOY" + "Growth %"). A period cell always starts a new name."""
+    if _PERIOD_CELL_RE.match(cell):
+        return False
+    return bool(
+        _PERIOD_CELL_RE.match(prev)
+        or cell.startswith("(")
+        or cell[:1].islower()
+        or prev.lower().endswith((" to", " of", " vs", " over", " with"))
+        or (prev.isupper() and prev.isalpha() and len(prev) <= 4)
+    )
+
+
+def _group_header_cells(cells: list[str], n: int) -> list[str] | None:
+    """Join header cells into exactly ``n`` column names, or None if they do not
+    group cleanly into n names."""
+    if len(cells) < n:
+        return None
+    if len(cells) == n:
+        return list(cells)
+    names: list[str] = []
+    for idx, cell in enumerate(cells):
+        if names and _continues_name(cells[idx - 1], cell):
+            names[-1] += " " + cell
+        else:
+            names.append(cell)
+    return names if len(names) == n else None
+
+
+def _matched_rows(rows: list[tuple[str, list[str]]], q_words: set[str]) -> list[str]:
+    """"Matched row: label | v1 | ..." lines for the row(s) whose label words are
+    all in the question (the most specific match wins). Copies the row as is."""
+    scored = []
+    for label, values in rows:
+        words = _question_words(label)
+        if words and words <= q_words:
+            scored.append((len(words), label, values))
+    if not scored:
+        return []
+    best = max(w for w, _l, _v in scored)
+    return ["Matched row: " + " | ".join([label] + values) for w, label, values in scored if w == best][:3]
+
+
+def _structure_segment(seg: list[str], q_words: set[str] = frozenset()) -> list[str] | None:
     """Rebuild one flattened table (one cell per line) as "Columns: ..." plus
     "label | v1 | v2" rows, or return None when the layout cannot be inferred
     reliably. Cell text is copied exactly.
@@ -774,21 +832,23 @@ def _structure_segment(seg: list[str]) -> list[str] | None:
     n = max(set(counts), key=counts.count)
     if n < 2 or any(c != n for c in counts):
         return None
-    if len(header) % n == 0:
-        label_head, cells = "Label", header
-    elif (len(header) - 1) % n == 0:
-        label_head, cells = header[0], header[1:]
-    else:
-        return None
-    k = len(cells) // n
-    names = [" ".join(cells[j * k:(j + 1) * k]) for j in range(n)]
 
-    out = preamble + ["Columns: " + " | ".join([label_head] + names)]
+    # The first header cell names the label column; the rest are grouped into n names.
+    label_head, cells = header[0], header[1:]
+    names = _group_header_cells(cells, n)
+    if names is not None:
+        out = preamble + ["Columns: " + " | ".join([label_head] + names)]
+    else:  # cannot group reliably: number the columns and list the raw cells once
+        out = preamble + [
+            "Columns: " + " | ".join([label_head] + [f"col{j + 1}" for j in range(n)]),
+            "Header cells in order: " + " | ".join(cells),
+        ]
+    out += _matched_rows(rows, q_words)
     out += [" | ".join([label] + values) for label, values in rows]
     return out + pending
 
 
-def _structure_table(lines: list[str]) -> list[str]:
+def _structure_table(lines: list[str], q_words: set[str] = frozenset()) -> list[str]:
     """Apply _structure_segment to each section of a table block (a new section
     starts at a heading line ending ":" that follows a figure), so sections are
     never mixed. A section that cannot be inferred is left exactly as it was."""
@@ -800,11 +860,11 @@ def _structure_table(lines: list[str]) -> list[str]:
         segments[-1].append(line)
     out: list[str] = []
     for seg in segments:
-        out.extend(_structure_segment(seg) or seg)
+        out.extend(_structure_segment(seg, q_words) or seg)
     return out
 
 
-def _form_blocks(paragraphs: list[list[str]], cfg: ContextConfig) -> list[_Block]:
+def _form_blocks(paragraphs: list[list[str]], cfg: ContextConfig, q_words: set[str] = frozenset()) -> list[_Block]:
     """Group cleaned paragraphs into atomic blocks.
 
     * adjacent table-like lines form one table block; across a blank line they
@@ -867,7 +927,7 @@ def _form_blocks(paragraphs: list[list[str]], cfg: ContextConfig) -> list[_Block
 
     for block in blocks:
         if block.kind == "table":
-            block.lines = _structure_table(block.lines)
+            block.lines = _structure_table(block.lines, q_words)
 
     out: list[_Block] = []
     for block in blocks:
@@ -900,12 +960,12 @@ def _prepare_thread(chunk: dict, q_words: set[str], cfg: ContextConfig) -> dict:
     blocks from attachment_data, up to attachment_max_chars in total.
     """
     raw_body = _thread_body(chunk)
-    blocks = _form_blocks(_clean_paragraphs(raw_body, cfg), cfg)
+    blocks = _form_blocks(_clean_paragraphs(raw_body, cfg), cfg, q_words)
 
     if sum(b.chars for b in blocks) < cfg.thin_body_chars and q_words:
         attachment = str(chunk.get("attachment_data") or "").strip()
         used = 0
-        for block in _form_blocks(_clean_paragraphs(attachment, cfg), cfg):
+        for block in _form_blocks(_clean_paragraphs(attachment, cfg), cfg, q_words):
             if not (q_words & set(re.findall(r"\w+", block.text.lower()))):
                 continue
             if used + block.chars > cfg.attachment_max_chars:
